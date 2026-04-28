@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Account of the Previous Lives of the Buddha</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Jātakanidāna</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">skyes pa rabs kyi gleng gzhi/</title>
+                <title type="otherTitle" xml:lang="zh">《本生緣起》</title>
+                <sponsor xml:id="UT22084-034-020-1">Qing Dao Zheng Jian Group</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.6 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT22084-034-020"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh32" type="text">
+                    <ref>Toh 32</ref>
+                    <biblScope>vol:34, ff.183r-(pp.365-)</biblScope>
+                    <author role="translatorTib" xml:id="UT22084-034-020-9">anandasri (s), nima gryal mtshan</author>
+                    <location work="UT4CZ5369" count-pages="135">
+                        <volume number="34" start-page="365" end-page="499"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14714" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11551" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-12-08T12:51:23.134Z" type="translation-status" status="4" xml:id="UT22084-034-020-2">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-12-08T12:51:23.134Z" type="text-version" status="0.0.1" xml:id="UT22084-034-020-3">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#amy" when="2021-02-07T15:47:14.91Z" type="text-version" status="0.0.2" xml:id="UT22084-034-020-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#amy" when="2021-04-22T06:56:38.391Z" type="text-version" status="0.0.3" xml:id="UT22084-034-020-5">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2021-04-22T06:57:41.5Z" type="text-version" status="0.0.4" xml:id="UT22084-034-020-6">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-06-29T15:41:05.672Z" type="text-version" status="0.0.5" xml:id="UT22084-034-020-7">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT22084-034-020-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

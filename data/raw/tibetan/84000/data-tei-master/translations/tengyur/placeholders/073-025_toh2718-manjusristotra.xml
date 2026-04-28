@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་འཇམ་དཔལ་གྱི་བསྟོད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa 'jam dpal gyi bstod pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­mañjuśrī­stotra</title>
+                <title xml:lang="en" type="mainTitle">A Praise of Ārya Mañjuśrī</title>
+                <title xml:lang="bo" type="longTitle">འཕགས་པ་འཇམ་དཔལ་གྱི་བསྟོད་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">'phags pa 'jam dpal gyi bstod pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Ārya­mañjuśrī­stotra­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-025"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2718" type="text">
+                    <ref>Toh 2718</ref>
+                    <biblScope>ff. 84v-85r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-073-025-1">Mati</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-073-025-2">Śākyaśrībhadra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-073-025-3">bod kyi lo rtsa khro phu ba gnubs byams pa'i dpal</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="73" start-page="168" end-page="169"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9331" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-025-4" source="tengyur-data-2697-2740_PH_new_v2.4b.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-073-025-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

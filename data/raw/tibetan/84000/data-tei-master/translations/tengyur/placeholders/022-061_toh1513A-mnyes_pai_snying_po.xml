@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མཉེས་པའི་སྙིང་པོ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mnyes pa'i snying po/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Tṛpata­garbha</title>
+                <title xml:lang="en" type="mainTitle">The Pleasing Essence</title>
+                <title xml:lang="bo" type="longTitle">མཉེས་པའི་སྙིང་པོ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">mnyes pa'i snying po zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Tṛpata­garbha­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-022-061"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1513a" type="text">
+                    <ref>Toh 1513a</ref>
+                    <biblScope>ff. 352r-363v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-022-061-1">Vīravajra</author>
+                    <location work="UT23703" count-pages="24">
+                        <volume number="22" start-page="703" end-page="726"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="toh1513a" work="http://read.84000.co/sections"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-022-061-2" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-022-061-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

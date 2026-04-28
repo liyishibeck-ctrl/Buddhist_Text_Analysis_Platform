@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Preeminent Account of Discipline</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vinayottaragrantha</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'dul ba gzhung bla ma/</title>
+                <title type="otherTitle" xml:lang="zh">《律大全分》</title>
+                <author role="translatorMain" xml:id="UT22084-012-001-6">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-012-001-7">Annie Heckman</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.7 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-012-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh7" type="text">
+                    <ref>Toh 7</ref>
+                    <biblScope>vol:12,ff.1r-92r(pp.1-183)</biblScope>
+                    <location work="UT4CZ5369" count-pages="182">
+                        <volume number="12" start-page="2" end-page="183"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11495" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11516" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2023-02-13T16:57:53.306Z" type="text-version" status="0.0.2" xml:id="UT22084-012-001-1">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2023-02-13T17:07:43.103Z" type="text-version" status="0.0.3" xml:id="UT22084-012-001-2">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-012-001-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:25:32.044Z" type="translation-status" status="3" xml:id="UT22084-012-001-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:25:32.044Z" type="text-version" status="0.0.5" xml:id="UT22084-012-001-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:26:11.61Z" type="text-version" status="0.0.6" xml:id="UT22084-012-001-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-01-30T14:31:28.784Z" type="text-version" status="0.0.7" xml:id="UT22084-012-001-9">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

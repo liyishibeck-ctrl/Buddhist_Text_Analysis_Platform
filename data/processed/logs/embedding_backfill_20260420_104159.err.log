@@ -1,0 +1,68 @@
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 225, in _embed_openai_compatible_batch
+    with urllib.request.urlopen(request, timeout=settings.embedding_timeout_seconds) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 493, in open
+    response = meth(req, response)
+  File "C:\Python314\Lib\urllib\request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Python314\Lib\urllib\request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Python314\Lib\urllib\request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\backfill_segment_embeddings.py", line 38, in <module>
+    main()
+    ~~~~^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\backfill_segment_embeddings.py", line 20, in main
+    inserted = backfill_segment_embeddings(
+        session,
+    ...<4 lines>...
+        language_id=args.language_id,
+    )
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 804, in backfill_segment_embeddings
+    total_indexed += index_segment_records(session, records, embedding_model=runtime.model)
+                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 368, in index_segment_records
+    runtime, embeddings = embed_text_values(
+                          ~~~~~~~~~~~~~~~~~^
+        [record.get("normalized_content") or record.get("content") or "" for record in materialized],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        embedding_model=embedding_model,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 291, in embed_text_values
+    return runtime, _embed_with_openai_compatible_provider(materialized, runtime=runtime)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 195, in _embed_with_openai_compatible_provider
+    embeddings.extend(_embed_openai_compatible_batch(batch, runtime=runtime))
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 237, in _embed_openai_compatible_batch
+    return _embed_openai_compatible_batch(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        text_values[:midpoint],
+        ^^^^^^^^^^^^^^^^^^^^^^^
+        runtime=runtime,
+        ^^^^^^^^^^^^^^^^
+    ) + _embed_openai_compatible_batch(
+    ^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 226, in _embed_openai_compatible_batch
+    payload = json.loads(response.read().decode("utf-8"))
+                         ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 500, in read
+    s = self._safe_read(self.length)
+  File "C:\Python314\Lib\http\client.py", line 652, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(138720 bytes read, 30869 more expected)

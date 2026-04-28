@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% block title %}首页 | Buddha MVP{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>佛教三大传统文本结构化分析平台</h1>
+  <p>现在这套站点已经可以直接浏览汉传、巴利与藏传正文，按段查看内容、gloss、对照关系与概念标签。</p>
+  <div class="action-row">
+    <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-han">看汉传正文</a>
+    <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-pali">看巴利正文</a>
+    <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">看藏文正文</a>
+  </div>
+</section>
+
+<section class="grid grid-4">
+  <article class="card stat-card">
+    <h2>{{ overview.total_works }}</h2>
+    <p>结构化作品</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ overview.total_text_versions }}</h2>
+    <p>文本版本</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ overview.total_segments }}</h2>
+    <p>段落级 segment</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ parallel_count }}</h2>
+    <p>对照链接</p>
+  </article>
+</section>
+
+<section>
+  <h2>按传承进入正文</h2>
+  <div class="grid grid-3">
+    {% for item in overview.traditions %}
+    <article class="card tradition-card">
+      <h3>{{ item.tradition_name }}</h3>
+      <p class="muted">集合 {{ item.collection_count }} · 作品 {{ item.work_count }} · 版本 {{ item.text_version_count }}</p>
+      <p>当前可浏览段落：<strong>{{ item.segment_count }}</strong></p>
+      <div class="action-row">
+        <a class="button-link" href="{{ url_for('works_page') }}?tradition_id={{ item.tradition_id }}">浏览目录与正文</a>
+        <a class="secondary-link" href="{{ url_for('research_page') }}?tradition_id={{ item.tradition_id }}">只看该传统检索</a>
+        {% if item.tradition_id == "trad-han" %}
+        <a class="secondary-link" href="{{ url_for('han_catalog_page') }}">目录树</a>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>当前正文状态</h2>
+    <ul class="plain-list">
+      <li>汉传：目录树与多部正文版本都可直接浏览。</li>
+      <li>巴利：已接入大规模正文分段，并补入英文 gloss。</li>
+      <li>藏传：84000 经部正文已接入，正文和英文 gloss 可并读。</li>
+      <li>对照：可从段落页继续跳转到跨传统对应段落。</li>
+      <li>概念：空性、无我、中道、慈、菩提心等标签可直接回看证据段落。</li>
+    </ul>
+  </article>
+  <article class="card">
+    <h2>汉传目录快照</h2>
+    {% if han_catalog %}
+    <p>当前已接入 <strong>{{ han_catalog.work_count }}</strong> 个汉传目录条目和 <strong>{{ han_catalog.catalog_node_count }}</strong> 个目录节点。</p>
+    <ul class="plain-list">
+      <li>正文已接入：{{ han_catalog.ingested_work_count }} 部 / {{ han_catalog.ingested_segment_count }} 个段落</li>
+      {% for item in han_catalog.division_counts %}
+      <li>{{ item.label }}：{{ item.work_count }} 部</li>
+      {% endfor %}
+      <li><a href="{{ url_for('han_catalog_page') }}">进入汉传目录树浏览</a></li>
+    </ul>
+    {% else %}
+    <p>汉传目录尚未载入。</p>
+    {% endif %}
+  </article>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>现在能做什么</h2>
+    <ul class="plain-list">
+      <li>按传承筛选作品，直接跳到可读正文版本。</li>
+      <li>按段浏览正文、gloss、概念标签、对照链接与引文关系。</li>
+      <li>在研究工具页统一做关键词、向量与混合检索。</li>
+      <li>通过 API 拉取 works / text_versions / segments / search 结果。</li>
+      <li>继续扩展更多目录、更多正文与更完整的对照关系。</li>
+    </ul>
+  </article>
+  <article class="card">
+    <h2>研究工具页</h2>
+    <ul class="plain-list">
+      <li>统一入口：关键词检索、向量检索、RAG 上下文拼装。</li>
+      <li>可按传统、集合、语言筛选。</li>
+      <li>返回可直接引用的段落级证据块与 prompt 模板。</li>
+      <li><a href="{{ url_for('research_page') }}">进入研究工具页</a></li>
+    </ul>
+  </article>
+</section>
+
+<section>
+  <h2>热门概念样例</h2>
+  <div class="grid grid-3">
+    {% for concept in concepts %}
+    <article class="card">
+      <h3><a href="{{ url_for('concept_detail_page', concept_slug=concept.slug) }}">{{ concept.label }}</a></h3>
+      <p>{{ concept.description }}</p>
+      <p class="muted">关联段落：{{ concept.segment_count }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,79 @@
+Saṁyutta Nikāya 12.2 ||| Linked Discourses 12.2
+1. Buddhavagga ||| 1. The Buddhas
+Vibhaṅgasutta ||| Analysis
+Sāvatthiyaṁ viharati. ||| At Sāvatthī.
+“Paṭiccasamuppādaṁ vo, bhikkhave, desessāmi vibhajissāmi. ||| “Mendicants, I will teach and analyze for you dependent origination.
+Taṁ suṇātha, sādhukaṁ manasi karotha, bhāsissāmī”ti. ||| Listen and apply your mind well, I will speak.”
+“Evaṁ, bhante”ti kho te bhikkhū bhagavato paccassosuṁ. ||| “Yes, sir,” they replied.
+Bhagavā etadavoca: ||| The Buddha said this:
+“Katamo ca, bhikkhave, paṭiccasamuppādo? ||| “And what is dependent origination?
+Avijjāpaccayā, bhikkhave, saṅkhārā; ||| Ignorance is a requirement for choices.
+saṅkhārapaccayā viññāṇaṁ; ||| Choices are a requirement for consciousness.
+viññāṇapaccayā nāmarūpaṁ; ||| Consciousness is a requirement for name and form.
+nāmarūpapaccayā saḷāyatanaṁ; ||| Name and form are requirements for the six sense fields.
+saḷāyatanapaccayā phasso; ||| The six sense fields are requirements for contact.
+phassapaccayā vedanā; ||| Contact is a requirement for feeling.
+vedanāpaccayā taṇhā; ||| Feeling is a requirement for craving.
+taṇhāpaccayā upādānaṁ; ||| Craving is a requirement for grasping.
+upādānapaccayā bhavo; ||| Grasping is a requirement for continued existence.
+bhavapaccayā jāti; ||| Continued existence is a requirement for rebirth.
+jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ||| Rebirth is a requirement for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be.
+Evametassa kevalassa dukkhakkhandhassa samudayo hoti. ||| That is how this entire mass of suffering originates.
+Katamañca, bhikkhave, jarāmaraṇaṁ? ||| And what is old age and death?
+Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jarā jīraṇatā khaṇḍiccaṁ pāliccaṁ valittacatā āyuno saṁhāni indriyānaṁ paripāko; ||| The old age, decrepitude, broken teeth, grey hair, wrinkly skin, diminished vitality, and failing faculties of the various sentient beings in the various orders of sentient beings.
+ayaṁ vuccati jarā. ||| This is called old age.
+Yā tesaṁ tesaṁ sattānaṁ tamhā tamhā sattanikāyā cuti cavanatā bhedo antaradhānaṁ maccu maraṇaṁ kālakiriyā khandhānaṁ bhedo kaḷevarassa nikkhepo (…), ||| The passing away, passing on, disintegration, demise, mortality, death, decease, breaking up of the aggregates, and laying to rest of the corpse of the various sentient beings in the various orders of sentient beings.
+idaṁ vuccati maraṇaṁ. ||| This is called death.
+Iti ayañca jarā, idañca maraṇaṁ. ||| Such is old age, and such is death.
+Idaṁ vuccati, bhikkhave, jarāmaraṇaṁ. ||| This is called old age and death.
+Katamā ca, bhikkhave, jāti? ||| And what is rebirth?
+Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jāti sañjāti okkanti abhinibbatti khandhānaṁ pātubhāvo āyatanānaṁ paṭilābho. ||| The rebirth, inception, conception, regeneration, manifestation of the aggregates, and acquisition of the sense fields of the various sentient beings in the various orders of sentient beings.
+Ayaṁ vuccati, bhikkhave, jāti. ||| This is called rebirth.
+Katamo ca, bhikkhave, bhavo? ||| And what is continued existence?
+Tayome, bhikkhave, bhavā— ||| There are these three states of existence.
+kāmabhavo, rūpabhavo, arūpabhavo. ||| Existence in the sensual realm, the realm of luminous form, and the formless realm.
+Ayaṁ vuccati, bhikkhave, bhavo. ||| This is called continued existence.
+Katamañca, bhikkhave, upādānaṁ? ||| And what is grasping?
+Cattārimāni, bhikkhave, upādānāni— ||| There are these four kinds of grasping.
+kāmupādānaṁ, diṭṭhupādānaṁ, sīlabbatupādānaṁ, attavādupādānaṁ. ||| Grasping at sensual pleasures, views, precepts and observances, and theories of a self.
+Idaṁ vuccati, bhikkhave, upādānaṁ. ||| This is called grasping.
+Katamā ca, bhikkhave, taṇhā? ||| And what is craving?
+Chayime, bhikkhave, taṇhākāyā— ||| There are these six classes of craving.
+rūpataṇhā, saddataṇhā, gandhataṇhā, rasataṇhā, phoṭṭhabbataṇhā, dhammataṇhā. ||| Craving for sights, sounds, smells, tastes, touches, and ideas.
+Ayaṁ vuccati, bhikkhave, taṇhā. ||| This is called craving.
+Katamā ca, bhikkhave, vedanā? ||| And what is feeling?
+Chayime, bhikkhave, vedanākāyā— ||| There are these six classes of feeling.
+cakkhusamphassajā vedanā, sotasamphassajā vedanā, ghānasamphassajā vedanā, jivhāsamphassajā vedanā, kāyasamphassajā vedanā, manosamphassajā vedanā. ||| Feeling born of contact through the eye, ear, nose, tongue, body, and mind.
+Ayaṁ vuccati, bhikkhave, vedanā. ||| This is called feeling.
+Katamo ca, bhikkhave, phasso? ||| And what is contact?
+Chayime, bhikkhave, phassakāyā— ||| There are these six classes of contact.
+cakkhusamphasso, sotasamphasso, ghānasamphasso, jivhāsamphasso, kāyasamphasso, manosamphasso. ||| Contact through the eye, ear, nose, tongue, body, and mind.
+Ayaṁ vuccati, bhikkhave, phasso. ||| This is called contact.
+Katamañca, bhikkhave, saḷāyatanaṁ? ||| And what are the six sense fields?
+Cakkhāyatanaṁ, sotāyatanaṁ, ghānāyatanaṁ, jivhāyatanaṁ, kāyāyatanaṁ, manāyatanaṁ— ||| The sense fields of the eye, ear, nose, tongue, body, and mind.
+idaṁ vuccati, bhikkhave, saḷāyatanaṁ. ||| These are called the six sense fields.
+Katamañca, bhikkhave, nāmarūpaṁ? ||| And what are name and form?
+Vedanā, saññā, cetanā, phasso, manasikāro— ||| Feeling, perception, intention, contact, and application of mind.
+idaṁ vuccati nāmaṁ. ||| This is called name.
+Cattāro ca mahābhūtā, catunnañca mahābhūtānaṁ upādāyarūpaṁ. ||| The four principal states, and form derived from the four principal states.
+Idaṁ vuccati rūpaṁ. ||| This is called form.
+Iti idañca nāmaṁ, idañca rūpaṁ. ||| Such is name and such is form.
+Idaṁ vuccati, bhikkhave, nāmarūpaṁ. ||| These are called name and form.
+Katamañca, bhikkhave, viññāṇaṁ? ||| And what is consciousness?
+Chayime, bhikkhave, viññāṇakāyā— ||| There are these six classes of consciousness.
+cakkhuviññāṇaṁ, sotaviññāṇaṁ, ghānaviññāṇaṁ, jivhāviññāṇaṁ, kāyaviññāṇaṁ, manoviññāṇaṁ. ||| Eye, ear, nose, tongue, body, and mind consciousness.
+Idaṁ vuccati, bhikkhave, viññāṇaṁ. ||| This is called consciousness.
+Katame ca, bhikkhave, saṅkhārā? ||| And what are choices?
+Tayome, bhikkhave, saṅkhārā— ||| There are three kinds of choices.
+kāyasaṅkhāro, vacīsaṅkhāro, cittasaṅkhāro. ||| Choices by way of body, speech, and mind.
+Ime vuccanti, bhikkhave, saṅkhārā. ||| These are called choices.
+Katamā ca, bhikkhave, avijjā? ||| And what is ignorance?
+Yaṁ kho, bhikkhave, dukkhe aññāṇaṁ, dukkhasamudaye aññāṇaṁ, dukkhanirodhe aññāṇaṁ, dukkhanirodhagāminiyā paṭipadāya aññāṇaṁ. ||| Not knowing about suffering, the origin of suffering, the cessation of suffering, and the practice that leads to the cessation of suffering.
+Ayaṁ vuccati, bhikkhave, avijjā. ||| This is called ignorance.
+Iti kho, bhikkhave, avijjāpaccayā saṅkhārā; ||| And so, ignorance is a requirement for choices.
+saṅkhārapaccayā viññāṇaṁ …pe… ||| Choices are a requirement for consciousness. …
+evametassa kevalassa dukkhakkhandhassa samudayo hoti. ||| That is how this entire mass of suffering originates.
+Avijjāya tveva asesavirāganirodhā saṅkhāranirodho; ||| When ignorance fades away and ceases with no residue left behind, choices cease.
+saṅkhāranirodhā viññāṇanirodho …pe… ||| When choices cease, consciousness ceases. …
+evametassa kevalassa dukkhakkhandhassa nirodho hotī”ti. ||| That is how this entire mass of suffering ceases.”
+Dutiyaṁ.

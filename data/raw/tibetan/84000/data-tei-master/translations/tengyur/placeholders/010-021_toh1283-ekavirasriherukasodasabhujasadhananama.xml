@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Sādhana of the Sixteen-Arm Solitary Hero Form of Glorious Heruka</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ekavīra­śrīheruka­ṣoḍaśabhuja­sādhana</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་བོ་གཅིག་པ་དཔལ་ཧེ་རུ་ཀ་ཕྱག་བཅུ་དྲུག་པའི་སྒྲུབ་པའི་ཐབས།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal bo gcig pa dpal he ru ka phyag bcu drug pa'i sgrub pa'i thabs/</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Ekavīra­śrīheruka­ṣoḍaśabhuja­sādhana­nāma</title>
+                <title type="longTitle" xml:lang="bo">དཔལ་བོ་གཅིག་པ་དཔལ་ཧེ་རུ་ཀ་ཕྱག་བཅུ་དྲུག་པའི་སྒྲུབ་པའི་ཐབས་ཞེས་བྱ་བ།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">dpal bo gcig pa dpal he ru ka phyag bcu drug pa'i sgrub pa'i thabs zhes bya ba/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-010-021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1283" type="text">
+                    <ref>Toh 1283</ref>
+                    <biblScope>ff. 137r-138v</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-010-021-1">Anon</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="10" start-page="275" end-page="278"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7817" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-010-021-2" source="tengyur-data-1180-1304_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-010-021-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

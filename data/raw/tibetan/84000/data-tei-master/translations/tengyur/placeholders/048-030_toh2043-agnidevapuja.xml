@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མེའི་ལྷ་མཆོད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">me'i lha mchod pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Agni­deva­pūja</title>
+                <title xml:lang="en" type="mainTitle">Offerings to the God Agni</title>
+                <title xml:lang="bo" type="longTitle">མེའི་ལྷ་མཆོད་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">me'i lha mchod pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Agni­deva­pūja­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-048-030"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2043" type="text">
+                    <ref>Toh 2043</ref>
+                    <biblScope>ff. 142r-143r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-048-030-1">Śrīdhara</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-048-030-2">Darpaṇācārya</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-048-030-3">dge slong shes rab rgyal mtshan</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="48" start-page="283" end-page="285"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8619" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-048-030-4" source="tengyur-data-1918-2089_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-048-030-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

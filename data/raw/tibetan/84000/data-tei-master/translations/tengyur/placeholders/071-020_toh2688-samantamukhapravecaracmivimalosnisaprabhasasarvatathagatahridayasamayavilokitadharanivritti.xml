@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཀུན་ནས་སྒོར་འཇུག་པའི་འོད་ཟེར་གཙུག་ཏོར་དྲི་མ་མེད་པར་སྣང་བ་དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་སྙིང་པོ་དང་དམ་ཚིག་ལ་རྣམ་པར་བལྟ་བ་ཞེས་བྱ་བའི་གཟུངས་ཀྱི་རྣམ་པར་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">kun nas sgor 'jug pa'i 'od zer gtsug tor dri ma med par snang ba de bzhin gshegs pa thams cad kyi snying po dang dam tshig la rnam par blta ba zhes bya ba'i gzungs kyi rnam par bshad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Samanta­mukha­praveśa­raśmi­vimaloṣṇīṣa­prabhāsa­sarvatathāgata­hṛdaya­samaya­vilokita­nāma­dhāraṇī­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Dhāraṇī called “Observing the Essence and Commitments of All Tathāgatas” of Vimaloṣṇīṣa whose Light-rays Provide Entry into the Universal Gateway</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-071-020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2688" type="text">
+                    <ref>Toh 2688</ref>
+                    <biblScope>ff. 269r-320v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-071-020-1">Sahajalalita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-071-020-2">lo tsa ba lang so ban+de tshul khrims brtsegs</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-071-020-3">Jayadeva</author>
+                    <location work="UT23703" count-pages="104">
+                        <volume number="71" start-page="537" end-page="640"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9299" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh599"/>
+                <link type="isCommentaryOf" target="toh983"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-071-020-4" source="tengyur-data-2670-2696_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-071-020-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

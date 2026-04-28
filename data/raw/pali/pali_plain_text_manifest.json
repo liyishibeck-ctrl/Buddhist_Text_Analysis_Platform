@@ -1,0 +1,134 @@
+{
+  "source": {
+    "id": "source-pali-cst4-plain",
+    "slug": "pali-cst4-plain",
+    "title": "Pali Tipitaka CST4 plain text",
+    "source_type": "canon",
+    "citation": "Based on the Chaṭṭha Saṅgāyana Tipiṭaka 4th edition (CST4) from SuttaCentral. Open access for non-commercial research.",
+    "url": "https://suttacentral.net/",
+    "access_note": "This sample uses selected texts from the publicly available CST4 corpus.",
+    "is_sample": false
+  },
+  "texts": [
+    {
+      "work_id": "work-dhammacakkappavattana",
+      "canonical_code": "KN Dhp",
+      "language_id": "lang-pi",
+      "text_path": "data/raw/pali/texts/dhammapada.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-dhammapada-cst4",
+        "slug": "dhammapada-cst4",
+        "title": "Dhammapada",
+        "version_label": "CST4 Pali",
+        "summary": "The Dhammapada is a collection of aphorisms in Pali arranged by theme. It is one of the most widely read and best-known works in the Pali canon.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-buddha",
+          "role": "attributed_speaker",
+          "note": "Aphorisms attributed to the Buddha in the Khuddaka Nikāya."
+        }
+      ]
+    },
+    {
+      "work_id": "work-dhammacakkappavattana",
+      "canonical_code": "MN 1",
+      "language_id": "lang-pi",
+      "text_path": "data/raw/pali/texts/mn001_mulapariyaya_sutta.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-mn001-cst4",
+        "slug": "mn001-cst4",
+        "title": "Mūlapariyāya Sutta (MN 1)",
+        "version_label": "CST4 Pali",
+        "summary": "The Root of All Things, the first sutta of the Majjhima Nikāya. This sutta discusses how different beings approach the root of phenomena.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-buddha",
+          "role": "attributed_speaker",
+          "note": "Opening sutta of the Majjhima Nikāya."
+        }
+      ]
+    },
+    {
+      "work_id": "work-dhammacakkappavattana",
+      "canonical_code": "DN 2",
+      "language_id": "lang-pi",
+      "text_path": "data/raw/pali/texts/dn002_sammaditthi_sutta.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-dn002-cst4",
+        "slug": "dn002-cst4",
+        "title": "Sāmaññaphala Sutta (DN 2)",
+        "version_label": "CST4 Pali",
+        "summary": "The Fruits of the Contemplative Life, discusses the benefits of renunciate practice.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-buddha",
+          "role": "attributed_speaker",
+          "note": "Second sutta of the Dīgha Nikāya."
+        }
+      ]
+    },
+    {
+      "work_id": "work-anattalakkhana",
+      "canonical_code": "SN 22.59",
+      "language_id": "lang-pi",
+      "text_path": "data/raw/pali/texts/sn22n059_anattalakkhana_sutta.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-sn22-59-cst4",
+        "slug": "sn22-59-cst4",
+        "title": "Anattalakkhaṇa Sutta (SN 22.59)",
+        "version_label": "CST4 Pali",
+        "summary": "The Discourse on the Characteristic of Non-self, one of the most famous sermons where the Buddha teaches the five aggregates are not self.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-buddha",
+          "role": "attributed_speaker",
+          "note": "Key discourse on non-self to the five bhikkhus."
+        }
+      ]
+    },
+    {
+      "work_id": "work-metta-sutta",
+      "canonical_code": "AN 8.2",
+      "language_id": "lang-pi",
+      "text_path": "data/raw/pali/texts/an008n002_atthangika-magga.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-an08-002-cst4",
+        "slug": "an08-002-cst4",
+        "title": "Ariya Aṭṭhaṅgika Magga (AN 8.2)",
+        "version_label": "CST4 Pali",
+        "summary": "The Noble Eightfold Path described in detail in the Aṅguttara Nikāya.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-buddha",
+          "role": "attributed_speaker",
+          "note": "Explanation of the eight factors of the path."
+        }
+      ]
+    }
+  ]
+}

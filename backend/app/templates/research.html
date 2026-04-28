@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+{% block title %}研究工具 | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>研究工具</h1>
+  <p>这里把 PostgreSQL 检索、向量近邻和 RAG 上下文拼装放到一个轻量入口里，方便验证“语料平台 + 检索 + LLM 接口”的整条链路。</p>
+</section>
+
+<section class="card">
+  <form method="get" class="filter-form">
+    <label class="grow">
+      查询
+      <input type="text" name="q" value="{{ query_text }}" placeholder="例如：缘起 / 空性 / 佛知见 / loving-kindness">
+    </label>
+    <label>
+      模式
+      <select name="mode">
+        <option value="hybrid" {% if selected_mode == "hybrid" %}selected{% endif %}>Hybrid</option>
+        <option value="keyword" {% if selected_mode == "keyword" %}selected{% endif %}>Keyword</option>
+        <option value="vector" {% if selected_mode == "vector" %}selected{% endif %}>Vector</option>
+      </select>
+    </label>
+    <label>
+      Top K
+      <select name="top_k">
+        {% for option in [5, 8, 10, 12] %}
+        <option value="{{ option }}" {% if selected_top_k == option %}selected{% endif %}>{{ option }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      传统
+      <select name="tradition_id">
+        <option value="">全部</option>
+        {% for item in traditions %}
+        <option value="{{ item.id }}" {% if selected_tradition == item.id %}selected{% endif %}>{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      集合
+      <select name="collection_id">
+        <option value="">全部</option>
+        {% for item in collections %}
+        <option value="{{ item.id }}" {% if selected_collection == item.id %}selected{% endif %}>{{ item.title }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      语言
+      <select name="language_id">
+        <option value="">全部</option>
+        {% for item in languages %}
+        <option value="{{ item.id }}" {% if selected_language == item.id %}selected{% endif %}>{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <button type="submit">运行</button>
+  </form>
+</section>
+
+{% if rag_payload %}
+<section class="grid grid-3">
+  <article class="card stat-card">
+    <h2>{{ rag_payload.keyword_result_count }}</h2>
+    <p>关键词候选</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ rag_payload.vector_result_count }}</h2>
+    <p>向量候选</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ rag_payload.contexts|length }}</h2>
+    <p>RAG 上下文块</p>
+  </article>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>RAG 上下文</h2>
+    <p class="muted">模式：{{ rag_payload.retrieval_mode }} · 向量后端：{{ rag_payload.vector_backend }} · 模型：{{ rag_payload.embedding_model }}</p>
+    {% if rag_payload.detected_concepts %}
+    <p>概念线索：
+      {% for item in rag_payload.detected_concepts %}
+      <span class="catalog-chip">{{ item.label }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+    <ul class="plain-list">
+      {% for item in rag_payload.contexts %}
+      <li class="result-item">
+        <div class="catalog-line">
+          <a href="{{ url_for('segment_detail_page', segment_id=item.id) }}">{{ item.segment_key }}</a>
+          <span>{{ item.work_title }}</span>
+          <span class="catalog-chip">{{ item.match_reason }}</span>
+          <span class="catalog-chip">{{ "%.3f"|format(item.match_score or 0) }}</span>
+        </div>
+        <div class="muted">{{ item.content_preview }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="card">
+    <h2>Prompt 拼装</h2>
+    <p class="label">System Prompt</p>
+    <pre class="prompt-block">{{ rag_payload.system_prompt }}</pre>
+    <p class="label">User Prompt</p>
+    <pre class="prompt-block">{{ rag_payload.user_prompt }}</pre>
+    <p class="label">Extractive Outline</p>
+    <pre class="prompt-block">{{ rag_payload.answer_outline }}</pre>
+  </article>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>Hybrid 检索</h2>
+    {% if hybrid_payload %}
+    <p class="muted">
+      关键词候选：{{ hybrid_payload.keyword_result_count }}
+      · 向量候选：{{ hybrid_payload.vector_result_count }}
+      · 后端：{{ hybrid_payload.configured_backend }}
+      · indexed owners：{{ hybrid_payload.indexed_owners }}
+    </p>
+    <ul class="plain-list">
+      {% for item in hybrid_payload.results %}
+      <li class="result-item">
+        <a href="{{ url_for('segment_detail_page', segment_id=item.id) }}">{{ item.segment_key }}</a>
+        · {{ item.work_title }} · {{ item.tradition_name }}
+        {% for channel in item.retrieval_channels %}
+        <span class="catalog-chip">{{ channel }}</span>
+        {% endfor %}
+        <span class="catalog-chip">{{ "%.3f"|format(item.retrieval_score or 0) }}</span>
+        <div class="muted">{{ item.content_preview }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  <article class="card">
+    <h2>关键词检索</h2>
+    <ul class="plain-list">
+      {% for item in keyword_hits %}
+      <li class="result-item">
+        <a href="{{ url_for('segment_detail_page', segment_id=item.id) }}">{{ item.segment_key }}</a>
+        · {{ item.work_title }} · {{ item.tradition_name }}
+        <span class="catalog-chip">{{ item.match_reason }}</span>
+        <span class="catalog-chip">{{ "%.3f"|format(item.match_score or 0) }}</span>
+        <div class="muted">{{ item.content_preview }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+
+<section class="card">
+    <h2>向量检索</h2>
+    {% if vector_payload %}
+    <p class="muted">后端：{{ vector_payload.configured_backend }} · indexed owners：{{ vector_payload.indexed_owners }}</p>
+    <ul class="plain-list">
+      {% for item in vector_payload.results[:selected_top_k] %}
+      <li class="result-item">
+        <a href="{{ url_for('segment_detail_page', segment_id=item.id) }}">{{ item.segment_key }}</a>
+        · {{ item.work_title }} · {{ item.tradition_name }}
+        <span class="catalog-chip">{{ "%.3f"|format(item.match_score or 0) }}</span>
+        <div class="muted">{{ item.content_preview }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+</section>
+{% endif %}
+{% endblock %}

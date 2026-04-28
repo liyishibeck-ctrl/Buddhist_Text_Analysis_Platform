@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Vidyutprāpta's Questions</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vidyutprāptaparipṛcchāsūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">glog thob kyis zhus pa'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryavidyutprāpta­paripṛcchā­nāmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa glog thob kyis zhus pa zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="zh">《電得所問經》（大正藏：《大寶積經無盡伏藏會第二十》）</title>
+                <author role="translatorMain" xml:id="UT22084-043-001-1">Robert Kritzer</author>
+                <author role="translatorEng" xml:id="UT22084-043-001-2">Robert Kritzer</author>
+                <editor role="projectEditor" xml:id="UT22084-043-001-18">Rory Lindsay</editor>
+                <editor role="copyEditor" xml:id="UT22084-043-001-27">Konchog Norbu</editor>
+                <editor role="projectEditor" xml:id="UT22084-043-001-39">Nathaniel Rich</editor>
+                <editor role="TEImarkupEditor" xml:id="UT22084-043-001-46">Martina Cotter</editor>
+                <sponsor xml:id="UT22084-043-001-12">Anonymous</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.19 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.a"/>
+                <idno xml:id="UT22084-043-001"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh64" type="text">
+                    <ref>Toh 64</ref>
+                    <biblScope>vol:43, ff.1r-17v(pp.1-34)</biblScope>
+                    <location work="UT4CZ5369" count-pages="33">
+                        <volume number="43" start-page="2" end-page="34"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14667" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11600" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#andreas" when="2021-04-20T12:54:05.451Z" type="text-version" status="0.0.1" xml:id="UT22084-043-001-3">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-20T12:55:35.338Z" type="translation-status" status="4" xml:id="UT22084-043-001-4">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-20T12:55:35.338Z" type="text-version" status="0.0.2" xml:id="UT22084-043-001-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-21T09:21:07.866Z" type="translation-status" status="3" xml:id="UT22084-043-001-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-21T09:21:07.866Z" type="text-version" status="0.0.3" xml:id="UT22084-043-001-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-21T09:21:39.027Z" type="text-version" status="0.0.4" xml:id="UT22084-043-001-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-06-20T07:22:15.751Z" type="translation-status" status="2.h" xml:id="UT22084-043-001-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2022-06-20T07:22:15.751Z" type="text-version" status="0.0.6" xml:id="UT22084-043-001-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.7" xml:id="UT22084-043-001-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-03-09T15:54:50.468Z" type="text-version" status="0.0.8" xml:id="UT22084-043-001-13">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-07T09:51:18.85Z" type="translation-status" status="2.g" xml:id="UT22084-043-001-14">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-07T09:51:18.85Z" type="text-version" status="0.0.9" xml:id="UT22084-043-001-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-07T09:52:03.609Z" type="text-version" status="0.0.10" xml:id="UT22084-043-001-19">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T06:46:20.887Z" type="translation-status" status="2.f" xml:id="UT22084-043-001-20">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T06:46:20.887Z" type="text-version" status="0.0.11" xml:id="UT22084-043-001-21">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-07-12T11:17:14.86Z" type="translation-status" status="2.e" xml:id="UT22084-043-001-22">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2024-07-12T11:17:14.86Z" type="text-version" status="0.0.12" xml:id="UT22084-043-001-23">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-07-12T11:18:17.834Z" type="text-version" status="0.0.13" xml:id="UT22084-043-001-28">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-01T15:55:06.574Z" type="translation-status" status="2.d" xml:id="UT22084-043-001-29">
+                    <desc>2.d</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-01T15:55:06.574Z" type="text-version" status="0.0.14" xml:id="UT22084-043-001-30">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-11T14:15:51.395Z" type="translation-status" status="2.c" xml:id="UT22084-043-001-31">
+                    <desc>2.c</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-11T14:15:51.395Z" type="text-version" status="0.0.15" xml:id="UT22084-043-001-32">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T15:43:46.418Z" type="translation-status" status="2.b" xml:id="UT22084-043-001-33">
+                    <desc>2.b</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T15:43:46.418Z" type="text-version" status="0.0.16" xml:id="UT22084-043-001-34">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T15:44:20.874Z" type="text-version" status="0.0.17" xml:id="UT22084-043-001-40">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-04T16:36:10.701Z" type="text-version" status="0.0.18" xml:id="UT22084-043-001-47">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-04T16:36:57.519Z" type="translation-status" status="2.a" xml:id="UT22084-043-001-48">
+                    <desc>2.a</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-04T16:36:57.519Z" type="text-version" status="0.0.19" xml:id="UT22084-043-001-49">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

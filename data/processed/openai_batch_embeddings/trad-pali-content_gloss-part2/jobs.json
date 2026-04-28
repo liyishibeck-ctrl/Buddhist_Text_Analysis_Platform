@@ -1,0 +1,62 @@
+[
+  {
+    "request_file": "requests\\batch-0001.jsonl",
+    "record_count": 42600,
+    "batch_id": "batch_69eed47e1fc88190b8111bf3caaef3f9",
+    "input_file_id": "file-WBpyyn7Hk6kst26NRJhV62",
+    "status": "failed",
+    "submitted_at": "2026-04-27T03:14:06.414503+00:00",
+    "last_synced_at": "2026-04-27T04:53:42.922079+00:00",
+    "output_file_id": null,
+    "error_file_id": null,
+    "request_counts": {
+      "total": 0,
+      "completed": 0,
+      "failed": 0
+    },
+    "errors": {
+      "object": "list",
+      "data": [
+        {
+          "code": "token_limit_exceeded",
+          "message": "Enqueued token limit reached for text-embedding-3-large in organization org-nj0gdupH49e0FvYzqs0dVeyO. Limit: 3,000,000 enqueued tokens. Please try again once some in_progress batches have been completed.",
+          "param": null,
+          "line": null
+        }
+      ]
+    },
+    "prior_batch_ids": [
+      "batch_69eed0a9f1f88190be15b71119c0a2a2"
+    ]
+  },
+  {
+    "request_file": "requests\\batch-0002.jsonl",
+    "record_count": 24518,
+    "batch_id": "batch_69eed47f26bc8190ab2a0c7ad496acd3",
+    "input_file_id": "file-MzaSw3TdEbtGgBgDPyia4C",
+    "status": "failed",
+    "submitted_at": "2026-04-27T03:14:07.936499+00:00",
+    "last_synced_at": "2026-04-27T04:53:44.747736+00:00",
+    "output_file_id": null,
+    "error_file_id": null,
+    "request_counts": {
+      "total": 0,
+      "completed": 0,
+      "failed": 0
+    },
+    "errors": {
+      "object": "list",
+      "data": [
+        {
+          "code": "token_limit_exceeded",
+          "message": "Enqueued token limit reached for text-embedding-3-large in organization org-nj0gdupH49e0FvYzqs0dVeyO. Limit: 3,000,000 enqueued tokens. Please try again once some in_progress batches have been completed.",
+          "param": null,
+          "line": null
+        }
+      ]
+    },
+    "prior_batch_ids": [
+      "batch_69eed0b0b7c08190b9114afecbb8f8e6"
+    ]
+  }
+]

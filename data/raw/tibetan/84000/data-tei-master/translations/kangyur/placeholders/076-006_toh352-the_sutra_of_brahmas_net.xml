@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">tshangs pa'i dra ba'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Brahmajālasūtra</title>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Brahmā’s Net</title>
+                <author role="translatorMain" xml:id="UT22084-076-006-1"/>
+                <consultant role="projectManager" xml:id="UT22084-076-006-2">Thomas Cruijsen</consultant>
+                <author role="translatorEng" xml:id="UT22084-076-006-3">Thomas Cruijsen</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.7 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-076-006"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh352" type="text">
+                    <ref>Toh 352</ref>
+                    <biblScope>vol.76, ff.70v-86r(pp.140-171)</biblScope>
+                    <location work="UT4CZ5369" count-pages="32">
+                        <volume number="76" start-page="140" end-page="171"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12042" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-10-02T13:53:49.469Z" type="translation-status" status="4" xml:id="UT22084-076-006-4">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-10-02T13:53:49.469Z" type="text-version" status="0.0.1" xml:id="UT22084-076-006-5">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:02:33.53Z" type="translation-status" status="3" xml:id="UT22084-076-006-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:02:33.53Z" type="text-version" status="0.0.2" xml:id="UT22084-076-006-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-01-11T12:56:13.636Z" type="text-version" status="0.0.3" xml:id="UT22084-076-006-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-01-11T12:56:31.912Z" type="text-version" status="0.0.4" xml:id="UT22084-076-006-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#john" when="2021-05-25T15:20:05.634Z" type="text-version" status="0.0.5" xml:id="UT22084-076-006-10">
+                    <desc>0.0.5</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-14T07:15:54.225Z" type="text-version" status="0.0.6" xml:id="UT22084-076-006-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.7" xml:id="UT22084-076-006-12">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

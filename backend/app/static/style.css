@@ -1,0 +1,378 @@
+:root {
+  --bg: #f5f0e6;
+  --surface: #fffaf1;
+  --surface-strong: #efe2c4;
+  --line: #d9c9a6;
+  --text: #2f2618;
+  --muted: #6e614a;
+  --accent: #8f4f23;
+  --accent-soft: #e8d7b3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Noto Serif SC", "Noto Sans Tibetan", "Noto Sans Pali", "Noto Sans Devanagari", "Noto Sans Sinhala", serif;
+  background:
+    radial-gradient(circle at top right, rgba(232, 215, 179, 0.75), transparent 30%),
+    linear-gradient(180deg, #fbf6ed 0%, var(--bg) 100%);
+  color: var(--text);
+}
+
+/* 藏文（藏文字母）专用字体 */
+.tibetan-script {
+  font-family: "Noto Sans Tibetan", Georgia, "Noto Serif SC", serif;
+  font-size: 1.25em;
+  line-height: 2;
+}
+
+/* 巴利文（巴利字母/僧伽罗文）专用字体 */
+.pali-script {
+  font-family: "Noto Sans Pali", "Noto Sans Sinhala", Georgia, "Noto Serif SC", serif;
+  font-size: 1.15em;
+}
+
+/* 天城文（Devanagari）专用字体 */
+.devanagari-script {
+  font-family: "Noto Sans Devanagari", Georgia, "Noto Serif SC", serif;
+  font-size: 1.15em;
+}
+
+/* 拉丁转写保持现有字体 */
+.latin-script {
+  font-family: Georgia, "Noto Serif SC", serif;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 250, 241, 0.9);
+  backdrop-filter: blur(6px);
+}
+
+.site-header .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+.brand a {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.brand p {
+  margin: 0.35rem 0 0;
+  max-width: 56rem;
+  color: var(--muted);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  width: 100%;
+}
+
+main.container {
+  padding: 1.5rem 0 3rem;
+}
+
+.banner-note {
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.hero {
+  padding: 0.5rem 0 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 10px 30px rgba(80, 57, 21, 0.06);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.grid-1 {
+  grid-template-columns: 1fr;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h2 {
+  font-size: 2rem;
+  margin: 0 0 0.25rem;
+}
+
+.plain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plain-list li + li {
+  margin-top: 0.7rem;
+}
+
+.nested {
+  margin-top: 0.6rem;
+  padding-left: 1rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.inline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.5rem 0 0.85rem;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+.button-link,
+.secondary-link,
+.nav-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.button-link {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff8ef;
+}
+
+.button-link:hover {
+  text-decoration: none;
+  background: #7c431b;
+}
+
+.secondary-link,
+.nav-chip {
+  background: rgba(255, 250, 241, 0.85);
+  color: var(--accent);
+}
+
+.secondary-link:hover,
+.nav-chip:hover {
+  text-decoration: none;
+  background: var(--accent-soft);
+}
+
+.status-chip {
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-full {
+  background: #dcecd7;
+  color: #2b5c32;
+}
+
+.status-catalog {
+  background: #f2e8d4;
+  color: #7a5831;
+}
+
+.result-summary {
+  margin: 0.9rem 0 0;
+}
+
+.filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: end;
+}
+
+.filter-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 150px;
+}
+
+.filter-form .grow {
+  flex: 1 1 240px;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 0.6rem 0.7rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+button {
+  background: var(--accent);
+  color: #fff8ef;
+  cursor: pointer;
+}
+
+.segment-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.parallel-card {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.parallel-meta {
+  min-width: 170px;
+  padding: 0.8rem;
+  border-radius: 12px;
+  background: var(--accent-soft);
+}
+
+.label {
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.catalog-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: baseline;
+}
+
+.catalog-note {
+  margin: 0.35rem 0 0;
+}
+
+.catalog-chip {
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+
+.result-item {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid rgba(217, 201, 166, 0.45);
+}
+
+.result-item:last-child {
+  border-bottom: 0;
+}
+
+.prompt-block {
+  margin: 0.35rem 0 1rem;
+  padding: 0.85rem 0.95rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(239, 226, 196, 0.38);
+  white-space: pre-wrap;
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+.reading-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.reading-segment {
+  padding: 1rem;
+  border: 1px solid rgba(217, 201, 166, 0.55);
+  border-radius: 14px;
+  background: rgba(255, 250, 241, 0.82);
+}
+
+.reading-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: baseline;
+  margin-bottom: 0.55rem;
+}
+
+.reading-gloss {
+  margin-top: 0.75rem;
+  padding: 0.8rem 0.9rem;
+  border-left: 3px solid var(--line);
+  border-radius: 0 12px 12px 0;
+  background: rgba(239, 226, 196, 0.42);
+}
+
+@media (max-width: 768px) {
+  .parallel-card {
+    grid-template-columns: 1fr;
+  }
+}

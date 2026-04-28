@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Sādhana of the Two-Armed Hevajra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Dvibhuja­hevajra­sādhana</title>
+                <title type="mainTitle" xml:lang="bo">དགྱེས་པ་རྡོ་རྗེ་ཕྱག་གཉིས་པའི་སྒྲུབ་པའི་ཐབས།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dgyes pa rdo rje phyag gnyis pa'i sgrub pa'i thabs/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-010-014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1276" type="text">
+                    <ref>Toh 1276</ref>
+                    <biblScope/>
+                    <author xml:lang="en" xml:id="UT23703-010-014-1">Anon</author>
+                    <location work="UT23703" count-pages="5">
+                        <volume number="10" start-page="205" end-page="209"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7810" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-010-014-2" source="tengyur-data-1180-1304_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-010-014-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī for a Pleasant Voice</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mgrin pa snyan pa'i gzungs/</title>
+                <author role="translatorMain" xml:id="UT22084-096-041-5">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-096-041-6">Lowell Cook</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-096-041"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh792" type="text">
+                    <ref>Toh 792</ref>
+                    <biblScope>vol.96, ff.115v-115v(pp.230-230)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="96" start-page="230" end-page="230"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12538" work="W22084"/>
+                </bibl>
+                <bibl key="toh1034" type="text">
+                    <ref>Toh 1034</ref>
+                    <biblScope>vol.101, ff.185r-185v(pp.369-370)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="102" start-page="369" end-page="370"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12797" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-096-041-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:17:51.222Z" type="translation-status" status="3" xml:id="UT22084-096-041-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:17:51.222Z" type="text-version" status="0.0.1" xml:id="UT22084-096-041-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-09T09:25:56.623Z" type="text-version" status="0.0.1" xml:id="UT22084-096-041-4">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-09T09:26:37.377Z" type="text-version" status="0.0.1" xml:id="UT22084-096-041-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-07T10:59:30.61Z" type="text-version" status="0.0.1" xml:id="UT22084-096-041-8">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-27T15:41:14.276Z" type="translation-status" status="2.h" xml:id="UT22084-096-041-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-27T15:41:14.276Z" type="text-version" status="0.0.2" xml:id="UT22084-096-041-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#sameer" when="2024-07-04T13:36:34.646Z" type="text-version" status="0.0.3" xml:id="UT22084-096-041-11">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

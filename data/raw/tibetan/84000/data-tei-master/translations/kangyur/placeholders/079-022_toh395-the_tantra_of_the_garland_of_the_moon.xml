@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">zla ba'i 'phreng ba'i rgyud/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Candramālātantra</title>
+                <title type="mainTitle" xml:lang="en">The Tantra of the Garland of the Moon</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">dpal zla ba'i 'phreng ba'i rgyud kyi rgyal po/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Śrīcandramālātantrarāja</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-079-022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh395" type="text">
+                    <ref>Toh 395</ref>
+                    <biblScope>vol.79, ff.223r-224v(pp.445-448)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="79" start-page="445" end-page="448"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12096" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-079-022-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

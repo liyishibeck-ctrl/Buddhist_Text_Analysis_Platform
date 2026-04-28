@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 40: The Teaching on the Tathāgata's Ocean of Major Physical Marks</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de bzhin gshegs pa'i sku mtshan rgya mtsho bstan pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">《華嚴經 》之《如來相海品》</title>
+                <author role="translatorMain" xml:id="UT22084-037-002-7">Dharmachakra Translation Committee</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-037-002-10">Chökyi Nyima Rinpoche</consultant>
+                <consultant role="projectManager" xml:id="UT22084-037-002-11">Thomas Doctor</consultant>
+                <author role="translatorEng" xml:id="UT22084-037-002-12">Thomas Doctor</author>
+                <sponsor xml:id="UT22084-037-002-1">Thirty, Twenty</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.7 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-037-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-40" type="chapter">
+                    <ref>Toh 44-40</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="30">
+                        <volume number="37" start-page="82" end-page="111"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14708" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-03-17T02:19:52.656Z" type="text-version" status="0.0.1" xml:id="UT22084-037-002-2">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2021-05-11T05:19:22.262Z" type="text-version" status="0.0.2" xml:id="UT22084-037-002-3">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-037-002-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:44:47.091Z" type="translation-status" status="3" xml:id="UT22084-037-002-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:44:47.091Z" type="text-version" status="0.0.5" xml:id="UT22084-037-002-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:46:19.226Z" type="text-version" status="0.0.6" xml:id="UT22084-037-002-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:46:45.522Z" type="text-version" status="0.0.7" xml:id="UT22084-037-002-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

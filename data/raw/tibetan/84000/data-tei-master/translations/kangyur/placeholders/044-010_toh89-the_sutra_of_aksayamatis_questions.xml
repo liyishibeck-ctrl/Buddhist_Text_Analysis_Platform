@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">blo gros mi zad pas zhus pa'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Akṣayamatiparipṛcchāsūtra</title>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Akṣayamati's Questions</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa blo gros mi zad pas zhus pa zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryākṣayamatiparipṛcchā­nāmamahāyānasūtra</title>
+                <author role="translatorMain" xml:id="UT22084-044-010-1"/>
+                <author role="translatorEng" xml:id="UT22084-044-010-2">Rolf Scheuermann</author>
+                <author role="translatorEng" xml:id="UT22084-044-010-3">Stefan Schley</author>
+                <consultant role="projectManager" xml:id="UT22084-044-010-4">Rolf Scheuermann</consultant>
+                <consultant role="dharmaMaster" xml:id="UT22084-044-010-5">Lopön Tsöndrü</consultant>
+                <editor role="proofreader" xml:id="UT22084-044-010-6">Lewis Doney</editor>
+                <editor role="reviser" xml:id="UT22084-044-010-7">Per Sørensen</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-044-010"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh89" type="text">
+                    <ref>Toh 89</ref>
+                    <biblScope>vol:44, ff.175v-182v(pp.350-364)</biblScope>
+                    <location work="UT4CZ5369" count-pages="15">
+                        <volume number="44" start-page="350" end-page="364"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14667" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11636" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-03-05T08:39:51.782Z" type="text-version" status="0.0.1" xml:id="UT22084-044-010-8">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T08:29:15.818Z" type="text-version" status="0.0.2" xml:id="UT22084-044-010-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T08:31:07.902Z" type="text-version" status="0.0.3" xml:id="UT22084-044-010-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-044-010-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-04-08T12:33:14.108Z" type="translation-status" status="2.h" xml:id="UT22084-044-010-12">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-04-08T12:33:14.108Z" type="text-version" status="0.0.5" xml:id="UT22084-044-010-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

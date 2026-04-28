@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཡན་ལག་བརྒྱད་པའི་སྙིང་པོ་ཞེས་བྱ་བའི་སྨན་དཔྱད་ཀྱི་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">yan lag brgyad pa'i snying po zhes bya ba'i sman dpyad kyi bshad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Aṣṭāṅga­hṛdaya­nāma­vaiḍūryaka­bhāṣya</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of Medical Practices called “The Essence of the Eight Branches”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-198-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4311" type="text">
+                    <ref>Toh 4311</ref>
+                    <biblScope>vol 198 ff. 335v-410r, vol 199 ff. 1v-421r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-198-006-1">Vāgbhaṭa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-198-006-2">Dharmaśrīvarman</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-198-006-3">zhu chen gyi lo tsa ba i gu dge slong shakya blo gros</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-198-006-4">mnyel bcor dge slong dbyig gi rin chen</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-198-006-5">mar lo dge slong rig pa gzhon nu</editor>
+                    <location work="UT23703" count-pages="990">
+                        <volume number="198" start-page="670" end-page="819"/>
+                        <volume number="199" start-page="2" end-page="841"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11092" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11099" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4310"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:23:35.323Z" type="import" xml:id="UT23703-198-006-6" source="tengyur-data-4306-4312_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:23:35.323Z" type="general" xml:id="UT23703-198-006-7" source="tengyur-data-4306-4312_PH_new_v2.4.xml">
+                    <desc>The Śākya Blo-gros translation with commentary.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-198-006-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}云上取经 | 佛典语料平台{% endblock %}</title>
+  <!-- Google Fonts: 多语言字体支持 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+Tibetan:wght@400;700&family=Noto+Sans+Pali:wght@400&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Sinhala:wght@400;700&family=Georgia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <a href="{{ url_for('home') }}">云上取经</a>
+        <p>面向汉传、巴利与藏传佛典的正文浏览、检索与对照平台。</p>
+      </div>
+      <nav class="nav">
+        <a href="{{ url_for('home') }}">首页</a>
+        <a href="{{ url_for('works_page') }}">目录与正文</a>
+        <a href="{{ url_for('han_catalog_page') }}">汉传目录</a>
+        <a href="{{ url_for('research_page') }}">研究工具</a>
+        <a href="{{ url_for('parallels_page') }}">对照页</a>
+        <a href="{{ url_for('concepts_page') }}">概念页</a>
+        <a href="/api/overview">API 概览</a>
+      </nav>
+      <div class="subnav">
+        <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-han">汉传正文</a>
+        <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-pali">巴利正文</a>
+        <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">藏文正文</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="banner-note">
+      当前站点已接入汉传目录与正文、巴利正文库、以及 84000 藏文经部正文与英文 gloss；覆盖仍在持续扩展，部分条目仍是目录占位。
+    </div>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

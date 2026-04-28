@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">གཉིས་ཀའི་བཤད་སྦྱར།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">gnyis ka'i bshad sbyar/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ubhaya­nibandha</title>
+                <title xml:lang="en" type="mainTitle">Explanations Connected to Pairs of Two</title>
+                <title xml:lang="bo" type="longTitle">གཉིས་ཀའི་བཤད་སྦྱར་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">gnyis ka'i bshad sbyar zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Ubhaya­nibandha­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-017-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1409" type="text">
+                    <ref>Toh 1409</ref>
+                    <biblScope>ff. 207r-253r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-017-005-1">Tathāgatarakṣita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-017-005-2">bod kyi lo tsa ba dge slong d+harma blo gro</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-017-005-3">Tathāgatarakṣita</author>
+                    <location work="UT23703" count-pages="93">
+                        <volume number="17" start-page="413" end-page="505"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7951" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh368"/>
+                <link type="isCommentaryOf" target="toh1406"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-017-005-4" source="tengyur-data-1401-1424_PH_new_v2.3.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-017-005-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Commentary on “Reciting the Names of Mañjuśrī” called “The Lamp Illuminating the Meaning of the Words”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Nāma­saṃgīti­vṛtti­nāmārtha­prakāśa­karaṇa­dīpa­nāma</title>
+                <title type="mainTitle" xml:lang="bo">མཚན་ཡང་དག་པར་བརྗོད་པའི་འགྲེལ་པ་མཚན་དོན་གསལ་བར་བྱེད་པའི་སྒྲོན་མ་ཞེས་བྱ་བ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mtshan yang dag par brjod pa'i 'grel pa mtshan don gsal bar byed pa'i sgron ma zhes bya ba/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2092" type="text">
+                    <ref>Toh 2092</ref>
+                    <biblScope>ff. 1r-38v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-049-001-1">Vimalamitra the Elder</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-049-001-2">gnyags dz+nya na</author>
+                    <location work="UT23703" count-pages="75">
+                        <volume number="49" start-page="2" end-page="76"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8671" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2021-12-01T18:49:01.887Z" user="john">Colophon states that it was written by Vimalamitra at the request of his disciple Nyang Tingdzin (nyang ting nge 'dzin).</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-049-001-3" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#sameer" when="2022-05-03T08:28:05.853Z" type="text-version" status="0.0.2" xml:id="UT23703-049-001-4">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-049-001-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

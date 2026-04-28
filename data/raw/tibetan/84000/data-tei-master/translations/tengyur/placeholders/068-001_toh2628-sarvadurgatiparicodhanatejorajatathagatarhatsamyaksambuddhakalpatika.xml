@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དེ་བཞིན་གཤེགས་པ་དགྲ་བཅོམ་པ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་ངན་སོང་ཐམས་ཅད་ཡོངས་སུ་སྦྱོང་བའི་གཟི་བརྫིད་ཀྱི་རྒྱལ་པོ་ཞེས་བྱ་བའི་བརྟག་པའི་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">de bzhin gshegs pa dgra bcom pa yang dag par rdzogs pa'i sangs rgyas ngan song thams cad yongs su sbyong ba'i gzi brdzid kyi rgyal po zhes bya ba'i brtag pa'i bshad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Sarva­durgati­pariśodhana­tejo­rāja­tathāgatārhat­samyaksaṃbuddha­nāma­kalpa­ṭīkā</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Ritual Text called “The Radiant King of the Purification of All Bad Transmigrations, the Bhagavan, the Tathāgata, the Arhat, the Perfectly Complete Buddha”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-068-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2628" type="text">
+                    <ref>Toh 2628</ref>
+                    <biblScope>ff. 1r-97r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-068-001-1">Ānandagarbha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-068-001-2">bod kyi lo tsa ba khyung po chos brtson</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-068-001-3">Kumārakalaśa</author>
+                    <location work="UT23703" count-pages="193">
+                        <volume number="68" start-page="1" end-page="193"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9234" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh483"/>
+                <link type="isCommentaryOf" target="toh485"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-068-001-4" source="tengyur-data-2623-2669_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-068-001-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

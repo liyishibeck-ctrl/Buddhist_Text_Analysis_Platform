@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་ཆོས་ཀྱི་དབྱིངས་ཀྱི་སྙིང་པོའི་རྣམ་པར་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa chos kyi dbyings kyi snying po'i rnam par 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­dharma­dhātu­garbha­vivaraṇa</title>
+                <title xml:lang="en" type="mainTitle">An Exposition on the Essence of the Sphere of Reality (Dharmadhātu)</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-149-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4101" type="text">
+                    <ref>Toh 4101</ref>
+                    <biblScope>ff. 222v-223r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-149-003-1">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-149-003-2">Jñānagarbha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-149-003-3">zhu chen gyi lo tsa ba ban de dpal brtsegs</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="149" start-page="444" end-page="445"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10788" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10820" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:16:18.239Z" type="import" xml:id="UT23703-149-003-4" source="tengyur-data-4086-4103_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:16:18.239Z" type="general" xml:id="UT23703-149-003-5" source="tengyur-data-4086-4103_PH_new_v2.4.xml">
+                    <desc>The text opens with a quote found in several sūtras known as the “ye dharma”: “Those phenomena that arise from causes have a cause as well as a cessation,
+            The Tathāgata himself spoke this; Thus, spoke the great ascetic.” (chos rnams gang dag rgyus byung de dag ni, rgyu dang de la 'gog pa gang yin pa, de bzhin gshegs pa nyid kyis bka' stsal
+            pa, de skad gsungs pa'i tshul can dge sbyong che,). The text then proceeds to describe those phenomena in seven categories that appear to be a condensed form of the twelve links:
+            consciousness (rnam par shes pa), name (ming), form (gzugs), six sense sources (skye mched drug), contact (reg pa), feeling (tshor ba), birth (skye ba), and old age and death (rga
+            shi).</desc>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.1" xml:id="UT23703-149-003-6">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-149-003-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

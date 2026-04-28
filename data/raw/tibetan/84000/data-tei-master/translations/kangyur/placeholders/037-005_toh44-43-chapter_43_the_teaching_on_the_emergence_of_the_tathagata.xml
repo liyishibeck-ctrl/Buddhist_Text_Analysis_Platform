@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 43: The Teaching on the Emergence of the Tathāgata</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Tathāgatotpattisambhavanirdeśa</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de bzhin gshegs pa skye 'byung bstan pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="en">The Teaching on the Emergence of the Tathāgata</title>
+                <title type="otherTitle" xml:lang="zh">《華嚴經 》之《指示如來現生經》</title>
+                <author role="translatorMain" xml:id="UT22084-037-005-1">Padmakara Translation Group</author>
+                <author role="translatorEng" xml:id="UT22084-037-005-2">Sangseraima Ujeed</author>
+                <consultant role="projectManager" xml:id="UT22084-037-005-5">John Canti</consultant>
+                <sponsor xml:id="UT22084-037-005-6"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-037-005"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-43" type="chapter">
+                    <ref>Toh 44-43</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="134">
+                        <volume number="37" start-page="149" end-page="282"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14711" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-03-09T11:57:12.319Z" type="text-version" status="0.0.1" xml:id="UT22084-037-005-7">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-037-005-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T13:50:55.734Z" type="translation-status" status="2.h" xml:id="UT22084-037-005-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T13:50:55.734Z" type="text-version" status="0.0.4" xml:id="UT22084-037-005-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T13:52:10.699Z" type="text-version" status="0.0.5" xml:id="UT22084-037-005-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T13:53:03.371Z" type="translation-status" status="2.g" xml:id="UT22084-037-005-12">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-23T13:53:03.371Z" type="text-version" status="0.0.6" xml:id="UT22084-037-005-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="acknowledgment">
+                <p tid="1">
+                    Sponsored by Beneath the Sal Tree.
+                </p>
+            </div>
+        </front>
+    </text>
+</TEI>

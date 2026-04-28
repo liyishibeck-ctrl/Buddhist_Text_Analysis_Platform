@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">stobs po che'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahābalasūtra</title>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Great Strength</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa stobs po che zhes bya ba theg pa chen po'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryamahābalanāmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa stobs po che zhes bya ba theg pa chen po'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryamahābalanāmamahāyānasūtra</title>
+                <author role="translatorMain" xml:id="UT22084-096-006-1"/>
+            <author role="translatorEng" xml:id="UT22084-096-006-2">Nick Schmidt</author>
+    <consultant role="projectManager" xml:id="UT22084-096-006-3">Dr. Andreas Doctor</consultant>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-096-006"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh757" type="text">
+                    <ref>Toh 757</ref>
+                    <biblScope>vol.96, ff.8r-19r(pp.15-37)</biblScope>
+                    <location work="UT4CZ5369" count-pages="23">
+                        <volume number="96" start-page="15" end-page="37"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12503" work="W22084"/>
+                </bibl>
+                <bibl key="toh947" type="text">
+                    <ref>Toh 947</ref>
+                    <biblScope>vol.101, ff.30v-41r(pp.60-81)</biblScope>
+                    <location work="UT4CZ5369" count-pages="22">
+                        <volume number="102" start-page="60" end-page="81"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12710" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-04-22T12:25:11.308Z" type="text-version" status="0.0.1" xml:id="UT22084-096-006-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-09T10:05:34.507Z" type="translation-status" status="2.h" xml:id="UT22084-096-006-5">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-09T10:05:34.507Z" type="text-version" status="0.0.2" xml:id="UT22084-096-006-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-096-006-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-03-28T08:40:49.027Z" type="text-version" status="0.0.4" xml:id="UT22084-096-006-8">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

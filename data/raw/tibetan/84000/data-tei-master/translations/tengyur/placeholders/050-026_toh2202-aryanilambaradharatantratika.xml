@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">An Extensive Explanation of the “Tantra of the Blue-Clad”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ārya­nīlāmbara­dhara­nāma­tantra­ṭīkā</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'phags pa gos sngon po can zhes bya ba'i rgyud kyi rgya cher bshad pa/</title>
+                <title type="mainTitle" xml:lang="bo">འཕགས་པ་གོས་སྔོན་པོ་ཅན་ཞེས་བྱ་བའི་རྒྱུད་ཀྱི་རྒྱ་ཆེར་བཤད་པ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-050-026"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2202" type="text">
+                    <ref>Toh 2202</ref>
+                    <biblScope>ff. 124r-143v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-050-026-1">Pravaragarbha</author>
+                    <location work="UT23703" count-pages="40">
+                        <volume number="50" start-page="247" end-page="286"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8781" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh454"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-050-026-2" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-050-026-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

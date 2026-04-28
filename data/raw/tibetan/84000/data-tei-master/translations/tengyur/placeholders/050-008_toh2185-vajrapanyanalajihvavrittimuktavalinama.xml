@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Commentary on “The Dhāraṇī of the Vajra Flame” called “The Garland of Pearls”</title>
+                <title type="mainTitle" xml:lang="bo">ཕྱག་ན་རྡོ་རྗེ་ལྕེ་དབབ་ཀྱི་འགྲེལ་པ་མུ་ཏིག་གི་ཕྲེང་བ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">phyag na rdo rje lce dbab kyi 'grel pa mu tig gi phreng ba/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-050-008"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2185" type="text">
+                    <ref>Toh 2185</ref>
+                    <biblScope>ff. 51v-56v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-050-008-1">Rājaputra Meghavegin</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-050-008-2">Jayākara</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-050-008-3">lo tsa ba mar pa</author>
+                    <location work="UT23703" count-pages="11">
+                        <volume number="50" start-page="102" end-page="112"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8763" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh462"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-050-008-4" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-050-008-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཐེག་པ་ཆེན་པོ་རྒྱུད་བླ་མའི་བསྟན་བཅོས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">theg pa chen po rgyud bla ma'i bstan bcos/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Mahāyānottara­tantra­śāstra­ratnagotra­vibhāga</title>
+                <title xml:lang="en" type="mainTitle">The Treatise on the Ultimate Continuum of the Mahāyāna</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-123-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4024" type="text">
+                    <ref>Toh 4024</ref>
+                    <biblScope>ff. 54v-73r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-123-005-1">Maitreya</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-123-005-2">Sajjana</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-123-005-3">lots+tsha ba shakya'i dge slong blo ldan shes rab</author>
+                    <location work="UT23703" count-pages="40">
+                        <volume number="123" start-page="107" end-page="146"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10709" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-123-005-4" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#martina-cotter" when="2022-09-01T18:36:25.634Z" type="text-version" status="0.0.2" xml:id="UT23703-123-005-5">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T09:49:48.355Z" type="text-version" status="0.0.3" xml:id="UT23703-123-005-6">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#martina-cotter" when="2022-09-23T16:18:04.88Z" type="text-version" status="0.0.4" xml:id="UT23703-123-005-7">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#martina-cotter" when="2022-10-12T21:35:56.278Z" type="text-version" status="0.0.5" xml:id="UT23703-123-005-8">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT23703-123-005-9">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྣལ་འབྱོར་སྤྱོད་པའི་ས་ལས། དངོས་གཞི་ས་མང་པོ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rnal 'byor spyod pa'i sa las/_dngos gzhi sa mang po/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Yogācāra­bhūmi­bhūmi­vastu</title>
+                <title xml:lang="en" type="mainTitle">The Levels of Spiritual Practice</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-127-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4035" type="text">
+                    <ref>Toh 4035</ref>
+                    <biblScope>ff. 1v-283r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-127-001-1">Asaṅga</author>
+                    <location work="UT23703" count-pages="564">
+                        <volume number="127" start-page="2" end-page="565"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10725" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2021-12-20T22:21:01.602Z" user="john">This Tibetan translation is the first of three parts that cover the “The Main Treatise on the Levels" (sa’i dngos gzhi), which is itself the first of the “Five Sections on the Levels” (sa sde lnga). This text covers fifteen of the seventeen levels that make up the “Main Treatise.”</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-127-001-2" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="attribution" xml:id="UT23703-127-001-3" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>Authorship taken from Degé dkar chag.</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="general" xml:id="UT23703-127-001-4" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>An extensive treatise presenting a detailed exposition of the grounds and paths of Śrāvakas, Pratyekabuddhas, and Bodhisattvas from the perspective of the
+            Yogācāra school.</desc>
+                </change>
+                <change who="#andre" when="2022-07-23T21:11:43.192Z" type="text-version" status="0.0.3" xml:id="UT23703-127-001-5">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT23703-127-001-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

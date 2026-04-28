@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བྱ་བ་བསྡུས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">bya ba bsdus pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Kriyā­saṃgraha­pañjikā</title>
+                <title xml:lang="en" type="mainTitle">Compendium of Activities</title>
+                <title xml:lang="bo" type="longTitle">བྱ་བ་བསྡུས་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">bya ba bsdus pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Kriyā­saṃgraha­pañjikā­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-062-016"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2531" type="text">
+                    <ref>Toh 2531</ref>
+                    <biblScope>ff. 227v-362r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-062-016-1">Kuladatta</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-062-016-2">shakya'i dge slong yar lungs pa grags pa rgyal mtshan</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-062-016-3">Kīrticandra</author>
+                    <location work="UT23703" count-pages="270">
+                        <volume number="62" start-page="454" end-page="723"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9128" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-062-016-4" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="general" xml:id="UT23703-062-016-5" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc>The text is divided into eight chapters with rituals arranged in the sequence of tasks carried out before and during the building of a vihara, such as
+            donors’ requests, meditation on acquiring and examining of the land, propitiation of the local spirits, blessing of the construction materials and workers, and the various consecrations
+            performed throughout the building process.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-062-016-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

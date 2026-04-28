@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཀྱིལ་འཁོར་གྱི་ཆོ་ག་རྡོ་རྗེ་ཕྲེང་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dkyil 'khor gyi cho ga rdo rje phreng ba zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vajrāvali­nāma­maṇḍalopāyikā</title>
+                <title xml:lang="en" type="mainTitle">Maṇḍala Rituals called "The Vajra Garland"</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-075-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3140" type="text">
+                    <ref>Toh 3140</ref>
+                    <biblScope>ff.1r-94v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-075-001-1">Abhayākaragupta</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-075-001-2">lo tsa ba kher gad ban+de 'khor lo grags</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-075-001-3">Abhayākaragupta</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="2" xml:id="UT23703-075-001-4">ma Ni ka shrI dz+nyA na</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="2" xml:id="UT23703-075-001-5">Kaśmīri Paṇḍita Rāhulaśrībhadra</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="3" xml:id="UT23703-075-001-6">dpang lo tsA ba blo brtan</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="1" xml:id="UT23703-075-001-7">lo tsA ba shes rab dpal</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="2" xml:id="UT23703-075-001-8">Ratnarakṣitapāda</editor>
+                    <location work="UT23703" count-pages="188">
+                        <volume number="75" start-page="1" end-page="188"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21625" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9763" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:02:09.954Z" type="import" xml:id="UT23703-075-001-9" source="tengyur-data-3140-3222_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-075-001-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

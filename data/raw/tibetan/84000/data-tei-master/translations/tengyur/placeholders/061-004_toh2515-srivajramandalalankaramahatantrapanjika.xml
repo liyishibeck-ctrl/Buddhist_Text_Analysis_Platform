@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Commentary on the Difficult Points of the Glorious “Ornament for the Vajra Essence Tantra”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śrī­vajra­maṇḍālaṃkāra­mahātantra­pañjikā</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་རྡོ་རྗེ་སྙིང་པོའི་རྒྱན་གྱི་རྒྱུད་ཆེན་པོའི་དཀའ་འགྲེལ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal rdo rje snying po'i rgyan gyi rgyud chen po'i dka' 'grel/</title>
+                <title type="otherTitle" xml:lang="zh">《金剛場莊嚴續難義釋》</title>
+                <author role="translatorMain" xml:id="UT23703-061-004-1"/>
+                <author role="translatorEng" xml:id="UT23703-061-004-2">Catherine Dalton</author>
+                <sponsor xml:id="UT23703-061-004-12">Huang Xiaoming</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.8 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT23703-061-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2515" type="text">
+                    <ref>Toh 2515</ref>
+                    <biblScope>ff. 313r-362r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-061-004-3">Praśāntamitra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-061-004-4">bod kyi lo tsa ba shakya'i dge slong rin chen grub</author>
+                    <location work="UT23703" count-pages="99">
+                        <volume number="61" start-page="625" end-page="723"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9111" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh490"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-061-004-5" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:15:19.742Z" type="translation-status" status="3" xml:id="UT23703-061-004-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:15:19.742Z" type="text-version" status="0.0.1" xml:id="UT23703-061-004-7">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:15:36.797Z" type="text-version" status="0.0.2" xml:id="UT23703-061-004-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:15:51.591Z" type="text-version" status="0.0.3" xml:id="UT23703-061-004-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT23703-061-004-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-04-29T16:33:37.716Z" type="text-version" status="0.0.5" xml:id="UT23703-061-004-11">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-09-12T03:44:40.694Z" type="text-version" status="0.0.6" xml:id="UT23703-061-004-13">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-09-12T07:07:33.325Z" type="text-version" status="0.0.7" xml:id="UT23703-061-004-14">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T14:50:24.856Z" type="translation-status" status="2.h" xml:id="UT23703-061-004-15">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T14:50:24.856Z" type="text-version" status="0.0.8" xml:id="UT23703-061-004-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

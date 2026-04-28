@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་སངས་རྒྱས་ཐོད་པའི་རྒྱུད་ཀྱི་དཀའ་འགྲེལ་ཡེ་ཤེས་ལྡན་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal sangs rgyas thod pa'i rgyud kyi dka' 'grel ye shes ldan pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Śrī­buddhakapāla­tantrasya pañjikā­jñānavatī­nāma</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Difficult Points of the Glorious Buddhakapāla Tantra called “Endowed with Wisdom”</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-026-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1652" type="text">
+                    <ref>Toh 1652</ref>
+                    <biblScope>ff. 104v-150r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-026-004-1">Saraha (II)</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-026-004-2">bod kyi lo tsa ba gyi jo zla ba'i 'od zer</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-026-004-3">Gayādhara</author>
+                    <location work="UT23703" count-pages="92">
+                        <volume number="26" start-page="208" end-page="299"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21620" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8203" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh424"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="import" xml:id="UT23703-026-004-4" source="tengyur-data-1607-1682_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-026-004-5">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-026-004-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

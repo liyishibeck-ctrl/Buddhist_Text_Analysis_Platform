@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཀྱིལ་འཁོར་གྱི་ཆོ་གའི་སྒྲུབ་ཐབས་བཟང་པོ་ཡོངས་སུ་གཟུང་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dkyil 'khor gyi cho ga'i sgrub thabs bzang po yongs su gzung ba zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Suparigraha­nāma­maṇḍalopāyikā­vidhi</title>
+                <title xml:lang="en" type="mainTitle">A Practical Maṇḍala Ritual called “Holding on to the Best”</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-009-023"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1240" type="text">
+                    <ref>Toh 1240</ref>
+                    <biblScope>ff. 130r-154a</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-009-023-1">Durjayacandra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-009-023-2">lo tsa ba 'brog mi shakya ye shes</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-009-023-3">Gayādhara</author>
+                    <location work="UT23703" count-pages="49">
+                        <volume number="9" start-page="259" end-page="307"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7773" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-009-023-4" source="tengyur-data-1180-1304_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="attribution" xml:id="UT23703-009-023-5" source="tengyur-data-1180-1304_PH_new_v2.4.xml">
+                    <desc>Translator attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-009-023-6">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-009-023-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Chapter from the Great Cloud Sūtra on the Great Playful Festival of the Oceanic Gathering of the Bodhisattvas of the Ten Directions</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahāmeghasūtrād daśadigbodhisattva­samudrasaṃnipāta­mahotsavavikrīdita</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sprin chen po mdo las phyogs bcu'i byang sems rgya mtsho 'dus pa'i dga' ston chen po la rtse ba'i le'u/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryamahāmeghasūtrād daśadigbodhisattva­samudrasaṃnipāta­mahotsavavikrīḍita­nāmaparivarta</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa sprin chen po mdo las phyogs bcu'i byang chub sems dpa' rgya mtsho 'dus pa'i dga' ston chen po la rtse ba zhes bya ba'i le'u</title>
+                <title type="otherTitle" xml:lang="zh">大雲經</title>
+                <title type="otherTitle" xml:lang="zh">（大正藏：大方等無想經）</title>
+                <author role="translatorMain" xml:id="UT22084-064-003-6">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-064-003-7">Lowell Cook</author>
+                <sponsor xml:id="UT22084-064-003-1">anonymous</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-064-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh233" type="text">
+                    <ref>Toh 233</ref>
+                    <biblScope>vol.64, ff.215r-345v(pp.429-490)</biblScope>
+                    <location work="UT4CZ5369" count-pages="62">
+                        <volume number="64" start-page="429" end-page="490"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11879" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-064-003-2">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-064-003-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:53:06.78Z" type="translation-status" status="3" xml:id="UT22084-064-003-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:53:06.78Z" type="text-version" status="0.0.3" xml:id="UT22084-064-003-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:53:44.939Z" type="text-version" status="0.0.4" xml:id="UT22084-064-003-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary" xml:lang="zh">
+                <p tid="2">在《大雲經》中，佛陀度化眾生的事業與功德被比喻為雲雨一般籠罩一切。佛陀宣說此經時有許多龍族在場，而因為雨水與龍族之間的密切關係，自古以來這部經典在旱災時常用來作為祈請佛陀加持降雨之用。</p>
+            </div>
+            <div type="acknowledgment">
+                <p tid="1">The sponsor wishes to be anonymous (under dedication) - in memory of Lin, Zai-He and Lin Lee, Wan-Zhi</p>
+            </div>
+        </front>
+    </text>
+</TEI>

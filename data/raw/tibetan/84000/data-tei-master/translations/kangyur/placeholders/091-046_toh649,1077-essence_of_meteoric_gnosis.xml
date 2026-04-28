@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">ye shes skar mda'i snying po/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="en">Essence of Meteoric Gnosis</title>
+                <title type="otherTitle" xml:lang="en">The Essence of Meteoric Gnosis</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-091-046"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh649" type="text">
+                    <ref>Toh 649</ref>
+                    <biblScope>vol.91, ff.136r-136v(pp.271-272)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="91" start-page="271" end-page="272"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12383" work="W22084"/>
+                </bibl>
+                <bibl key="toh1077" type="text">
+                    <ref>Toh 1077</ref>
+                    <biblScope>vol.101, ff.240r-240r(pp.479-479)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="479" end-page="479"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12841" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-091-046-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-08T05:58:34.837Z" type="text-version" status="0.0.2" xml:id="UT22084-091-046-2">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T12:06:34.841Z" type="translation-status" status="3" xml:id="UT22084-091-046-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T12:06:34.841Z" type="text-version" status="0.0.3" xml:id="UT22084-091-046-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

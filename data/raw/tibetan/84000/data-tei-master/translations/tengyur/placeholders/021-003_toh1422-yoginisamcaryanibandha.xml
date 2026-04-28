@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྣལ་འབྱོར་མ་ཀུན་ཏུ་སྤྱོད་པའི་བཤད་སྦྱར།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rnal 'byor ma kun tu spyod pa'i bshad sbyar/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Yoginī­saṃcārya­nibandha</title>
+                <title xml:lang="en" type="mainTitle">Explanations Connected to the Manifesting of Yogiṇīs Tantra</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT23703-021-003"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1422" type="text">
+                    <ref>Toh 1422</ref>
+                    <biblScope>ff. 120r-139r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-021-003-1">Tathāgatarakṣita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-021-003-2">bod kyi lo tsa ba ba ri rin chen grags pa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-021-003-3">Tathāgatarakṣita</author>
+                    <location work="UT23703" count-pages="39">
+                        <volume number="21" start-page="239" end-page="277"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7968" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh375"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-021-003-4" source="tengyur-data-1401-1424_PH_new_v2.3.xml">
+                    <desc/>
+                </change>
+                <change who="#john" when="2021-12-06T14:59:03.515Z" type="translation-status" status="4" xml:id="UT23703-021-003-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#john" when="2021-12-06T14:59:03.515Z" type="text-version" status="0.0.1" xml:id="UT23703-021-003-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-021-003-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-03T09:37:07.569Z" type="translation-status" status="" xml:id="UT23703-021-003-8">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2023-08-03T09:37:07.569Z" type="text-version" status="0.0.3" xml:id="UT23703-021-003-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-04T10:08:19.358Z" type="translation-status" status="4" xml:id="UT23703-021-003-10">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-04T10:08:19.358Z" type="text-version" status="0.0.4" xml:id="UT23703-021-003-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

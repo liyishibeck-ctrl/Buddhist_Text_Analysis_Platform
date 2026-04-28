@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 33: The Ten Samādhis</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">ting 'dzin bcu'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">《華嚴經 》之《十定品》</title>
+                <author role="translatorMain" xml:id="UT22084-036-004-8">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-036-004-9">Ana Cristina Lopes</author>
+                <sponsor xml:id="UT22084-036-004-1">Thirty, Twenty</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.6 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-036-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-33" type="chapter">
+                    <ref>Toh 44-33</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="134">
+                        <volume number="36" start-page="579" end-page="712"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14701" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-03-16T16:38:22.354Z" type="text-version" status="0.0.1" xml:id="UT22084-036-004-2">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2021-05-11T05:14:51.961Z" type="text-version" status="0.0.2" xml:id="UT22084-036-004-3">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-06-29T15:51:10.399Z" type="text-version" status="0.0.3" xml:id="UT22084-036-004-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-036-004-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T14:04:49.524Z" type="translation-status" status="3" xml:id="UT22084-036-004-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T14:04:49.524Z" type="text-version" status="0.0.5" xml:id="UT22084-036-004-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T14:05:17.095Z" type="text-version" status="0.0.6" xml:id="UT22084-036-004-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

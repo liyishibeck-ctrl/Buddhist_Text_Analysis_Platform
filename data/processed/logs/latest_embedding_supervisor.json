@@ -1,0 +1,8 @@
+{
+  "status": "paused",
+  "updated_at": "2026-04-20T07:25:54.299281+00:00",
+  "reason": "max_waves_reached",
+  "state_file": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_supervisor_state_demo.json",
+  "waves_run": 1,
+  "last_state": {}
+}

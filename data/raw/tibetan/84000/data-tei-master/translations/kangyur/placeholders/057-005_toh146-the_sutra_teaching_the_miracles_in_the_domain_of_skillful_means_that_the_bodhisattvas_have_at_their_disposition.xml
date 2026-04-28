@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra Teaching the Miracles in the Domain of Skillful Means that the Bodhisattvas Have at their Disposition</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Bodhisattva­gocaropāyaviṣayavikurvita­nirdeśasūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">byang sems spyod yul thabs kyi yul la rnam 'phrul bstan pa'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryabodhisattva­gocaropāyaviṣayavikurvita­nirdeśanāmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Satyakaparivarta</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa bden pa po'i le'u zhes bya ba'i chos kyi rnam grangs</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">bden pa po'i le'u</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa byang chub sems dpa'i spyod yul thabs kyi yul la rnam par 'phrul pa bstan pa zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="zh">《說菩薩行境變現方便境經》（大正藏：《大薩遮尼乾子所說經》）</title>
+                <author role="translatorMain" xml:id="UT22084-057-005-1"/>
+                <author role="translatorEng" xml:id="UT22084-057-005-2">Ana Cristina Lopes</author>
+                <sponsor xml:id="UT22084-057-005-16">Kelvin Lee, Doris &amp; Gephel Lim, Chang CH</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.15 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-057-005"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh146" type="text">
+                    <ref>Toh 146</ref>
+                    <biblScope>vol.57, ff.82r-141v(pp.163-282)</biblScope>
+                    <location work="UT4CZ5369" count-pages="120">
+                        <volume number="57" start-page="163" end-page="282"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11735" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2020-09-01T09:43:18.064Z" type="text-version" status="0.0.1" xml:id="UT22084-057-005-3">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#john" when="2022-08-16T15:04:56.733Z" type="text-version" status="0.0.2" xml:id="UT22084-057-005-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-25T10:54:59.733Z" type="translation-status" status="3" xml:id="UT22084-057-005-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-25T10:54:59.733Z" type="text-version" status="0.0.3" xml:id="UT22084-057-005-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-25T10:57:20.609Z" type="text-version" status="0.0.4" xml:id="UT22084-057-005-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-057-005-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-12T13:08:53.401Z" type="translation-status" status="2.h" xml:id="UT22084-057-005-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-12T13:08:53.401Z" type="text-version" status="0.0.6" xml:id="UT22084-057-005-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#amy" when="2024-01-08T13:09:10.244Z" type="text-version" status="0.0.7" xml:id="UT22084-057-005-11">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2024-01-08T13:09:22.045Z" type="text-version" status="0.0.8" xml:id="UT22084-057-005-12">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2024-01-08T13:10:02.581Z" type="text-version" status="0.0.9" xml:id="UT22084-057-005-13">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-01-30T14:17:20.85Z" type="text-version" status="0.0.10" xml:id="UT22084-057-005-14">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-01-30T14:17:51.859Z" type="text-version" status="0.0.11" xml:id="UT22084-057-005-15">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-02-14T08:30:46.538Z" type="text-version" status="0.0.12" xml:id="UT22084-057-005-17">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-02-16T02:15:51.799Z" type="text-version" status="0.0.13" xml:id="UT22084-057-005-18">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-02-22T06:25:19.505Z" type="text-version" status="0.0.14" xml:id="UT22084-057-005-19">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-02-22T06:25:30.159Z" type="text-version" status="0.0.15" xml:id="UT22084-057-005-20">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

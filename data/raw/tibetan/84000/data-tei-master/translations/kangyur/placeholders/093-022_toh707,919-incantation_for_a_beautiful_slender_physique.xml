@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Dhāraṇī for a Beautiful Slender Physique</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ruciraṅgayaṣṭidhāraṇī</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">lus kyi dbyibs mdzes kyi gzungs/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Rucirāṅgayaṣṭidhāraṇī</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryarucirāṅgayaṣṭināmadhāraṇī</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryaruciraṅgayaṣṭināmadhāraṇī</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa lus kyi dbyibs mdzes zhes bya ba'i gzungs/</title>
+                <author role="translatorMain" xml:id="UT22084-093-022-6">Patrick Lambelet</author>
+                <author role="translatorEng" xml:id="UT22084-093-022-7">Patrick Lambelet</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-093-022"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh707" type="text">
+                    <ref>Toh 707</ref>
+                    <biblScope>vol.93, ff.175r-176v(pp.349-352)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="93" start-page="349" end-page="352"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12447" work="W22084"/>
+                </bibl>
+                <bibl key="toh919" type="text">
+                    <ref>Toh 919</ref>
+                    <biblScope>vol.100, ff.262v-264r(pp.524-527)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="101" start-page="522" end-page="525"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12681" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2021-08-26T13:24:40.16Z" type="translation-status" status="4" xml:id="UT22084-093-022-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-08-26T13:24:40.16Z" type="text-version" status="0.0.1" xml:id="UT22084-093-022-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-093-022-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-08T14:13:15.218Z" type="translation-status" status="3" xml:id="UT22084-093-022-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-08T14:13:15.218Z" type="text-version" status="0.0.3" xml:id="UT22084-093-022-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-08T14:13:49.821Z" type="text-version" status="0.0.4" xml:id="UT22084-093-022-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#sameer" when="2024-05-01T05:27:23.316Z" type="text-version" status="0.0.5" xml:id="UT22084-093-022-9">
+                    <desc>Updated vol. 100 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-05T11:26:44.513Z" type="translation-status" status="" xml:id="UT22084-093-022-10">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2024-11-05T11:26:44.513Z" type="text-version" status="0.0.6" xml:id="UT22084-093-022-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

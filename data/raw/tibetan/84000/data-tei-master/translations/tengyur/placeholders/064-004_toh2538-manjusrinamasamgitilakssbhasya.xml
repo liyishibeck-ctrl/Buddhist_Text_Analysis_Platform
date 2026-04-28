@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཇམ་དཔལ་མཚན་བརྗོད་ཀྱི་བཤད་འབུམ་བཞུགས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'jam dpal mtshan brjod kyi bshad 'bum bzhugs/</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Terms in “The Recitation of the Names of Mañjuśrī”</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-064-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2538" type="text">
+                    <ref>Toh 2538</ref>
+                    <biblScope>ff. 67v-118v</biblScope>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-064-004-1">Smṛtijñānakīrti</author>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-064-004-2">Thagana</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-064-004-3">Smṛtijñānakīrti</author>
+                    <location work="UT23703" count-pages="103">
+                        <volume number="64" start-page="134" end-page="236"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9137" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-064-004-4" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="attribution" xml:id="UT23703-064-004-5" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc>'Gos Lo-tsā-ba (BA, 160) attributes the authorship to Thagana and only the translation to Smṛtijñānakīrti.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="title" xml:id="UT23703-064-004-6" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc>The Tibetan _’bum_ is occasionally used as a translation of the Sanskrit word lakṣa (“hundred thousand”, “term”, “mark”), which would be in keeping with the
+            contents of the text.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="general" xml:id="UT23703-064-004-7" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc>The text is a commentary written by an Indian paṇḍita—likely composed in Tibetan—providing Tibetan and Sanskrit equivalents and glosses on the root
+            text.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-064-004-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#admin" when="2024-01-29T08:49:50.232Z" type="text-version" status="0.0.1" xml:id="UT23703-064-004-9">
+                    <desc>TEI migrated to 2.21.0 - author contested</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

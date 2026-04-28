@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">An Extensive Explanation of the Glorious Tantra “The Supreme”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śrī­paramādi­ṭīkā</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་མཆོག་དང་པོའི་རྒྱ་ཆེར་བཤད་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal mchog dang po'i rgya cher bshad pa/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-059-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2512" type="text">
+                    <ref>Toh 2512</ref>
+                    <biblScope>vol 59 ff. 49v-242r, vol 60 ff. 1v-352r, vol 61 ff. 1v-192v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-059-002-1">Ānandagarbha</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-059-002-2">Kamalagupta</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-059-002-3">zhu chen gyi lo tsa ba dge slong rin chen bzang po</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-059-002-4">Śraddhākaravarman</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-059-002-5">Mantrakalaśa</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-059-002-6">lha bla ma dge slong zhi ba 'od kyi zhal snga nas</editor>
+                    <location work="UT23703" count-pages="1471">
+                        <volume number="59" start-page="98" end-page="483"/>
+                        <volume number="60" start-page="2" end-page="703"/>
+                        <volume number="61" start-page="2" end-page="384"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9104" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh487"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-059-002-7" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-059-002-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

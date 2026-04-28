@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī for Intimidating Demons</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">bdud skrag par byed pa'i gzungs/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa bdud thams cad skrag par byed pa zhes bya ba/</title>
+                <author role="translatorMain" xml:id="UT22084-096-046-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-096-046-5">Catherine Dalton</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-096-046"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh797" type="text">
+                    <ref>Toh 797</ref>
+                    <biblScope>vol.96, ff.116r-116v(pp.231-232)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="96" start-page="231" end-page="232"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12543" work="W22084"/>
+                </bibl>
+                <bibl key="toh1053" type="text">
+                    <ref>Toh 1053</ref>
+                    <biblScope>vol.101, ff.189r-189r(pp.377-377)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="377" end-page="377"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12816" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-096-046-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:27:09.437Z" type="translation-status" status="3" xml:id="UT22084-096-046-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:27:09.437Z" type="text-version" status="0.0.1" xml:id="UT22084-096-046-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:27:40.91Z" type="text-version" status="0.0.1" xml:id="UT22084-096-046-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:11:22.754Z" type="text-version" status="0.0.1" xml:id="UT22084-096-046-7">
+                    <desc>script-increment-version-published</desc>
+                </change>
+                <change who="#sameer" when="2024-07-05T18:54:57.464Z" type="text-version" status="0.0.2" xml:id="UT22084-096-046-8">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

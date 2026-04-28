@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྡོ་རྗེ་རྣམ་པར་འཇོམས་པའི་ལས་སྣ་ཚོགས་སྒྲུབ་པའི་ཆོ་ག་བཞུགས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rdo rje rnam par 'joms pa'i las sna tshogs sgrub pa'i cho ga bzhugs/</title>
+                <title xml:lang="en" type="mainTitle">A Ritual for the Sādhana of the Various Activities of Vajravidāraṇā</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-235"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2924" type="text">
+                    <ref>Toh 2924</ref>
+                    <biblScope>ff. 323v-325r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-073-235-1">Jñānaśrī</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-073-235-2">Jñānaśrī</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-073-235-3">lo tsa ba rab zhi</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="73" start-page="646" end-page="649"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9542" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-235-4" source="tengyur-data-2906-2975_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="attribution" xml:id="UT23703-073-235-5" source="tengyur-data-2906-2975_PH_new_v2.4.xml">
+                    <desc>Author attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-073-235-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

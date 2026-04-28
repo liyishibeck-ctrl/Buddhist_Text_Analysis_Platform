@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">An Torma Cake Ritual for Offerings to Elemental Spirits according to “The Recitation of the Names of Mañjuśrī”</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mtshan yang dag par brjod pa'i 'byung po'i gtor ma/</title>
+                <title type="mainTitle" xml:lang="bo">མཚན་ཡང་དག་པར་བརྗོད་པའི་འབྱུང་པོའི་གཏོར་མ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-065-012"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2551" type="text">
+                    <ref>Toh 2551</ref>
+                    <biblScope>ff. 19v-19v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-065-012-1">Mañjuśrīmitra</author>
+                    <location work="UT23703" count-pages="1">
+                        <volume number="65" start-page="38" end-page="38"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9154" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-065-012-2" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="title" xml:id="UT23703-065-012-3" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc>No title is given at the start of the text. The title is taken from the colophon.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-065-012-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra Examining the Virtuous and Non-Virtuous Effects of the Collection of Five Downfalls</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pañcāpattinikāya­śubhāśubhaphalaparīkṣā­sūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">ltung ba sde lnga'i dge ba dang mi dge ba'i 'bras bu brtag pa'i mdo/</title>
+                <author role="translatorMain" xml:id="UT22084-072-004-6">Patrick Lambelet</author>
+                <author role="translatorEng" xml:id="UT22084-072-004-7">Patrick Lambelet</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.5 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-072-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh304" type="text">
+                    <ref>Toh 304</ref>
+                    <biblScope>vol.72, ff.128r-130v(pp.255-260)</biblScope>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="72" start-page="255" end-page="260"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11973" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2021-08-26T13:20:46.77Z" type="translation-status" status="4" xml:id="UT22084-072-004-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-08-26T13:20:46.77Z" type="text-version" status="0.0.1" xml:id="UT22084-072-004-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-072-004-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-09T10:13:05.957Z" type="translation-status" status="3" xml:id="UT22084-072-004-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-09T10:13:05.957Z" type="text-version" status="0.0.3" xml:id="UT22084-072-004-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-09T10:13:42.441Z" type="text-version" status="0.0.4" xml:id="UT22084-072-004-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-05T11:03:37.599Z" type="translation-status" status="" xml:id="UT22084-072-004-9">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2024-11-05T11:03:37.599Z" type="text-version" status="0.0.5" xml:id="UT22084-072-004-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

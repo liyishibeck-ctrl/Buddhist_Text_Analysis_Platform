@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དེ་བཞིན་གཤེགས་པའི་སྙིང་པོ་ཡི་གེ་བརྒྱ་པའི་བསྲུང་བ་དང་སྡིག་པ་བཤགས་པའི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">de bzhin gshegs pa'i snying po yi ge brgya pa'i bsrung ba dang sdig pa bshags pa'i cho ga</title>
+                <title xml:lang="en" type="mainTitle">A Ritual for Confession of Transgressions and Protection in One Hundred Syllables, the Essence of a Tathāgata</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-111-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3941" type="text">
+                    <ref>Toh 3941</ref>
+                    <biblScope>ff. 194v-195v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-111-003-1">Śāntideva</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="111" start-page="388" end-page="390"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10610" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-111-003-2" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-111-003-3">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-111-003-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་རྡོ་རྗེ་རྣམ་པར་འཇོམ་པའི་གཟུངས་རྣམ་པར་བཤད་པའི་རྒྱ་ཆེར་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa rdo rje rnam par 'jom pa'i gzungs rnam par bshad pa'i rgya cher 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­vajravidhāraṇā­nāma­dhāraṇī­vyākhyāna­bṛhaṭṭīkā</title>
+                <title xml:lang="en" type="mainTitle">An Extensive Commentary on the Explanation of the Dhāraṇī of Vajravidāraṇā</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-071-013"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2682" type="text">
+                    <ref>Toh 2682</ref>
+                    <biblScope>ff. 193r-211v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-071-013-1">Vimalamitra the Elder</author>
+                    <location work="UT23703" count-pages="38">
+                        <volume number="71" start-page="385" end-page="422"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9292" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh750"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-071-013-2" source="tengyur-data-2670-2696_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#sameer" when="2022-05-03T08:28:05.853Z" type="text-version" status="0.0.1" xml:id="UT23703-071-013-3">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-071-013-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 4: Main Catalogue and Index</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">bzhi pa/ bzhugs byang dkar chag dngos legs par bshad pa'i yal 'dab/</title>
+                <title type="otherTitle" xml:lang="zh">德格版甘珠爾經文目錄：第四章 目錄與索引</title>
+                <sponsor xml:id="UT22084-103-005-1">Chan Wing Fai, Lam Wai Ling, Chan Oi Yi, Chan Tung Mei, Chan Yu Ka, Chan Sui Li, Chan Ya Ho, Chan Yu Lin, Zhong Sheng jian, Lin Miao Jun.</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-103-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4568-4" type="chapter">
+                    <ref>Toh 4568-4</ref>
+                    <biblScope>v. 103, ff.112r-157r(pp.225-313)</biblScope>
+                    <location work="UT4CZ5369" count-pages="89">
+                        <volume number="103" start-page="225" end-page="313"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC12882" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12886" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T16:48:56.09Z" type="text-version" status="0.0.1" xml:id="UT22084-103-005-2">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#mike" when="2021-07-05T16:28:08.55Z" type="text-version" status="0.0.2" xml:id="UT22084-103-005-3">
+                    <desc>summary added</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-12-24T05:50:54.238Z" type="text-version" status="0.0.3" xml:id="UT22084-103-005-4">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T07:50:41.78Z" type="text-version" status="0.0.4" xml:id="UT22084-103-005-5">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-11-04T13:38:38.77Z" type="text-version" status="0.0.5" xml:id="UT22084-103-005-6">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT22084-103-005-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <head type="summary" tid="1">Summary</head>
+                <milestone unit="chunk" xml:id="UT22084-103-002-1"/>
+                <p tid="2">Toh 4568 ch. 1-5:</p>
+                <p tid="3"> More than a mere table of contents, the Degé Kangyur Catalogue is a detailed
+                    introduction to the Kangyur as a whole and this particular edition itself. It
+                    constitutes the entirety of the 103rd and final volume of the Kangyur and was
+                    written by the 8th Tai Situ, Chökyi Jungné (1700-1774 CE), who presided over the
+                    publication of the Degé Kangyur as its chief editor. The first three chapters of
+                    the catalog give a detailed history of Indian Buddhism and its arrival in Tibet
+                    while the final two give an account of all the texts included in the canon and
+                    an explanation of the merits of producing a Kangyur edition.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

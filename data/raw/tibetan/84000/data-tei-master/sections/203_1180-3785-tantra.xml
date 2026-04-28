@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/current/section.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc type="section">
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rgyud/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Tantra</title>
+                <title type="mainTitle" xml:lang="en">Tantra</title>
+            <title type="articleTitle" xml:lang="en">Tantra (Tengyur Section)</title>
+                </titleStmt>
+            <editionStmt>
+                <edition>v 0.1.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Published in 84000 Reading Room</p>
+                <availability status="1"/>
+                <idno xml:id="O1JC76301JC7704"/>
+                <idno type="eft-kb-id">tantra-tengyur</idno>
+                <date>2010</date>
+            </publicationStmt>
+            <sourceDesc work="W23703" sort-index="3">
+                <p>Derived from previous outline file from TBRC</p>
+                <bibl>
+                    <idno parent-id="O1JC7630"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.1.1" xml:id="O1JC76301JC7704-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <p tid="1">Commentaries, instructions, and liturgical works on the tantras (Toh 1180-3785)</p>
+            </div>
+        </front>
+        <body>
+            <div type="article">
+                <head type="article" tid="6">Tantra</head>
+                <div type="section" xml:id="O1JC76301JC7704-article-1">
+                    <milestone unit="chunk" xml:id="O1JC76301JC7704-1"/>
+                    <p tid="2">This is by far the largest division of the Tengyur, containing no less than 2,626 works.</p>
+                    <milestone unit="chunk" xml:id="O1JC76301JC7704-2"/>
+                    <p tid="3">Traditionally it is presented as one undivided collection. Here, however, it has been subdivided—not only
+                        for easy reference, but also for technical reasons, to enable slower computer systems to load the
+                        extensive title data rapidly and without timing out.</p>
+                    <milestone unit="chunk" xml:id="O1JC76301JC7704-3"/>
+                    <p tid="4">The subdivisions follow the structure set out by Zhuchen Tsültrim Rinchen, the 18th century editor of the
+                        Degé Tengyur, in his catalog to the collection (Toh 4569). He classifies the divisions and their works
+                        from “higher” to “lower.” The initial division is into the four principal classes of tantra, together with
+                        a fifth section for works he classifies as common to all four, or with no definite affinity to a single
+                        class. The first (and very large) Unexcelled Yoga tantra class is further subdivided into four main
+                        groups, with further subdivision in some of them, and the fifth section is subdivided into the collections
+                        of which it is largely composed.</p>
+                    <milestone unit="chunk" xml:id="O1JC76301JC7704-4"/>
+                    <p tid="5">The Degé Tengyur's system of classifying the tantras is by no means the only possible one, and Tsültrim
+                        Rinchen frequently notes diverging opinions put forward by other scholars and editors. There are even
+                        differences between his classification and that of Situ Paṇchen Chökyi Jungné in the Degé Kangyur. Many of
+                        Tsültrim Rinchen’s choices were, he says, dictated by tradition and by past precedent, notably that of
+                        Butön Rinchen Drup (<foreign xml:lang="Bo-Ltn">bu ston rin chen grub</foreign>, 1290-1364), although the
+                        latter’s system is far from being fully reproduced in the Degé Tengyur.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="listBibl">
+                <head type="listBibl" tid="7">Bibliography</head>
+                <div type="section" xml:id="O1JC76301JC7704-listBibl-1">
+                    <head type="section" tid="8">Bibliography Section Heading</head>
+                    <bibl rend="default-text" xml:id="O1JC76301JC7704-5">This is a sample bibliographic reference with a <ref target="https://read.84000.co/translation/toh46.html">link example</ref>.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list type="glossary"/>
+            </div>
+        </back>
+    </text>
+</TEI>

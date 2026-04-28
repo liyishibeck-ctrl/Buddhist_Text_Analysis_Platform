@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Hundred Exemplary Tales, Beginning with That of Pūrṇa</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pūrṇapramukhāvadānaśataka</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gang po la sogs pa'i rtogs pa brjod pa brgya pa/</title>
+                <title type="otherTitle" xml:lang="zh">《富樓那等一百譬喻經》</title>
+                <author role="translatorMain" xml:id="UT22084-075-001-8">84000 Editors</author>
+                <author role="translatorEng" xml:id="UT22084-075-001-9">David Fiordalis</author>
+                <sponsor xml:id="UT22084-075-001-1">Sun Ping, Tian Xingwen and Sun Fanglin</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.7 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-075-001"/>
+    <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh343" type="text">
+                    <ref>Toh 343</ref>
+                    <biblScope>vol.75, ff.1r-286v(pp.1-572)</biblScope>
+                    <location work="UT4CZ5369" count-pages="571">
+                        <volume number="75" start-page="2" end-page="572"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12028" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2020-08-19T10:43:32.463Z" type="text-version" status="0.0.2" xml:id="UT22084-075-001-2">
+                    <desc>0.0.2</desc>
+                </change>
+                <change who="#admin" when="2020-08-19T10:43:32.463Z" type="publication-date" xml:id="UT22084-075-001-3">
+                    <desc/>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T07:16:48.587Z" type="text-version" status="0.0.3" xml:id="UT22084-075-001-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-075-001-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-26T10:29:53.165Z" type="translation-status" status="3" xml:id="UT22084-075-001-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-26T10:29:53.165Z" type="text-version" status="0.0.5" xml:id="UT22084-075-001-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-26T10:30:27.816Z" type="text-version" status="0.0.6" xml:id="UT22084-075-001-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#celso" when="2024-05-15T17:29:54.319Z" type="text-version" status="0.0.7" xml:id="UT22084-075-001-11">
+                    <desc>Updated title from "account of noble deeds" to "exemplary tale"</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="acknowledgment"/>
+        </front>
+    </text>
+</TEI>

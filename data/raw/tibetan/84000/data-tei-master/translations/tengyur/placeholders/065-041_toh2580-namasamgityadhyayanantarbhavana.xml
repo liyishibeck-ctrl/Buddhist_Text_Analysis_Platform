@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མཚན་ཡང་དག་པར་བརྗོད་པའི་བཀླག་པའི་བསྒོམ་ཁོག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mtshan yang dag par brjod pa'i bklag pa'i bsgom khog</title>
+                <title xml:lang="en" type="mainTitle">Meditation Instructions for Reading “The Recitation of the Names of Mañjuśrī”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-065-041"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2580" type="text">
+                    <ref>Toh 2580</ref>
+                    <biblScope>ff. 70v-76v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-065-041-1">Agrabodhi</author>
+                    <location work="UT23703" count-pages="13">
+                        <volume number="65" start-page="140" end-page="152"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9183" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-065-041-2" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="attribution" xml:id="UT23703-065-041-3" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc>Ducher (2017) gives the author’s name as Agrabodhi as attested in extant Sanskrit manuscripts.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="general" xml:id="UT23703-065-041-4" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc>One of the five texts in the “Endowed with Secrecy” (gsang ldan) tradition of yoga-tantra commentaries on the Mañjuśrī-nāma-saṃgīti.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-065-041-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

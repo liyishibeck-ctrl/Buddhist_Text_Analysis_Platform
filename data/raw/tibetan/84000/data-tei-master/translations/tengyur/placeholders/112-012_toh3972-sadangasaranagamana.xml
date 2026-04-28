@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སྐྱབས་འགྲོ་ཡན་ལག་དྲུག་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">skyabs 'gro yan lag drug pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ṣaḍaṅga­śaraṇa­[gamana]</title>
+                <title xml:lang="en" type="mainTitle">A Six-branched [Practice of] Going for Refuge</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-112-012"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3972" type="text">
+                    <ref>Toh 3972</ref>
+                    <biblScope>ff. 253v-254r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-112-012-1">Vimalamitra the Elder</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="112" start-page="506" end-page="507"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10642" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-112-012-2" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#sameer" when="2022-05-03T08:28:05.853Z" type="text-version" status="0.0.1" xml:id="UT23703-112-012-3">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-112-012-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

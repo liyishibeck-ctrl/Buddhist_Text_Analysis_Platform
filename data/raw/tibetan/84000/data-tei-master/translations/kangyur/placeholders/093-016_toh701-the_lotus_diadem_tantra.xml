@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Lotus Diadem Tantra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Padmamukuṭatantra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">pad+ma cod pan rgyud/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Padmamukuṭatantranāma</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">pad+ma cod pan zhes bya ba'i rgyud/</title>
+                <author role="translatorMain" xml:id="UT22084-093-016-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-093-016-5">Catherine Dalton</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-093-016"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh701" type="text">
+                    <ref>Toh 701</ref>
+                    <biblScope>vol.93, ff.157v-164v(pp.314-328)</biblScope>
+                    <location work="UT4CZ5369" count-pages="15">
+                        <volume number="93" start-page="314" end-page="328"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12441" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-093-016-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T14:21:04.662Z" type="translation-status" status="3" xml:id="UT22084-093-016-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T14:21:04.662Z" type="text-version" status="0.0.1" xml:id="UT22084-093-016-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T14:21:35.634Z" type="text-version" status="0.0.1" xml:id="UT22084-093-016-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:08:28.13Z" type="text-version" status="0.0.1" xml:id="UT22084-093-016-7">
+                    <desc>script-increment-version-published</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-24T13:55:05.811Z" type="translation-status" status="2.h" xml:id="UT22084-093-016-8">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-24T13:55:05.811Z" type="text-version" status="0.0.2" xml:id="UT22084-093-016-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྡོ་རྗེའི་ཚིག་རྣམ་པར་དབྱེ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rdo rje'i tshig rnam par dbye ba/</title>
+                <title xml:lang="en" type="mainTitle">Distinguishing the Vajra Words</title>
+                <title xml:lang="bo" type="longTitle">རྡོ་རྗེའི་ཚིག་རྣམ་པར་དབྱེ་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">rdo rje'i tshig rnam par dbye ba zhes bya ba/</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-047-065"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1987" type="text">
+                    <ref>Toh 1987</ref>
+                    <biblScope>ff. 183r-184v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-047-065-1">Amoghavajra (II)</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="47" start-page="363" end-page="366"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8561" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-047-065-2" source="tengyur-data-1918-2089_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-047-065-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རང་བཞིན་གྲུབ་པ་མེད་པའི་གཞིའི་མན་ངག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rang bzhin grub pa med pa'i gzhi'i man ngag</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Svabhāvā­siddhy­upadeśa</title>
+                <title xml:lang="en" type="mainTitle">Personal Instructions on the Non-Establishment of an Own Nature</title>
+                <title xml:lang="bo" type="longTitle">རང་བཞིན་གྲུབ་པ་མེད་པའི་གཞིའི་མན་ངག་ཅེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">rang bzhin grub pa med pa'i gzhi'i man ngag ces bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Svabhāvā­siddhy­upadeśa­nāma</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-042"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2382" type="text">
+                    <ref>Toh 2382</ref>
+                    <biblScope>ff. 14r-14v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-053-042-1">Nāgārjuna</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="53" start-page="27" end-page="28"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8966" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-042-2" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.1" xml:id="UT23703-053-042-3">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-053-042-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

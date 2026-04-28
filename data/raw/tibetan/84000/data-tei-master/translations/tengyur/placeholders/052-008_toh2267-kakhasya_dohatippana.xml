@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Commentary to “The Abecedarian Dohā”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Kakhasya doha­ṭippaṇī</title>
+                <title type="mainTitle" xml:lang="bo">ཀ་ཁའི་དོ་ཧའི་བཤད་པ་བྲིས་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">ka kha'i do ha'i bshad pa bris pa/</title>
+                <author role="translatorMain" xml:id="UT23703-052-008-1">Subhāṣita Translation Group</author>
+                <author role="translatorEng" xml:id="UT23703-052-008-2">Benjamin Ewing</author>
+                <author role="translatorEng" xml:id="UT23703-052-008-3">Lara Braitstein</author>
+                <author role="translatorEng" xml:id="UT23703-052-008-4">Lowell Cook</author>
+                <consultant role="projectManager" xml:id="UT23703-052-008-5">Benjamin Ewing</consultant>
+                <author role="translatorEng" xml:id="UT23703-052-008-6">Julia Stenzel</author>
+                <editor role="associateEditor" xml:id="UT23703-052-008-29">Jeremy Manheim</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.13 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.e"/>
+                <idno xml:id="UT23703-052-008"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2267" type="text">
+                    <ref>Toh 2267</ref>
+                    <biblScope>ff. 57v-65v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-008-7">Saraha (II)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-052-008-8">Vairocanavajra</author>
+                    <location work="UT23703" count-pages="17">
+                        <volume number="52" start-page="114" end-page="130"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8849" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh2266"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-10-02T13:59:38.99Z" type="translation-status" status="4" xml:id="UT23703-052-008-9">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-10-02T13:59:38.99Z" type="text-version" status="0.0.1" xml:id="UT23703-052-008-10">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:14:44.116Z" type="translation-status" status="3" xml:id="UT23703-052-008-11">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:14:44.116Z" type="text-version" status="0.0.2" xml:id="UT23703-052-008-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-01-11T10:11:57.21Z" type="text-version" status="0.0.3" xml:id="UT23703-052-008-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-01-11T10:12:22.383Z" type="text-version" status="0.0.4" xml:id="UT23703-052-008-14">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-29T07:02:44.461Z" type="translation-status" status="2.h" xml:id="UT23703-052-008-15">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-29T07:02:44.461Z" type="text-version" status="0.0.5" xml:id="UT23703-052-008-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-29T07:15:10.344Z" type="text-version" status="0.0.6" xml:id="UT23703-052-008-17">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-29T07:16:48.713Z" type="text-version" status="0.0.7" xml:id="UT23703-052-008-18">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-008-19" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.9" xml:id="UT23703-052-008-20">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-18T13:33:21.197Z" type="translation-status" status="2.g" xml:id="UT23703-052-008-21">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-18T13:33:21.197Z" type="text-version" status="0.0.10" xml:id="UT23703-052-008-22">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-18T13:34:01.764Z" type="text-version" status="0.0.11" xml:id="UT23703-052-008-30">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-02T15:03:17.752Z" type="translation-status" status="2.f" xml:id="UT23703-052-008-31">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-02T15:03:17.752Z" type="text-version" status="0.0.12" xml:id="UT23703-052-008-32">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-06T15:22:52.533Z" type="translation-status" status="2.e" xml:id="UT23703-052-008-33">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-06T15:22:52.533Z" type="text-version" status="0.0.13" xml:id="UT23703-052-008-34">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">An Explanation of the Noble Tantra “The Blue-Clad Vajrapāṇi”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ārya­nīlāmbaradhara­vajrapāṇi­nāma­tantra­ṭīkā</title>
+                <title type="mainTitle" xml:lang="bo">འཕགས་པ་ལག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་ཞེས་བྱ་བའི་རྒྱུད་ཀྱི་རྣམ་པར་བཤད་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'phags pa lag na rdo rje gos sngon po can zhes bya ba'i rgyud kyi rnam par bshad pa/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-050-024"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2200" type="text">
+                    <ref>Toh 2200</ref>
+                    <biblScope>ff. 88r-111r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-050-024-1">Nāgabodhi</author>
+                    <location work="UT23703" count-pages="47">
+                        <volume number="50" start-page="175" end-page="221"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8779" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh454"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-050-024-2" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-050-024-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

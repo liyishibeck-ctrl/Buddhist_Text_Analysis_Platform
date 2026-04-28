@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་གསང་བ་འདུས་པའི་རྒྱུད་ཀྱི་དཀའ་འགྲེལ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal gsang ba 'dus pa'i rgyud kyi dka' 'grel/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Śrī­guhyasamāja­tantra­pañjikā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Difficult Points of the Glorious Guhyasamāja Tantra</title>
+                <title xml:lang="bo" type="longTitle">དཔལ་གསང་བ་འདུས་པའི་རྒྱུད་ཀྱི་དཀའ་འགྲེལ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">dpal gsang ba 'dus pa'i rgyud kyi dka' 'grel zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Śrī­guhyasamāja­tantra­pañjikā­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-039-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1847" type="text">
+                    <ref>Toh 1847</ref>
+                    <biblScope>ff. 145r-318r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-039-002-1">Jinadatta (I)</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-039-002-2">bod kyi lo tsa ba dge slong shes rab ye shes</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-039-002-3">Jetahandu Śāntibhadra</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="2" xml:id="UT23703-039-002-4">Sunāyaśrīmitra</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="1" xml:id="UT23703-039-002-5">Samādhivajra</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="2" xml:id="UT23703-039-002-6">lo tsA ba chen po dar ma grags</editor>
+                    <location work="UT23703" count-pages="347">
+                        <volume number="39" start-page="289" end-page="635"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8412" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh442"/>
+                <link type="isCommentaryOf" target="toh443"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-039-002-7" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-039-002-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

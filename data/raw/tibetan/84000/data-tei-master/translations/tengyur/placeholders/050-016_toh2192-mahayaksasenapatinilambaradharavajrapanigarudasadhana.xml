@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Sādhana of the Great Lord of Yakṣas, the Blue-Clad Vajrapāṇi and the Garuda</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahā­yakṣa­senāpati­nīlāmbara­dhara­vajrapāṇi­garuḍa­sādhana</title>
+                <title type="mainTitle" xml:lang="bo">གནོད་སྦྱིན་གྱི་སྡེ་དཔོན་ཆེན་པོ་ལག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་དང་བྱ་ཁྱུང་གི་སྒྲུབ་ཐབས།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gnod sbyin gyi sde dpon chen po lag na rdo rje gos sngon po can dang bya khyung gi sgrub thabs/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-050-016"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2192" type="text">
+                    <ref>Toh 2192</ref>
+                    <biblScope>ff. 74r-75v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-050-016-1">Karmavajra</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-050-016-2">Bhadracandra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-050-016-3">lo tsa ba glan chung dar ma tshul khrims</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="50" start-page="147" end-page="150"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8771" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-050-016-4" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-050-016-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

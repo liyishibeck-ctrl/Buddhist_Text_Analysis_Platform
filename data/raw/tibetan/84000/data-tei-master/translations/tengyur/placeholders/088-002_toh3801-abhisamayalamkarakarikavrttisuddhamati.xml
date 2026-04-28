@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མངོན་པར་རྟོགས་པའི་རྒྱན་གྱི་ཚིག་ལེའུར་བྱས་པའི་འགྲེལ་པ་དག་ལྡན་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mngon par rtogs pa'i rgyan gyi tshig le'ur byas pa'i 'grel pa dag ldan zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Abhisamayālaṃkāra­kārikā­vṛtti śuddhamatī­nāma</title>
+                <title xml:lang="en" type="mainTitle">A Running Commentary on “The Ornament for Clear Realizations” called “Pristine Intelligence”</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-088-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3801" type="text">
+                    <ref>Toh 3801</ref>
+                    <biblScope>ff. 76r-204r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-088-002-1">Ratnākaraśānti</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-088-002-2">Subhūtiśrīśānti</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-088-002-3">dge slong dge ba'i blo gros</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-088-002-4">lo tsa ba dge slong shakya blo gros</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-088-002-5">Śāntabhadrapāda</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-088-002-6">zhus chen gyi lo tsA ba 'gos lhas btsas</editor>
+                    <location work="UT23703" count-pages="258">
+                        <volume number="88" start-page="150" end-page="407"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10443" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3786"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:12:33.078Z" type="import" xml:id="UT23703-088-002-7" source="tengyur-data-3786-3823_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-088-002-8">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-088-002-9">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དྲི་མ་མེད་པའི་དྲིས་ལན་རིན་པོ་ཆེའི་ཕྲེང་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dri ma med pa'i dris lan rin po che'i phreng ba zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vimala­praśnottara­ratnamālikā</title>
+                <title xml:lang="en" type="mainTitle">[A Treatise of] Stainless Questions and Answers called “The Precious Garland”</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Vimalapraśnottararatnamālā</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-203-022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4333" type="text">
+                    <ref>Toh 4333</ref>
+                    <biblScope>ff. 126r-127v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-203-022-1">Amoghodaya</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-203-022-2">Kamalagupta</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-203-022-3">zhu chen gyi lo tsa pa dge slong rin chen bzang po</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="203" start-page="251" end-page="254"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11125" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11132" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="import" xml:id="UT23703-203-022-4" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="general" xml:id="UT23703-203-022-5" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc>This is a short text in twenty-seven verses containing sixty-four questions and answers.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-203-022-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

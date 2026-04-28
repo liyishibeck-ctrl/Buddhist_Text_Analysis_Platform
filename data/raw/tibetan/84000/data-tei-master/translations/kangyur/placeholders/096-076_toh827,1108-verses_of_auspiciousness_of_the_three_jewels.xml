@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">Verses of Auspiciousness of the Three Jewels</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ratnatraya­svasti­gāthā</title>
+                <title xml:lang="bo" type="mainTitle">དཀོན་མཆོག་གསུམ་གྱི་བཀྲ་ཤིས་ཀྱི་ཚིགས་སུ་བཅད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dkon mchog gsum gyi bkra shis kyi tshigs su bcad pa/</title>
+                <title xml:lang="en" type="otherTitle">Verses of Auspiciousness of the Three Jewels Spoken by the Blessed One to the Householder Surata</title>
+                <title xml:lang="Sa-Ltn" type="otherTitle">Ratnatri­svasti­gāthā</title>
+                <title xml:lang="Sa-Ltn" type="otherTitle">Triratna­svasti­gāthā</title>
+                <author role="translatorMain" xml:id="UT22084-096-076-17">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-096-076-18">Lowell Cook</author>
+                <editor role="projectEditor" xml:id="UT22084-096-076-27">Torsten Gerloff</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.11 <date>2025</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.f"/>
+                <idno xml:id="UT22084-096-076"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh827" type="text">
+                    <ref>Toh 827</ref>
+                    <biblScope>vol.96, ff.263v-264r(pp.526-527)</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-076-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT22084-096-076-2">Jinamitra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT22084-096-076-3">zhu chen gyi lo tsA ba ban+de ye shes sde</author>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="96" start-page="526" end-page="527"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12573" work="W22084"/>
+                </bibl>
+                <bibl key="toh1108" type="text">
+                    <ref>Toh 1108</ref>
+                    <biblScope>vol.101, ff.278r-278r(pp.555-555)</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-076-4">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT22084-096-076-5">Jinamitra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT22084-096-076-6">zhu chen gyi lo tsA ba ban+de ye shes sde</author>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="555" end-page="555"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20569" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12872" work="W22084"/>
+                </bibl>
+                <bibl key="toh4413" type="text">
+                    <ref>Toh 4413</ref>
+                    <biblScope>ff. 349v-349v</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-076-7">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT22084-096-076-8">Jinamitra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT22084-096-076-9">zhu chen gyi lo tsA ba ban+de ye shes sde</author>
+                    <location work="UT23703" count-pages="1">
+                        <volume number="207" start-page="698" end-page="698"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21687" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112191JC21756" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="import" xml:id="UT22084-096-076-10" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT22084-096-076-11">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#andre" when="2022-04-18T09:53:16.819Z" type="text-version" status="0.0.2" xml:id="UT22084-096-076-12">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-06-07T06:48:13.515Z" type="text-version" status="0.0.3" xml:id="UT22084-096-076-13">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-096-076-14">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:38:55.101Z" type="translation-status" status="3" xml:id="UT22084-096-076-15">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:38:55.101Z" type="text-version" status="0.0.5" xml:id="UT22084-096-076-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:39:31.65Z" type="text-version" status="0.0.6" xml:id="UT22084-096-076-19">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#sameer" when="2024-07-08T07:34:13.069Z" type="text-version" status="0.0.7" xml:id="UT22084-096-076-20">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-16T16:14:45.5Z" type="translation-status" status="2.h" xml:id="UT22084-096-076-21">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-16T16:14:45.5Z" type="text-version" status="0.0.8" xml:id="UT22084-096-076-22">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T13:58:36.384Z" type="translation-status" status="2.g" xml:id="UT22084-096-076-23">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T13:58:36.384Z" type="text-version" status="0.0.9" xml:id="UT22084-096-076-24">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T13:59:30.604Z" type="text-version" status="0.0.10" xml:id="UT22084-096-076-28">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-24T13:04:12.533Z" type="translation-status" status="2.f" xml:id="UT22084-096-076-29">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-24T13:04:12.533Z" type="text-version" status="0.0.11" xml:id="UT22084-096-076-30">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

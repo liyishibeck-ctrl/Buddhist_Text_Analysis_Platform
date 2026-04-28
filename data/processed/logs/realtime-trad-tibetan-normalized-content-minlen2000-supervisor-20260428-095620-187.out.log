@@ -1,0 +1,10 @@
+=== supervisor_run=1 ===
+command=C:\Python314\python.exe -u D:\Buddhist_Text_Analysis_Platform\scripts\analysis\run_realtime_segment_embeddings.py --content-field normalized_content --concurrency 1 --max-segments-per-request 64 --max-segments 64 --tradition-id trad-tibetan --min-text-length 2000
+total_missing=12
+processed=0
+failed=12
+tokens_used=0
+elapsed_time=191.01
+segments_per_min=0.00
+tokens_per_min=0.00
+supervisor_totals processed=0 failed=12 runs=1

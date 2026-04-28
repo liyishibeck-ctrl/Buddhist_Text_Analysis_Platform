@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དེ་བཞིན་ཉིད་ཀྱི་ལྟ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">de bzhin nyid kyi lta ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Tathatā­dṛṣṭi</title>
+                <title xml:lang="en" type="mainTitle">The View of Suchness</title>
+                <title xml:lang="bo" type="longTitle">དེ་བཞིན་ཉིད་ཀྱི་ལྟ་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">de bzhin nyid kyi lta ba zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Tathatā­dṛṣṭi­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-098"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2438" type="text">
+                    <ref>Toh 2438</ref>
+                    <biblScope>ff. 49v-50r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-053-098-1">Dārika</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="53" start-page="98" end-page="99"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9022" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-098-2" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-053-098-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མི་གཡོ་བའི་མངོན་པར་རྟོགས་པ་རབ་ཏུ་དགའ་བར་མངོན་པར་བརྗོད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mi g.yo ba'i mngon par rtogs pa rab tu dga' bar mngon par brjod pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Acalābhisamaya­suratābhidhāna</title>
+                <title xml:lang="en" type="mainTitle">A Joyous Expression of the Clear Realization of Acala</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-028-101"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1783" type="text">
+                    <ref>Toh 1783</ref>
+                    <biblScope>ff. 285v-291r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-028-101-1">Vanaratnapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-028-101-2">dge slong gzhon nu dpal</author>
+                    <location work="UT23703" count-pages="14">
+                        <volume number="28" start-page="570" end-page="583"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21620" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8336" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="import" xml:id="UT23703-028-101-3" source="tengyur-data-1683-1783_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-028-101-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

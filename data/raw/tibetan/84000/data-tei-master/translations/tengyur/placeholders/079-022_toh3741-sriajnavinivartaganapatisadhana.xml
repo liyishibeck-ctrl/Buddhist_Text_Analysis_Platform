@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་ཚོགས་ཀྱི་བདག་པོ་འཇུར་གེགས་སེལ་བ་ཞེས་བྱ་བའི་སྒྲུབ་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal tshogs kyi bdag po 'jur gegs sel ba zhes bya ba'i sgrub thabs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Śrī­ājñāvinivarta­gaṇapati­sādhana</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana of the Glorious Gaṇapati called “Clearing Away Obstacles”</title>
+                <title xml:lang="bo" type="longTitle">དཔལ་ཚོགས་ཀྱི་བདག་པོ་འཇུར་གེགས་སེལ་བ་ཞེས་བྱ་བའི་སྒྲུབ་ཐབས་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">dpal tshogs kyi bdag po 'jur gegs sel ba zhes bya ba'i sgrub thabs zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Śrī­ājñāvinivarta­gaṇapati­sādhana­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-079-022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3741" type="text">
+                    <ref>Toh 3741</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-079-022-1">Indrabhūti</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-079-022-2">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-079-022-3">lo tsa ba rgya brtson 'grus seng ge</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="79" start-page="151" end-page="152"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21630" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10371" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:10:48.174Z" type="import" xml:id="UT23703-079-022-4" source="tengyur-data-3707-3785_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:10:48.174Z" type="title" xml:id="UT23703-079-022-5" source="tengyur-data-3707-3785_PH_new_v2.4.xml">
+                    <desc>Buhnemann (1994) notes that the Tibetan title ('jur gegs sel ba; ājñā-vinivarta) might be a mistranslation for ājñā-vivarta, and a reference to the ājñā-siddhi
+            (the magical power of forcing one’s commands on others).</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:10:48.174Z" type="general" xml:id="UT23703-079-022-6" source="tengyur-data-3707-3785_PH_new_v2.4.xml">
+                    <desc>A sādhana of Gaṇapati with six arms and three faces.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-079-022-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

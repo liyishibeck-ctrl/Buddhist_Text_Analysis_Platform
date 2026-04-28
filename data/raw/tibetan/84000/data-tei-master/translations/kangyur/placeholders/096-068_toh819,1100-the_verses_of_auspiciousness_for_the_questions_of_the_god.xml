@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">The Verses of Auspiciousness for the Questions of the God</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Devaparipṛcchāmaṅgalagāthā</title>
+                <title xml:lang="en" type="otherTitle">Verses of Auspiciousness</title>
+                <title xml:lang="en" type="otherTitle">[Note: Tengyurversion, Toh 4400, only has short version title “Verses of Auspiciousness”]</title>
+                <title xml:lang="Sa-Ltn" type="otherTitle">Maṅgala­gāthā</title>
+                <title xml:lang="bo" type="otherTitle">བཀྲ་ཤིས་ཀྱི་ཚིགས་སུ་བཅད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="otherTitle">bkra shis kyi tshigs su bcad pa/</title>
+                <author role="translatorMain" xml:id="UT22084-096-068-8">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-096-068-9">Lowell Cook</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-096-068"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh819" type="text">
+                    <ref>Toh 819</ref>
+                    <biblScope>vol.96, ff.259v-260r(pp.518-519)</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-068-1">Anon</author>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="96" start-page="518" end-page="519"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12565" work="W22084"/>
+                </bibl>
+                <bibl key="toh1100" type="text">
+                    <ref>Toh 1100</ref>
+                    <biblScope>vol.101, ff.270r-270v(pp.539-540)</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-068-2">Anon</author>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="102" start-page="539" end-page="540"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20569" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12864" work="W22084"/>
+                </bibl>
+                <bibl key="toh4400" type="text">
+                    <ref>Toh 4400</ref>
+                    <biblScope>ff. 337v-338r</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-068-3">Anon</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="207" start-page="674" end-page="675"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21687" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112051JC21742" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="import" xml:id="UT22084-096-068-4" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-096-068-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:33:28.334Z" type="translation-status" status="3" xml:id="UT22084-096-068-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:33:28.334Z" type="text-version" status="0.0.1" xml:id="UT22084-096-068-7">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:36:11.216Z" type="text-version" status="0.0.2" xml:id="UT22084-096-068-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#sameer" when="2024-07-08T07:01:43.23Z" type="text-version" status="0.0.3" xml:id="UT22084-096-068-11">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T12:26:49.578Z" type="translation-status" status="2.h" xml:id="UT22084-096-068-12">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T12:26:49.578Z" type="text-version" status="0.0.4" xml:id="UT22084-096-068-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

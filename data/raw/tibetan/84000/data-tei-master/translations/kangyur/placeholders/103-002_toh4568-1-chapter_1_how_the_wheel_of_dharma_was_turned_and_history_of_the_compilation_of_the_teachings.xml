@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 1: How the Wheel of Dharma was Turned, and History of the Compilation of the Teachings</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dang po/ chos kyi 'khor lo bskor tshul bka' bsdu'i byung ba dang bcas pa legs par bshad pa'i yal 'dab/</title>
+                <title type="otherTitle" xml:lang="zh">德格版甘珠爾經文目錄：第一章 有關法輪是如何轉動，以及佛陀言教之歷史的解釋</title>
+                <author role="translatorMain" xml:id="UT22084-103-002-12">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-103-002-13">Lowell Cook</author>
+                <sponsor xml:id="UT22084-103-002-2">Chan Wing Fai, Lam Wai Ling, Chan Oi Yi, Chan Tung Mei, Chan Yu Ka, Chan Sui Li, Chan Ya Ho, Chan Yu Lin, Zhong Sheng jian, Lin Miao Jun</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.11 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-103-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4568-1" type="chapter">
+                    <ref>Toh 4568-1</ref>
+                    <biblScope>v. 103, ff.1r-50r (pp.1-99)</biblScope>
+                    <location work="UT4CZ5369" count-pages="98">
+                        <volume number="103" start-page="2" end-page="99"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC12882" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12883" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T16:46:03.1Z" type="text-version" status="0.0.1" xml:id="UT22084-103-002-3">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#mike" when="2021-07-05T16:26:19.046Z" type="text-version" status="0.0.2" xml:id="UT22084-103-002-4">
+                    <desc>summary added</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-12-24T05:47:56.516Z" type="text-version" status="0.0.3" xml:id="UT22084-103-002-5">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-06-13T04:55:08.239Z" type="text-version" status="0.0.4" xml:id="UT22084-103-002-6">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T07:48:46.389Z" type="text-version" status="0.0.5" xml:id="UT22084-103-002-7">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-11-04T13:36:45.835Z" type="text-version" status="0.0.6" xml:id="UT22084-103-002-8">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.7" xml:id="UT22084-103-002-9">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:24:55.695Z" type="translation-status" status="3" xml:id="UT22084-103-002-10">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:24:55.695Z" type="text-version" status="0.0.8" xml:id="UT22084-103-002-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:27:40.661Z" type="text-version" status="0.0.9" xml:id="UT22084-103-002-14">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-16T16:09:04.457Z" type="translation-status" status="2.h" xml:id="UT22084-103-002-15">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-16T16:09:04.457Z" type="text-version" status="0.0.10" xml:id="UT22084-103-002-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-10T13:50:06.251Z" type="translation-status" status="2.g" xml:id="UT22084-103-002-17">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-10T13:50:06.251Z" type="text-version" status="0.0.11" xml:id="UT22084-103-002-18">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary" xml:id="UT22084-103-002-summary">
+                <head type="summary" tid="1">Summary</head>
+                <milestone unit="chunk" xml:id="UT22084-103-002-1"/>
+                <p tid="2">Toh 4568 ch. 1-5:</p>
+                <p tid="3"> More than a mere table of contents, the Degé Kangyur Catalogue is a detailed introduction to the Kangyur as a whole and this particular edition itself. It constitutes the
+                    entirety of the 103rd and final volume of the Kangyur and was written by the 8th Tai Situ, Chökyi Jungné (1700-1774 CE), who presided over the publication of the Degé Kangyur as
+                    its chief editor. The first three chapters of the catalog give a detailed history of Indian Buddhism and its arrival in Tibet while the final two give an account of all the texts
+                    included in the canon and an explanation of the merits of producing a Kangyur edition.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

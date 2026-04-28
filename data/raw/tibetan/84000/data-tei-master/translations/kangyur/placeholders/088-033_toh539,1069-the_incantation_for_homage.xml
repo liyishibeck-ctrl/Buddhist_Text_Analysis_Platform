@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">[The Dhāraṇī for] Homage</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">phyag bya/ (phyag bya'i gzungs/)</title>
+                <title type="otherTitle" xml:lang="en">[Note: the Tōhoku catalogue lists 7 short dhāraṇīs that it includes under the single Toh catalogue number, 539; this is the first.]</title>
+                <author role="translatorMain" xml:id="UT22084-088-033-1">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-088-033-2">Dylan Esler</author>
+                <editor role="associateEditor" xml:id="UT22084-088-033-15">Laura Goetz</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.8 <date>2025</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.f"/>
+                <idno xml:id="UT22084-088-033"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh539" type="text">
+                    <ref>Toh 539</ref>
+                    <biblScope>vol.88, ff.83v-83v(pp.166-166)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="88" start-page="200" end-page="200"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12262" work="W22084"/>
+                </bibl>
+                <bibl key="toh1069" type="text">
+                    <ref>Toh 1069</ref>
+                    <biblScope>vol.101, ff.239v-239v(pp.478-478)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="478" end-page="478"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12833" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-088-033-3">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-16T10:08:57.785Z" type="translation-status" status="3" xml:id="UT22084-088-033-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-16T10:08:57.785Z" type="text-version" status="0.0.2" xml:id="UT22084-088-033-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-16T10:09:25.1Z" type="text-version" status="0.0.3" xml:id="UT22084-088-033-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-088-033-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-04-01T09:38:01.062Z" type="text-version" status="0.0.5" xml:id="UT22084-088-033-8">
+                    <desc>Updated vol. 88 and 101 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T15:10:11.647Z" type="translation-status" status="2.h" xml:id="UT22084-088-033-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T15:10:11.647Z" type="text-version" status="0.0.6" xml:id="UT22084-088-033-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-04T16:21:05.087Z" type="translation-status" status="2.g" xml:id="UT22084-088-033-11">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-04T16:21:05.087Z" type="text-version" status="0.0.7" xml:id="UT22084-088-033-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-04T16:21:42.205Z" type="text-version" status="0.0.8" xml:id="UT22084-088-033-16">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-12T14:21:21.821Z" type="translation-status" status="2.f" xml:id="UT22084-088-033-17">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-12T14:21:21.821Z" type="text-version" status="0.0.9" xml:id="UT22084-088-033-18">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-12T14:22:20.223Z" type="text-version" status="0.0.8" xml:id="UT22084-088-033-19">
+                    <desc>User set version to 0.0.8</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

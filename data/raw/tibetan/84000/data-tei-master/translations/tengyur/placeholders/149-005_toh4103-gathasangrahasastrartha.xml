@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཚིགས་སུ་བཅད་པའི་དོན་བསྡུས་པ་ཞེས་བྱ་བའི་བསྟན་བཅོས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">tshigs su bcad pa'i don bsdus pa zhes bya ba'i bstan bcos/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Gāthā­saṃgraha­śāstrārtha­nāma</title>
+                <title xml:lang="en" type="mainTitle">A Treastise called “The Concise Meaning of Verses”</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-149-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4103" type="text">
+                    <ref>Toh 4103</ref>
+                    <biblScope>ff. 224r-261r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-149-005-1">Vasubandhu</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-149-005-2">Dharmākara</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-149-005-3">lo tsa ba ban de ye shes snying po</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-149-005-4">zhu chen gyi lo tsA ba ban de dpal brtsegs</editor>
+                    <location work="UT23703" count-pages="77">
+                        <volume number="149" start-page="447" end-page="523"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10788" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10822" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4102"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:16:18.239Z" type="import" xml:id="UT23703-149-005-5" source="tengyur-data-4086-4103_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:16:18.239Z" type="general" xml:id="UT23703-149-005-6" source="tengyur-data-4086-4103_PH_new_v2.4.xml">
+                    <desc>The text is a commentary on the previous text (Toh. 4102).</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.1" xml:id="UT23703-149-005-7">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-149-005-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Parṇaśabarī</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">par+Na sha ba ri'i mdo/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa par+Na sha ba ri'i mdo/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa par+Na+Na sha ba ri'i mdo/</title>
+                <author role="translatorMain" xml:id="UT22084-094-012-1"/>
+                <author role="translatorEng" xml:id="UT22084-094-012-2">Ryan Damron</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-094-012"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh735" type="text">
+                    <ref>Toh 735</ref>
+                    <biblScope>vol.94, ff.227r-228r(pp.453-455)</biblScope>
+                    <location work="UT4CZ5369" count-pages="3">
+                        <volume number="94" start-page="453" end-page="455"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12476" work="W22084"/>
+                </bibl>
+                <bibl key="toh994" type="text">
+                    <ref>Toh 994</ref>
+                    <biblScope>vol.101, ff.148r-149r(pp.295-297)</biblScope>
+                    <location work="UT4CZ5369" count-pages="3">
+                        <volume number="102" start-page="295" end-page="297"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12757" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2022-12-15T14:17:38.704Z" type="translation-status" status="3" xml:id="UT22084-094-012-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-15T14:17:38.704Z" type="text-version" status="0.0.1" xml:id="UT22084-094-012-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-15T14:18:30.075Z" type="text-version" status="0.0.2" xml:id="UT22084-094-012-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-16T09:26:12.129Z" type="text-version" status="0.0.3" xml:id="UT22084-094-012-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-19T08:20:36.681Z" type="text-version" status="0.0.4" xml:id="UT22084-094-012-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-094-012-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-02T10:58:11.524Z" type="text-version" status="0.0.6" xml:id="UT22084-094-012-9">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

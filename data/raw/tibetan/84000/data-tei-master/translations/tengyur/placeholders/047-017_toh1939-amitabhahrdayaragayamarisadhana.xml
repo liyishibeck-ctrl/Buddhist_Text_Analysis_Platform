@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འོད་དཔག་ཏུ་མེད་པའི་སྙིང་པོ་འདོད་ཆགས་གཤིན་རྗེ་གཤེད་སྒྲུབ་པའི་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'od dpag tu med pa'i snying po 'dod chags gshin rje gshed sgrub pa'i thabs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Amitābhā­hṛdaya­rāga­yamāri­sādhana</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana of Rāga Yamāri, The Essence of Amitabha</title>
+                <title xml:lang="bo" type="longTitle">འོད་དཔག་ཏུ་མེད་པའི་སྙིང་པོ་འདོད་ཆགས་གཤིན་རྗེ་གཤེད་སྒྲུབ་པའི་ཐབས་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">'od dpag tu med pa'i snying po 'dod chags gshin rje gshed sgrub pa'i thabs zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Amitābhā­hṛdaya­rāga­yamāri­sādhana­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-047-017"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1939" type="text">
+                    <ref>Toh 1939</ref>
+                    <biblScope>ff. 66v-67r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-047-017-1">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-047-017-2">Prajñājñānakīrti</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="47" start-page="132" end-page="133"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8513" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-047-017-3" source="tengyur-data-1918-2089_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="attribution" xml:id="UT23703-047-017-4" source="tengyur-data-1918-2089_PH_new_v2.4.xml">
+                    <desc>Translator attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="title" xml:id="UT23703-047-017-5" source="tengyur-data-1918-2089_PH_new_v2.4.xml">
+                    <desc>The figure of Rāga Yamāri is one of the forms of Yamāri in the five-deity Red Yamāri maṇḍala. The Sanskrit title attested in Narthang is
+            Amitābhā-hṛ-uddana-rāga-yamāri-sādhana; the Sanskrit title given in Derge however, appears to come from the first mantra in the text Amitābhā-hṛdaya-rāga-yamāri-ātmako`haṃ.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-047-017-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

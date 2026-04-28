@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mkha' 'gro'i ma'i sdom pa'i rgyud/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ḍākinīsaṃvaratantra</title>
+                <title type="mainTitle" xml:lang="en">The Tantra of the Protection by the Ḍākinīs</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">dpal mkha' 'gro'i ma'i sdom pa'i rgyud kyi rgyal po zhes bya ba/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Śrīḍākinīsaṃvaratantrarājanāma</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-079-033"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh406" type="text">
+                    <ref>Toh 406</ref>
+                    <biblScope>vol.79, ff.242v-244r(pp.484-487)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="79" start-page="484" end-page="487"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12107" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-079-033-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-16T07:23:27.105Z" type="translation-status" status="3" xml:id="UT22084-079-033-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-16T07:23:27.105Z" type="text-version" status="0.0.1" xml:id="UT22084-079-033-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

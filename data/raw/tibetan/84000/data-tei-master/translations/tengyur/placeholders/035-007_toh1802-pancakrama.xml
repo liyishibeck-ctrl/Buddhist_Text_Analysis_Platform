@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Five Stages</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pañca­krama</title>
+                <title type="mainTitle" xml:lang="bo">རིམ་པ་ལྔ་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rim pa lnga pa/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-035-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1802" type="text">
+                    <ref>Toh 1802</ref>
+                    <biblScope>ff. 45r-57r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-035-007-1">Śākyamitra (II)</author>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-035-007-2">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-035-007-3">zhu chen gyi lo tsA ba ban+de rin chen bzang po</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-035-007-4">Śraddhākaravarman</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-035-007-5">Kamalagupta</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-035-007-6">lo tsA ba rin chen bzang po</editor>
+                    <location work="UT23703" count-pages="25">
+                        <volume number="35" start-page="89" end-page="113"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8363" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2021-11-30T20:06:55.465Z" user="john">The second chapter is also known independently under the title of “The Unsurpassed Intention” (anuttara-sandhi; dgongs pa bla na med pa).</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-035-007-7" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="title" xml:id="UT23703-035-007-8" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc>The second chapter is also known independently under the title of “The Unsurpassed Intention” (anuttara-sandhi; dgongs pa bla na med pa).</desc>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.2" xml:id="UT23703-035-007-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-035-007-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

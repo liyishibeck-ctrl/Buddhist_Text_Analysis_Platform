@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Personal Instructions on the Glorious Kālacakra, A Commentary on the Difficult Points of the Tantra and Six-Branched Yoga</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śrī­kālacakropadeśa­yogaṣaḍaṅga­tantra­pañjikā</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་དུས་ཀྱི་འཁོར་ལོའི་མན་ངག་སྦྱོར་བ་ཡན་ལག་དྲུག་གི་རྒྱུད་ཀྱི་དཀའ་འགྲེལ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal dus kyi 'khor lo'i man ngag sbyor ba yan lag drug gi rgyud kyi dka' 'grel/</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Śrī­kālacakropadeśa­yogaṣaḍaṅga­tantra­pañjikā­nāma</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">dpal dus kyi 'khor lo'i man ngag sbyor ba yan lag drug gi rgyud kyi dka' 'grel zhes bya ba/</title>
+                <title type="longTitle" xml:lang="bo">དཔལ་དུས་ཀྱི་འཁོར་ལོའི་མན་ངག་སྦྱོར་བ་ཡན་ལག་དྲུག་གི་རྒྱུད་ཀྱི་དཀའ་འགྲེལ་ཞེས་བྱ་བ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-014-021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1373" type="text">
+                    <ref>Toh 1373</ref>
+                    <biblScope>ff. 226v-250r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-014-021-1">Avadhūtipa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-014-021-2">Kaśmīri Candrakīrti</author>
+                    <location work="UT23703" count-pages="48">
+                        <volume number="14" start-page="452" end-page="499"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7912" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-014-021-3" source="tengyur-data-1346-1400_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-014-021-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

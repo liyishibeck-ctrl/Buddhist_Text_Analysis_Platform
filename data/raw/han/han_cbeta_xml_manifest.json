@@ -1,0 +1,699 @@
+{
+  "metadata": {
+    "dataset_name": "Han CBETA XML Imports",
+    "version": "0.1.0",
+    "schema": "metadata/source/texts",
+    "is_sample": false,
+    "scope": "official CBETA XML P5 imports for Han core texts",
+    "notes": "These records point to local CBETA XML P5 files downloaded from the official repository. They remain subject to CBETA's non-commercial terms and attribution requirements."
+  },
+  "source": {
+    "id": "source-han-cbeta-xml-p5",
+    "slug": "han-cbeta-xml-p5",
+    "title": "CBETA XML P5 Official Repository",
+    "source_type": "tei_xml_repository",
+    "citation": "CBETA XML P5 official repository for Han Buddhist texts. Preserve the XML header and attribution; non-commercial use only unless separately licensed.",
+    "url": "https://github.com/cbeta-org/xml-p5",
+    "access_note": "Local copies downloaded from the CBETA XML P5 repository for non-commercial research and corpus engineering use.",
+    "is_sample": false
+  },
+  "texts": [
+    {
+      "work_id": "work-xinjing-xuanzang",
+      "canonical_code": "T0251",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0251.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0251.xml",
+      "text_version": {
+        "id": "tv-xinjing-xuanzang-cbeta",
+        "slug": "xinjing-xuanzang-cbeta",
+        "title": "般若波羅蜜多心經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": "2025-07-27",
+        "summary": "Official CBETA XML P5 import for the Heart Sutra, parsed from the main jing division into paragraph-level segments.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0251。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-xuanzang",
+          "display_name": "玄奘",
+          "native_name": "玄奘",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-jingang-banruo-boluomi-jing",
+      "canonical_code": "T0235",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0235.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0235.xml",
+      "text_version": {
+        "id": "tv-jingang-banruo-boluomi-jing-cbeta",
+        "slug": "jingang-banruo-boluomi-jing-cbeta",
+        "title": "金剛般若波羅蜜經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": "2025-08-05",
+        "summary": "Official CBETA XML P5 import for the Diamond Sutra, segmented paragraph-by-paragraph from the main scripture body.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0235。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-kumarajiva",
+          "display_name": "鸠摩罗什",
+          "native_name": "鸠摩罗什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-amituo-jing",
+      "canonical_code": "T0366",
+      "xml_path": "data/raw/han/cbeta_xml/T12n0366.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T12/T12n0366.xml",
+      "text_version": {
+        "id": "tv-amituo-jing-cbeta",
+        "slug": "amituo-jing-cbeta",
+        "title": "佛說阿彌陀經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": "2025-01-30",
+        "summary": "Official CBETA XML P5 import for the Amitabha Sutra, segmented paragraph-by-paragraph from the main scripture body.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0366。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-kumarajiva",
+          "display_name": "鸠摩罗什",
+          "native_name": "鸠摩罗什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-miaofa-lianhua-jing",
+      "canonical_code": "T0262",
+      "xml_path": "data/raw/han/cbeta_xml/T09n0262.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T09/T09n0262.xml",
+      "text_version": {
+        "id": "tv-miaofa-lianhua-jing-cbeta",
+        "slug": "miaofa-lianhua-jing-cbeta",
+        "title": "妙法蓮華經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Lotus Sutra, preserving seven juan worth of paragraph-level segments from the main scripture body.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0262。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-huayan-jing-t278",
+      "canonical_code": "T0278",
+      "xml_path": "data/raw/han/cbeta_xml/T09n0278.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T09/T09n0278.xml",
+      "text_version": {
+        "id": "tv-huayan-jing-t278-cbeta",
+        "slug": "huayan-jing-t278-cbeta",
+        "title": "大方廣佛華嚴經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the sixty-juan Avatamsaka Sutra translation, segmented paragraph-by-paragraph from the main scripture body.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0278。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-buddhabhadra",
+          "display_name": "Buddhabhadra",
+          "native_name": "佛馱跋陀羅",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-fanwang-jing-pusa-jieben",
+      "canonical_code": "T1484",
+      "xml_path": "data/raw/han/cbeta_xml/T24n1484.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T24/T24n1484.xml",
+      "text_version": {
+        "id": "tv-fanwang-jing-pusa-jieben-cbeta",
+        "slug": "fanwang-jing-pusa-jieben-cbeta",
+        "title": "梵網經菩薩戒本",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Brahma Net Sutra Bodhisattva precepts text, preserving both juan with paragraph-level segmentation.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T1484。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-zhong-lun",
+      "canonical_code": "T1564",
+      "xml_path": "data/raw/han/cbeta_xml/T30n1564.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T30/T30n1564.xml",
+      "text_version": {
+        "id": "tv-zhong-lun-cbeta",
+        "slug": "zhong-lun-cbeta",
+        "title": "中論",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Madhyamaka-karika in Chinese, segmented paragraph-by-paragraph across four juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T1564。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-shiermen-lun",
+      "canonical_code": "T1568",
+      "xml_path": "data/raw/han/cbeta_xml/T30n1568.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T30/T30n1568.xml",
+      "text_version": {
+        "id": "tv-shiermen-lun-cbeta",
+        "slug": "shiermen-lun-cbeta",
+        "title": "十二門論",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Twelve Gate Treatise, segmented paragraph-by-paragraph from the one-juan body text.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T1568。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-chang-ahan-jing",
+      "canonical_code": "T0001",
+      "xml_path": "data/raw/han/cbeta_xml/T01n0001.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T01/T01n0001.xml",
+      "text_version": {
+        "id": "tv-chang-ahan-jing-cbeta",
+        "slug": "chang-ahan-jing-cbeta",
+        "title": "佛說長阿含經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Digha-agama in Chinese, segmented paragraph-by-paragraph across twenty-two juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0001。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-bai-lun",
+      "canonical_code": "T1569",
+      "xml_path": "data/raw/han/cbeta_xml/T30n1569.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T30/T30n1569.xml",
+      "text_version": {
+        "id": "tv-bai-lun-cbeta",
+        "slug": "bai-lun-cbeta",
+        "title": "百論",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Hundred Treatise, segmented paragraph-by-paragraph across two juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T1569。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-cheng-weishi-lun",
+      "canonical_code": "T1585",
+      "xml_path": "data/raw/han/cbeta_xml/T31n1585.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T31/T31n1585.xml",
+      "text_version": {
+        "id": "tv-cheng-weishi-lun-cbeta",
+        "slug": "cheng-weishi-lun-cbeta",
+        "title": "成唯識論",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Cheng Weishi Lun, segmented paragraph-by-paragraph across ten juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T1585。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-xuanzang",
+          "display_name": "Xuanzang",
+          "native_name": "玄奘",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-zhong-ahan-jing",
+      "canonical_code": "T0026",
+      "xml_path": "data/raw/han/cbeta_xml/T01n0026.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T01/T01n0026.xml",
+      "text_version": {
+        "id": "tv-zhong-ahan-jing-cbeta",
+        "slug": "zhong-ahan-jing-cbeta",
+        "title": "中阿含經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Madhyama-agama in Chinese, segmented paragraph-by-paragraph across sixty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0026。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-za-ahan-jing",
+      "canonical_code": "T0099",
+      "xml_path": "data/raw/han/cbeta_xml/T02n0099.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T02/T02n0099.xml",
+      "text_version": {
+        "id": "tv-za-ahan-jing-cbeta",
+        "slug": "za-ahan-jing-cbeta",
+        "title": "雜阿含經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Samyukta-agama in Chinese, segmented paragraph-by-paragraph across fifty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0099。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-zengyi-ahan-jing",
+      "canonical_code": "T0125",
+      "xml_path": "data/raw/han/cbeta_xml/T02n0125.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T02/T02n0125.xml",
+      "text_version": {
+        "id": "tv-zengyi-ahan-jing-cbeta",
+        "slug": "zengyi-ahan-jing-cbeta",
+        "title": "增壹阿含經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Ekottarikagama in Chinese, segmented paragraph-by-paragraph across fifty-one juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0125。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-dazhidu-lun",
+      "canonical_code": "T1509",
+      "xml_path": "data/raw/han/cbeta_xml/T25n1509.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T25/T25n1509.xml",
+      "text_version": {
+        "id": "tv-dazhidu-lun-cbeta",
+        "slug": "dazhidu-lun-cbeta",
+        "title": "大智度論",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Mahaprajnaparamita-sastra in Chinese, segmented paragraph-by-paragraph across one hundred juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T1509。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-da-banruo-boluomiduo-jing",
+      "canonical_code": "T0220",
+      "xml_paths": [
+        "data/raw/han/cbeta_xml/T05n0220a.xml",
+        "data/raw/han/cbeta_xml/T06n0220b.xml",
+        "data/raw/han/cbeta_xml/T07n0220c.xml",
+        "data/raw/han/cbeta_xml/T07n0220d.xml",
+        "data/raw/han/cbeta_xml/T07n0220e.xml",
+        "data/raw/han/cbeta_xml/T07n0220f.xml",
+        "data/raw/han/cbeta_xml/T07n0220g.xml",
+        "data/raw/han/cbeta_xml/T07n0220h.xml",
+        "data/raw/han/cbeta_xml/T07n0220i.xml",
+        "data/raw/han/cbeta_xml/T07n0220j.xml",
+        "data/raw/han/cbeta_xml/T07n0220k.xml",
+        "data/raw/han/cbeta_xml/T07n0220l.xml",
+        "data/raw/han/cbeta_xml/T07n0220m.xml",
+        "data/raw/han/cbeta_xml/T07n0220n.xml",
+        "data/raw/han/cbeta_xml/T07n0220o.xml"
+      ],
+      "display_urls": [
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T05/T05n0220a.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T06/T06n0220b.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220c.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220d.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220e.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220f.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220g.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220h.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220i.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220j.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220k.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220l.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220m.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220n.xml",
+        "https://github.com/cbeta-org/xml-p5/blob/master/T/T07/T07n0220o.xml"
+      ],
+      "text_version": {
+        "id": "tv-da-banruo-boluomiduo-jing-cbeta",
+        "slug": "da-banruo-boluomiduo-jing-cbeta",
+        "title": "大般若波羅蜜多經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Mahaprajnaparamita Sutra, merged from the full multi-file CBETA source set into one six-hundred-juan text version.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0220。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-xuanzang",
+          "display_name": "Xuanzang",
+          "native_name": "玄奘",
+          "role": "translator",
+          "note": "Mapped from the existing Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-huayan-jing",
+      "canonical_code": "T0279",
+      "xml_path": "data/raw/han/cbeta_xml/T10n0279.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T10/T10n0279.xml",
+      "text_version": {
+        "id": "tv-huayan-jing-cbeta",
+        "slug": "huayan-jing-cbeta",
+        "title": "大方廣佛華嚴經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Avatamsaka Sutra, segmented paragraph-by-paragraph across eighty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0279。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-shiksananda",
+          "display_name": "Shiksananda",
+          "native_name": "實叉難陀",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-da-baoji-jing",
+      "canonical_code": "T0310",
+      "xml_path": "data/raw/han/cbeta_xml/T11n0310.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T11/T11n0310.xml",
+      "text_version": {
+        "id": "tv-da-baoji-jing-cbeta",
+        "slug": "da-baoji-jing-cbeta",
+        "title": "大寶積經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Maharatnakuta Sutra, segmented paragraph-by-paragraph across one hundred and twenty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0310。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-bodhiruci",
+          "display_name": "Bodhiruci",
+          "native_name": "菩提流志",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-da-ban-niepan-jing",
+      "canonical_code": "T0374",
+      "xml_path": "data/raw/han/cbeta_xml/T12n0374.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T12/T12n0374.xml",
+      "text_version": {
+        "id": "tv-da-ban-niepan-jing-cbeta",
+        "slug": "da-ban-niepan-jing-cbeta",
+        "title": "大般涅槃經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Mahaparinirvana Sutra, segmented paragraph-by-paragraph across forty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0374。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-dharmaksema",
+          "display_name": "Dharmaksema",
+          "native_name": "曇無讖",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-da-fangdeng-daji-jing",
+      "canonical_code": "T0397",
+      "xml_path": "data/raw/han/cbeta_xml/T13n0397.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T13/T13n0397.xml",
+      "text_version": {
+        "id": "tv-da-fangdeng-daji-jing-cbeta",
+        "slug": "da-fangdeng-daji-jing-cbeta",
+        "title": "大方等大集經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Mahasamnipata Sutra, segmented paragraph-by-paragraph across sixty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0397。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-zhengfa-nianchu-jing",
+      "canonical_code": "T0721",
+      "xml_path": "data/raw/han/cbeta_xml/T17n0721.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T17/T17n0721.xml",
+      "text_version": {
+        "id": "tv-zhengfa-nianchu-jing-cbeta",
+        "slug": "zhengfa-nianchu-jing-cbeta",
+        "title": "正法念處經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Sutra of Right Mindfulness, segmented paragraph-by-paragraph across seventy juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0721。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-fangguang-banruo-jing",
+      "canonical_code": "T0221",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0221.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0221.xml",
+      "text_version": {
+        "id": "tv-fangguang-banruo-jing-cbeta",
+        "slug": "fangguang-banruo-jing-cbeta",
+        "title": "放光般若經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Fangguang Prajna Sutra, segmented paragraph-by-paragraph across twenty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0221。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-wuluocha",
+          "display_name": "Wuluocha",
+          "native_name": "無羅叉",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-guangzan-jing",
+      "canonical_code": "T0222",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0222.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0222.xml",
+      "text_version": {
+        "id": "tv-guangzan-jing-cbeta",
+        "slug": "guangzan-jing-cbeta",
+        "title": "光讚經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Guangzan Sutra, segmented paragraph-by-paragraph across ten juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0222。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-zhufahu",
+          "display_name": "Zhufahu",
+          "native_name": "竺法護",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-mohe-banruo-boluomi-jing",
+      "canonical_code": "T0223",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0223.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0223.xml",
+      "text_version": {
+        "id": "tv-mohe-banruo-boluomi-jing-cbeta",
+        "slug": "mohe-banruo-boluomi-jing-cbeta",
+        "title": "摩訶般若波羅蜜經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Maha Prajna Paramita Sutra, segmented paragraph-by-paragraph across twenty-seven juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0223。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-damingdu-jing",
+      "canonical_code": "T0225",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0225.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0225.xml",
+      "text_version": {
+        "id": "tv-damingdu-jing-cbeta",
+        "slug": "damingdu-jing-cbeta",
+        "title": "大明度經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Damingdu Sutra, segmented paragraph-by-paragraph across six juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0225。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-zhiqian",
+          "display_name": "Zhiqian",
+          "native_name": "支謙",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-mohe-banruochao-jing",
+      "canonical_code": "T0226",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0226.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0226.xml",
+      "text_version": {
+        "id": "tv-mohe-banruochao-jing-cbeta",
+        "slug": "mohe-banruochao-jing-cbeta",
+        "title": "摩訶般若鈔經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Maha Prajna Excerpt Sutra, segmented paragraph-by-paragraph across five juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0226。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-xiaopin-banruo-boluomi-jing",
+      "canonical_code": "T0227",
+      "xml_path": "data/raw/han/cbeta_xml/T08n0227.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T08/T08n0227.xml",
+      "text_version": {
+        "id": "tv-xiaopin-banruo-boluomi-jing-cbeta",
+        "slug": "xiaopin-banruo-boluomi-jing-cbeta",
+        "title": "小品般若波羅蜜經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Smaller Prajna Paramita Sutra, segmented paragraph-by-paragraph across ten juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0227。"
+      },
+      "person_roles": [
+        {
+          "person_id": "person-han-kumarajiva",
+          "display_name": "Kumarajiva",
+          "native_name": "鳩摩羅什",
+          "role": "translator",
+          "note": "Mapped from the refreshed Han catalog work."
+        }
+      ]
+    },
+    {
+      "work_id": "work-fobenxingji-jing",
+      "canonical_code": "T0190",
+      "xml_path": "data/raw/han/cbeta_xml/T03n0190.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T03/T03n0190.xml",
+      "text_version": {
+        "id": "tv-fobenxingji-jing-cbeta",
+        "slug": "fobenxingji-jing-cbeta",
+        "title": "佛本行集經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the Fobenxingji Jing, segmented paragraph-by-paragraph across sixty juan.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0190。"
+      },
+      "person_roles": []
+    },
+    {
+      "work_id": "work-da-ban-niepan-jing-t375",
+      "canonical_code": "T0375",
+      "xml_path": "data/raw/han/cbeta_xml/T12n0375.xml",
+      "display_url": "https://github.com/cbeta-org/xml-p5/blob/master/T/T12/T12n0375.xml",
+      "text_version": {
+        "id": "tv-da-ban-niepan-jing-t375-cbeta",
+        "slug": "da-ban-niepan-jing-t375-cbeta",
+        "title": "大般涅槃經",
+        "version_label": "CBETA XML P5 正式导入版",
+        "script_note": "繁体汉文 / TEI P5",
+        "date_note": null,
+        "summary": "Official CBETA XML P5 import for the thirty-six-juan Mahaparinirvana Sutra translation, segmented paragraph-by-paragraph from the main scripture body.",
+        "catalog_note": "来源于 CBETA XML P5 官方仓库，保留目录编号 T0375。"
+      },
+      "person_roles": []
+    }
+  ]
+}

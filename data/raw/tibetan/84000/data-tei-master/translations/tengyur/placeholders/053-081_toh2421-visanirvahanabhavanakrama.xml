@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དུག་སེལ་བསྒོམ་པའི་རིམ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dug sel bsgom pa'i rim pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Viṣa­nirvahaṇa­bhāvanā­krama</title>
+                <title xml:lang="en" type="mainTitle">The Stages of Meditation to Clear Away the Poisons</title>
+                <title xml:lang="bo" type="longTitle">དུག་སེལ་བསྒོམ་པའི་རིམ་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">dug sel bsgom pa'i rim pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Viṣa­nirvahaṇa­bhāvanā­krama­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-081"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2421" type="text">
+                    <ref>Toh 2421</ref>
+                    <biblScope>ff.37r-38r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-053-081-1">Araṅgi</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="53" start-page="73" end-page="75"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9005" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-081-2" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-053-081-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

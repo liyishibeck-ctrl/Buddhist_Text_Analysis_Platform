@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མན་ངག་སྐུའི་སྒྲོན་མ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">man ngag sku'i sgron ma/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Upadeśa­kāya­pradīpa</title>
+                <title xml:lang="en" type="mainTitle">The Lamp of the Body: The Personal Instructions</title>
+                <title xml:lang="bo" type="longTitle">མན་ངག་སྐུའི་སྒྲོན་མ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">man ngag sku'i sgron ma zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Upadeśa­kāya­pradīpa­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-056"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2315" type="text">
+                    <ref>Toh 2315</ref>
+                    <biblScope>ff. 260v-261r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-052-056-1">Anon</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="52" start-page="520" end-page="521"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8898" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-056-2" source="tengyur-data-2303-2325_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-052-056-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

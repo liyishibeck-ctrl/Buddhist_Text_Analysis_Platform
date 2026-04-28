@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}{{ work.title }} | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>{{ work.title }}</h1>
+  <p class="muted">{{ work.title_english or work.title_transliterated or "—" }}</p>
+  <div class="inline-meta">
+    <span class="catalog-chip">{{ work.tradition_name }}</span>
+    <span class="catalog-chip">{{ work.collection_title }}</span>
+    {% if work.is_catalog_only %}
+    <span class="status-chip status-catalog">目录占位</span>
+    {% elif work.has_full_text %}
+    <span class="status-chip status-full">已接入正文</span>
+    {% endif %}
+  </div>
+  <p>传统：{{ work.tradition_name }}</p>
+  <p>集合：{{ work.collection_title }}</p>
+  <p>体裁：{{ work.genre }}</p>
+  {% if work.canonical_code %}<p>编号：{{ work.canonical_code }}</p>{% endif %}
+  {% if work.pitaka_division %}
+  <p>三藏归属：{{ {"sutra": "经藏", "vinaya": "律藏", "abhidharma": "论藏"}[work.pitaka_division] }}</p>
+  {% endif %}
+  {% if work.fascicle_count %}<p>卷数：{{ work.fascicle_count }}</p>{% endif %}
+  <p>{{ work.summary }}</p>
+  {% if work.catalog_note %}<p><strong>目录说明：</strong>{{ work.catalog_note }}</p>{% endif %}
+  {% if work.authenticity_note %}<p><strong>说明：</strong>{{ work.authenticity_note }}</p>{% endif %}
+  {% if work.is_catalog_only %}
+  <p class="muted">当前条目为目录层占位记录，尚未接入结构树和正文段落。</p>
+  {% elif work.has_full_text %}
+  <p class="muted">当前条目已接入可读正文版本，可直接查看正文段落与 gloss。</p>
+  {% endif %}
+  <div class="action-row">
+    <a class="secondary-link" href="{{ url_for('works_page') }}?tradition_id={{ work.tradition_id }}">返回{{ work.tradition_name }}目录</a>
+    {% if work.primary_text_version_id %}
+    <a class="button-link" href="{{ url_for('text_version_detail_page', text_version_id=work.primary_text_version_id) }}">进入正文</a>
+    {% endif %}
+  </div>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>作品级人物角色</h2>
+    <ul class="plain-list">
+      {% for role in work.person_roles %}
+      <li>{{ role.display_name }} · {{ role.role }}{% if role.note %} · {{ role.note }}{% endif %}</li>
+      {% else %}
+      <li>暂无作品级角色。</li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="card">
+    <h2>文本版本</h2>
+    <ul class="plain-list">
+      {% for version in work.text_versions %}
+      <li>
+        <div class="catalog-line">
+          <a href="{{ url_for('text_version_detail_page', text_version_id=version.id) }}">{{ version.title }}</a>
+          <span class="catalog-chip">{{ version.language_name }}</span>
+          <span class="catalog-chip">{{ version.version_label }}</span>
+          {% if version.is_catalog_only %}
+          <span class="status-chip status-catalog">目录</span>
+          {% else %}
+          <span class="status-chip status-full">正文</span>
+          {% endif %}
+        </div>
+        {% if version.catalog_note %}<div class="catalog-note muted">{{ version.catalog_note }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+{% endblock %}

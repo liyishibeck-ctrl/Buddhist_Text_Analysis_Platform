@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དབུ་མ་ལ་འཇུག་པའི་འགྲེལ་བཤད།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dbu ma la 'jug pa'i 'grel bshad/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Madhyamakāvatāra­ṭīkā</title>
+                <title xml:lang="en" type="mainTitle">An Explanatory Commentary on [Candrakīrti's] “Entering into the Middle Way”</title>
+                <title xml:lang="bo" type="longTitle">དབུ་མ་ལ་འཇུག་པའི་འགྲེལ་བཤད་ཅེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">dbu ma la 'jug pa'i 'grel bshad ces bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Madhyamakāvatāra­ṭīkā­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-104-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3870" type="text">
+                    <ref>Toh 3870</ref>
+                    <biblScope>ff. 1v-365r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-104-001-1">Jayānanda (Kaśmīr)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-104-001-2">Jayānanda (Kaśmīr)</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-104-001-3">bod kyi lo tsa ban+de kun dga' grags</author>
+                    <location work="UT23703" count-pages="729">
+                        <volume number="104" start-page="2" end-page="730"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10532" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3862"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-104-001-4" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-104-001-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

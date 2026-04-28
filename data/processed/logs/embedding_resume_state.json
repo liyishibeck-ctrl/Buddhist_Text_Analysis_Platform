@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-04-23T01:31:02.356095+00:00",
+  "last_segment_id": "seg-plain-an-1760890199-029",
+  "inserted_count": 176450,
+  "completed": false,
+  "embedding_model": "doubao-embedding-vision",
+  "batch_size": 10,
+  "max_segments": null,
+  "shard_count": null,
+  "shard_index": null,
+  "start_after_segment_id": "seg-cbeta-t0001-2364",
+  "end_at_segment_id": null,
+  "tradition_id": null,
+  "collection_id": null,
+  "language_id": null
+}

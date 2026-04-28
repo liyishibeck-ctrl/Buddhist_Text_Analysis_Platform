@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དོན་གསང་བ་རྣམ་པར་ཕྱེ་བ་བསྡུས་ཏེ་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">don gsang ba rnam par phye ba bsdus te bshad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vivṛta­gūḍhārtha­piṇḍa­vyākhyā</title>
+                <title xml:lang="en" type="mainTitle">A Short Explanation of the Differentiated Hidden Meanings</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-134-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4052" type="text">
+                    <ref>Toh 4052</ref>
+                    <biblScope>ff. 296v-361r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-134-005-1">Vasubandhu</author>
+                    <location work="UT23703" count-pages="130">
+                        <volume number="134" start-page="592" end-page="721"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10750" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4048"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-134-005-2" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="attribution" xml:id="UT23703-134-005-3" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>Authorship taken from Degé dkar chag, which notes that this attribution appears in the old catalogue, but the text seems to not be by Vasubandhu.</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.3" xml:id="UT23703-134-005-4">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT23703-134-005-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

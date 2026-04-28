@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་མ་རྡོ་རྗེ་དབྱངས་ཅན་མའི་སྒྲུབ་པའི་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags ma rdo rje dbyangs can ma'i sgrub pa'i thabs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­vajrasarasvatī­sādhana</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana of Ārya Vajrasarasvatī</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-077-057"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3362" type="text">
+                    <ref>Toh 3362</ref>
+                    <biblScope>ff. 39v-40v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-077-057-1">Śrīdhara</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-077-057-2">khams pa lo tsa ba dge slong ba ri</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-077-057-3">Amoghavajra (II)</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="77" start-page="78" end-page="80"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21629" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9989" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:05:04.256Z" type="import" xml:id="UT23703-077-057-4" source="tengyur-data-3306-3399_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-077-057-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

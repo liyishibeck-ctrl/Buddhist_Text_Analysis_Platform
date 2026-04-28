@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Ritual for Making a Mahābodhi Reliquary according to “The Recitation of the Names of Mañjuśrī”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mañjuśrī­nāma­saṃgīti­mahābodhi­śarīra­vidhi</title>
+                <title type="mainTitle" xml:lang="bo">འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་བྱང་ཆུབ་ཆེན་པོའི་སྐུ་གདུང་གི་ཆོ་ག</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'jam dpal gyi mtshan yang dag par brjod pa'i byang chub chen po'i sku gdung gi cho ga</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Mañjuśrī­nāma­saṃgīti­mahābodhi­śarīra­vidhi­nāma</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">'jam dpal gyi mtshan yang dag par brjod pa'i byang chub chen po'i sku gdung gi cho ga zhes bya ba/</title>
+                <title type="longTitle" xml:lang="bo">འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་བྱང་ཆུབ་ཆེན་པོའི་སྐུ་གདུང་གི་ཆོ་ག་ཞེས་བྱ་བ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-065-029"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2568" type="text">
+                    <ref>Toh 2568</ref>
+                    <biblScope>ff. 27v-28r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-065-029-1">Mañjuśrīmitra</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="65" start-page="54" end-page="55"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9171" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-065-029-2" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-065-029-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

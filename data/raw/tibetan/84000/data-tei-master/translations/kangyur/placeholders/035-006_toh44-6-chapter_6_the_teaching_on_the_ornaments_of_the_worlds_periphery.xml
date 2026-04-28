@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 6: The Teaching on the Ornaments of the World's Periphery</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'jig rten 'khor yug rgyan bstan pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">世界边境莊嚴品</title>
+                <author role="translatorMain" xml:id="UT22084-035-006-5">Dharmachakra Translation Committee</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-035-006-6">Chökyi Nyima Rinpoche</consultant>
+                <author role="translatorEng" xml:id="UT22084-035-006-10">Thomas Doctor</author>
+                <author role="translatorEng" xml:id="UT22084-035-006-11">Thomas Doctor</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-035-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-6" type="chapter">
+                    <ref>Toh 44-6</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="3">
+                        <volume number="35" start-page="206" end-page="208"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14674" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:11:11.085Z" type="text-version" status="0.0.1" xml:id="UT22084-035-006-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-035-006-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:32:13.964Z" type="translation-status" status="3" xml:id="UT22084-035-006-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:32:13.964Z" type="text-version" status="0.0.3" xml:id="UT22084-035-006-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:32:51.368Z" type="text-version" status="0.0.4" xml:id="UT22084-035-006-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:33:15.25Z" type="text-version" status="0.0.5" xml:id="UT22084-035-006-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

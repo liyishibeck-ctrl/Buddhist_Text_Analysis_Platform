@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཕྱག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་གནོད་སྦྱིན་དྲག་པོ་ཆེན་པོ་རྡོ་རྗེ་མེ་ལྕེའི་རྒྱུད་ཀྱི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">phyag na rdo rje gos sngon po can gnod sbyin drag po chen po rdo rje me lce'i rgyud kyi 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Nīlāmbara­dhara­vajrapāṇi­yakṣa­mahā­rudra­vajrāgni­jihva­tantra­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">A Running Commentary on the “Tantra of the Flame of the Vajra, The Great Fierce Yakṣa, the Blue-Clad Vajrapāṇi”</title>
+                <title xml:lang="bo" type="longTitle">ཕྱག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་གནོད་སྦྱིན་དྲག་པོ་ཆེན་པོ་རྡོ་རྗེ་མེ་ལྕེའི་རྒྱུད་ཀྱི་འགྲེལ་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">phyag na rdo rje gos sngon po can gnod sbyin drag po chen po rdo rje me lce'i rgyud kyi 'grel pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Nīlāmbara­dhara­vajrapāṇi­yakṣa­mahā­rudra­vajrāgni­jihva­tantra­vṛtti­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-076"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2166" type="text">
+                    <ref>Toh 2166</ref>
+                    <biblScope>ff. 271r-308r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-049-076-1">Vajrapāṇi</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-049-076-2">bod kyi lo tsa ba dge slong gzhon nu tshul khrims</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-049-076-3">Paṇḍita Mañjuśrī</author>
+                    <location work="UT23703" count-pages="75">
+                        <volume number="49" start-page="541" end-page="615"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8747" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh461"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-049-076-4" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-049-076-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

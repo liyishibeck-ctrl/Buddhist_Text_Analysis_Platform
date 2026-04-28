@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">གཉིས་སུ་མེད་པར་གྲུབ་པའི་སྒྲུབ་ཐབས་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">gnyis su med par grub pa'i sgrub thabs zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Advaya­siddhi­sādhana­nāma</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana Establishing Non-duality</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-051-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2220" type="text">
+                    <ref>Toh 2220</ref>
+                    <biblScope>ff.60v-62r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-051-004-1">Lakṣmīṃkarā</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="51" start-page="120" end-page="123"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8800" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-051-004-2" source="tengyur-data-2217-2254_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-051-004-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#celso" when="2025-01-29T18:04:52.024Z" type="text-version" status="0.0.2" xml:id="UT23703-051-004-4">
+                    <desc>updated author</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

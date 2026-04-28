@@ -1,0 +1,62 @@
+INFO:     127.0.0.1:10080 - "GET /works?tradition_id=trad-tibetan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10078 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10369 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10369 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10369 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:10370 - "GET /works?tradition_id=trad-tibetan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10481 - "GET /text-versions/tv-toh197-84000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10877 - "GET /works/work-toh114 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10878 - "GET /text-versions/tv-toh114-84000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11014 - "GET /works?tradition_id=trad-tibetan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11061 - "GET /works?tradition_id=trad-pali HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11089 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:11163 - "GET /text-versions/tv-mn517460801-cst4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11165 - "GET /works?tradition_id=trad-han HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11269 - "GET /works/work-t0428 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11470 - "GET /text-versions/tv-t0428-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12021 - "GET /works?tradition_id=trad-han HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12022 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:12610 - "GET /text-versions/tv-t0838-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:15267 - "GET /works/work-t0559 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:15267 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:15268 - "GET /text-versions/tv-t0559-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13553 - "GET /text-versions/tv-t0239-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13553 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:14231 - "GET /text-versions/tv-chang-ahan-jing-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14546 - "GET /works?tradition_id=trad-pali HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14547 - "GET /works/work-pi-mn1226936747 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14635 - "GET /text-versions/tv-mn1226936747-cst4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18236 - "GET /works?tradition_id=trad-tibetan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18236 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:18237 - "GET /works/work-toh197 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18288 - "GET /text-versions/tv-toh197-84000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18309 - "GET /works?tradition_id=trad-tibetan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18404 - "GET /works?tradition_id=trad-tibetan&collection_id=&language_id=&pitaka_division=&q=to287 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18467 - "GET /works?tradition_id=trad-tibetan&collection_id=&language_id=&pitaka_division=&q=287 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18467 - "GET /works/work-toh287 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19072 - "GET /text-versions/tv-toh287-84000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21411 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:21411 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:22889 - "GET /research HTTP/1.1" 200 OK
+INFO:     127.0.0.1:22892 - "GET /research?q=%E7%A9%BA&mode=hybrid&top_k=12&tradition_id=trad-han&collection_id=&language_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23577 - "GET /research?q=%E4%B8%80%E5%BF%B5%E4%B8%89%E5%8D%83&mode=hybrid&top_k=12&tradition_id=trad-han&collection_id=&language_id= HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23577 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:39891 - "GET /works HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39892 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40134 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40140 - "GET /works/work-pi-mn3794359805 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40265 - "GET /text-versions/tv-mn3794359805-cst4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44482 - "GET /works?tradition_id=trad-pali HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44534 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45132 - "GET /han/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45132 - "GET /static/style.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45532 - "GET /works/work-t0457 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45545 - "GET /works/work-t0109 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45545 - "GET /text-versions/tv-t0109-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46974 - "GET /works/work-t0109 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46975 - "GET /text-versions/tv-t0109-catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47157 - "GET /text-versions/tv-t0109-cbeta HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48502 - "GET /works?tradition_id=trad-tibetan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48504 - "GET /works?tradition_id=trad-tibetan&collection_id=&language_id=&pitaka_division=&q=337 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48504 - "GET /works/work-toh337 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48505 - "GET /text-versions/tv-toh337-84000 HTTP/1.1" 200 OK

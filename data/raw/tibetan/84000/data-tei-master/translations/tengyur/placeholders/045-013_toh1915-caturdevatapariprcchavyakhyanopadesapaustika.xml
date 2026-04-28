@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">An Explanation of the “Questions of the Four Goddesses” Tantra called “Extensive Personal Instructions”</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Catur­devatā­paripṛcchā­vyākhyāna­upadeśa­pauṣṭika­nāma</title>
+                <title xml:lang="bo" type="mainTitle">ལྷ་མོ་བཞིས་ཡོངས་སུ་ཞུས་པའི་རྣམ་པར་བཤད་པ་མན་ངག་རྒྱས་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">lha mo bzhis yongs su zhus pa'i rnam par bshad pa man ngag rgyas pa zhes bya ba/</title>
+                <author role="translatorMain" xml:id="UT23703-045-013-7">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT23703-045-013-8">Paul G. Hackett</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT23703-045-013"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1915" type="text">
+                    <ref>Toh 1915</ref>
+                    <biblScope>ff. 217v-249v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-045-013-1">Smṛtijñānakīrti</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-045-013-2">Smṛtijñānakīrti</author>
+                    <location work="UT23703" count-pages="65">
+                        <volume number="45" start-page="434" end-page="498"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8487" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh446"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-045-013-3" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-045-013-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-29T14:23:45.41Z" type="translation-status" status="3" xml:id="UT23703-045-013-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-29T14:23:45.41Z" type="text-version" status="0.0.1" xml:id="UT23703-045-013-6">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-29T14:24:31.249Z" type="text-version" status="0.0.2" xml:id="UT23703-045-013-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-20T09:44:44.331Z" type="translation-status" status="2.h" xml:id="UT23703-045-013-10">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-20T09:44:44.331Z" type="text-version" status="0.0.3" xml:id="UT23703-045-013-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-30T12:31:47.852Z" type="translation-status" status="2.g" xml:id="UT23703-045-013-12">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-30T12:31:47.852Z" type="text-version" status="0.0.4" xml:id="UT23703-045-013-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

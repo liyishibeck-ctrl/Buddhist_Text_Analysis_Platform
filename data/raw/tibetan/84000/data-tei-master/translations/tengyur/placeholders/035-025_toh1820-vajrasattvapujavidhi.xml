@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྡོ་རྗེ་སེམས་དཔའ་མཆོད་པའི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rdo rje sems dpa' mchod pa'i cho ga</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vajrasattva­pūjā­vidhi</title>
+                <title xml:lang="en" type="mainTitle">An Offering Ritual for Vajrasattva</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-035-025"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1820" type="text">
+                    <ref>Toh 1820</ref>
+                    <biblScope>ff. 258v-261r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-035-025-1">Kṛṣṇa Paṇḍita</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-035-025-2">Kṛṣṇa Paṇḍita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-035-025-3">bod kyi lo tsa ba 'gos khug pa lhas btsas</author>
+                    <location work="UT23703" count-pages="6">
+                        <volume number="35" start-page="516" end-page="521"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8381" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-035-025-4" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-035-025-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Practice of the Dhāraṇī of Vasudhārā</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">nor rgyun ma'i gzungs kyi rtog pa/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">bcom ldan 'das ma nor rgyun ma'i gzungs kyi rtog pa/</title>
+                <author role="translatorMain" xml:id="UT22084-091-061-1"/>
+                <consultant role="projectManager" xml:id="UT22084-091-061-2">Péter-Dániel Szántó</consultant>
+                <author role="translatorEng" xml:id="UT22084-091-061-3">Gergely Hidas</author>
+                <author role="translatorEng" xml:id="UT22084-091-061-4">Péter-Dániel Szántó</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.7 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-091-061"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh664" type="text">
+                    <ref>Toh 664</ref>
+                    <biblScope>vol.91, ff.191r-192v(pp.381-384)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="91" start-page="381" end-page="384"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12399" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-06-30T11:36:26.985Z" type="translation-status" status="4" xml:id="UT22084-091-061-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-30T11:36:26.985Z" type="text-version" status="0.0.1" xml:id="UT22084-091-061-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:55:57.156Z" type="translation-status" status="3" xml:id="UT22084-091-061-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:55:57.156Z" type="text-version" status="0.0.2" xml:id="UT22084-091-061-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:56:26.457Z" type="text-version" status="0.0.3" xml:id="UT22084-091-061-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:56:49.083Z" type="text-version" status="0.0.4" xml:id="UT22084-091-061-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-091-061-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-06T14:25:35.64Z" type="translation-status" status="2.h" xml:id="UT22084-091-061-12">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-06T14:25:35.64Z" type="text-version" status="0.0.6" xml:id="UT22084-091-061-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-31T11:45:43.569Z" type="translation-status" status="2.g" xml:id="UT22084-091-061-14">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-31T11:45:43.569Z" type="text-version" status="0.0.7" xml:id="UT22084-091-061-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

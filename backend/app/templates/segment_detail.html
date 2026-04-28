@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}{{ segment.segment_key }} | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>{{ segment.segment_key }} · {{ segment.title or "Untitled segment" }}</h1>
+  <p>作品：<a href="{{ url_for('work_detail_page', work_id=segment.work_id) }}">{{ segment.work_title }}</a></p>
+  <p>版本：<a href="{{ url_for('text_version_detail_page', text_version_id=segment.text_version_id) }}">{{ segment.text_version_title }}</a></p>
+  <p>传统：{{ segment.tradition_name }} · 集合：{{ segment.collection_title }}</p>
+  <p>结构路径：{{ segment.structural_unit_path or "—" }}</p>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>正文</h2>
+    {% if segment.language_script == "Tibetan" or segment.language_script == "Tibetan script" %}
+    <p class="segment-body tibetan-script">{{ segment.content }}</p>
+    {% elif segment.language_script == "Pali" or segment.language_script == "Sinhala" or segment.language_script == "Pali script" %}
+    <p class="segment-body pali-script">{{ segment.content }}</p>
+    {% elif segment.language_script == "Devanagari" %}
+    <p class="segment-body devanagari-script">{{ segment.content }}</p>
+    {% elif segment.language_script == "Latin" or segment.language_script == "Latin transliteration" %}
+    <p class="segment-body latin-script">{{ segment.content }}</p>
+    {% else %}
+    <p class="segment-body">{{ segment.content }}</p>
+    {% endif %}
+    {% if segment.content_gloss %}
+    <h3>对译 / Gloss</h3>
+    <p>{{ segment.content_gloss }}</p>
+    {% endif %}
+    {% if segment.note %}
+    <p class="muted">说明：{{ segment.note }}</p>
+    {% endif %}
+  </article>
+  <article class="card">
+    <h2>标签与关系</h2>
+    <h3>概念标签</h3>
+    <ul class="plain-list">
+      {% for concept in segment.concept_tags %}
+      <li><a href="{{ url_for('concept_detail_page', concept_slug=concept.slug) }}">{{ concept.label }}</a> · 置信度 {{ "%.2f"|format(concept.confidence) }}</li>
+      {% else %}
+      <li>暂无概念标签。</li>
+      {% endfor %}
+    </ul>
+    <h3>引文关系</h3>
+    <ul class="plain-list">
+      {% for citation in segment.citation_links %}
+      <li>{{ citation.relation_type }} · <a href="{{ url_for('segment_detail_page', segment_id=citation.target_segment_id) }}">{{ citation.target_segment_key }}</a> · {{ citation.target_work_title }}</li>
+      {% else %}
+      <li>暂无引文关系。</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+
+<section class="card">
+  <h2>对照链接</h2>
+  <ul class="plain-list">
+    {% for link in segment.parallel_links %}
+    <li>
+      <a href="{{ url_for('segment_detail_page', segment_id=link.target_segment_id) }}">{{ link.target_segment_key }}</a>
+      · {{ link.target_work_title }} / {{ link.target_tradition_name }} / {{ link.target_language_name }}
+      · {{ link.relation_type }} · 置信度 {{ "%.2f"|format(link.confidence) }}
+      <div class="muted">{{ link.target_content_preview }}</div>
+    </li>
+    {% else %}
+    <li>暂无平行或对应关系。</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

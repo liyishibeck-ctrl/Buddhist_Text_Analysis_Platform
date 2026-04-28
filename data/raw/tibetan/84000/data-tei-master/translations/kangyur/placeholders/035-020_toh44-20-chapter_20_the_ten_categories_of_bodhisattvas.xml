@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 20: The Ten Categories of Bodhisattvas</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">byang sems rnam dgod bcu bstan pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">菩薩十住品/十住品</title>
+                <author role="translatorMain" xml:id="UT22084-035-020-6">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-035-020-7">Ana Cristina Lopes</author>
+                <editor role="projectEditor" xml:id="UT22084-035-020-15">Nathaniel Rich</editor>
+                <editor role="copyEditor" xml:id="UT22084-035-020-24">Dawn Collins</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.14 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.c"/>
+                <idno xml:id="UT22084-035-020"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-20" type="chapter">
+                    <ref>Toh 44-20</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="27">
+                        <volume number="35" start-page="489" end-page="515"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14688" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:14:22.783Z" type="text-version" status="0.0.1" xml:id="UT22084-035-020-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#john" when="2021-12-13T10:14:40.921Z" type="text-version" status="0.0.3" xml:id="UT22084-035-020-2">
+                    <desc>Edited term in title from "abode" to "category" to avoid confusion with ch. 38.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-035-020-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:44:31.843Z" type="translation-status" status="3" xml:id="UT22084-035-020-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:44:31.843Z" type="text-version" status="0.0.5" xml:id="UT22084-035-020-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:45:16.125Z" type="text-version" status="0.0.6" xml:id="UT22084-035-020-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-07T14:22:10.415Z" type="translation-status" status="2.h" xml:id="UT22084-035-020-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-07T14:22:10.415Z" type="text-version" status="0.0.7" xml:id="UT22084-035-020-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-14T12:52:55.754Z" type="translation-status" status="2.g" xml:id="UT22084-035-020-11">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-14T12:52:55.754Z" type="text-version" status="0.0.8" xml:id="UT22084-035-020-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-14T12:53:27.896Z" type="text-version" status="0.0.9" xml:id="UT22084-035-020-16">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-24T13:39:21.345Z" type="translation-status" status="2.f" xml:id="UT22084-035-020-17">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-24T13:39:21.345Z" type="text-version" status="0.0.10" xml:id="UT22084-035-020-18">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-26T10:24:22.51Z" type="translation-status" status="2.e" xml:id="UT22084-035-020-19">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-26T10:24:22.51Z" type="text-version" status="0.0.11" xml:id="UT22084-035-020-20">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-26T10:25:01.79Z" type="text-version" status="0.0.12" xml:id="UT22084-035-020-25">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-09T15:02:46.999Z" type="translation-status" status="2.d" xml:id="UT22084-035-020-26">
+                    <desc>2.d</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-09T15:02:46.999Z" type="text-version" status="0.0.13" xml:id="UT22084-035-020-27">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-07T14:08:19.17Z" type="translation-status" status="2.c" xml:id="UT22084-035-020-28">
+                    <desc>2.c</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-07T14:08:19.17Z" type="text-version" status="0.0.14" xml:id="UT22084-035-020-29">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

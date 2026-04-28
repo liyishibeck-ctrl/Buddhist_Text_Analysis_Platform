@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī for Treating Wounds</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rma 'byor bar byed pa'i gzungs/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">rma 'byor bar byed pa zhes bya ba'i gzungs sngags/</title>
+                <author role="translatorMain" xml:id="UT22084-096-047-1"/>
+                <author role="translatorEng" xml:id="UT22084-096-047-2">Ryan Damron</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-096-047"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh798" type="text">
+                    <ref>Toh 798</ref>
+                    <biblScope>vol.96, ff.116v-116v(pp.232-232)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="96" start-page="232" end-page="232"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12544" work="W22084"/>
+                </bibl>
+                <bibl key="toh1054" type="text">
+                    <ref>Toh 1054</ref>
+                    <biblScope>vol.101, ff.189r-189r(pp.377-377)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="377" end-page="377"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12817" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2022-12-15T14:23:22.852Z" type="translation-status" status="3" xml:id="UT22084-096-047-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-15T14:23:22.852Z" type="text-version" status="0.0.1" xml:id="UT22084-096-047-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-15T14:23:57.07Z" type="text-version" status="0.0.2" xml:id="UT22084-096-047-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-096-047-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-05T18:56:45.813Z" type="text-version" status="0.0.4" xml:id="UT22084-096-047-7">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

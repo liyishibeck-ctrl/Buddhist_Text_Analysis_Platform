@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ལས་དང་པོ་པའི་ས་སྦྱང་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">las dang po pa'i sa sbyang ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ādikarmika­bhūmi­pariṣkāra</title>
+                <title xml:lang="en" type="mainTitle">Cultivating the Grounds of a Beginner</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-111-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3945" type="text">
+                    <ref>Toh 3945</ref>
+                    <biblScope>ff. 235r-237r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-111-007-1">Guhya Jetāripāda</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-111-007-2">Kṛṣṇa Paṇḍita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-111-007-3">zhu chen gyi lo tsa ba dge slong chos kyi shes rab</author>
+                    <location work="UT23703" count-pages="5">
+                        <volume number="111" start-page="469" end-page="473"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10614" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-111-007-4" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="attribution" xml:id="UT23703-111-007-5" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>This author may be the same person as Jetāri.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="title" xml:id="UT23703-111-007-6" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>The Tibetan sbyang and Sanskrit pariṣkāra can mean either “purifying” or “preparing/cultivating.” Since the object of the verb is “ground” (bhūmi; sa),
+            “purifying” makes little sense in that context.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="general" xml:id="UT23703-111-007-7" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>The colophon notes that the contents of the text were drawn from the “the chapter on the ten grounds” (sa bcu'i le'u), presumably the Daśabhūmika-sūtra,
+            being the 31st chapter of the Buddhāvataṃsaka-sūtra (Toh. 44).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-111-007-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

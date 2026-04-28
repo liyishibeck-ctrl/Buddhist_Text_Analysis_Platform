@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་སྒོ་དྲུག་པའི་གཟུངས་ཀྱི་རྣམ་པར་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa sgo drug pa'i gzungs kyi rnam par bshad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­ṣaṇmukhī­dhāraṇī­vyākhyāna</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of The Dhāraṇī of the Six Gates</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-113-009"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3989" type="text">
+                    <ref>Toh 3989</ref>
+                    <biblScope>ff. 64v-66r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-113-009-1">Vasubandhu</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="113" start-page="128" end-page="131"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10651" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10661" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh141"/>
+                <link type="isCommentaryOf" target="toh526"/>
+                <link type="isCommentaryOf" target="toh916"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-113-009-2" source="tengyur-data-3981-4019_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.2" xml:id="UT23703-113-009-3">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-113-009-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

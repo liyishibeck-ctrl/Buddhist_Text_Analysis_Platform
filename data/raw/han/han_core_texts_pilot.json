@@ -1,0 +1,397 @@
+{
+  "metadata": {
+    "dataset_name": "Han Core Texts Pilot",
+    "version": "0.2.0",
+    "schema": "metadata/source/texts",
+    "is_sample": true,
+    "scope": "curated excerpt pilot for Han core-text ingestion",
+    "notes": "This asset is small on purpose. It is tied to existing Han catalog work IDs and uses excerpt/paraphrase content for pipeline validation, not for full canon publication."
+  },
+  "source": {
+    "id": "source-han-core-text-pilot",
+    "slug": "han-core-text-pilot",
+    "title": "Han Core Text Pilot (curated excerpts)",
+    "source_type": "curated_pilot",
+    "citation": "Curated pilot excerpts and paraphrases aligned to the Han catalog snapshot.",
+    "url": null,
+    "access_note": "Pilot excerpts only. Use for ingestion and retrieval pipeline validation, not as a full-text mirror.",
+    "is_sample": true
+  },
+  "texts": [
+    {
+      "work_id": "work-xinjing-xuanzang",
+      "canonical_code": "T0251",
+      "import_scope": "excerpt",
+      "text_version": {
+        "id": "tv-xinjing-xuanzang-pilot",
+        "slug": "tv-xinjing-xuanzang-pilot",
+        "title": "般若波罗蜜多心经",
+        "version_label": "Han core-text pilot / excerpt set",
+        "script_note": "文言汉文",
+        "date_note": null,
+        "summary": "Curated pilot excerpts for the Heart Sutra, intended to anchor emptiness and prajna retrieval patterns.",
+        "sample_note": "Excerpt/paraphrase pilot; not a full-text mirror."
+      },
+      "person_roles": [
+        {
+          "person_id": "person-xuanzang",
+          "display_name": "玄奘",
+          "native_name": "玄奘",
+          "role": "translator",
+          "note": "Catalog-tied translator role."
+        }
+      ],
+      "structural_units": [
+        {
+          "unit_id": "hsu-root",
+          "unit_type": "section",
+          "label": "心经试点段",
+          "title": "Core pilot structure",
+          "position": 1,
+          "depth": 0,
+          "path": "hsu-root"
+        }
+      ],
+      "segments": [
+        {
+          "segment_key": "T0251-1",
+          "position": 1,
+          "title": "观自在照见五蕴",
+          "structural_unit_id": "hsu-root",
+          "content": "观自在菩萨在深观中照见五蕴皆空，提醒修行者先松开对身心经验的执著，再回到般若智慧本身。",
+          "content_gloss": "Avalokitesvara sees the five aggregates as empty, and practice begins by loosening attachment to experience.",
+          "note": "Pilot paraphrase for retrieval and concept indexing."
+        },
+        {
+          "segment_key": "T0251-2",
+          "position": 2,
+          "title": "色空不二",
+          "structural_unit_id": "hsu-root",
+          "content": "色与空并不对立；若执著于形相，就会把缘起中的流动经验误认成固定实体，因此不应住相。",
+          "content_gloss": "Form and emptiness are not opposed; clinging to appearances mistakes dependent experience for fixed essence.",
+          "note": "Core emptiness passage condensed for pilot use."
+        },
+        {
+          "segment_key": "T0251-3",
+          "position": 3,
+          "title": "无怖畏安住",
+          "structural_unit_id": "hsu-root",
+          "content": "当心不再被相绑住，修行就从恐惧里松脱出来，转而以智慧安住，形成可用于检索的稳定 doctrinal anchor.",
+          "content_gloss": "When the mind is not bound by appearances, fear softens and wisdom becomes the place of rest.",
+          "note": "Closing pilot segment for the Heart Sutra."
+        }
+      ],
+      "segment_concept_tags": [
+        {"segment_key": "T0251-1", "concept_tag_slug": "emptiness", "concept_tag_label": "空性", "confidence": 1.0, "note": "Heart Sutra emptiness anchor."},
+        {"segment_key": "T0251-1", "concept_tag_slug": "prajna", "concept_tag_label": "般若", "confidence": 1.0, "note": "Wisdom anchor."},
+        {"segment_key": "T0251-1", "concept_tag_slug": "bodhisattva", "concept_tag_label": "菩萨", "confidence": 1.0, "note": "Bodhisattva frame."},
+        {"segment_key": "T0251-2", "concept_tag_slug": "emptiness", "concept_tag_label": "空性", "confidence": 1.0, "note": "Form-emptiness relation."},
+        {"segment_key": "T0251-2", "concept_tag_slug": "non-attachment", "concept_tag_label": "无住", "confidence": 1.0, "note": "Non-attachment anchor."},
+        {"segment_key": "T0251-2", "concept_tag_slug": "dependent-origination", "concept_tag_label": "缘起", "confidence": 1.0, "note": "Dependent origination anchor."},
+        {"segment_key": "T0251-3", "concept_tag_slug": "fearlessness", "concept_tag_label": "无怖畏", "confidence": 1.0, "note": "Fearlessness anchor."},
+        {"segment_key": "T0251-3", "concept_tag_slug": "wisdom", "concept_tag_label": "智慧", "confidence": 1.0, "note": "Wisdom anchor."},
+        {"segment_key": "T0251-3", "concept_tag_slug": "liberation", "concept_tag_label": "解脱", "confidence": 1.0, "note": "Liberation anchor."}
+      ]
+    },
+    {
+      "work_id": "work-jingang-banruo-boluomi-jing",
+      "canonical_code": "T0235",
+      "import_scope": "excerpt",
+      "text_version": {
+        "id": "tv-jingang-banruo-boluomi-jing-pilot",
+        "slug": "tv-jingang-banruo-boluomi-jing-pilot",
+        "title": "金刚般若波罗蜜经",
+        "version_label": "Han core-text pilot / excerpt set",
+        "script_note": "文言汉文",
+        "date_note": null,
+        "summary": "Curated pilot excerpts for the Diamond Sutra, emphasizing non-attachment, formlessness, and merit without abiding.",
+        "sample_note": "Excerpt/paraphrase pilot; not a full-text mirror."
+      },
+      "person_roles": [
+        {
+          "person_id": "person-kumarajiva",
+          "display_name": "鸠摩罗什",
+          "native_name": "鸠摩罗什",
+          "role": "translator",
+          "note": "Catalog-tied translator role."
+        }
+      ],
+      "structural_units": [
+        {
+          "unit_id": "dsu-root",
+          "unit_type": "section",
+          "label": "金刚经试点段",
+          "title": "Core pilot structure",
+          "position": 1,
+          "depth": 0,
+          "path": "dsu-root"
+        }
+      ],
+      "segments": [
+        {
+          "segment_key": "T0235-1",
+          "position": 1,
+          "title": "无住行施",
+          "structural_unit_id": "dsu-root",
+          "content": "修行和布施都不应依附于可见的相；若心里不断抓取结果，善行就会被自我中心重新包裹。",
+          "content_gloss": "Giving and practice should not cling to appearances; grasping outcomes wraps virtue back into self-centeredness.",
+          "note": "Pilot paraphrase for the Diamond Sutra."
+        },
+        {
+          "segment_key": "T0235-2",
+          "position": 2,
+          "title": "离四相",
+          "structural_unit_id": "dsu-root",
+          "content": "若仍执我相、人相、众生相、寿者相，就还在概念里转圈；离相不是否认世界，而是不再把它固化成实体。",
+          "content_gloss": "Clinging to self, person, beings, and lifespan keeps thought circling within concepts instead of releasing them.",
+          "note": "High-value doctrinal anchor for retrieval and comparison."
+        },
+        {
+          "segment_key": "T0235-3",
+          "position": 3,
+          "title": "功德不住",
+          "structural_unit_id": "dsu-root",
+          "content": "行善、持经、传法都应随缘回向，而不住于功德之名；这种不住功德的表达是后续对照检索的关键锚点。",
+          "content_gloss": "Virtue is directed and shared without abiding in the name of merit; this becomes a key comparison anchor.",
+          "note": "Closing pilot segment for the Diamond Sutra."
+        }
+      ],
+      "segment_concept_tags": [
+        {"segment_key": "T0235-1", "concept_tag_slug": "non-attachment", "concept_tag_label": "无住", "confidence": 1.0, "note": "Practice without attachment."},
+        {"segment_key": "T0235-1", "concept_tag_slug": "giving", "concept_tag_label": "布施", "confidence": 1.0, "note": "Generosity anchor."},
+        {"segment_key": "T0235-1", "concept_tag_slug": "prajna", "concept_tag_label": "般若", "confidence": 1.0, "note": "Wisdom anchor."},
+        {"segment_key": "T0235-2", "concept_tag_slug": "emptiness", "concept_tag_label": "空性", "confidence": 1.0, "note": "Emptiness anchor."},
+        {"segment_key": "T0235-2", "concept_tag_slug": "no-self", "concept_tag_label": "无我", "confidence": 1.0, "note": "No-self anchor."},
+        {"segment_key": "T0235-2", "concept_tag_slug": "no-marks", "concept_tag_label": "离相", "confidence": 1.0, "note": "Formlessness anchor."},
+        {"segment_key": "T0235-3", "concept_tag_slug": "merit", "concept_tag_label": "功德", "confidence": 1.0, "note": "Merit anchor."},
+        {"segment_key": "T0235-3", "concept_tag_slug": "non-attachment", "concept_tag_label": "无住", "confidence": 1.0, "note": "Non-attachment repetition for comparison."},
+        {"segment_key": "T0235-3", "concept_tag_slug": "teaching-transmission", "concept_tag_label": "传法", "confidence": 1.0, "note": "Transmission anchor."}
+      ]
+    },
+    {
+      "work_id": "work-amituo-jing",
+      "canonical_code": "T0366",
+      "import_scope": "excerpt",
+      "text_version": {
+        "id": "tv-amituo-jing-pilot",
+        "slug": "tv-amituo-jing-pilot",
+        "title": "阿弥陀经",
+        "version_label": "Han core-text pilot / excerpt set",
+        "script_note": "文言汉文",
+        "date_note": null,
+        "summary": "Curated pilot excerpts for the Amitabha Sutra, emphasizing vow, recitation, and rebirth path structure.",
+        "sample_note": "Excerpt/paraphrase pilot; not a full-text mirror."
+      },
+      "person_roles": [
+        {
+          "person_id": "person-kumarajiva",
+          "display_name": "鸠摩罗什",
+          "native_name": "鸠摩罗什",
+          "role": "translator",
+          "note": "Catalog-tied translator role."
+        }
+      ],
+      "structural_units": [
+        {
+          "unit_id": "aus-root",
+          "unit_type": "section",
+          "label": "阿弥陀经试点段",
+          "title": "Core pilot structure",
+          "position": 1,
+          "depth": 0,
+          "path": "aus-root"
+        }
+      ],
+      "segments": [
+        {
+          "segment_key": "T0366-1",
+          "position": 1,
+          "title": "净土说明",
+          "structural_unit_id": "aus-root",
+          "content": "经典先建立一个可观想的清净世界，再引导读者把信、愿、行连成一条稳定路径。",
+          "content_gloss": "The sutra first presents a purified world, then links faith, vow, and practice into a stable path.",
+          "note": "Pilot paraphrase for Pure Land retrieval."
+        },
+        {
+          "segment_key": "T0366-2",
+          "position": 2,
+          "title": "称名与忆念",
+          "structural_unit_id": "aus-root",
+          "content": "称念佛名不是机械重复，而是把散乱的心重新聚焦到愿力与忆念上，让修持有可追踪的节奏。",
+          "content_gloss": "Reciting the Buddha-name is not mechanical repetition; it re-centers the mind on vow and recollection.",
+          "note": "Useful for later retrieval of practice-oriented passages."
+        },
+        {
+          "segment_key": "T0366-3",
+          "position": 3,
+          "title": "往生愿景",
+          "structural_unit_id": "aus-root",
+          "content": "修持的目标被明确指向往生与转化，而不是抽象的哲学判断，因此它适合做愿景与实践路径的样本文本。",
+          "content_gloss": "The goal is explicit rebirth and transformation rather than abstract philosophy, making it ideal as a practice-path pilot text.",
+          "note": "Closing pilot segment for the Amitabha Sutra."
+        }
+      ],
+      "segment_concept_tags": [
+        {"segment_key": "T0366-1", "concept_tag_slug": "pure-land", "concept_tag_label": "净土", "confidence": 1.0, "note": "Pure Land anchor."},
+        {"segment_key": "T0366-1", "concept_tag_slug": "faith", "concept_tag_label": "信", "confidence": 1.0, "note": "Faith anchor."},
+        {"segment_key": "T0366-1", "concept_tag_slug": "vow", "concept_tag_label": "愿", "confidence": 1.0, "note": "Vow anchor."},
+        {"segment_key": "T0366-2", "concept_tag_slug": "buddha-name", "concept_tag_label": "佛名", "confidence": 1.0, "note": "Recitation object."},
+        {"segment_key": "T0366-2", "concept_tag_slug": "recitation", "concept_tag_label": "称名", "confidence": 1.0, "note": "Recitation anchor."},
+        {"segment_key": "T0366-2", "concept_tag_slug": "mindfulness", "concept_tag_label": "念", "confidence": 1.0, "note": "Mindfulness anchor."},
+        {"segment_key": "T0366-3", "concept_tag_slug": "rebirth", "concept_tag_label": "往生", "confidence": 1.0, "note": "Rebirth anchor."},
+        {"segment_key": "T0366-3", "concept_tag_slug": "aspiration", "concept_tag_label": "发愿", "confidence": 1.0, "note": "Aspiration anchor."},
+        {"segment_key": "T0366-3", "concept_tag_slug": "practice-path", "concept_tag_label": "行道", "confidence": 1.0, "note": "Practice path anchor."}
+      ]
+    },
+    {
+      "work_id": "work-miaofa-lianhua-jing",
+      "canonical_code": "T0262",
+      "import_scope": "excerpt",
+      "text_version": {
+        "id": "tv-miaofa-lianhua-jing-pilot",
+        "slug": "tv-miaofa-lianhua-jing-pilot",
+        "title": "妙法莲华经",
+        "version_label": "Han core-text pilot / excerpt set",
+        "script_note": "文言汉文",
+        "date_note": null,
+        "summary": "Curated pilot excerpts for the Lotus Sutra, emphasizing skillful means, one-vehicle teaching, and bodhisattva encouragement.",
+        "sample_note": "Excerpt/paraphrase pilot; not a full-text mirror."
+      },
+      "person_roles": [
+        {
+          "person_id": "person-kumarajiva",
+          "display_name": "鸠摩罗什",
+          "native_name": "鸠摩罗什",
+          "role": "translator",
+          "note": "Catalog-tied translator role."
+        }
+      ],
+      "structural_units": [
+        {
+          "unit_id": "lsu-root",
+          "unit_type": "section",
+          "label": "法华试点段",
+          "title": "Core pilot structure",
+          "position": 1,
+          "depth": 0,
+          "path": "lsu-root"
+        }
+      ],
+      "segments": [
+        {
+          "segment_key": "T0262-1",
+          "position": 1,
+          "title": "方便开门",
+          "structural_unit_id": "lsu-root",
+          "content": "佛以方便开示不同门径，目的不是制造分裂，而是让不同根器都能先入门、再回到同一方向。",
+          "content_gloss": "Skillful means open different doors so varied capacities can enter and later converge on a single direction.",
+          "note": "Pilot paraphrase for the Lotus Sutra."
+        },
+        {
+          "segment_key": "T0262-2",
+          "position": 2,
+          "title": "归于一乘",
+          "structural_unit_id": "lsu-root",
+          "content": "声闻、缘觉与菩萨的路径在这里被重新编排为一种可汇流的整体，强调最后都能通向佛知见。",
+          "content_gloss": "The paths of disciples, solitary buddhas, and bodhisattvas are reorganized as a converging whole toward buddhahood.",
+          "note": "Important for cross-text doctrinal comparison."
+        },
+        {
+          "segment_key": "T0262-3",
+          "position": 3,
+          "title": "授记与劝发",
+          "structural_unit_id": "lsu-root",
+          "content": "经文通过授记和譬喻鼓励菩萨持续精进，也让后续检索可以直接落到‘发心—修行—成佛’这一类结构。",
+          "content_gloss": "Prophecy and parable encourage sustained bodhisattva effort and provide a searchable structure of resolve, practice, and awakening.",
+          "note": "Closing pilot segment for the Lotus Sutra."
+        }
+      ],
+      "segment_concept_tags": [
+        {"segment_key": "T0262-1", "concept_tag_slug": "skillful-means", "concept_tag_label": "方便", "confidence": 1.0, "note": "Skillful means anchor."},
+        {"segment_key": "T0262-1", "concept_tag_slug": "teaching-method", "concept_tag_label": "教法", "confidence": 1.0, "note": "Teaching method anchor."},
+        {"segment_key": "T0262-1", "concept_tag_slug": "one-vehicle", "concept_tag_label": "一乘", "confidence": 1.0, "note": "One-vehicle anchor."},
+        {"segment_key": "T0262-2", "concept_tag_slug": "one-vehicle", "concept_tag_label": "一乘", "confidence": 1.0, "note": "One-vehicle repetition for retrieval."},
+        {"segment_key": "T0262-2", "concept_tag_slug": "buddhahood", "concept_tag_label": "佛知见", "confidence": 1.0, "note": "Buddhahood anchor."},
+        {"segment_key": "T0262-2", "concept_tag_slug": "bodhisattva", "concept_tag_label": "菩萨", "confidence": 1.0, "note": "Bodhisattva anchor."},
+        {"segment_key": "T0262-3", "concept_tag_slug": "prophecy", "concept_tag_label": "授记", "confidence": 1.0, "note": "Prophecy anchor."},
+        {"segment_key": "T0262-3", "concept_tag_slug": "bodhisattva", "concept_tag_label": "菩萨", "confidence": 1.0, "note": "Bodhisattva anchor."},
+        {"segment_key": "T0262-3", "concept_tag_slug": "compassion", "concept_tag_label": "慈悲", "confidence": 1.0, "note": "Compassion anchor."}
+      ]
+    },
+    {
+      "work_id": "work-dazhidu-lun",
+      "canonical_code": "T1509",
+      "import_scope": "excerpt",
+      "text_version": {
+        "id": "tv-dazhidu-lun-pilot",
+        "slug": "tv-dazhidu-lun-pilot",
+        "title": "大智度论",
+        "version_label": "Han core-text pilot / excerpt set",
+        "script_note": "文言汉文",
+        "date_note": null,
+        "summary": "Curated pilot excerpts for the Mahaprajnaparamita Sastra, anchoring prajna theory, emptiness, and teaching method.",
+        "sample_note": "Excerpt/paraphrase pilot; not a full-text mirror."
+      },
+      "person_roles": [
+        {
+          "person_id": "person-kumarajiva",
+          "display_name": "鸠摩罗什",
+          "native_name": "鸠摩罗什",
+          "role": "translator",
+          "note": "Catalog-tied translator role."
+        }
+      ],
+      "structural_units": [
+        {
+          "unit_id": "dlu-root",
+          "unit_type": "section",
+          "label": "大智度论试点段",
+          "title": "Core pilot structure",
+          "position": 1,
+          "depth": 0,
+          "path": "dlu-root"
+        }
+      ],
+      "segments": [
+        {
+          "segment_key": "T1509-1",
+          "position": 1,
+          "title": "般若为母",
+          "structural_unit_id": "dlu-root",
+          "content": "般若被描述为诸佛之母，因为智慧不是附属解释，而是破除执著、开启理解的根本力量。",
+          "content_gloss": "Prajna is described as the mother of buddhas because wisdom is the root force that opens understanding.",
+          "note": "Core scholastic anchor for later retrieval."
+        },
+        {
+          "segment_key": "T1509-2",
+          "position": 2,
+          "title": "空与缘起",
+          "structural_unit_id": "dlu-root",
+          "content": "空并不是虚无，而是不把任何法当成固定实体；因此空义与缘起必须一起读，才能避免落入断常两边。",
+          "content_gloss": "Emptiness is not nothingness; it prevents any dharma from becoming a fixed essence and must be read together with dependent arising.",
+          "note": "This segment is a strong match candidate for other prajna texts."
+        },
+        {
+          "segment_key": "T1509-3",
+          "position": 3,
+          "title": "随机设教",
+          "structural_unit_id": "dlu-root",
+          "content": "论书强调方法要跟随众生根器而变化：先破执，再立行；先解缚，再说明何以可行。",
+          "content_gloss": "The treatise stresses adapting method to capacity: first break attachment, then establish practice.",
+          "note": "Closing pilot segment for the Dazhidu Lun."
+        }
+      ],
+      "segment_concept_tags": [
+        {"segment_key": "T1509-1", "concept_tag_slug": "prajna", "concept_tag_label": "般若", "confidence": 1.0, "note": "Prajna anchor."},
+        {"segment_key": "T1509-1", "concept_tag_slug": "wisdom", "concept_tag_label": "智慧", "confidence": 1.0, "note": "Wisdom anchor."},
+        {"segment_key": "T1509-1", "concept_tag_slug": "buddhahood", "concept_tag_label": "佛果", "confidence": 1.0, "note": "Buddhahood anchor."},
+        {"segment_key": "T1509-2", "concept_tag_slug": "emptiness", "concept_tag_label": "空性", "confidence": 1.0, "note": "Emptiness anchor."},
+        {"segment_key": "T1509-2", "concept_tag_slug": "dependent-origination", "concept_tag_label": "缘起", "confidence": 1.0, "note": "Dependent origination anchor."},
+        {"segment_key": "T1509-2", "concept_tag_slug": "middle-way", "concept_tag_label": "中道", "confidence": 1.0, "note": "Middle way anchor."},
+        {"segment_key": "T1509-3", "concept_tag_slug": "teaching-method", "concept_tag_label": "教法", "confidence": 1.0, "note": "Teaching method anchor."},
+        {"segment_key": "T1509-3", "concept_tag_slug": "practice-path", "concept_tag_label": "行道", "confidence": 1.0, "note": "Practice path anchor."},
+        {"segment_key": "T1509-3", "concept_tag_slug": "non-attachment", "concept_tag_label": "无住", "confidence": 1.0, "note": "Non-attachment anchor."}
+      ]
+    }
+  ]
+}

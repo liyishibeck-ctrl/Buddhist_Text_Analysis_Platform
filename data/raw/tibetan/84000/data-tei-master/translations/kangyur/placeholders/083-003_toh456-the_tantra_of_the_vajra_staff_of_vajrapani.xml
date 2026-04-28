@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">phyag rdor rdo rje be con gyi rgyud/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vajrapāṇinīlāmbaravidhi­vajradaṇḍatantra</title>
+                <title type="mainTitle" xml:lang="en">The Tantra of the Vajra Staff of Vajrapāṇi</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">lag na rdo rje gos sngon po can gyi cho ga rdo rje be con gyi rgyud/</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-083-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh456" type="text">
+                    <ref>Toh 456</ref>
+                    <biblScope>vol.83, ff.8r-12r(pp.15-23)</biblScope>
+                    <location work="UT4CZ5369" count-pages="9">
+                        <volume number="83" start-page="15" end-page="23"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12168" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-083-003-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-07T12:02:12.888Z" type="translation-status" status="3" xml:id="UT22084-083-003-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-07T12:02:12.888Z" type="text-version" status="0.0.1" xml:id="UT22084-083-003-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

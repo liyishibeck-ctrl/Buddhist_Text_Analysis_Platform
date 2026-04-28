@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཇམ་དཔལ་གྱི་སྔགས་དོན་རྣམ་གཟིགས་དང་། ཉེ་བར་བསྡུས་པའི་རྣམ་པར་རྟོག་གེ་གཉིས་ཀྱི་དོན་བསྡུས་པ་མཚན་གྱི་སྒྲོན་མེ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'jam dpal gyi sngags don rnam gzigs dang /_nye bar bsdus pa'i rnam par rtog ge gnyis kyi don bsdus pa mtshan gyi sgron me/</title>
+                <title xml:lang="en" type="mainTitle">The Concise Meaning of Both a Consideration and Specific Debates Regarding the Meaning of the Mañjuśrī Mantra called “A Lamp for the Names”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2095" type="text">
+                    <ref>Toh 2095</ref>
+                    <biblScope>ff. 85r-92v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-049-004-1">Prajñāguru</author>
+                    <location work="UT23703" count-pages="16">
+                        <volume number="49" start-page="169" end-page="184"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8674" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh2094"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-049-004-2" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-049-004-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

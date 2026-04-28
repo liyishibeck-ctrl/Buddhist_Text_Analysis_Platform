@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of the Wise and Foolish</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">(damamūka)</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mdzangs blun gyi mdo/</title>
+                <title type="mainTitle" xml:lang="zh">《賢愚經》(大正藏:《賢愚經》)</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">mdzangs blun zhes bya ba'i mdo</title>
+                <author role="translatorMain" xml:id="UT22084-074-002-1"/>
+                <author role="translatorEng" xml:id="UT22084-074-002-2">Benjamin Ewing</author>
+                <author role="translatorEng" xml:id="UT22084-074-002-3">Lowell Cook</author>
+                <consultant role="advisor" xml:id="UT22084-074-002-4">Jeffrey Kotyk</consultant>
+                <sponsor xml:id="UT22084-074-002-5">Kris Yao</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.11 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-074-002"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh341" type="text">
+                    <ref>Toh 341</ref>
+                    <biblScope>vol.74, ff.129r-298r(pp.257-595)</biblScope>
+                    <location work="UT4CZ5369" count-pages="338">
+                        <volume number="74" start-page="258" end-page="595"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12025" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-074-002-6">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2020-03-26T12:30:13.684Z" type="translation-status" status="0" xml:id="UT22084-074-002-7">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2021-02-22T13:24:02.005Z" type="translation-status" status="3" xml:id="UT22084-074-002-8">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2021-02-22T13:24:02.005Z" type="text-version" status="0.0.2" xml:id="UT22084-074-002-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-02-22T13:24:31.341Z" type="text-version" status="0.0.3" xml:id="UT22084-074-002-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-02-22T13:24:52.262Z" type="text-version" status="0.0.4" xml:id="UT22084-074-002-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-02-22T13:37:43.983Z" type="text-version" status="0.0.5" xml:id="UT22084-074-002-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-12-21T16:14:20.319Z" type="text-version" status="0.0.6" xml:id="UT22084-074-002-13">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2023-02-10T13:36:23.873Z" type="text-version" status="0.0.7" xml:id="UT22084-074-002-14">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#amy" when="2023-02-10T13:40:50.481Z" type="text-version" status="0.0.8" xml:id="UT22084-074-002-15">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#amy" when="2023-02-10T13:42:04.539Z" type="text-version" status="0.0.9" xml:id="UT22084-074-002-16">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.10" xml:id="UT22084-074-002-17">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-01-08T13:20:28.013Z" type="text-version" status="0.0.11" xml:id="UT22084-074-002-18">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

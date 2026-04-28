@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཁོར་བ་ལས་ཡིད་ངེས་པར་འབྱུང་བར་བྱེད་པ་ཞེས་བྱ་བའི་གླུ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'khor ba las yid nges par 'byung bar byed pa zhes bya ba'i glu/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Saṃsāra­mano­niryāṇīkāra­nāma­saṃgīti</title>
+                <title xml:lang="en" type="mainTitle">A Song called “Bringing About the Definite Liberation of the Mind from Saṃsāra”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-054"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2313" type="text">
+                    <ref>Toh 2313</ref>
+                    <biblScope>ff. 253r-254v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-054-1">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-052-054-2">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-052-054-3">zhu chen gyi lo tsa ba rgya brtson seng ge</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-052-054-4">Atīśa Dīpaṃkaraśrījñāna</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-052-054-5">lo tsA ba tshul khrims rgyal ba</editor>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="52" start-page="505" end-page="508"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8896" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-054-6" source="tengyur-data-2303-2325_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="general" xml:id="UT23703-052-054-7" source="tengyur-data-2303-2325_PH_new_v2.4.xml">
+                    <desc>According to Mochizuki (2007), the Saṃsāra-mano-niryāṇīkāra-nāma-saṃgīti was written during Atīśa's stay in India and its theme is the way to eliminate
+            causes of suffering.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-052-054-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

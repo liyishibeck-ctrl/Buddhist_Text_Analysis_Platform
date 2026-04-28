@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Verses of Auspiciousness for the Thirty-Seven Deities</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">lha sum cu rtsa bdun gyi bkra shis tshigs su bcad pa/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">dpal rnal 'byor gyi rgyud kyi dkyil 'khor gyi lha/ de bzhin gshegs pa rigs lnga 'khor dang bcas pa lha sum cu rtsa bdun gyi bkra shis tshigs su bcad pa/</title>
+                <author role="translatorMain" xml:id="UT22084-096-069-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-096-069-5">Paul G. Hackett</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-096-069"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh820" type="text">
+                    <ref>Toh 820</ref>
+                    <biblScope>vol.96, ff.260r-260v(pp.519-520)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="96" start-page="519" end-page="520"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12566" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-096-069-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:31:08.992Z" type="translation-status" status="3" xml:id="UT22084-096-069-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:31:08.992Z" type="text-version" status="0.0.1" xml:id="UT22084-096-069-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:31:40.6Z" type="text-version" status="0.0.2" xml:id="UT22084-096-069-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-05T13:53:39.217Z" type="translation-status" status="2.h" xml:id="UT22084-096-069-7">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-05T13:53:39.217Z" type="text-version" status="0.0.3" xml:id="UT22084-096-069-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

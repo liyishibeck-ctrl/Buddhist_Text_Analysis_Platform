@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཚོགས་ཀྱི་འཁོར་ལོའི་ཆོ་ག་ཡིད་བཞིན་ནོར་བུ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">tshogs kyi 'khor lo'i cho ga yid bzhin nor bu zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Gaṇa­cakra­vidhi­cintāmaṇi­nāma</title>
+                <title xml:lang="en" type="mainTitle">A Ritual for Feast Offerings called “The Wish-Fulfilling Jewel”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-154"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2494" type="text">
+                    <ref>Toh 2494</ref>
+                    <biblScope>ff. 249r-254r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-053-154-1">Ratnarakṣitapāda</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-053-154-2">Ratnarakṣitapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-053-154-3">bod kyi lo tsa ba shakya'i dge slong rdo rje 'dzin pa grub pa dpal bzang po</author>
+                    <location work="UT23703" count-pages="11">
+                        <volume number="53" start-page="497" end-page="507"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9078" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-154-4" source="tengyur-data-2450-2500_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-053-154-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

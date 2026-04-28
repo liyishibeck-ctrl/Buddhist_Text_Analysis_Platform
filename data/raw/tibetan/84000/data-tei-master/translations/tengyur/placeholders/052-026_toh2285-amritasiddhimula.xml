@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བདུད་རྩི་གྲུབ་པའི་རྩ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">bdud rtsi grub pa'i rtsa ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Amṛta­siddhi­mūla</title>
+                <title xml:lang="en" type="mainTitle">The Foundation for the Attainment of Elixir</title>
+                <title xml:lang="bo" type="longTitle">བདུད་རྩི་གྲུབ་པའི་རྩ་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">bdud rtsi grub pa'i rtsa ba zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Amṛta­siddhi­mūla­nāma</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-026"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2285" type="text">
+                    <ref>Toh 2285</ref>
+                    <biblScope>ff. 142v-145r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-026-1">Virūpa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-052-026-2">Eṇadeva</author>
+                    <location work="UT23703" count-pages="6">
+                        <volume number="52" start-page="284" end-page="289"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8867" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-10-02T14:00:12.971Z" type="translation-status" status="4" xml:id="UT23703-052-026-3">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-10-02T14:00:12.971Z" type="text-version" status="0.0.1" xml:id="UT23703-052-026-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:13:09.436Z" type="translation-status" status="" xml:id="UT23703-052-026-5">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:13:09.436Z" type="text-version" status="0.0.2" xml:id="UT23703-052-026-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-026-7" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-052-026-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

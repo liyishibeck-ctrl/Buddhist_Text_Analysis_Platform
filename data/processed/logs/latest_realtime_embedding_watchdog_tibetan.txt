@@ -1,0 +1,4 @@
+PID=196704
+STDOUT=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-tibetan-normalized_content-watch-20260427-144147.out.log
+STDERR=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-tibetan-normalized_content-watch-20260427-144147.err.log
+WORKER_STATE_FILE=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\latest_realtime_embedding_worker_tibetan.txt

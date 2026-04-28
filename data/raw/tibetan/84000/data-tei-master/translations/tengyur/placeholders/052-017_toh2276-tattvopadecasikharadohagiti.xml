@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Personal Instructions on Suchness called “A Dohā Song of the Tip”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Tattvopadeśa­śikhara­doha­gīti­nāma</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de kho na nyid kyi man ngag rtse mo do ha'i glu zhes bya ba/</title>
+                <title type="mainTitle" xml:lang="bo">དེ་ཁོ་ན་ཉིད་ཀྱི་མན་ངག་རྩེ་མོ་དོ་ཧའི་གླུ་ཞེས་བྱ་བ།</title>
+                <title type="longTitle" xml:lang="en">Personal Instructions on the Suchness of the Great Seal called “A Dohā Song of the Tip of the Vajra”</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">phyag rgya chen po de kho na nyid rtse mo do ha'i glu/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-017"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2276" type="text">
+                    <ref>Toh 2276</ref>
+                    <biblScope>ff.126v-127v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-017-1">Saraha (II)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-052-017-2">Kṛṣṇa Paṇḍita</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="52" start-page="251" end-page="254"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8858" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2021-12-01T20:05:30.685Z" user="john">The colophon expands on the title as: phyag rgya chen po de kho na nyid rtse mo do ha'i glu, while the opening verse qualifies the reference of śikhara (“pinnacle” or “tip”) as vajra-śikhara (rdo rje rtse mo).</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-017-3" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="title" xml:id="UT23703-052-017-4" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc>The colophon expands on the title as: phyag rgya chen po de kho na nyid rtse mo do ha'i glu, while the opening verse qualifies the reference of śikhara
+            (“pinnacle” or “tip”) as vajra-śikhara (rdo rje rtse mo).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-052-017-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

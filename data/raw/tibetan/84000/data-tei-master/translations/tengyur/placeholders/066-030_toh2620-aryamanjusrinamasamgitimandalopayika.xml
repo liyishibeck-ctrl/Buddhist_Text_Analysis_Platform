@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་དཀྱིལ་འཁོར་གྱི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i dkyil 'khor gyi cho ga</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­mañjuśrī­nāma­saṃgīti­maṇḍalopāyikā</title>
+                <title xml:lang="en" type="mainTitle">A Maṇḍala Ritual of “The Recitation of the Names of Mañjuśrī”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-066-030"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2620" type="text">
+                    <ref>Toh 2620</ref>
+                    <biblScope>ff. 109r-120r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-066-030-1">Somaśrī</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-066-030-2">Mahājana</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-066-030-3">lo tsa ba de slong gzhon nu 'od</author>
+                    <location work="UT23703" count-pages="23">
+                        <volume number="66" start-page="217" end-page="239"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9224" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-066-030-4" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-066-030-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

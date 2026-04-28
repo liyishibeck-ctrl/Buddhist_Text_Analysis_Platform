@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Nature of the Planets and Astrological Houses Found in [the Life-story of] Ārya Śārdūlakarṇa</title>
+                <title xml:lang="bo" type="mainTitle">ཨཱརྱ་ཤ་རྡུ་ལ་ཀརྞའི་ནང་ནས་འབྱུང་བ་གཟའ་དང་རྒྱུ་སྐྲ་གྱི་རང་བཞིན་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">Ar+ya sha rdu la kar+Na'i nang nas 'byung ba gza' dang rgyu skra gyi rang bzhin bshad pa/</title>
+                <author role="translatorMain" xml:id="UT23703-203-010-7">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT23703-203-010-8">Paul Hackett</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT23703-203-010"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4321a" type="text">
+                    <ref>Toh 4321a</ref>
+                    <biblScope>ff. 33v-49r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-203-010-1">Anon</author>
+                    <location work="UT23703" count-pages="32">
+                        <volume number="203" start-page="66" end-page="97"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11108" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11118A" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh358"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:24:31.87Z" type="import" xml:id="UT23703-203-010-2" source="tengyur-data-4313-4327_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:24:31.87Z" type="title" xml:id="UT23703-203-010-3" source="tengyur-data-4313-4327_PH_new_v2.4.xml">
+                    <desc>The opening statement gives the title as “... from within the Ārya Grammar” (ārya byā ka ra ṇa'i nang nas ...) which is clearly wrong. The colophon provides
+            the almost correct title “... from within [the life-story of] Ārya Śārdūlakarṇa” (ārya sha r[d]u la karṇa’i nang nas ...), i.e. the Śārdūlakarṇāvadāna (Toh. 358).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-203-010-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-22T09:47:02.804Z" type="translation-status" status="3" xml:id="UT23703-203-010-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-22T09:47:02.804Z" type="text-version" status="0.0.1" xml:id="UT23703-203-010-6">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-22T09:47:39.784Z" type="text-version" status="0.0.2" xml:id="UT23703-203-010-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

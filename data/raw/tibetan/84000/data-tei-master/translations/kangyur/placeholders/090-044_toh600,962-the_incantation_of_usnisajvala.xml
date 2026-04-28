@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gtsug tor 'bar ba'i gzungs/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī of Uṣṇīṣājvālā</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">gtsug tor 'bar ba zhes bya ba'i gzungs/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">gtsug tor 'bar ba zhes bya ba'i gzungs/</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-090-044"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh600" type="text">
+                    <ref>Toh 600</ref>
+                    <biblScope>vol.90, ff.260r-260r(pp.517-517)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="90" start-page="517" end-page="517"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12333" work="W22084"/>
+                </bibl>
+                <bibl key="toh962" type="text">
+                    <ref>Toh 962</ref>
+                    <biblScope>vol.101, ff.57r-57v(pp.113-114)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="102" start-page="113" end-page="114"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12725" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-090-044-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-02T10:04:21.926Z" type="text-version" status="0.0.2" xml:id="UT22084-090-044-2">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-30T13:22:47.229Z" type="translation-status" status="3" xml:id="UT22084-090-044-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-30T13:22:47.229Z" type="text-version" status="0.0.3" xml:id="UT22084-090-044-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

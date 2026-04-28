@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Personal Instructions on the Great Bliss of Bodhicitta</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Bodhicitta­mahāsukhāmnāya</title>
+                <title type="mainTitle" xml:lang="bo">བྱང་ཆུབ་ཀྱི་སེམས་བདེ་བའི་མན་ངག</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">byang chub kyi sems bde ba'i man ngag</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">byang chub kyi sems bde ba chen po'i man ngag</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-028-014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1696" type="text">
+                    <ref>Toh 1696</ref>
+                    <biblScope>ff. 52v-53r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-028-014-1">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-028-014-2">zhu chen gyi lo tsa ba dge ba'i blo gros</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-028-014-3">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-028-014-4">pho brang byang chub 'od</editor>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="28" start-page="104" end-page="105"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21620" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8249" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="import" xml:id="UT23703-028-014-5" source="tengyur-data-1683-1783_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="title" xml:id="UT23703-028-014-6" source="tengyur-data-1683-1783_PH_new_v2.4.xml">
+                    <desc>An extended title is provided in the colophon to the text (byang chub kyi sems bde ba chen po'i man ngag).</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="general" xml:id="UT23703-028-014-7" source="tengyur-data-1683-1783_PH_new_v2.4.xml">
+                    <desc>Meditation instructions for the time of death.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-028-014-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འབུམ་དང་ཉི་ཁྲི་ལྔ་སྟོང་པ་དང་ཁྲི་བརྒྱད་སྟོང་པ་གསུམ་དོན་མཐུན་པར་མངོན་རྟོགས་བརྒྱད་དུ་བསྟན་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'bum dang nyi khri lnga stong pa dang khri brgyad stong pa gsum don mthun par mngon rtogs brgyad du bstan pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Prajñāpāramitā­mātṛkā­śatasāhasrikā­bṛhacchāsana­pañcaviṃśatisāhasrikā­madhyaśāsanāṣṭādaśasāhasrikā­laghuśāsanāṣṭa­samānārthaśāsana</title>
+                <title xml:lang="en" type="mainTitle">A Teaching on the Eight Clear Realizations as the Common Meaning of the Three [Large Perfection of Wisdom Sūtras in] One Hundred Thousand Lines, Twenty-Five Thousand Lines, and Eight Thousand Lines</title>
+                <title xml:lang="en" type="longTitle">A Teaching on the Eight Clear Realizations as the Common Meaning of the Mother Perfection of Wisdom Sūtras: the Large in One Hundred Thousand Lines, the Medium in Twenty-Five Thousand Lines, and the Shorter in Eight Thousand Lines</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-081-002"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3789" type="text">
+                    <ref>Toh 3789</ref>
+                    <biblScope>ff. 182v-243r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-081-002-1">Smṛtijñānakīrti</author>
+                    <location work="UT23703" count-pages="123">
+                        <volume number="81" start-page="363" end-page="485"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10422" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh8"/>
+                <link type="isCommentaryOf" target="toh9"/>
+                <link type="isCommentaryOf" target="toh10"/>
+                <link type="isCommentaryOf" target="toh3786"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2020-06-25T11:19:54.86Z" type="text-version" status="0.0.2" xml:id="UT23703-081-002-2">
+                    <desc>Titles edited.</desc>
+                </change>
+                <change who="#john" when="2020-06-25T11:19:54.86Z" type="publication-date" xml:id="UT23703-081-002-3">
+                    <desc>Titles edited.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:12:33.078Z" type="import" xml:id="UT23703-081-002-4" source="tengyur-data-3786-3823_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-081-002-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

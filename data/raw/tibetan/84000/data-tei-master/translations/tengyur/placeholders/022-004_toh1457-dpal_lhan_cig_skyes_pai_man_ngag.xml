@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་ལྷན་ཅིག་སྐྱེས་པའི་མན་ངག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal lhan cig skyes pa'i man ngag</title>
+                <title xml:lang="en" type="mainTitle">Personal Instructions on the Glorious Spontaneously Arisen [Saṃvara]</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-022-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1457" type="text">
+                    <ref>Toh 1457</ref>
+                    <biblScope>ff. 5r-5v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-022-004-1">Mahāśabara</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-022-004-2">rje mi nyag lo tsa ba</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="22" start-page="9" end-page="10"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8004" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-022-004-3" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="title" xml:id="UT23703-022-004-4" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc>An alternate title is provided in the colophon as “Personal Instructions on the Glorious Spontaneously Arisen [Saṃvara called] “Waves of Self-Empowerment”
+            (dpal lhan cig skyes pa'i man ngag bdag byin gyis brlab pa).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-022-004-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

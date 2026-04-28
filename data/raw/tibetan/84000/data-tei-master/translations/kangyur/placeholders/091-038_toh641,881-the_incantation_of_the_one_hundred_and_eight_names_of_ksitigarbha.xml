@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sa'i snying po'i mtshan brgya rtsa brgyad pa'i gzungs sngags/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Kṣitigarbhāṣṭottara­śatakanāma dhāraṇīmantrasahitam</title>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī-mantra of the One Hundred and Eight Names of Kṣitigarbha</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa sa'i snying po'i mtshan brgya rtsa brgyad pa gzungs sngags dang bcas pa/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryakṣitigarbhāṣṭottara­śatakanāma dhāraṇīmantrasahitam</title>
+                <title type="otherTitle" xml:lang="en">The Dhāraṇī of the Hundred and Eight Names of Kṣitigarbha</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">kṣitigarbhāṣṭottaraśatakanāma dhāraṇīmantrasahitam</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryakṣitigarbhāṣṭottara­śatakanāma dhāraṇīmantrasahitam</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-091-038"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh641" type="text">
+                    <ref>Toh 641</ref>
+                    <biblScope>vol.91, ff.124r-126r(pp.245-251)</biblScope>
+                    <location work="UT4CZ5369" count-pages="5">
+                        <volume number="91" start-page="247" end-page="251"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12375" work="W22084"/>
+                </bibl>
+                <bibl key="toh881" type="text">
+                    <ref>Toh 881</ref>
+                    <biblScope>vol.100, ff.119v-122r(pp.238-243)</biblScope>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="101" start-page="236" end-page="241"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12643" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-091-038-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-04-02T13:39:35.416Z" type="text-version" status="0.0.2" xml:id="UT22084-091-038-2">
+                    <desc>Updated vol. 100 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-22T14:00:46.434Z" type="translation-status" status="3" xml:id="UT22084-091-038-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-22T14:00:46.434Z" type="text-version" status="0.0.3" xml:id="UT22084-091-038-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

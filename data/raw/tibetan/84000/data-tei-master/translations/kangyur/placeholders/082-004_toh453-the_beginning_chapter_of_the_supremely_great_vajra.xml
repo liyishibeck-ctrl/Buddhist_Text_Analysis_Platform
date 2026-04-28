@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Beginning Chapter of the Supremely Great Vajra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vajraśrīvaramahākalpādi</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rdo rje dpal mchog chen po brtag pa dang po/</title>
+                <title type="otherTitle" xml:lang="en">[Note: see alternative short-form title for previous text, Toh 452, suggesting that this text is considered a longer form of it.]</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Śrīsarvatathāgataguhyatantrayog­amahārājādvayasamatāvijaya­nāmavajraśrīvaramahākalpādi</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">gnyis med pa'i rnam rgyal chen mo/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">dpal de bzhin gshegs pa thams cad kyi gsang ba rnal 'byor chen po rnam par rgyal ba zhes bya ba mnyam pa nyid gnyis su med pa'i rgyud kyi rgyal po rdo rje dpal mchog chen po brtag pa dang po/</title>
+                <author role="translatorMain" xml:id="UT22084-082-004-1">Dharmachakra Translation Committee</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-082-004-2">Chökyi Nyima Rinpoche</consultant>
+                <consultant role="projectManager" xml:id="UT22084-082-004-3">Andreas Doctor</consultant>
+                <author role="translatorEng" xml:id="UT22084-082-004-4">Thomas Doctor</author>
+                <editor role="projectEditor" xml:id="UT22084-082-004-19">Rory Lindsay</editor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.10 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.f"/>
+                <idno xml:id="UT22084-082-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh453" type="text">
+                    <ref>Toh 453</ref>
+                    <biblScope>vol.82, ff.103r-331r(pp.205-661)</biblScope>
+                    <location work="UT4CZ5369" count-pages="457">
+                        <volume number="82" start-page="205" end-page="661"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12164" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2020-11-17T19:07:09.724Z" type="text-version" status="0.0.2" xml:id="UT22084-082-004-5">
+                    <desc>Updated alternative title and Text notes.</desc>
+                </change>
+                <change who="#line-tofte" when="2021-11-19T10:58:59.557Z" type="translation-status" status="3" xml:id="UT22084-082-004-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2021-11-19T10:58:59.557Z" type="text-version" status="0.0.3" xml:id="UT22084-082-004-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-11-19T10:59:19.008Z" type="text-version" status="0.0.4" xml:id="UT22084-082-004-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-11-19T10:59:52.702Z" type="text-version" status="0.0.5" xml:id="UT22084-082-004-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT22084-082-004-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-27T09:06:38.037Z" type="translation-status" status="2.h" xml:id="UT22084-082-004-11">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-27T09:06:38.037Z" type="text-version" status="0.0.7" xml:id="UT22084-082-004-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-04T15:13:00.664Z" type="translation-status" status="2.g" xml:id="UT22084-082-004-13">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-04T15:13:00.664Z" type="text-version" status="0.0.8" xml:id="UT22084-082-004-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-04T15:13:59.022Z" type="text-version" status="0.0.9" xml:id="UT22084-082-004-20">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-29T11:07:25.276Z" type="translation-status" status="2.f" xml:id="UT22084-082-004-21">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-29T11:07:25.276Z" type="text-version" status="0.0.10" xml:id="UT22084-082-004-22">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

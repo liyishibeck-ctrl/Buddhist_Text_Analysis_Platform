@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī of Mekhalā</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mekhalādhāraṇī</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">me kha la'i gzungs/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryamekhalanāmadhāraṇī</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryamekhalānāmadhāraṇī</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Mekhaladhāraṇī</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa me kha la zhes bya ba'i gzungs/</title>
+                <author role="translatorMain" xml:id="UT22084-096-021-1"/>
+                <consultant role="projectManager" xml:id="UT22084-096-021-2">Péter-Dániel Szántó</consultant>
+                <author role="translatorEng" xml:id="UT22084-096-021-3">Gergely Hidas</author>
+                <author role="translatorEng" xml:id="UT22084-096-021-4">Péter-Dániel Szántó</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.7 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-096-021"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh772" type="text">
+                    <ref>Toh 772</ref>
+                    <biblScope>vol.96, ff.105v-111v(pp.210-222)</biblScope>
+                    <location work="UT4CZ5369" count-pages="13">
+                        <volume number="96" start-page="210" end-page="222"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12518" work="W22084"/>
+                </bibl>
+                <bibl key="toh907" type="text">
+                    <ref>Toh 907</ref>
+                    <biblScope>vol.100, ff.233r-239r(pp.465-477)</biblScope>
+                    <location work="UT4CZ5369" count-pages="13">
+                        <volume number="101" start-page="463" end-page="475"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12669" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-06-30T11:41:41.718Z" type="translation-status" status="4" xml:id="UT22084-096-021-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-30T11:41:41.718Z" type="text-version" status="0.0.1" xml:id="UT22084-096-021-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T12:14:16.604Z" type="translation-status" status="3" xml:id="UT22084-096-021-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T12:14:16.604Z" type="text-version" status="0.0.2" xml:id="UT22084-096-021-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T12:14:45.754Z" type="text-version" status="0.0.3" xml:id="UT22084-096-021-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T12:15:07.288Z" type="text-version" status="0.0.4" xml:id="UT22084-096-021-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-096-021-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-05-01T05:17:49.127Z" type="text-version" status="0.0.6" xml:id="UT22084-096-021-12">
+                    <desc>Updated vol. 100 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-07T14:28:19.571Z" type="translation-status" status="2.h" xml:id="UT22084-096-021-13">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-07T14:28:19.571Z" type="text-version" status="0.0.7" xml:id="UT22084-096-021-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

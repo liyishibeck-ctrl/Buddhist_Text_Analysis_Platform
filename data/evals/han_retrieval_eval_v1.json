@@ -1,0 +1,124 @@
+{
+  "id": "han-retrieval-eval-v1",
+  "title": "Han Retrieval Evaluation Sample Set v1",
+  "description": "Initial Han-focused retrieval queries for comparing keyword, vector, and hybrid retrieval during the first external-embedding rollout.",
+  "default_top_k": 5,
+  "cases": [
+    {
+      "id": "han-anatman-term",
+      "query_text": "无我",
+      "tradition_id": "trad-han",
+      "tags": ["han", "doctrine", "term"],
+      "notes": "Exact doctrinal term; should retrieve the anatman cluster rather than random unrelated hits.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0278-11383",
+        "seg-cbeta-t0310-1664",
+        "seg-cbeta-t0099-538",
+        "seg-cbeta-t0186-1547",
+        "seg-cbeta-t0268-974"
+      ],
+      "expected_work_ids": [
+        "work-huayan-jing-t278",
+        "work-da-baoji-jing",
+        "work-za-ahan-jing",
+        "work-t0186",
+        "work-t0268"
+      ]
+    },
+    {
+      "id": "han-anatman-paraphrase",
+      "query_text": "不要执着一个固定的自我",
+      "tradition_id": "trad-han",
+      "tags": ["han", "doctrine", "paraphrase"],
+      "notes": "Modern paraphrase of anatman / non-clinging-to-self; vector retrieval should outperform plain keyword search.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0310-4037",
+        "seg-cbeta-t0191-353",
+        "seg-cbeta-t0293-1688",
+        "seg-cbeta-t0278-11383"
+      ],
+      "expected_work_ids": [
+        "work-da-baoji-jing",
+        "work-t0191",
+        "work-t0293",
+        "work-huayan-jing-t278"
+      ]
+    },
+    {
+      "id": "han-heart-sutra-anchor",
+      "query_text": "色即是空",
+      "tradition_id": "trad-han",
+      "tags": ["han", "prajna", "anchor"],
+      "notes": "Classic Prajna anchor that should hit Heart Sutra or closely related Prajna passages.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0251-002",
+        "seg-cbeta-t0252-005",
+        "seg-cbeta-t0220-37404"
+      ],
+      "expected_work_ids": [
+        "work-xinjing-xuanzang",
+        "work-da-banruo-boluomiduo-jing"
+      ]
+    },
+    {
+      "id": "han-diamond-no-abiding",
+      "query_text": "应无所住而生其心",
+      "tradition_id": "trad-han",
+      "tags": ["han", "diamond-sutra", "anchor"],
+      "notes": "Canonical Diamond Sutra anchor for non-abiding mind.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0235-037",
+        "seg-cbeta-t0236a-027"
+      ],
+      "expected_work_ids": [
+        "work-jingang-banruo-boluomi-jing",
+        "work-t0236a"
+      ]
+    },
+    {
+      "id": "han-diamond-paraphrase",
+      "query_text": "布施不要着相",
+      "tradition_id": "trad-han",
+      "tags": ["han", "diamond-sutra", "paraphrase"],
+      "notes": "Modern paraphrase of non-abiding generosity; hybrid should ideally keep Diamond Sutra hits near the top.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0235-007",
+        "seg-cbeta-t0236a-007"
+      ],
+      "expected_work_ids": [
+        "work-jingang-banruo-boluomi-jing",
+        "work-t0236a"
+      ]
+    },
+    {
+      "id": "han-satipatthana-term",
+      "query_text": "四念处",
+      "tradition_id": "trad-han",
+      "tags": ["han", "practice", "term"],
+      "notes": "Practice-oriented doctrinal term; should surface satipatthana passages from Agama material.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0001-1192",
+        "seg-cbeta-t0001-1443",
+        "seg-cbeta-t0001-1503"
+      ],
+      "expected_work_ids": [
+        "work-chang-ahan-jing"
+      ]
+    },
+    {
+      "id": "han-dependent-origination-verse",
+      "query_text": "因缘所生法",
+      "tradition_id": "trad-han",
+      "tags": ["han", "dependent-origination", "anchor"],
+      "notes": "Short dependent-origination verse form; should retrieve direct canonical anchors or close doctrinal restatements.",
+      "expected_segment_ids": [
+        "seg-cbeta-t0273-326",
+        "seg-cbeta-t0190-779"
+      ],
+      "expected_work_ids": [
+        "work-t0273",
+        "work-fobenxingji-jing"
+      ]
+    }
+  ]
+}

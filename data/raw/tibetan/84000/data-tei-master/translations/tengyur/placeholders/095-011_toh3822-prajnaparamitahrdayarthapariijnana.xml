@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་དོན་ཡོངས་སུ་ཤེས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">shes rab kyi pha rol tu phyin pa'i snying po'i don yongs su shes pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Prajñāpāramitā­hṛdayārtha­parijñāna</title>
+                <title xml:lang="en" type="mainTitle">The Complete Understanding of the Meaning of “The Essence of the Perfection of Wisdom”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-095-011"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3822" type="text">
+                    <ref>Toh 3822</ref>
+                    <biblScope>ff. 303v-313r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-095-011-1">Mahājana</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-095-011-2">Mahājana</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-095-011-3">sgra bsgyur gyi lo tsa ba dge slong seng ge rgyal mtshan</author>
+                    <location work="UT23703" count-pages="20">
+                        <volume number="95" start-page="606" end-page="625"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10472" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh21"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:12:33.078Z" type="import" xml:id="UT23703-095-011-4" source="tengyur-data-3786-3823_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-095-011-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཤིས་པར་བརྗོད་པའི་ཚིགས་སུ་བཅད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">shis par brjod pa'i tshigs su bcad pa/</title>
+                <title xml:lang="en" type="mainTitle">Verses Expressing Auspiciousness</title>
+                <title xml:lang="bo" type="longTitle">འཕགས་པ་རྒྱ་ཆེར་རོལ་པའི་མདོའི་ཚོང་དཔོན་ག་གོན་དང་བཟང་པོའི་ལེའུ་ལས་འབྱུང་བ་ཤིས་པར་བརྗོད་པའི་ཚིགས་སུ་བཅད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">'phags pa rgya cher rol pa'i mdo'i tshong dpon ga gon dang bzang po'i le'u las 'byung ba shis par brjod pa'i tshigs su bcad pa/</title>
+                <title xml:lang="en" type="longTitle">Verses Expressing Auspiciousness, from the Chapter of the Merchants Trapuṣa and Bhallika in the Lalitavistara Sūtra</title>
+                <title xml:lang="en" type="otherTitle">[Note: from the 24th chapter of “The Play in Full” (Lalitavistara), Toh 95]</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-101-163"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1107" type="text">
+                    <ref>Toh 1107</ref>
+                    <biblScope>vol.101, ff.275v-278r(pp.550-555)</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-101-163-1">Anon</author>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="102" start-page="550" end-page="555"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20569" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12871" work="W22084"/>
+                </bibl>
+                <bibl key="toh4405" type="text">
+                    <ref>Toh 4405</ref>
+                    <biblScope>ff. 342r-343v</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-101-163-2">Anon</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="207" start-page="683" end-page="686"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21687" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112111JC21748" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="import" xml:id="UT22084-101-163-3" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-101-163-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-29T12:06:56.884Z" type="translation-status" status="4" xml:id="UT22084-101-163-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-29T12:06:56.884Z" type="text-version" status="0.0.1" xml:id="UT22084-101-163-6">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#john" when="2024-03-06T14:15:42.5Z" type="text-version" status="0.0.2" xml:id="UT22084-101-163-7">
+                    <desc>User set version to 0.0.2</desc>
+                </change>
+                <change who="#line-tofte" when="2024-03-14T15:53:38.93Z" type="translation-status" status="" xml:id="UT22084-101-163-8">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2024-03-14T15:53:38.93Z" type="text-version" status="0.0.3" xml:id="UT22084-101-163-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#sameer" when="2024-07-08T07:33:37.563Z" type="text-version" status="0.0.4" xml:id="UT22084-101-163-10">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

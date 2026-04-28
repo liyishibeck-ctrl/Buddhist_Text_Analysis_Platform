@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Tantra of Lokastotrapūja</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Lokastotrapūjakalpamūlatantra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'jig rten mchod bstod sgrub pa rtsa ba'i rgyud/</title>
+                <author role="translatorMain" xml:id="UT22084-099-017-1"/>
+                <author role="translatorEng" xml:id="UT22084-099-017-2">Nicholas Schmidt</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-099-017"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh844" type="text">
+                    <ref>Toh 844</ref>
+                    <biblScope>vol. 99,ff. 268r-287r(pp.535-573)</biblScope>
+                    <location work="UT4CZ5369" count-pages="39">
+                        <volume number="99" start-page="535" end-page="573"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20566" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12604" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-06-27T08:19:44.92Z" type="translation-status" status="4" xml:id="UT22084-099-017-3">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-27T08:19:44.92Z" type="text-version" status="0.0.1" xml:id="UT22084-099-017-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-30T10:54:09.738Z" type="translation-status" status="3" xml:id="UT22084-099-017-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-30T10:54:09.738Z" type="text-version" status="0.0.2" xml:id="UT22084-099-017-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-30T10:54:51.457Z" type="text-version" status="0.0.3" xml:id="UT22084-099-017-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-099-017-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

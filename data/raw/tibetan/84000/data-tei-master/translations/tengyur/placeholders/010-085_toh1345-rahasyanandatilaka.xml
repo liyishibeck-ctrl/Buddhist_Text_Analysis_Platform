@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Tilaka of Great Secret Joy</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Rahasyānanda­tilaka</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gsang chen dga' ba'i thig le/</title>
+                <title type="mainTitle" xml:lang="bo">གསང་ཆེན་དགའ་བའི་ཐིག་ལེ།</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Rahasyānanda­tilaka­nāma</title>
+                <title type="longTitle" xml:lang="bo">གསང་ཆེན་དགའ་བའི་ཐིག་ལེ་ཞེས་བྱ་བ།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">gsang chen dga' ba'i thig le zhes bya ba/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">gsang ba'i mdzod</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-010-085"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1345" type="text">
+                    <ref>Toh 1345</ref>
+                    <biblScope>ff. 359v-366r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-010-085-1">Mahāmati</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-010-085-2">Ācārya Dulopa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-010-085-3">bod kyi lo tsa ba dge slong chos kyi shes rab</author>
+                    <location work="UT23703" count-pages="12">
+                        <volume number="10" start-page="720" end-page="731"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7879" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title-internal" date-time="2021-11-19T16:59:59.343Z" user="john">[Note (title): This work is cited as _gsang ba'i mdzod_ in Grags-pa-rgyal-mtshan's _rtsa ba'i ltung ba bcu bzhi pa'i 'grel pa gsal byed 'khrul spong_.]</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-010-085-4" source="tengyur-data-1305-1345_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="title" xml:id="UT23703-010-085-5" source="tengyur-data-1305-1345_PH_new_v2.4.xml">
+                    <desc>This work is cited as _gsang ba'i mdzod_ in Grags-pa-rgyal-mtshan's _rtsa ba'i ltung ba bcu bzhi pa'i 'grel pa gsal byed 'khrul spong_.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-010-085-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སངས་རྒྱས་རྗེས་སུ་དྲན་པའི་རྒྱ་ཆེར་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">sangs rgyas rjes su dran pa'i rgya cher 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Buddhānusmṛti­ṭīkā</title>
+                <title xml:lang="en" type="mainTitle">Extensive Commentary on The Recollection of the Buddha</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-113-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3987" type="text">
+                    <ref>Toh 3987</ref>
+                    <biblScope>ff. 55v-63v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-113-007-1">Vasubandhu</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-113-007-2">zhu chen gyi lo tsa ba dge slong dpal brtsegs rak+si ta</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-113-007-3">Dānaśīla (I)</author>
+                    <location work="UT23703" count-pages="17">
+                        <volume number="113" start-page="110" end-page="126"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10651" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10659" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3982"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-113-007-4" source="tengyur-data-3981-4019_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.1" xml:id="UT23703-113-007-5">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-113-007-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">A Summary of the Monastic Disciplines</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vinaya­saṃgraha</title>
+                <title xml:lang="bo" type="mainTitle">འདུལ་བ་བསྡུས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'dul ba bsdus pa/</title>
+                <author role="translatorMain" xml:id="UT23703-151-002-13">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT23703-151-002-14">Annie Heckman</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT23703-151-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4105" type="text">
+                    <ref>Toh 4105</ref>
+                    <biblScope>ff. 88v-268r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-151-002-1">Viśeṣamitra</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-151-002-2">Lo­tsā­ba Vairocana</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-151-002-3">Śākyaprabha</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-151-002-4">Śīlendrabodhi</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-151-002-5">lo tsA ba shAkya'i dge slong shAkya bshes gnyen</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-151-002-6">Jñānaśrībhadra</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-151-002-7">Jayaśrījñāna</editor>
+                    <location work="UT23703" count-pages="361">
+                        <volume number="151" start-page="175" end-page="535"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10823" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10828" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh2"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:17:45.617Z" type="import" xml:id="UT23703-151-002-8" source="tengyur-data-4104-4149_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-01-28T13:33:12.499Z" type="text-version" status="0.0.1" xml:id="UT23703-151-002-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-151-002-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-02T08:10:55.063Z" type="translation-status" status="3" xml:id="UT23703-151-002-11">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-02T08:10:55.063Z" type="text-version" status="0.0.3" xml:id="UT23703-151-002-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-02T08:11:41.663Z" type="text-version" status="0.0.4" xml:id="UT23703-151-002-15">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/current/section.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc type="section">
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">spyod pa’i rgyud/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Caryātantra</title>
+                <title type="mainTitle" xml:lang="en">Conduct tantras</title>
+             <title type="articleTitle" xml:lang="en">Conduct tantras (Kangyur Section)</title>
+                </titleStmt>
+            <editionStmt>
+                <edition>v 0.1.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Published in 84000 Reading Room</p>
+                <availability status="1"/>
+                <idno xml:id="O1JC114941JC21414"/>
+                <idno type="eft-kb-id">conduct-tantras</idno>
+                <date>2010</date>
+            </publicationStmt>
+            <sourceDesc work="W22084" sort-index="15">
+                <p>Derived from previous outline file from TBRC</p>
+                <bibl>
+                    <idno parent-id="O1JC114941JC20565"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.1.1" xml:id="O1JC114941JC21414-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <p tid="1">Tantras of the Conduct class with both meditational and ritual elements, mostly centered on the deities
+                    Vairocana, Acala, or Vajrapāṇi (Toh 494-501).</p>
+            </div>
+            <div type="warning">
+                <p tid="2">
+                    <emph rend="bold">Warning:</emph> Readers are reminded that according to Vajrayāna Buddhist tradition there
+                    are restrictions and commitments concerning tantra. Practitioners who are not sure if they should read this
+                    translation are advised to consult the authorities of their lineage. The responsibility for reading this text
+                    or sharing it with others who may or may not fulfill the requirements lies in the hands of readers.</p>
+            </div>
+        </front>
+        <body>
+            <div type="article">
+                <head type="article" tid="8">Conduct tantras</head>
+                <div type="section" xml:id="O1JC114941JC21414-article-1">
+                    <milestone unit="chunk" xml:id="O1JC114941JC21414-1"/>
+                    <p tid="3">This is the smallest class of tantras, comprising only 8 works in the Kangyur. The Conduct tantra practice
+                        and view are intermediate between those of the Yoga and Action tantras; external ritual is important, but
+                        the goal is liberation through internal, meditative practice. Vairocana, Acala and Vajrapāṇi are the
+                        principal deities. Other terms (used in some Nyingma classifications of tantra) are Upayoga and
+                        Ubhayatantra.</p>
+                    <milestone unit="chunk" xml:id="O1JC114941JC21414-2"/>
+                    <p tid="4">The works in this class are divided according to the three families:</p>
+                    <list>
+                        <item>
+                            <p tid="5">(a) <label>Tathāgata family</label> (Toh 494 and 495), two tantras centered on Vairocana and Acala
+                                respectively;</p>
+                        </item>
+                        <item>
+                            <p tid="6">(b) <label>Padma family</label>, not represented here;</p>
+                        </item>
+                        <item>
+                            <p tid="7">(c) <label>Vajra family</label> (Toh 496-501), centered on Vajrapāṇi.</p>
+                        </item>
+                    </list>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="listBibl">
+                <head type="listBibl" tid="10">Bibliography</head>
+                <div type="section" xml:id="O1JC114941JC21414-listBibl-1">
+                    <head type="section" tid="11">Bibliography Section Heading</head>
+                    <bibl rend="default-text" xml:id="O1JC114941JC21414-3">This is a sample bibliographic reference with a <ref target="https://read.84000.co/translation/toh46.html">link example</ref>.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list type="glossary"/>
+            </div>
+        </back>
+    </text>
+</TEI>

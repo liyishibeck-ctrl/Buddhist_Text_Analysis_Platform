@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Sādhana of the Mind of Vārāhī</title>
+                <title type="mainTitle" xml:lang="bo">ཕག་མོ་ཐུགས་ཀྱི་སྒྲུབ་ཐབས།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">phag mo thugs kyi sgrub thabs/</title>
+                <title type="longTitle" xml:lang="en">A Sādhana of the Mind of Vārāhī, Advice on the “Tortoise Shell Under Foot”</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">kurma pā da zhes bya ba'i gdams pa phag mo thugs kyi sgrub thabs/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-023-045"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1560" type="text">
+                    <ref>Toh 1560</ref>
+                    <biblScope>ff. 216r-216v</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-023-045-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-023-045-2">Ānandākarapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-023-045-3">dpyal lo tsA ba dpal chos kyi bzang po</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="23" start-page="431" end-page="432"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8108" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh1559"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-023-045-4" source="tengyur-data-1541-1606_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="title" xml:id="UT23703-023-045-5" source="tengyur-data-1541-1606_PH_new_v2.4.xml">
+                    <desc>The colophon provides a longer title: “A Sādhana of the Mind of Vārāhī, Advice on the ‘Tortoise Shell Under Foot’” (kurma pā da zhes bya ba'i gdams pa phag mo
+            thugs kyi sgrub thabs).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-023-045-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

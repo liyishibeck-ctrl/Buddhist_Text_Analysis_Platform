@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Memorandum Commenting Upon the Concise Meaning of the Questions of Subāhu Tantra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Subāhu­paripṛcchā­tantra­piṇḍārtha­vṛtti</title>
+                <title type="mainTitle" xml:lang="bo">དཔུང་བཟངས་ཀྱིས་ཞུས་པའི་རྒྱུད་ཀྱི་བསྡུས་པའི་དོན་དགྲོལ་བའི་བརྗེད་བྱང་།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpung bzangs kyis zhus pa'i rgyud kyi bsdus pa'i don dgrol ba'i brjed byang /</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Ārya­subāhu­paripṛcchā­nāma­tantra­piṇḍārtha­vṛtti</title>
+                <title type="longTitle" xml:lang="bo">འཕགས་པ་དཔུང་བཟངས་ཀྱིས་ཞུས་པའི་རྒྱུད་ཀྱི་བསྡུས་པའི་དོན་དགྲོལ་བའི་བརྗེད་བྱང་།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">'phags pa dpung bzangs kyis zhus pa'i rgyud kyi bsdus pa'i don dgrol ba'i brjed byang /</title>
+                <title type="otherTitle" xml:lang="zh">《妙臂請問怛特羅攝義解備忘》</title>
+                <author role="translatorMain" xml:id="UT23703-071-004-1"/>
+                <author role="translatorEng" xml:id="UT23703-071-004-2">Kaia Fischer</author>
+                <author role="translatorEng" xml:id="UT23703-071-004-3">Erin Sperry</author>
+                <author role="translatorEng" xml:id="UT23703-071-004-4">Dr. Geshe Lozang Jamspal</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT23703-071-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2673" type="text">
+                    <ref>Toh 2673</ref>
+                    <biblScope>ff. 100v-116v</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-071-004-5">Anon</author>
+                    <location work="UT23703" count-pages="33">
+                        <volume number="71" start-page="200" end-page="232"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9283" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh805"/>
+                <link type="isCommentaryOf" target="toh2671"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-03-06T13:37:19.765Z" type="text-version" status="0.0.1" xml:id="UT23703-071-004-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-071-004-7" source="tengyur-data-2670-2696_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT23703-071-004-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

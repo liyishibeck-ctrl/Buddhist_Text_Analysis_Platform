@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Words of the Dharma, 'The Treasury of the Buddhas'</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">(possibly translated from Chinese)</title>
+                <title type="mainTitle" xml:lang="bo">སངས་རྒྱས་ཀྱི་མཛོད་ཀྱི་ཆོས་ཡིག</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sangs rgyas kyi mdzod kyi chos yig</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">sangs rgyas kyi mdzod kyi chos kyi yi ge</title>
+                <title type="otherTitle" xml:lang="zh">《佛藏法字經》（大正藏：《佛藏經》）</title>
+                <author role="translatorMain" xml:id="UT22084-054-004-1"/>
+                <author role="translatorEng" xml:id="UT22084-054-004-2">Robert Kritzer</author>
+                <sponsor xml:id="UT22084-054-004-3">Late Lim Kim Heng, Late Low Lily, Late Lee Tiang Chuan, Late Chen Lee Kuan, Lee Hoi Lang, Ng Ah Chon, all sentient beings</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.15 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-054-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh123" type="text">
+                    <ref>Toh 123</ref>
+                    <biblScope>vol.54, ff.153v-212v(pp.306-424)</biblScope>
+                    <location work="UT4CZ5369" count-pages="119">
+                        <volume number="54" start-page="306" end-page="424"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11696" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#dion-blundell" when="2019-05-29T15:47:25.265Z" type="text-version" status="" xml:id="UT22084-054-004-4">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-054-004-5">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-20T12:56:17.483Z" type="translation-status" status="4" xml:id="UT22084-054-004-6">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-20T12:56:17.483Z" type="text-version" status="0.0.2" xml:id="UT22084-054-004-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#amy" when="2021-05-10T13:30:21.816Z" type="text-version" status="0.0.3" xml:id="UT22084-054-004-8">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#amy" when="2021-05-10T16:43:58.85Z" type="text-version" status="0.0.5" xml:id="UT22084-054-004-9">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-21T09:22:29.688Z" type="translation-status" status="3" xml:id="UT22084-054-004-10">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-21T09:22:29.688Z" type="text-version" status="0.0.8" xml:id="UT22084-054-004-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-21T09:22:56.937Z" type="text-version" status="0.0.9" xml:id="UT22084-054-004-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-08-01T04:07:46.476Z" type="text-version" status="0.0.10" xml:id="UT22084-054-004-13">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-08-01T04:17:53.851Z" type="text-version" status="0.0.11" xml:id="UT22084-054-004-14">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-08-01T04:18:36.343Z" type="text-version" status="0.0.12" xml:id="UT22084-054-004-15">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-08-01T04:20:59.651Z" type="text-version" status="0.0.13" xml:id="UT22084-054-004-16">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#john" when="2023-05-22T09:50:12.322Z" type="text-version" status="0.0.14" xml:id="UT22084-054-004-17">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.15" xml:id="UT22084-054-004-18">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

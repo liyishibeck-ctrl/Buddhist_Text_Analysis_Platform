@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་ལག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་དྲག་པོ་གསུམ་འདུལ་ཞེས་བྱ་བའི་རྒྱུད་གྱི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa lag na rdo rje gos sngon po can drag po gsum 'dul zhes bya ba'i rgyud gyi 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­nīlāmbara­dhara­vajrapāṇi­rudra­trivinīta­nāma­tantra­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">A Running Commentary on the “Tantra of Vajrapāṇi's Triple Dreadful Training”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-057"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2147" type="text">
+                    <ref>Toh 2147</ref>
+                    <biblScope>ff. 231r-241r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-049-057-1">Jabaripa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-049-057-2">lo tsa ba chos kyi bzang po</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-049-057-3">Devapuṇyamati</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-049-057-4">Jabaripa</author>
+                    <location work="UT23703" count-pages="21">
+                        <volume number="49" start-page="461" end-page="481"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8728" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh454"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-049-057-5" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-049-057-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

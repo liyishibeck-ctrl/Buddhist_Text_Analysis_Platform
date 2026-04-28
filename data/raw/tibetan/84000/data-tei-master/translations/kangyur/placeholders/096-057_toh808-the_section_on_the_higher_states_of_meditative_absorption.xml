@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">bsam gtan gyi phyi ma rim par phye ba/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Dhyānottarapaṭalakrama</title>
+                <title type="mainTitle" xml:lang="en">The Section on the Higher States of Meditative Absorption</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-096-057"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh808" type="text">
+                    <ref>Toh 808</ref>
+                    <biblScope>vol.96, ff.223r-225v(pp.445-450)</biblScope>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="96" start-page="445" end-page="450"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12554" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-096-057-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

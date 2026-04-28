@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་གསང་བ་འདུས་པའི་རྒྱུད་ཀྱི་མན་ངག་གི་རྒྱ་མཚོ་ཐིགས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal gsang ba 'dus pa'i rgyud kyi man ngag gi rgya mtsho thigs pa/</title>
+                <title xml:lang="en" type="mainTitle">The Essential Drop from the Ocean of Personal Instructions on the the Glorious Guhyasamāja Tantra</title>
+                <title xml:lang="bo" type="longTitle">དཔལ་གསང་བ་འདུས་པའི་རྒྱུད་ཀྱི་མན་ངག་གི་རྒྱ་མཚོ་ཐིགས་པ་བཞུགས།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">dpal gsang ba 'dus pa'i rgyud kyi man ngag gi rgya mtsho thigs pa bzhugs/</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-038-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1844" type="text">
+                    <ref>Toh 1844</ref>
+                    <biblScope>ff.53v-161v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-038-002-1">Viśvāmitra</author>
+                    <location work="UT23703" count-pages="217">
+                        <volume number="38" start-page="106" end-page="322"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8408" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh443"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-038-002-2" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-038-002-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

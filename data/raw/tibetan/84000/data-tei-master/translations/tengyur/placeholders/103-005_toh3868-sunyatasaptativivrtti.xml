@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སྟོང་པ་ཉིད་བདུན་ཅུ་པའི་རྣམ་པར་བཤད།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">stong pa nyid bdun cu pa'i rnam par bshad/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Śūnyatā­saptati­vivṛtti</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of [Nāgārjuna’s] “Seventy Verses on Emptiness”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-103-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3868" type="text">
+                    <ref>Toh 3868</ref>
+                    <biblScope>ff. 337r-374v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-103-005-1">Parahita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-103-005-2">lo tsa ba shakya'i dge slong gzhon nu mchog</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-103-005-3">Kaśmīri Parahita</author>
+                    <location work="UT23703" count-pages="76">
+                        <volume number="103" start-page="673" end-page="748"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10529" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3827"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-103-005-4" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-103-005-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

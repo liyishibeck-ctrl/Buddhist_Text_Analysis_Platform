@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Homage to the Sugatas of the Five Families</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Kulapañcabuddhaya namaḥ</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rigs lnga bde bar gshegs pa la phyag 'tshal lo/</title>
+                <author role="translatorMain" xml:id="UT22084-099-010-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-099-010-5">Dylan Esler</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-099-010"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh841-5" type="chapter">
+                    <ref>Toh 841-5</ref>
+                    <biblScope>vol. 99,ff. 212r-213v(pp.423-426)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="99" start-page="423" end-page="426"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC12592" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12597" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-099-010-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:36:43.756Z" type="translation-status" status="3" xml:id="UT22084-099-010-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:36:43.756Z" type="text-version" status="0.0.1" xml:id="UT22084-099-010-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:37:12.013Z" type="text-version" status="0.0.1" xml:id="UT22084-099-010-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:11:02.229Z" type="text-version" status="0.0.1" xml:id="UT22084-099-010-7">
+                    <desc>script-increment-version-published</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

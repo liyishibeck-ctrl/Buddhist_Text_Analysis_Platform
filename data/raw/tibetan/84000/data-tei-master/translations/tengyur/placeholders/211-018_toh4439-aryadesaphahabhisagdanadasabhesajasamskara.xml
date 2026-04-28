@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་ཡུལ་ཕ་ཧའི་སྨན་པ་ད་ན་ད་སའི་སྨན་བཅོས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags yul pha ha'i sman pa da na da sa'i sman bcos/</title>
+                <title xml:lang="en" type="mainTitle">The [Medical] Treatise of Dānadāsa, a Doctor from Pataha in India</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-211-018"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4439" type="text">
+                    <ref>Toh 4439</ref>
+                    <biblScope>ff. 334v-341r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-211-018-1">Dānadāsa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-211-018-2">'dar pa lo tsa ngag dbang phun tshogs lhun grub</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-211-018-3">Godararañja</author>
+                    <location work="UT23703" count-pages="15">
+                        <volume number="211" start-page="668" end-page="682"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21686" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112511JC21784" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="import" xml:id="UT23703-211-018-4" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="attribution" xml:id="UT23703-211-018-5" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc>Translator attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="general" xml:id="UT23703-211-018-6" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc>A short collection of medical formulas, for the treatment of wounds, gout, eye diseases, etc. accompanied by numerous diagrams and magic squares.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-211-018-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

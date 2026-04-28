@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བཀའ་ཡང་དག་པའི་ཚད་མ་ལས་མདོ་བཏུས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">bka' yang dag pa'i tshad ma las mdo btus pa/</title>
+                <title xml:lang="en" type="mainTitle">A Summary of the Sūtra [Unravelling the Intent] From a Valid Assessment of the Correct Words [of the Buddha]</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-204-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4352" type="text">
+                    <ref>Toh 4352</ref>
+                    <biblScope/>
+                    <author xml:lang="en" xml:id="UT23703-204-007-1">Anon</author>
+                    <location work="UT23703" count-pages="65">
+                        <volume number="204" start-page="346" end-page="410"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21685" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC111531JC21694" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh106"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="import" xml:id="UT23703-204-007-2" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="general" xml:id="UT23703-204-007-3" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc>A commentary on the subject of the "four forms of reasoning" (rigs pa bzhi) in the tenth chapter of the “Sūtra Unravelling the Intent”
+            (Saṃdhinirmocana-sūtra).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-204-007-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

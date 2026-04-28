@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">yang dag par sbyor ba'i thig le/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[Sampuṭatilaka]</title>
+                <title type="mainTitle" xml:lang="en">The Tilaka of Sampuṭa</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">rgyud kyi rgyal po chen po dpal yang dag par sbyor ba'i thig le zhes bya ba/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">Despite being a Kangyur text, this is a commentary, sometimes referred to as the “eleventh chapter” of the Sampuṭodbhava (Toh 381). It is included in some Sampuṭodbhava manuscripts in Sanskrit (Royal Asiatic Society and  Wellcome Institute Library) as their final part.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT22084-079-009"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh382" type="text">
+                    <ref>Toh 382</ref>
+                    <biblScope>vol.79, ff.157v-184r(pp.316-367)</biblScope>
+                    <location work="UT4CZ5369" count-pages="52">
+                        <volume number="79" start-page="316" end-page="367"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12081" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-079-009-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-27T07:43:38.892Z" type="translation-status" status="4" xml:id="UT22084-079-009-2">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-27T07:43:38.892Z" type="text-version" status="0.0.1" xml:id="UT22084-079-009-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

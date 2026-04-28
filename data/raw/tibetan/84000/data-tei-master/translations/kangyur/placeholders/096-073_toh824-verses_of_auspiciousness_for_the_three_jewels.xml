@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">Verses of Auspiciousness of the Three Jewels</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Triratna­maṅgala­gāthā</title>
+                <title xml:lang="bo" type="mainTitle">དཀོན་མཆོག་གསུམ་གྱི་བཀྲ་ཤིས་ཀྱི་ཚིགས་སུ་བཅད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dkon mchog gsum gyi bkra shis kyi tshigs su bcad pa/</title>
+                <title xml:lang="Sa-Ltn" type="otherTitle">Ratnatri­maṅgala­gāthā</title>
+                <title xml:lang="Sa-Ltn" type="otherTitle">Ratnatraya­maṅgala­gāthā</title>
+                <author role="translatorMain" xml:id="UT22084-096-073-7">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-096-073-8">Lowell Cook</author>
+                <editor role="projectEditor" xml:id="UT22084-096-073-16">Torsten Gerloff</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.f"/>
+                <idno xml:id="UT22084-096-073"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh824" type="text">
+                    <ref>Toh 824</ref>
+                    <biblScope>vol.96, ff.262r-262r(pp.523-523)</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-073-1">Anon</author>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="96" start-page="523" end-page="523"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12570" work="W22084"/>
+                </bibl>
+                <bibl key="toh4414" type="text">
+                    <ref>Toh 4414</ref>
+                    <biblScope>ff. 349v-350r</biblScope>
+                    <author xml:lang="en" xml:id="UT22084-096-073-2">Anon</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="207" start-page="698" end-page="699"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21687" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112201JC21757" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="import" xml:id="UT22084-096-073-3" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-096-073-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:36:44.816Z" type="translation-status" status="3" xml:id="UT22084-096-073-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:36:44.816Z" type="text-version" status="0.0.1" xml:id="UT22084-096-073-6">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-08T11:37:18.85Z" type="text-version" status="0.0.2" xml:id="UT22084-096-073-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T12:28:57.282Z" type="translation-status" status="2.h" xml:id="UT22084-096-073-10">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-28T12:28:57.282Z" type="text-version" status="0.0.3" xml:id="UT22084-096-073-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T13:56:19.257Z" type="translation-status" status="2.g" xml:id="UT22084-096-073-12">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T13:56:19.257Z" type="text-version" status="0.0.4" xml:id="UT22084-096-073-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-08T13:56:54.679Z" type="text-version" status="0.0.5" xml:id="UT22084-096-073-17">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-24T13:03:04.862Z" type="translation-status" status="2.f" xml:id="UT22084-096-073-18">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-24T13:03:04.862Z" type="text-version" status="0.0.6" xml:id="UT22084-096-073-19">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

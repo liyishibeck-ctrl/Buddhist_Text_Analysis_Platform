@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī of the Thousand-Armed, Thousand-Eyed Avalokiteśvara</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">spyan ras gzigs phyag stong spyan stong gzungs/</title>
+                <title type="otherTitle" xml:lang="en">The Dhāraṇī of the Thousand-Armed, Thousand-Eyed, Avalokiteśvara</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa byang chub sems dpa' spyan ras gzigs dbang phyug phyag stong spyan stong dang ldan pa thogs pa mi mnga' ba'i thugs rje chen po'i sems rgya cher yongs su rdzogs pa zhes bya ba'i gzungs/</title>
+                <title type="otherTitle" xml:lang="zh">《千手千眼觀世音菩薩陀羅尼》（千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼經）</title>
+                <author role="translatorMain" xml:id="UT22084-093-006-1"/>
+                <author role="translatorEng" xml:id="UT22084-093-006-2">Joshua Capitanio</author>
+                <sponsor xml:id="UT22084-093-006-3">George Gu, May E Ho Gu, Likai Gu, Lilian Gu</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-093-006"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh691" type="text">
+                    <ref>Toh 691</ref>
+                    <biblScope>vol.93, ff.94v-129v(pp.188-258)</biblScope>
+                    <location work="UT4CZ5369" count-pages="71">
+                        <volume number="93" start-page="188" end-page="258"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12431" work="W22084"/>
+                </bibl>
+                <bibl key="toh897" type="text">
+                    <ref>Toh 897</ref>
+                    <biblScope>vol.100, ff.168r-205r(pp.335-409)</biblScope>
+                    <location work="UT4CZ5369" count-pages="75">
+                        <volume number="101" start-page="333" end-page="407"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12659" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#cabie-sim" when="2022-07-26T07:43:01.139Z" type="text-version" status="0.0.1" xml:id="UT22084-093-006-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T07:43:38.955Z" type="text-version" status="0.0.2" xml:id="UT22084-093-006-5">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-09-27T13:59:49.34Z" type="translation-status" status="4" xml:id="UT22084-093-006-6">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2022-09-27T13:59:49.34Z" type="text-version" status="0.0.3" xml:id="UT22084-093-006-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-10-06T08:57:36.017Z" type="translation-status" status="3" xml:id="UT22084-093-006-8">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-10-06T08:57:36.017Z" type="text-version" status="0.0.4" xml:id="UT22084-093-006-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-10-06T08:58:17.631Z" type="text-version" status="0.0.5" xml:id="UT22084-093-006-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT22084-093-006-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-05-01T05:08:38.076Z" type="text-version" status="0.0.3" xml:id="UT22084-093-006-12">
+                    <desc>Updated vol. 100 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-22T15:44:02.184Z" type="translation-status" status="2.h" xml:id="UT22084-093-006-13">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-22T15:44:02.184Z" type="text-version" status="0.0.4" xml:id="UT22084-093-006-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="acknowledgment">
+                <p tid="1">Sponsored by George Gu, May E Ho Gu, Likai Gu, Lilian Gu.</p>
+            </tei:div>
+        </front>
+    </text>
+</TEI>

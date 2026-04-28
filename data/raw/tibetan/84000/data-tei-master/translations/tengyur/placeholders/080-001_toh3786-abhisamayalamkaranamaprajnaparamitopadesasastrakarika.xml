@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Ornament for Clear Realizations, A Treatise of Personal Instructions on the Perfection of Wisdom</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Abhisamayālaṃkāra­nāma­prajñāpāramitopadeśa­śāstra­kārikā</title>
+                <title type="mainTitle" xml:lang="bo">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་མན་ངག་གི་བསྟན་བཅོས་མངོན་པར་རྟོགས་པའི་རྒྱན་ཞེས་བྱ་བའི་ཚིག་ལེའུར་བྱས་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan zhes bya ba'i tshig le'ur byas pa/</title>
+                <title type="longTitle" xml:lang="en">Verses called "The Ornament for Clear Realizations," A Treatise of Personal Instructions on the Perfection of Wisdom</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.10 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-080-001"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3786" type="text">
+                    <ref>Toh 3786</ref>
+                    <biblScope>ff. 1v-13r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-080-001-1">Maitreya</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-080-001-2">Amaragomin</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-080-001-3">lo tsa ba blo ldan shes rab</author>
+                    <location work="UT23703" count-pages="26">
+                        <volume number="80" start-page="1" end-page="26"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10418" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh9"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2020-06-24T15:11:09.337Z" type="text-version" status="0.0.2" xml:id="UT23703-080-001-4">
+                    <desc>Titles edited</desc>
+                </change>
+                <change who="#john" when="2020-06-24T15:11:09.337Z" type="publication-date" xml:id="UT23703-080-001-5">
+                    <desc>Titles edited</desc>
+                </change>
+                <change who="#john" when="2020-06-25T10:27:58.224Z" type="text-version" status="0.0.3" xml:id="UT23703-080-001-6">
+                    <desc>0.0.3</desc>
+                </change>
+                <change who="#john" when="2020-06-25T10:31:51.083Z" type="text-version" status="0.0.4" xml:id="UT23703-080-001-7">
+                    <desc>0.0.4</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:12:33.078Z" type="import" xml:id="UT23703-080-001-8" source="tengyur-data-3786-3823_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#martina-cotter" when="2022-09-01T18:36:25.634Z" type="text-version" status="0.0.6" xml:id="UT23703-080-001-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T09:49:48.355Z" type="text-version" status="0.0.7" xml:id="UT23703-080-001-10">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#martina-cotter" when="2022-09-23T16:18:04.88Z" type="text-version" status="0.0.8" xml:id="UT23703-080-001-11">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#martina-cotter" when="2022-10-12T21:35:56.278Z" type="text-version" status="0.0.9" xml:id="UT23703-080-001-12">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.10" xml:id="UT23703-080-001-13">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

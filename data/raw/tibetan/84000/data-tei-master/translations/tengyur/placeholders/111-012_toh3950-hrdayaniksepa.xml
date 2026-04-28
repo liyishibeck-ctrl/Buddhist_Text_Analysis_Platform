@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སྙིང་པོ་ངེས་པར་བསྡུ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">snying po nges par bsdu ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Hṛdaya­nikṣepa</title>
+                <title xml:lang="en" type="mainTitle">Noting Down the Essence [of All the Buddhas’ Teachings]</title>
+                <title xml:lang="bo" type="longTitle">སྙིང་པོ་ངེས་པར་བསྡུ་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">snying po nges par bsdu ba zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Hṛdaya­nikṣepa­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-111-012"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3950" type="text">
+                    <ref>Toh 3950</ref>
+                    <biblScope>ff. 293v-294v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-111-012-1">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-111-012-2">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-111-012-3">zhu chen gyi lo tsa ba dge slong tshul khrims rgyal ba</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="111" start-page="586" end-page="588"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10619" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-111-012-4" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="title" xml:id="UT23703-111-012-5" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>In the opening promise of composition, the author states “I will explain the concise essence that eliminates the fear of samsāra” ('khor ba'i 'jigs pa sel ba
+            yi, snying po bsdu ba bshad par bya), and in the concluding verses states “The essence of the teachings of the buddhas of the three times is condensed here” (dus gsum sangs rgyas kyis
+            gsungs pa'i, snying po 'dir ni bsdus pa yin).</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="general" xml:id="UT23703-111-012-6" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>The text bears some similarities to the previous one (Toh. 3949) although is slightly longer.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-111-012-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

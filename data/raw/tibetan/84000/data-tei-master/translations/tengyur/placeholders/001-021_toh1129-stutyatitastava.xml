@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བསྟོད་པ་ལས་འདས་པར་བསྟོད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">bstod pa las 'das par bstod pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Stutyatīta­stava</title>
+                <title xml:lang="en" type="mainTitle">Praise of the One who Surpasses All Praise</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-001-021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1129" type="text">
+                    <ref>Toh 1129</ref>
+                    <biblScope>ff. 79r-79v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-001-021-1">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-001-021-2">Tilakakalaśa (Kaśmīr)</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-001-021-3">pa tshab lo tsa ba nyi ma grags pa</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="1" start-page="157" end-page="158"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC7631" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7653" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:46:53.821Z" type="import" xml:id="UT23703-001-021-4" source="tengyur-data-1109-1179_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.1" xml:id="UT23703-001-021-5">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-001-021-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

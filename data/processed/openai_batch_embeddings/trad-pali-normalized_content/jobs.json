@@ -1,0 +1,21 @@
+[
+  {
+    "request_file": "requests/batch-0001.jsonl",
+    "record_count": 50000,
+    "batch_id": "batch_69eb2f5a3ad0819092e9b196a95b5cbc",
+    "input_file_id": "file-UuFN5dyvLb1yZq9Ys2PxHD",
+    "status": "completed",
+    "submitted_at": "2026-04-24T08:52:42.856190+00:00",
+    "last_synced_at": "2026-04-27T04:26:28.953213+00:00",
+    "output_file_id": "file-Pc3hnUk3psLWEMttvYk7ND",
+    "error_file_id": null,
+    "request_counts": {
+      "total": 50000,
+      "completed": 50000,
+      "failed": 0
+    },
+    "output_path": "responses\\batch-0001.output.jsonl",
+    "errors": null,
+    "apply_error": "JSONDecodeError: Expecting ',' delimiter: line 1 column 22431 (char 22430)"
+  }
+]

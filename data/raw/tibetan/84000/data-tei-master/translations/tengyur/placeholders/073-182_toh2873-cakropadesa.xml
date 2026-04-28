@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཁོར་ལོའི་མན་ངག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'khor lo'i man ngag</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Cakropadeśa</title>
+                <title xml:lang="en" type="mainTitle">Personal Instructions on Yantras</title>
+                <title xml:lang="bo" type="longTitle">འཁོར་ལོའི་མན་ངག་ཅེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">'khor lo'i man ngag ces bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Cakropadeśa­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-182"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2873" type="text">
+                    <ref>Toh 2873</ref>
+                    <biblScope>ff. 215v-216v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-073-182-1">Suvāgiśvarakīrti</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-073-182-2">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-073-182-3">mkhas pa'i rgyal po brtson seng ge</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-073-182-4">rin chen gser</editor>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="73" start-page="430" end-page="432"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9489" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-182-5" source="tengyur-data-2865-2905_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="title" xml:id="UT23703-073-182-6" source="tengyur-data-2865-2905_PH_new_v2.4.xml">
+                    <desc>The Sanskrit title given at the beginning of the text appears to be a subsequent reconstruction. An alternate title is provided in the colophon to the text,
+            which reads “the yantra of knowledge mantras [and] fierce dhāraṇī-mantras” (rig sngags drag po'i gzungs sngags kyi 'khrul 'khor zhes bya ba).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-073-182-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

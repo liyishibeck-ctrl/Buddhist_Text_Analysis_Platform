@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Maṇḍala Ritual for the Great Lord of Yakṣas, the Blue-Clad Vajrapāṇi</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahāyakṣa­senāpati­nīlāmbara­dhara­vajrapāṇi­maṇḍala­vidhi</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gnod sbyin gyi sde dpon chen po lag na rdo rje gos sngon po can gyi dkyil 'khor gyi cho ga</title>
+                <title type="mainTitle" xml:lang="bo">གནོད་སྦྱིན་གྱི་སྡེ་དཔོན་ཆེན་པོ་ལག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་གྱི་དཀྱིལ་འཁོར་གྱི་ཆོ་ག</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Mahāyakṣa­senāpati­nīlāmbara­dhara­vajrapāṇi­maṇḍala­vidhi­nāma</title>
+                <title type="longTitle" xml:lang="bo">གནོད་སྦྱིན་གྱི་སྡེ་དཔོན་ཆེན་པོ་ལག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་གྱི་དཀྱིལ་འཁོར་གྱི་ཆོ་ག་ཞེས་བྱ་བ།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">gnod sbyin gyi sde dpon chen po lag na rdo rje gos sngon po can gyi dkyil 'khor gyi cho ga zhes bya ba/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-081"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2171" type="text">
+                    <ref>Toh 2171</ref>
+                    <biblScope>ff. 323r-328r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-049-081-1">Bhavapa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-049-081-2">lo tsa ba dge slong gzhon nu tshul khrims</author>
+                    <location work="UT23703" count-pages="11">
+                        <volume number="49" start-page="645" end-page="655"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8752" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-049-081-3" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-049-081-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

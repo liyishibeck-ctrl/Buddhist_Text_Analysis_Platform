@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྡོ་རྗེ་འཇིགས་བྱེད་ཀྱི་རྒྱུད་ཀྱི་དཀའ་འགྲེལ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rdo rje 'jigs byed kyi rgyud kyi dka' 'grel/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vajrabhairava­tantra­pañjikā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Difficult Points of the [Great] Vajrabhairava Tantra</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-047-051"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1973" type="text">
+                    <ref>Toh 1973</ref>
+                    <biblScope>ff. 132v-135v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-047-051-1">Avadhūta Kumāracandra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-047-051-2">lo tsa ba dge slong ba rin chen grags pa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-047-051-3">Tathāgatarakṣita</author>
+                    <location work="UT23703" count-pages="7">
+                        <volume number="47" start-page="262" end-page="268"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21622" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8547" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh468"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-047-051-4" source="tengyur-data-1918-2089_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-047-051-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,75 @@
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 369, in <module>
+    main()
+    ~~~~^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 360, in main
+    sync_workspace(args)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 320, in sync_workspace
+    result = apply_batch_output_file(
+        session,
+    ...<4 lines>...
+        chunk_size=args.chunk_size,
+    )
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\openai_batch_embeddings.py", line 343, in apply_batch_output_file
+    payload = json.loads(stripped)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 5882 (char 5881)
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 369, in <module>
+    main()
+    ~~~~^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 360, in main
+    sync_workspace(args)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 320, in sync_workspace
+    result = apply_batch_output_file(
+        session,
+    ...<4 lines>...
+        chunk_size=args.chunk_size,
+    )
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\openai_batch_embeddings.py", line 343, in apply_batch_output_file
+    payload = json.loads(stripped)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 5882 (char 5881)
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 369, in <module>
+    main()
+    ~~~~^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 360, in main
+    sync_workspace(args)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\openai_batch_segment_embeddings.py", line 320, in sync_workspace
+    result = apply_batch_output_file(
+        session,
+    ...<4 lines>...
+        chunk_size=args.chunk_size,
+    )
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\openai_batch_embeddings.py", line 343, in apply_batch_output_file
+    payload = json.loads(stripped)
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 5882 (char 5881)

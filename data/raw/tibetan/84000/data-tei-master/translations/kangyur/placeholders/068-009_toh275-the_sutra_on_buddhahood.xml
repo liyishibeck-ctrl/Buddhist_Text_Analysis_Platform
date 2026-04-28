@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra on Buddhahood</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Buddhabhūmisūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sangs rgyas kyi sa'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryabuddhabhūmināmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa sangs rgyas kyi sa zhes bya ba theg pa chen po'i mdo</title>
+                <author role="translatorMain" xml:id="UT22084-068-009-1">Sakya Pandita Translation Group</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-068-009-7">Khenpo Kalsang Gyaltsen</consultant>
+                <consultant role="projectManager" xml:id="UT22084-068-009-8">Chodrungma Kunga Chodron</consultant>
+                <author role="translatorEng" xml:id="UT22084-068-009-9">Khenpo Kalsang Gyaltsen</author>
+                <author role="translatorEng" xml:id="UT22084-068-009-10">Chodrungma Kunga Chodron</author>
+                <author role="translatorEng" xml:id="UT22084-068-009-11">Laura Goetz</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.12 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-068-009"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh275" type="text">
+                    <ref>Toh 275</ref>
+                    <biblScope>vol.68, ff.36r-44v(pp.71-88)</biblScope>
+                    <location work="UT4CZ5369" count-pages="18">
+                        <volume number="68" start-page="71" end-page="88"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11935" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-068-009-2">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-14T15:41:26.655Z" type="translation-status" status="2.h" xml:id="UT22084-068-009-3">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-14T15:41:26.655Z" type="text-version" status="0.0.2" xml:id="UT22084-068-009-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-068-009-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-15T10:54:32.773Z" type="text-version" status="0.0.4" xml:id="UT22084-068-009-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-02T09:17:58.582Z" type="text-version" status="0.0.5" xml:id="UT22084-068-009-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-02T09:20:20.679Z" type="text-version" status="0.0.6" xml:id="UT22084-068-009-14">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-07T14:25:57.348Z" type="translation-status" status="2.g" xml:id="UT22084-068-009-15">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-07T14:25:57.348Z" type="text-version" status="0.0.7" xml:id="UT22084-068-009-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-07T14:26:30.713Z" type="text-version" status="0.0.8" xml:id="UT22084-068-009-24">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-11T07:59:39.28Z" type="translation-status" status="2.h" xml:id="UT22084-068-009-25">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-11T07:59:39.28Z" type="text-version" status="0.0.9" xml:id="UT22084-068-009-26">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-11T08:00:15.704Z" type="text-version" status="0.0.10" xml:id="UT22084-068-009-27">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-24T08:58:36.929Z" type="translation-status" status="2.g" xml:id="UT22084-068-009-28">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-24T08:58:36.929Z" type="text-version" status="0.0.11" xml:id="UT22084-068-009-29">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-24T11:52:58.954Z" type="translation-status" status="2.h" xml:id="UT22084-068-009-30">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-24T11:52:58.954Z" type="text-version" status="0.0.12" xml:id="UT22084-068-009-31">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">An Extensive Explanation of the King of Tantras called “The Net of Magical Illusions”</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Māyājāla­mahātantra­rāja­ṭīkā</title>
+                <title xml:lang="bo" type="mainTitle">རྒྱུད་ཀྱི་རྒྱལ་པོ་ཆེན་པོ་སྒྱུ་འཕྲུལ་དྲ་བའི་རྒྱ་ཆེར་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rgyud kyi rgyal po chen po sgyu 'phrul dra ba'i rgya cher bshad pa/</title>
+                <author role="translatorMain" xml:id="UT23703-061-002-8">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT23703-061-002-9">Bruno Galasek-Hul</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT23703-061-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2513" type="text">
+                    <ref>Toh 2513</ref>
+                    <biblScope>ff. 192v-287v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-061-002-1">Ānandagarbha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-061-002-2">zhu chen gyi lo tsa ba dge slong rin chen bzang po</author>
+                    <location work="UT23703" count-pages="191">
+                        <volume number="61" start-page="384" end-page="574"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9109" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh466"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-061-002-3" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="general" xml:id="UT23703-061-002-4" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc>Although this section of the Tengyur covers commentaries on tantras of the “Yoga” class, the root text being commented upon is classified as an
+            “Anuttarayoga” class tantra in the Kangyur.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-061-002-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:36:35.021Z" type="translation-status" status="3" xml:id="UT23703-061-002-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:36:35.021Z" type="text-version" status="0.0.1" xml:id="UT23703-061-002-7">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:37:11.796Z" type="text-version" status="0.0.1" xml:id="UT23703-061-002-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:13:37.508Z" type="text-version" status="0.0.1" xml:id="UT23703-061-002-11">
+                    <desc>script-increment-version-published</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

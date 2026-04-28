@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་མན་ངག་གི་བསྟན་བཅོས་མངོན་པར་རྟོགས་པའི་རྒྱན་ཞེས་བྱ་བའི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">shes rab kyi pha rol tu phyin pa'i man ngag gi bstan bcos mngon par rtogs pa'i rgyan zhes bya ba'i 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Abhisamayālaṃkāra­nāma­prajñāpāramitopadeśa­śāstra­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">A Running Commentary on “The Ornament for Clear Realizations, A Treatise of Personal Instructions on the Perfection of Wisdom”</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Abhisamayālaṃkāravṛtti­sphuṭārthā; abhisamayālaṃkāra­kārikā­śāstra­vivṛti</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-086-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3793" type="text">
+                    <ref>Toh 3793</ref>
+                    <biblScope>ff. 78v-140r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-086-002-1">Haribhadra</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-086-002-2">Vidyākaraprabha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-086-002-3">zhu chen gyi lo tsa ba ban de dpal brtsegs</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-086-002-4">Amaragomin</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-086-002-5">lo tsA ba dge slong blo ldan shes rab</editor>
+                    <location work="UT23703" count-pages="124">
+                        <volume number="86" start-page="156" end-page="279"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10433" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3786"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:12:33.078Z" type="import" xml:id="UT23703-086-002-6" source="tengyur-data-3786-3823_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-02-19T06:29:15.579Z" type="text-version" status="0.0.1" xml:id="UT23703-086-002-7">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#martina-cotter" when="2022-05-10T13:31:02.903Z" type="text-version" status="0.0.2" xml:id="UT23703-086-002-8">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-08-02T10:32:34.829Z" type="text-version" status="0.0.3" xml:id="UT23703-086-002-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT23703-086-002-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

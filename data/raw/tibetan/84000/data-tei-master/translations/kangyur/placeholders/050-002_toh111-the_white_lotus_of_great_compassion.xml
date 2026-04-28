@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The White Lotus of Great Compassion</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahākaruṇāpuṇḍarīkasūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">snying rje chen po pad+ma dkar po'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryamahākaruṇā­puṇḍarīka­nāmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa snying rje chen po'i pad+ma dkar po zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="zh">《大悲白蓮經》 (大正藏：大悲經)</title>
+                <author role="translatorMain" xml:id="UT22084-050-002-1"/>
+                <author role="translatorEng" xml:id="UT22084-050-002-2">Zachary Beer</author>
+                <editor role="reviser" xml:id="UT22084-050-002-3">Dr. Andreas Doctor</editor>
+                <consultant role="projectManager" xml:id="UT22084-050-002-4">Dr. Andreas Doctor</consultant>
+                <sponsor xml:id="UT22084-050-002-5">Zhou Wen Dong, Zhou De Jia</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-050-002"/>
+                <date/>
+
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh111" type="text">
+                    <ref>Toh 111</ref>
+                    <biblScope>vol.50, ff.56r-128v(pp.111-256)</biblScope>
+                    <location work="UT4CZ5369" count-pages="146">
+                        <volume number="50" start-page="111" end-page="256"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11674" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-03-06T13:23:55.05Z" type="text-version" status="0.0.1" xml:id="UT22084-050-002-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T04:26:12.928Z" type="text-version" status="0.0.2" xml:id="UT22084-050-002-7">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-050-002-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

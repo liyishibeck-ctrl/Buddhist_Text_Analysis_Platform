@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 22: The Merit of First Developing the Mind Set on Enlightenment</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">byang sems dang po bskyed pa'i bsod nams phung po le'u/</title>
+                <title type="otherTitle" xml:lang="zh">初發心功德品</title>
+                <author role="translatorMain" xml:id="UT22084-035-022-5">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-035-022-6">Ana Cristina Lopes</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-035-022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-22" type="chapter">
+                    <ref>Toh 44-22</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="49">
+                        <volume number="35" start-page="521" end-page="569"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14690" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:14:51.711Z" type="text-version" status="0.0.1" xml:id="UT22084-035-022-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-035-022-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:46:57.196Z" type="translation-status" status="3" xml:id="UT22084-035-022-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:46:57.196Z" type="text-version" status="0.0.3" xml:id="UT22084-035-022-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:47:27.544Z" type="text-version" status="0.0.4" xml:id="UT22084-035-022-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-28T13:57:42.825Z" type="translation-status" status="2.h" xml:id="UT22084-035-022-8">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-28T13:57:42.825Z" type="text-version" status="0.0.5" xml:id="UT22084-035-022-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Maṇḍala Ritual called “The Finest Extensive Offerings”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śrīmad­udāra­nāma­maṇḍalopāyikā</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal ldan rgya che ba zhes bya ba'i dkyil 'khor gyi cho ga</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་ལྡན་རྒྱ་ཆེ་བ་ཞེས་བྱ་བའི་དཀྱིལ་འཁོར་གྱི་ཆོ་ག</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-062-011"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2526" type="text">
+                    <ref>Toh 2526</ref>
+                    <biblScope>ff. 168v-175r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-062-011-1">Anon</author>
+                    <location work="UT23703" count-pages="14">
+                        <volume number="62" start-page="336" end-page="349"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9123" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-062-011-2" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="title" xml:id="UT23703-062-011-3" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc>The Sanskrit word udāra (Tib: rgya che ba) refers to a type of oblation or torma cake that is an exceptionally large portion of fine food.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-062-011-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

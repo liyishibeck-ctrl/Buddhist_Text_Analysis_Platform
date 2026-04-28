@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">byang chub sems dpa'i spyod pa la 'jug pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Bodhicaryāvatāra</title>
+                <title xml:lang="en" type="mainTitle">Entering into the Deeds of a Bodhisattva</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-105-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3871" type="text">
+                    <ref>Toh 3871</ref>
+                    <biblScope>ff. 1v-40v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-105-001-1">Śāntideva</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-105-001-2">zhu chen gyi lo tsa ba ban+de dpal brtsegs</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-105-001-3">Sarvajñādeva</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="1" xml:id="UT23703-105-001-4">zhu chen gyi lo tsA ba ban+de rin chen bzang po</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="1" xml:id="UT23703-105-001-5">shAkya blo gros</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="2" xml:id="UT23703-105-001-6">zhu chen gyi lo tsA ba dge slong blo ldan shes rab</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="1" xml:id="UT23703-105-001-7">Dharmaśrībhadra</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="2" xml:id="UT23703-105-001-8">Sumatikīrti</editor>
+                    <location work="UT23703" count-pages="79">
+                        <volume number="105" start-page="1" end-page="79"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10534" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-105-001-9" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-105-001-10">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-105-001-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

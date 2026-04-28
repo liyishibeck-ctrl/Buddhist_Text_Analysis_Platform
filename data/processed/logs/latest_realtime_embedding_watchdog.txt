@@ -1,0 +1,4 @@
+PID=385396
+STDOUT=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-pali-normalized_content-watch-20260427-142106.out.log
+STDERR=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-pali-normalized_content-watch-20260427-142106.err.log
+WORKER_STATE_FILE=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\latest_realtime_embedding_worker.txt

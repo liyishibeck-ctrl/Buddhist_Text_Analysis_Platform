@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་ཨུ་རྒྱན་དུ་ཚོགས་འཁོར་བྱས་པའི་དུས་སུ་རྣལ་འབྱོར་པ་གྲུབ་པ་ཐོབ་པ་བཞི་བཅུས་རྡོ་རྗེའི་མགུར་བཞེངས་པ་ཉམས་ཀྱི་མན་ངག་ཐིག་ལེ་གསེར་གྱི་ཕྲེང་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal u rgyan du tshogs 'khor byas pa'i dus su rnal 'byor pa grub pa thob pa bzhi bcus rdo rje'i mgur bzhengs pa nyams kyi man ngag thig le gser gyi phreng ba zhes bya ba/</title>
+                <title xml:lang="en" type="mainTitle">Personal Instructions on Experience Singing a Vajra Song by the Forty Siddha-Yogis at the Time of Turning the Wheel of Accumulation in Glorious Uḍḍiyāna, called “The Garland of Golden Drops”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-109"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2449" type="text">
+                    <ref>Toh 2449</ref>
+                    <biblScope>ff. 83r-85v</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-053-109-1">Anon</author>
+                    <location work="UT23703" count-pages="6">
+                        <volume number="53" start-page="165" end-page="170"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9033" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-109-2" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="title" xml:id="UT23703-053-109-3" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc>No title is given at the start of the text. The title provided is taken from the colophon.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-053-109-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

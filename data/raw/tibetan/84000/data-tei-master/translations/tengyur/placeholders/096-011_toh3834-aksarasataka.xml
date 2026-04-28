@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཡི་གེ་བརྒྱ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">yi ge brgya pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Akṣara­śataka</title>
+                <title xml:lang="en" type="mainTitle">One Hundred Words</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Śataśāstra</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-096-011"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3834" type="text">
+                    <ref>Toh 3834</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-096-011-1">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-096-011-2">ban+de gzhon nu shes rab</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-096-011-3">lo ts+tsha ba grags 'byor shes rab</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-096-011-4">Kaśmīri Ānanda</editor>
+                    <location work="UT23703" count-pages="1">
+                        <volume number="96" start-page="276" end-page="276"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10486" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-096-011-5" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="attribution" xml:id="UT23703-096-011-6" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>Author, translator, and reviser information has been taken from Toh. 3835 in keeping with the Tohoku and Otani catalogues.</desc>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.1" xml:id="UT23703-096-011-7">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-096-011-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

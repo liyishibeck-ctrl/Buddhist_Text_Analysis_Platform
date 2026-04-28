@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་བདེ་མཆོག་ཕྱག་གཉིས་པའི་ལྷན་ཅིག་སྐྱེས་པའི་སྒྲུབ་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal bde mchog phyag gnyis pa'i lhan cig skyes pa'i sgrub thabs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Śrī­dvibhuja­sahaja­saṃvara­sādhana</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana of the Spontaneously Arisen Two-Armed Form of Saṃvara</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Dvibhujasaṃbaropadeśa</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-021-019"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1438" type="text">
+                    <ref>Toh 1438</ref>
+                    <biblScope>ff. 237v-238v</biblScope>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-021-019-1">Ratnākaragupta</author>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-021-019-2">Vajraghaṇṭa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-021-019-3">chag lo tsA ba shAkya'i dge slong chos rje dpal</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-021-019-4">Ratnarakṣitapāda</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="21" start-page="474" end-page="476"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7984" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-021-019-5" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="attribution" xml:id="UT23703-021-019-6" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc>Although attributed to Vajraghaṇṭa in the colophon, the Sādhanamālā identifies this text (there called Dvibhuja-saṃvaropadeśa) as a composition by a
+            Ratnākaragupta, likely the Upadhyāya of Vajrāsana (Bodhgaya) at the end of the 11th cen.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="general" xml:id="UT23703-021-019-7" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc>This text is identical to Sādhanamālā #255 with the exception that the Sādhanamālā version is missing one (I.1.99) of two quotations from the Vimalaprabhā
+            (I.1.2 and I.1.99) found in this version of the text (D 1438).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-021-019-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#admin" when="2024-01-29T08:49:50.232Z" type="text-version" status="0.0.1" xml:id="UT23703-021-019-9">
+                    <desc>TEI migrated to 2.21.0 - author contested</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

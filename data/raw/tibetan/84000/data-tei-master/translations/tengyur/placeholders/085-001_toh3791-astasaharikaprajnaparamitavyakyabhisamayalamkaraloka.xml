@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་བརྒྱད་སྟོང་པའི་བཤད་པ། མངོན་པར་རྟོགས་པའི་རྒྱན་གྱི་སྣང་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">shes rab kyi pha rol tu phyin pa brgyad stong pa'i bshad pa/_mngon par rtogs pa'i rgyan gyi snang ba /</title>
+                <!--<title xml:lang="bo" type="mainTitle">རྒྱན་སྣང་།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rgyan snang /</title>-->
+                <title xml:lang="Sa-Ltn" type="mainTitle">Āryāṣṭasāhasrikā­prajñāpāramitā­vyākhyānābhisamayālaṃkārāloka­nāma</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Perfection of Wisdom in Eight Thousand Lines, An Illumination of “The Ornament for Clear Realizations”</title>
+                <title xml:lang="bo" type="otherTitle">རྒྱན་སྣང་།</title>
+                <title xml:lang="bo" type="otherTitle">རྒྱན་སྣང་།</title>
+                <title xml:lang="Bo-Ltn" type="otherTitle">rgyan snang /</title>
+                <title xml:lang="bo" type="longTitle">འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་བརྒྱད་སྟོང་པའི་བཤད་པ། མངོན་པར་རྟོགས་པའི་རྒྱན་གྱི་སྣང་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">'phags pa shes rab kyi pha rol tu phyin pa brgyad stong pa'i bshad pa/_mngon par rtogs pa'i rgyan gyi snang ba zhes bya ba/</title>
+                <title xml:lang="en" type="longTitle">An Explanation of the Noble Perfection of Wisdom in Eight Thousand Lines, called "An Illumination of 'The Ornament for Clear Realizations'”</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-085-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3791" type="text">
+                    <ref>Toh 3791</ref>
+                    <biblScope>ff. 1v-341r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-085-001-1">Haribhadra</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-085-001-2">Subhāṣita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-085-001-3">sgra bsgyur gyi lo tsa ba chen po dge slong rin chen bzang po</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="1" xml:id="UT23703-085-001-4">zhu chen gyi lo tsA ba chen po dge slong rin chen bzang po</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="1" xml:id="UT23703-085-001-5">Atīśa Dīpaṃkaraśrījñāna</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="2" xml:id="UT23703-085-001-6">lo tsA ba dge slong blo ldan shes rab</editor>
+                    <editor role="reviser" xml:lang="Sa-Ltn" revision="2" xml:id="UT23703-085-001-7">Dhirapāla</editor>
+                    <location work="UT23703" count-pages="682">
+                        <volume number="85" start-page="2" end-page="683"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10430" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh12"/>
+                <link type="isCommentaryOf" target="toh3786"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT23703-085-001-8">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:12:33.078Z" type="import" xml:id="UT23703-085-001-9" source="tengyur-data-3786-3823_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-085-001-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

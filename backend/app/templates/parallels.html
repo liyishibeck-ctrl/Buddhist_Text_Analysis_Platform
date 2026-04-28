@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}对照页 | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>平行 / 对应文本</h1>
+  <p>这里展示 segment 级别的跨文本对应关系。本版同时支持严格对译关系和主题性对应关系。</p>
+</section>
+
+<section class="grid grid-1">
+  {% for item in parallels %}
+  <article class="card parallel-card">
+    <div>
+      <p class="label">{{ item.source_tradition_name }}</p>
+      <h2><a href="{{ url_for('segment_detail_page', segment_id=item.source_segment_id) }}">{{ item.source_work_title }}</a></h2>
+      <p>{{ item.source_preview }}</p>
+    </div>
+    <div class="parallel-meta">
+      <p>{{ item.relation_type }}</p>
+      <p>置信度 {{ "%.2f"|format(item.confidence) }}</p>
+      <p>{{ item.note }}</p>
+    </div>
+    <div>
+      <p class="label">{{ item.target_tradition_name }}</p>
+      <h2><a href="{{ url_for('segment_detail_page', segment_id=item.target_segment_id) }}">{{ item.target_work_title }}</a></h2>
+      <p>{{ item.target_preview }}</p>
+    </div>
+  </article>
+  {% else %}
+  <article class="card"><p>暂无对照关系。</p></article>
+  {% endfor %}
+</section>
+{% endblock %}

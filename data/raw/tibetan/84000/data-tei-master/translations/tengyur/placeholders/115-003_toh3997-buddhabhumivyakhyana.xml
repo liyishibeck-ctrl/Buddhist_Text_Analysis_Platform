@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་སངས་རྒྱས་ཀྱི་སའི་རྣམ་པར་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa sangs rgyas kyi sa'i rnam par bshad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­buddha­bhūmi­vyākhyāna</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Sūtra On the Bhūmi of Buddhahood</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-115-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3997" type="text">
+                    <ref>Toh 3997</ref>
+                    <biblScope>ff. 234v-273r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-115-003-1">Śīlabhadra</author>
+                    <location work="UT23703" count-pages="78">
+                        <volume number="115" start-page="468" end-page="545"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10651" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10671" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh275"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-115-003-2" source="tengyur-data-3981-4019_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-115-003-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

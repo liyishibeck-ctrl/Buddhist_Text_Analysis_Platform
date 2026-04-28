@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རིམ་པ་བཞི་པ་བཞུགས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rim pa bzhi pa bzhugs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Olacatuṣṭaya</title>
+                <title xml:lang="en" type="mainTitle">The “Olapati” or “Four Stages”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-021-032"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1451" type="text">
+                    <ref>Toh 1451</ref>
+                    <biblScope>ff. 355v-358v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-021-032-1">Kāṇhapa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-021-032-2">Sumatikīrti</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-021-032-3">dge slong grags pa shes rab</author>
+                    <location work="UT23703" count-pages="7">
+                        <volume number="21" start-page="710" end-page="716"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7997" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-021-032-4" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="title" xml:id="UT23703-021-032-5" source="tengyur-data-1425-1540_PH_new_v2.4.xml">
+                    <desc>The Sanskrit title is not provided in the root text, but is given in the commentary (Toh. 1452). There is a commentary in the Sakya tradition of Vajrayogini by
+            Jamyang Khyentse Wangpo (rje btsun rdo rje rnal ‘byor ma nA ro mkha’ spyod kyi bskyed rdzogs dmigs khrid mkha’ spyod ‘khrid pa’i sa mkhan mdzes par byed pa’i rgyan), in which it is stated
+            that “These personal instructions of the uncommon ultimate secret yoga were extensively [explained] by the ācārya Kṛṣṇācārya; he pulled out the essence of the meaning of all the root and
+            explanatory tantras of Cakrasaṃvara and explained them in [the work] known in the language of the ḍākiṇīs as Olapati and in the Tibetan language as The Four Stages” (rnal 'byor gsang mtha'
+            thun mong ma yin pa'i man ngag 'di la rgyas par slob dpon nag po spyod pas dpal 'khor lo sdom pa'i rtsa bshad kyi rgyud thams cad kyi don gyi bcud phyung ste bkral ba, mkha' 'gro brda'i
+            skad du, o la pa ti ste bod skad du rim par bzhi par grags pa).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-021-032-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

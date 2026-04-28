@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">An Extensive Commentary on the “Summary of Empowerment”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Sekoddeśa­ṭīkā</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dbang mdor bstan pa'i rgya cher 'grel pa/</title>
+                <title type="mainTitle" xml:lang="bo">དབང་མདོར་བསྟན་པའི་རྒྱ་ཆེར་འགྲེལ་པ།</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Sekoddeśa­ṭīkā­nāma</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">dbang mdor bstan pa'i rgya cher 'grel pa zhes bya ba/</title>
+                <title type="longTitle" xml:lang="bo">དབང་མདོར་བསྟན་པའི་རྒྱ་ཆེར་འགྲེལ་པ་ཞེས་བྱ་བ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-014-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1353" type="text">
+                    <ref>Toh 1353</ref>
+                    <biblScope>ff. 1v-27v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-014-001-1">Kālacakrapāda</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-014-001-2">Somanātha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-014-001-3">lo tsa ba 'bro dge slong shes rab grags</author>
+                    <location work="UT23703" count-pages="53">
+                        <volume number="14" start-page="2" end-page="54"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7892" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh361"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-014-001-4" source="tengyur-data-1346-1400_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="attribution" xml:id="UT23703-014-001-5" source="tengyur-data-1346-1400_PH_new_v2.4.xml">
+                    <desc>There are several individuals who have gone by the name Kālacakrapāda, including Cilupa (a.k.a., Kālacakrapāda the Elder) and
+            Vāgīśvarakīrti (a.k.a., Kālacakrapāda the Younger). It is unclear if this Kālacakrapāda is the same person as either of these or someone else entirely.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-014-001-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

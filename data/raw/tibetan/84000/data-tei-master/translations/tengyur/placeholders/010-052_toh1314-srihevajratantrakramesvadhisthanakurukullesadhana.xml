@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Self-Empowerment Sādhana for Kurukullā from the Stage of the Hevajra Tantra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śrī­hevajra­tantra­krame svādhiṣṭhāna­kurukullā­sādhana</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་ཀྱེའི་རྡོ་རྗེའི་རྒྱུད་ཀྱི་རིམ་པ་ལས། བདག་བྱིན་གྱིས་བརླབ་པ་ཀུ་རུ་ཀུལླེའི་སྒྲུབ་ཐབས།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal kye'i rdo rje'i rgyud kyi rim pa las/_bdag byin gyis brlab pa ku ru kul+le'i sgrub thabs/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-010-052"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1314" type="text">
+                    <ref>Toh 1314</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-010-052-1">Sahajalalita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-010-052-2">lo tsa ba ba ri rin chen grags pa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-010-052-3">Amoghavajra (II)</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="10" start-page="481" end-page="484"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7848" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-010-052-4" source="tengyur-data-1305-1345_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-010-052-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

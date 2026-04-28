@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་སྤྱན་རས་གཟིགས་རིགས་ཀྱི་འཇིག་རྟེན་མགོན་པོའི་རྗེས་གནང་གི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa spyan ras gzigs rigs kyi 'jig rten mgon po'i rjes gnang gi cho ga</title>
+                <title xml:lang="en" type="mainTitle">A Permission Ritual for the Kula­lokanātha, Ārya Avalokita</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-045"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2136-1" type="text">
+                    <ref>Toh 2136-1</ref>
+                    <biblScope>ff. 195r-196v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-049-045-1">Vimalaśrīpāda</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-049-045-2">Vimalaśrīpāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-049-045-3">lo tsa ba blo brtan</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="49" start-page="389" end-page="392"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC8714" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8716" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:37:19.254Z" type="import" xml:id="UT23703-049-045-4" source="tengyur-data-2090-2216_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-049-045-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

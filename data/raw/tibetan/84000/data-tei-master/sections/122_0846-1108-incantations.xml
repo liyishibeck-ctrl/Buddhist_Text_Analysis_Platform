@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/current/section.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc type="section">
+            <titleStmt>
+                <title type="articleTitle" xml:lang="en">Dhāraṇī (Kangyur Section)</title>
+                <title type="mainTitle" xml:lang="en">Dhāraṇī</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Dhāraṇī</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gzungs/</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.1.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="1"/>
+                <idno xml:id="O1JC114941JC14717"/>
+                <!--<idno type="eft-kb-id">dharani</idno>-->
+                <date>2023-10-06</date>
+                <p>Published in 84000 Reading Room</p>
+            </publicationStmt>
+            <sourceDesc work="W22084" sort-index="22">
+                <p>Derived from previous outline file from TBRC</p>
+                <bibl>
+                    <idno parent-id="O1JC11494"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.1.1" xml:id="O1JC114941JC14717-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#john" when="2023-10-06T10:42:07.824Z" type="text-version" status="0.1.2" xml:id="O1JC114941JC14717-4">
+                    <desc>Updated and edited</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <p tid="1">The collection of dhāraṇī in two subdivisions: 250 <foreign type="term" xml:lang="Sa-Ltn">dhāraṇī</foreign> texts themselves, and a small group of 15 dedication and
+                    aspiration prayers (Toh 846–1108).</p>
+            </div>
+        </front>
+        <body>
+            <div type="article">
+                <head type="article" tid="3">Dhāraṇī</head>
+                <div type="section" xml:id="O1JC114941JC14717-article-1">
+                    <milestone unit="chunk" xml:id="O1JC114941JC14717-1"/>
+                    <p tid="7">This broad section of Dhāraṇī, which corresponds to the <title xml:lang="Bo-Ltn">gzungs ’dus</title> division of the Degé Kangyur, contains two subdivisions: the
+                        Compendium of Dhāraṇīs, a collection of 249 <foreign type="term" xml:lang="Sa-Ltn">dhāraṇī</foreign> texts themselves (Toh 846-1093), and a small group of 15 texts (Toh
+                        1094-1108) included at the end of the section as a whole by way of dedication and aspiration prayers.</p>
+                    <milestone unit="chunk" xml:id="O1JC114941JC14717-2"/>
+                    <p tid="8">For more detailed descriptions of the two subsections, see the knowledge base articles <ref target="/knowledgebase/compendium-dharanis.html">Compendium of Dhāraṇīs (Kangyur Section)</ref> and <ref target="/knowledgebase/aspiration.html">Aspiration (Kangyur Section)</ref>.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="glossary">
+                <list type="glossary"/>
+            </div>
+        </back>
+    </text>
+</TEI>

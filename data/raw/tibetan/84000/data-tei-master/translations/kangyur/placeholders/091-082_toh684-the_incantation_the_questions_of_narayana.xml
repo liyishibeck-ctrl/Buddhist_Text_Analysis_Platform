@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī, The Questions of Nārāyaṇa</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Nārāyaṇaparipṛcchādhāraṇī</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sred med kyi bus zhus pa'i gzungs/</title>
+                <title type="otherTitle" xml:lang="en">[Note: only in late Degé printings; not in Degé par phud, nor in Narthang, Peking, Cone, Lhasa, or Urga Kangyurs.]</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Nārāyaṇaparipṛcchārya­mahāmāyāvijayavāhinī­nāmadhāraṇī</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">sred med kyi bus zhus pa 'phags pa sgyu ma chen mo rnam par rgyal ba thob par byed pa zhes bya ba'i gzungs/</title>
+                <author role="translatorMain" xml:id="UT22084-091-082-1"/>
+                <consultant role="projectManager" xml:id="UT22084-091-082-2">Péter-Dániel Szántó</consultant>
+                <author role="translatorEng" xml:id="UT22084-091-082-3">Gergely Hidas</author>
+                <author role="translatorEng" xml:id="UT22084-091-082-4">Péter-Dániel Szántó</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.7 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-091-082"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh684" type="text">
+                    <ref>Toh 684</ref>
+                    <biblScope>vol.91, ff.287v-290r (pp.573-578)</biblScope>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="91" start-page="576" end-page="581"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12422" work="W22084"/>
+                </bibl>
+                
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-06-30T11:36:57.931Z" type="translation-status" status="4" xml:id="UT22084-091-082-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-30T11:36:57.931Z" type="text-version" status="0.0.1" xml:id="UT22084-091-082-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:57:19.688Z" type="translation-status" status="3" xml:id="UT22084-091-082-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:57:19.688Z" type="text-version" status="0.0.2" xml:id="UT22084-091-082-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:57:47.214Z" type="text-version" status="0.0.3" xml:id="UT22084-091-082-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-24T11:58:11.216Z" type="text-version" status="0.0.4" xml:id="UT22084-091-082-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-091-082-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-28T12:08:23.959Z" type="text-version" status="0.0.6" xml:id="UT22084-091-082-12">
+                    <desc>Auto (update-locations)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-30T12:30:55.394Z" type="translation-status" status="2.h" xml:id="UT22084-091-082-13">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-30T12:30:55.394Z" type="text-version" status="0.0.7" xml:id="UT22084-091-082-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

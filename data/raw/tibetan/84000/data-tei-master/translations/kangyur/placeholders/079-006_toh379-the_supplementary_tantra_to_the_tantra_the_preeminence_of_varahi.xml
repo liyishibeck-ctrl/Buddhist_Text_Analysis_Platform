@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Supplementary Tantra to the Tantra "The Preeminence of Vārāhī"</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">phag mo mngon par 'byung ba'i rgyud las rgyud phyi ma/</title>
+                <title type="otherTitle" xml:lang="en">[Two additional chapters of the preceding tantra. There is no initial title for this work, so the title here is taken from the colophon. ]</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">mkha' 'gro ma thams cad kyi thugs gnyis su med pa'i ye shes bsam gyis mi khyab pa phag mo mngon par 'byung ba'i rgyud las rgyud phyi ma/</title>
+                <author role="translatorMain" xml:id="UT22084-079-006-6">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-079-006-7">Catherine Dalton</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-079-006"/>
+    <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh379" type="text">
+                    <ref>Toh 379</ref>
+                    <biblScope>vol.79, ff.71r-72v(pp.141-144)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="79" start-page="141" end-page="144"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12077" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#andreas" when="2020-08-11T06:41:02.583Z" type="text-version" status="0.0.1" xml:id="UT22084-079-006-1">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#andreas" when="2020-08-11T06:41:02.583Z" type="publication-date" xml:id="UT22084-079-006-2">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-079-006-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:48:44.619Z" type="translation-status" status="3" xml:id="UT22084-079-006-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:48:44.619Z" type="text-version" status="0.0.3" xml:id="UT22084-079-006-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:49:16.495Z" type="text-version" status="0.0.4" xml:id="UT22084-079-006-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

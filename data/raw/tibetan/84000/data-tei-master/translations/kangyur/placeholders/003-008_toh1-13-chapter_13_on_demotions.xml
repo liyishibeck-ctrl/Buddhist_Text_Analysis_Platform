@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 13: On Penitents</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pārivāsikavastu</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">spo ba’i gzhi/</title>
+                <author role="translatorMain" xml:id="UT22084-003-008-1"/>
+                <author role="translatorEng" xml:id="UT22084-003-008-2">Ven. Gyalten Jigdrel</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.9 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-003-008"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1-13" type="chapter">
+                    <ref>Toh 1-13</ref>
+                    <biblScope>vol:3,ff.177r-182r(pp.353-363)</biblScope>
+                    <location work="UT4CZ5369" count-pages="11">
+                        <volume number="3" start-page="353" end-page="363"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11497" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12917" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2022-03-10T13:08:15.722Z" type="translation-status" status="4" xml:id="UT22084-003-008-3">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-10T13:08:15.722Z" type="text-version" status="0.0.1" xml:id="UT22084-003-008-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:52:01.708Z" type="translation-status" status="3" xml:id="UT22084-003-008-5">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:52:01.708Z" type="text-version" status="0.0.2" xml:id="UT22084-003-008-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:52:18.733Z" type="text-version" status="0.0.3" xml:id="UT22084-003-008-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:52:35.19Z" type="text-version" status="0.0.4" xml:id="UT22084-003-008-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-22T12:16:32.09Z" type="text-version" status="0.0.5" xml:id="UT22084-003-008-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT22084-003-008-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-05T14:58:01.019Z" type="translation-status" status="2.h" xml:id="UT22084-003-008-11">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-05T14:58:01.019Z" type="text-version" status="0.0.7" xml:id="UT22084-003-008-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#john" when="2024-10-29T19:31:01.435Z" type="text-version" status="0.0.8" xml:id="UT22084-003-008-13">
+                    <desc>Changed title to reflect Bob Miller's choice in Toh 1-4.</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-16T12:38:18.17Z" type="translation-status" status="2.g" xml:id="UT22084-003-008-14">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-16T12:38:18.17Z" type="text-version" status="0.0.9" xml:id="UT22084-003-008-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྣལ་འབྱོར་མ་ཀུན་སྤྱོད་ཀྱི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rnal 'byor ma kun spyod kyi 'grel pa/</title>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Manifesting of Yogiṇīs Tantra called “Clarifying the Meaning of the Words”</title>
+                <title xml:lang="bo" type="longTitle">རྣལ་འབྱོར་མ་ཀུན་དུ་སྤྱོད་པའི་བཤད་པ་ཚིག་དོན་རབ་ཏུ་གསལ་བ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">rnal 'byor ma kun du spyod pa'i bshad pa tshig don rab tu gsal ba zhes bya ba/</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-021-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1423" type="text">
+                    <ref>Toh 1423</ref>
+                    <biblScope>ff. 139r-153r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-021-004-1">Vīryavajra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-021-004-2">lo tsa ba 'phags pa shes rab</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-021-004-3">Kaśmīri Parahita</author>
+                    <location work="UT23703" count-pages="29">
+                        <volume number="21" start-page="277" end-page="305"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7969" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh375"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-021-004-4" source="tengyur-data-1401-1424_PH_new_v2.3.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-021-004-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

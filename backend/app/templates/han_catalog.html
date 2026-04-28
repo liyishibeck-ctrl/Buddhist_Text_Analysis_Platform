@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% macro render_catalog_node(node) -%}
+<li class="catalog-node depth-{{ node.depth }}">
+  <div class="catalog-line">
+    <strong>{{ node.label }}</strong>
+    {% if node.title and node.title != node.label %}<span> · {{ node.title }}</span>{% endif %}
+    <span class="muted">({{ node.node_type }})</span>
+    {% if node.canonical_code %}<span class="catalog-chip">{{ node.canonical_code }}</span>{% endif %}
+    {% if node.fascicle_count %}<span class="muted">· {{ node.fascicle_count }} 卷</span>{% endif %}
+    {% if node.work_id %}
+    <span>· <a href="{{ url_for('work_detail_page', work_id=node.work_id) }}">查看条目</a></span>
+    {% endif %}
+  </div>
+  {% if node.note %}
+  <p class="muted catalog-note">{{ node.note }}</p>
+  {% endif %}
+  {% if node.child_nodes %}
+  <ul class="plain-list nested">
+    {% for child in node.child_nodes %}
+    {{ render_catalog_node(child) }}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</li>
+{%- endmacro %}
+{% block title %}汉传目录 | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>汉传三藏目录快照</h1>
+  <p>目录树和正文层共用同一套作品主键；当前既能浏览目录快照，也能查看一部分已经接入的汉传正文版本。</p>
+</section>
+
+<section class="grid grid-3">
+  <article class="card stat-card">
+    <h2>{{ catalog.work_count }}</h2>
+    <p>目录作品条目</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ catalog.catalog_node_count }}</h2>
+    <p>目录节点</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ catalog.ingested_work_count }}</h2>
+    <p>已接正文作品</p>
+  </article>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>正文接入进度</h2>
+    <p>当前已有 <strong>{{ catalog.ingested_segment_count }}</strong> 个汉传正文段落接入统一检索模型。</p>
+    <p class="muted">目录层和正文层共用同一批 `work` 记录，后续可以在现有条目上继续补齐卷、品、章、段，而不是另起一套数据结构。</p>
+  </article>
+  <article class="card">
+    <h2>三藏分布</h2>
+    <ul class="plain-list">
+      {% for item in catalog.division_counts %}
+      <li>{{ item.label }}：{{ item.work_count }} 部</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+
+<section class="card">
+  <h2>目录树</h2>
+  <ul class="plain-list">
+    {% for node in catalog.tree %}
+    {{ render_catalog_node(node) }}
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

@@ -1,0 +1,39 @@
+{
+  "status": "running",
+  "updated_at": "2026-04-28T01:59:11.815194+00:00",
+  "supervisor_started_at": "2026-04-28T01:56:36.909603+00:00",
+  "current_wave": 2,
+  "runs_completed": 1,
+  "total_processed": 2048,
+  "total_failed": 0,
+  "worker_command": [
+    "C:\\Python314\\python.exe",
+    "-u",
+    "D:\\Buddhist_Text_Analysis_Platform\\scripts\\analysis\\run_realtime_segment_embeddings.py",
+    "--content-field",
+    "normalized_content",
+    "--concurrency",
+    "4",
+    "--max-segments-per-request",
+    "512",
+    "--max-segments",
+    "2048",
+    "--tradition-id",
+    "trad-tibetan",
+    "--max-text-length",
+    "1999",
+    "--max-routing-tokens",
+    "3499"
+  ],
+  "filters": {
+    "tradition_id": "trad-tibetan",
+    "content_field": "normalized_content",
+    "concurrency": 4,
+    "max_segments_per_request": 512,
+    "max_segments_per_run": 2048,
+    "min_text_length": null,
+    "max_text_length": 1999,
+    "min_routing_tokens": null,
+    "max_routing_tokens": 3499
+  }
+}

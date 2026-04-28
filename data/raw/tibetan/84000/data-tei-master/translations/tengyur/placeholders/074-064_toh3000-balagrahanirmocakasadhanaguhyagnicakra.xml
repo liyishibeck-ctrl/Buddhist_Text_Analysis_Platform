@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བྱིས་པ་གདོན་ལས་ཐར་བར་བྱེད་པའི་བསྒྲུབ་པ་གསང་བ་མེའི་འཁོར་ལོ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">byis pa gdon las thar bar byed pa'i bsgrub pa gsang ba me'i 'khor lo zhes bya ba/</title>
+                <title xml:lang="en" type="mainTitle">The Secret Practice of Liberating [Others] from Bālagrahakas called “The Wheel of Fire”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-074-064"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3000" type="text">
+                    <ref>Toh 3000</ref>
+                    <biblScope>ff. 60r-60v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-074-064-1">Advayajñānavajra</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="74" start-page="119" end-page="120"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC9561" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9620" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-074-064-2" source="tengyur-data-2976-3051_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="general" xml:id="UT23703-074-064-3" source="tengyur-data-2976-3051_PH_new_v2.4.xml">
+                    <desc>Bālagrahakas (byis pa gdon) are a class of demon responsible for the abduction of children and other maladies.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-074-064-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

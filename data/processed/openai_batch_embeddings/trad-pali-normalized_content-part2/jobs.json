@@ -1,0 +1,72 @@
+[
+  {
+    "request_file": "requests\\batch-0001.jsonl",
+    "record_count": 50000,
+    "batch_id": "batch_69eee2b741888190982282a7a0daf708",
+    "input_file_id": "file-U91CR4UQ2vHWu8B1ziAbin",
+    "status": "failed",
+    "submitted_at": "2026-04-27T04:14:45.661244+00:00",
+    "last_synced_at": "2026-04-27T04:20:38.131866+00:00",
+    "output_file_id": null,
+    "error_file_id": null,
+    "request_counts": {
+      "total": 0,
+      "completed": 0,
+      "failed": 0
+    },
+    "errors": {
+      "object": "list",
+      "data": [
+        {
+          "code": "token_limit_exceeded",
+          "message": "Enqueued token limit reached for text-embedding-3-large in organization org-nj0gdupH49e0FvYzqs0dVeyO. Limit: 3,000,000 enqueued tokens. Please try again once some in_progress batches have been completed.",
+          "param": null,
+          "line": null
+        }
+      ]
+    },
+    "prior_batch_ids": [
+      "batch_69eeca0074b88190bab20dae51ecf239",
+      "batch_69eed45811748190ae3e0d93d0ea0fd0",
+      "batch_69eed5c528b08190a13baf74c3ffa250",
+      "batch_69eed8c50c348190a7558a22ebffd2cd",
+      "batch_69eedb5cff148190903fb9db46ab959e",
+      "batch_69eeddf7b5748190b044cf92e76015fc"
+    ]
+  },
+  {
+    "request_file": "requests\\batch-0002.jsonl",
+    "record_count": 28973,
+    "batch_id": "batch_69eee2b8aba48190a5d0e790dd663cb2",
+    "input_file_id": "file-CxcnzgqgnrFzMTHsUV6DCG",
+    "status": "failed",
+    "submitted_at": "2026-04-27T04:14:47.207007+00:00",
+    "last_synced_at": "2026-04-27T04:20:39.036893+00:00",
+    "output_file_id": null,
+    "error_file_id": null,
+    "request_counts": {
+      "total": 0,
+      "completed": 0,
+      "failed": 0
+    },
+    "errors": {
+      "object": "list",
+      "data": [
+        {
+          "code": "token_limit_exceeded",
+          "message": "Enqueued token limit reached for text-embedding-3-large in organization org-nj0gdupH49e0FvYzqs0dVeyO. Limit: 3,000,000 enqueued tokens. Please try again once some in_progress batches have been completed.",
+          "param": null,
+          "line": null
+        }
+      ]
+    },
+    "prior_batch_ids": [
+      "batch_69eeca07df3c8190bfe7224ec978305f",
+      "batch_69eed4595a648190bbc81e049546824d",
+      "batch_69eed5c6280081908543a88b4af0bff2",
+      "batch_69eed8c6861c8190a9db0031ec563413",
+      "batch_69eedb5e07c88190baf066df0d4b58a9",
+      "batch_69eeddf8e4108190a1b478e181c1b19c"
+    ]
+  }
+]

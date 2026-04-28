@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཤེས་རབ་ལེའུའི་དཀའ་འགྲེལ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">shes rab le'u'i dka' 'grel/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Prajñā­pariccheda­pañjikā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Difficult Points of the Wisdom Chapter [of Śāntideva’s “Entering into the Deeds of a Bodhisattva”]</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-106-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3876" type="text">
+                    <ref>Toh 3876</ref>
+                    <biblScope>ff. 159r-178v</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-106-004-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-106-004-2">lo tsA ba dge slong blo ldan shes rab</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-106-004-3">Atulyadāsa</author>
+                    <location work="UT23703" count-pages="39">
+                        <volume number="106" start-page="317" end-page="355"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10540" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3871"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-02-15T10:47:28.239Z" type="text-version" status="0.0.1" xml:id="UT23703-106-004-4">
+                    <desc>Text uid updated to accomodate 385a in vol.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-106-004-5" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-106-004-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

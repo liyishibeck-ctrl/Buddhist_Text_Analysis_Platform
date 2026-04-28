@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མདོའི་སྡེའི་དོན་ཀུན་ལས་བཏུས་པའི་མན་ངག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mdo'i sde'i don kun las btus pa'i man ngag</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Sūtrārtha­samuccayopadeśa</title>
+                <title xml:lang="en" type="mainTitle">Personal Instructions Condensing the Meaning of the Various Sūtras</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-111-019"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3957" type="text">
+                    <ref>Toh 3957</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-111-019-1">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-111-019-2">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-111-019-3">zhu chen gyi lo tsa ba dge slong tshul khrims rgyal ba</author>
+                    <location work="UT23703" count-pages="6">
+                        <volume number="111" start-page="607" end-page="612"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10626" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-111-019-4" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="title" xml:id="UT23703-111-019-5" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>The promise of composition reads: “I will write down the meaning that is difficult to find and which came from the lineage of the glorious gurus” (dpal ldan
+            bla ma'i zhal nas byung ba yi, rnyed par dka' ba'i don rnams bri bar bya).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-111-019-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

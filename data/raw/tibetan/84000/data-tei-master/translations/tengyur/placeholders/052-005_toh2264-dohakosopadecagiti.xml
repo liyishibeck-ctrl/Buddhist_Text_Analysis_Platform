@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མི་ཟད་པའི་གཏེར་མཛོད་མན་ངག་གི་གླུ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mi zad pa'i gter mdzod man ngag gi glu/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Doha­koṣopadeśa­gīti</title>
+                <title xml:lang="en" type="mainTitle">A Song of Personal Instructions on the “Inexhaustible Treasury”</title>
+                <title xml:lang="bo" type="longTitle">མི་ཟད་པའི་གཏེར་མཛོད་མན་ངག་གི་གླུ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">mi zad pa'i gter mdzod man ngag gi glu zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Doha­koṣopadeśa­gīti­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-005"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2264" type="text">
+                    <ref>Toh 2264</ref>
+                    <biblScope>ff. 28v-33v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-005-1">Saraha (II)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-052-005-2">Vajrapāṇi</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-052-005-3">Ajamahāsukha</editor>
+                    <location work="UT23703" count-pages="11">
+                        <volume number="52" start-page="56" end-page="66"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8846" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-005-4" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-052-005-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

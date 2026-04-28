@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī that Makes Erecting One Reliquary Like Erecting Ten Million</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mchod rten gcig btab na bye ba btab par 'gyur ba'i gzungs/</title>
+                <author role="translatorMain" xml:id="UT22084-090-046-6">Patrick Lambelet</author>
+                <author role="translatorEng" xml:id="UT22084-090-046-7">Patrick Lambelet</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-090-046"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh602" type="text">
+                    <ref>Toh 602</ref>
+                    <biblScope>vol.90, ff.266v-267r(pp.530-431)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="90" start-page="530" end-page="531"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12335" work="W22084"/>
+                </bibl>
+                <bibl key="toh921" type="text">
+                    <ref>Toh 921</ref>
+                    <biblScope>vol.100, ff.265r-265r(pp.529-529)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="101" start-page="527" end-page="527"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12683" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2021-08-26T13:25:27.591Z" type="translation-status" status="4" xml:id="UT22084-090-046-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-08-26T13:25:27.591Z" type="text-version" status="0.0.1" xml:id="UT22084-090-046-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-090-046-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-08T14:14:50.055Z" type="translation-status" status="3" xml:id="UT22084-090-046-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-08T14:14:50.055Z" type="text-version" status="0.0.3" xml:id="UT22084-090-046-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-08T14:15:23.354Z" type="text-version" status="0.0.4" xml:id="UT22084-090-046-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#sameer" when="2024-05-01T05:30:48.236Z" type="text-version" status="0.0.5" xml:id="UT22084-090-046-9">
+                    <desc>Updated vol. 100 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-05T11:23:12.644Z" type="translation-status" status="" xml:id="UT22084-090-046-10">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2024-11-05T11:23:12.644Z" type="text-version" status="0.0.6" xml:id="UT22084-090-046-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

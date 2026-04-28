@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་དཀའ་འགྲེལ་བསྡུས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i dka' 'grel bsdus pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­mañjuśrī­nāmasaṃgīti­pañjikā­saṃgraha</title>
+                <title xml:lang="en" type="mainTitle">A Summarized Commentary on the Difficult Points of “The Recitation of the Names of Mañjuśrī”</title>
+                <title xml:lang="bo" type="longTitle">འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་དཀའ་འགྲེལ་བསྡུས་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i dka' 'grel bsdus pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Ārya­mañjuśrī­nāmasaṃgīti­pañjikā­saṃgraha­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-064-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2541" type="text">
+                    <ref>Toh 2541</ref>
+                    <biblScope>ff. 221r-235r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-064-007-1">Ratnākaragupta</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-064-007-2">chos kyi brtson 'grus</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-064-007-3">bod kyi lo tsa ba dz+nya na gar+b+ha</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-064-007-4">Kālacakrapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-064-007-5">'brog jo sras</author>
+                    <location work="UT23703" count-pages="29">
+                        <volume number="64" start-page="441" end-page="469"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9140" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-064-007-6" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-064-007-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

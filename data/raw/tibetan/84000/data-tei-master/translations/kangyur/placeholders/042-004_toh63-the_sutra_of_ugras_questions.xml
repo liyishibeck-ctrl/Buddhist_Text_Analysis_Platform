@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Ugra's Questions</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ugraparipṛcchāsūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">drag shul can gyis zhus pa'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryagṛhapatyugra­paripṛcchā­nāmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa khyim bdag drag shul can gyis zhus pa zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="zh">《郁伽長者所問經》（大正藏：《大寶積經郁伽長者會第十九》）</title>
+                <author role="translatorMain" xml:id="UT22084-042-004-1"/>
+                <author role="translatorEng" xml:id="UT22084-042-004-2">Benjamin Ewing</author>
+                <editor role="reviser" xml:id="UT22084-042-004-3">Lowell Cook</editor>
+                <sponsor xml:id="UT22084-042-004-13">Anonymous</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.8 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-042-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh63" type="text">
+                    <ref>Toh 63</ref>
+                    <biblScope>vol:42, ff.257v-288r(pp.514-575)</biblScope>
+                    <location work="UT4CZ5369" count-pages="62">
+                        <volume number="42" start-page="514" end-page="575"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14667" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11598" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-10-27T13:14:38.852Z" type="translation-status" status="4" xml:id="UT22084-042-004-4">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-10-27T13:14:38.852Z" type="text-version" status="0.0.1" xml:id="UT22084-042-004-5">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-12T10:59:17.93Z" type="translation-status" status="3" xml:id="UT22084-042-004-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-12T10:59:17.93Z" type="text-version" status="0.0.2" xml:id="UT22084-042-004-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-12T10:59:58.619Z" type="text-version" status="0.0.3" xml:id="UT22084-042-004-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-06-09T09:53:28.512Z" type="text-version" status="0.0.4" xml:id="UT22084-042-004-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT22084-042-004-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-01T12:41:08.003Z" type="translation-status" status="2.h" xml:id="UT22084-042-004-11">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-01T12:41:08.003Z" type="text-version" status="0.0.7" xml:id="UT22084-042-004-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#cabie-sim" when="2024-03-09T15:54:11.675Z" type="text-version" status="0.0.8" xml:id="UT22084-042-004-14">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

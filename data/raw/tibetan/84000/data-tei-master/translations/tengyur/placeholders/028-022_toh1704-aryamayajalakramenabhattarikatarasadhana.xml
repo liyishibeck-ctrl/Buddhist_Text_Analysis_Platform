@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་སྒྱུ་འཕྲུལ་དྲ་བའི་རིམ་པས་རྗེ་བཙུན་སྒྲོལ་མའི་སྒྲུབ་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa sgyu 'phrul dra ba'i rim pas rje btsun sgrol ma'i sgrub thabs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­māyājāla­krameṇa bhaṭṭārikā­tārā­sādhana</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana of the Venerable Tāra According to the Noble Māyajāla Tantra</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-028-022"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1704" type="text">
+                    <ref>Toh 1704</ref>
+                    <biblScope>ff. 60v-62r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-028-022-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-028-022-2">Mahājana</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-028-022-3">lo tsA ba gzhon nu 'od</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="28" start-page="120" end-page="123"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21620" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8257" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="import" xml:id="UT23703-028-022-4" source="tengyur-data-1683-1783_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-028-022-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

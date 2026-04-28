@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 5: Purpose and Benefits of This Publication, Together with Dedication Prayers</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">lnga pa/ de ltar bzhengs pa'i dgos ched phan yon bsngo smon dang bcas pa legs par bshad pa'i yal 'dab/</title>
+                <title type="otherTitle" xml:lang="zh">德格版甘珠爾經文目錄：第五章 此出版物的目的與利益，以及迴向文</title>
+                <author role="translatorMain" xml:id="UT22084-103-006-11">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-103-006-12">Lowell Cook</author>
+                <sponsor xml:id="UT22084-103-006-1">Chan Wing Fai, Lam Wai Ling, Chan Oi Yi, Chan Tung Mei, Chan Yu Ka, Chan Sui Li, Chan Ya Ho, Chan Yu Lin, Zhong Sheng jian, Lin Miao Jun.</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.9 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-103-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4568-5" type="chapter">
+                    <ref>Toh 4568-5</ref>
+                    <biblScope>v. 103, ff.157v-171r(pp.314-341)</biblScope>
+                    <location work="UT4CZ5369" count-pages="28">
+                        <volume number="103" start-page="314" end-page="341"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC12882" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12887" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T16:49:28.988Z" type="text-version" status="0.0.1" xml:id="UT22084-103-006-2">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#mike" when="2021-07-05T16:28:34.927Z" type="text-version" status="0.0.2" xml:id="UT22084-103-006-3">
+                    <desc>summary added</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-12-24T05:49:18.298Z" type="text-version" status="0.0.3" xml:id="UT22084-103-006-4">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-12-24T05:51:17.874Z" type="text-version" status="0.0.4" xml:id="UT22084-103-006-5">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T07:51:19.814Z" type="text-version" status="0.0.5" xml:id="UT22084-103-006-6">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-11-04T13:38:55.831Z" type="text-version" status="0.0.6" xml:id="UT22084-103-006-7">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.7" xml:id="UT22084-103-006-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:28:58.384Z" type="translation-status" status="3" xml:id="UT22084-103-006-9">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:28:58.384Z" type="text-version" status="0.0.8" xml:id="UT22084-103-006-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:29:57.895Z" type="text-version" status="0.0.9" xml:id="UT22084-103-006-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <head type="summary" tid="1">Summary</head>
+                <milestone unit="chunk" xml:id="UT22084-103-002-1"/>
+                <p tid="2">Toh 4568 ch. 1-5:</p>
+                <p tid="3"> More than a mere table of contents, the Degé Kangyur Catalogue is a detailed
+                    introduction to the Kangyur as a whole and this particular edition itself. It
+                    constitutes the entirety of the 103rd and final volume of the Kangyur and was
+                    written by the 8th Tai Situ, Chökyi Jungné (1700-1774 CE), who presided over the
+                    publication of the Degé Kangyur as its chief editor. The first three chapters of
+                    the catalog give a detailed history of Indian Buddhism and its arrival in Tibet
+                    while the final two give an account of all the texts included in the canon and
+                    an explanation of the merits of producing a Kangyur edition.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

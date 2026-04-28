@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་དཀོན་མཆོག་བརྩེགས་པ་ཆེན་པོ་ཆོས་ཀྱི་རྣམ་གྲངས་ལེའུ་སྟོང་ཕྲག་བརྒྱ་པ་ལས་འོད་སྲུངས་ཀྱི་ལེའུ་རྒྱ་ཆེར་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa dkon mchog brtsegs pa chen po chos kyi rnam grangs le'u stong phrag brgya pa las 'od srungs kyi le'u rgya cher 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­mahā­ratnakūṭa­dharma­paryāya­śatasāhasrika­parivarta­kāśyapa­parivarta­ṭīkā</title>
+                <title xml:lang="en" type="mainTitle">An Extensive Explanation of the Kāśyapa Chapter of the One-Hundred-Thousand Dharma Discourses of the Great Heap of Jewels</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-116-012"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4009" type="text">
+                    <ref>Toh 4009</ref>
+                    <biblScope>ff. 199v-277r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-116-012-1">Sthiramati</author>
+                    <location work="UT23703" count-pages="156">
+                        <volume number="116" start-page="398" end-page="553"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10651" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10684" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh87"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.3" xml:id="UT23703-116-012-2">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-116-012-3" source="tengyur-data-3981-4019_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT23703-116-012-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

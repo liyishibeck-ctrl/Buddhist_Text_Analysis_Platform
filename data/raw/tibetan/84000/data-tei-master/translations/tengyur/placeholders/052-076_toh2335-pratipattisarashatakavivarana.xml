@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">An Explanation of [Āryadeva’s] “One Hundred Essential Verses Bestowing Understanding”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pratipatti­sāraśataka­vivaraṇa</title>
+                <title type="mainTitle" xml:lang="bo">གོ་བར་བྱེད་པའི་སྙིང་པོ་བརྒྱ་པ་རྣམ་པར་བཤད་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">go bar byed pa'i snying po brgya pa rnam par bshad pa/</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Pratipatti­sāraśataka­vivaraṇa­nāma</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">go bar byed pa'i snying po brgya pa rnam par bshad pa zhes bya ba/</title>
+                <title type="longTitle" xml:lang="bo">གོ་བར་བྱེད་པའི་སྙིང་པོ་བརྒྱ་པ་རྣམ་པར་བཤད་པ་ཞེས་བྱ་བ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-076"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2335" type="text">
+                    <ref>Toh 2335</ref>
+                    <biblScope>ff. 283r-299v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-076-1">Herukadeva</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-052-076-2">Vanaratnapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-052-076-3">dge slong chos smra ba bsod nams rgya mtsho'i sde</author>
+                    <location work="UT23703" count-pages="34">
+                        <volume number="52" start-page="565" end-page="598"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8918" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh2334"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-076-4" source="tengyur-data-2326-2372_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-052-076-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

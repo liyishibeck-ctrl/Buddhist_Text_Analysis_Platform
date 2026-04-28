@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sa bcu pa'i gzungs/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Daśabhūmidhāraṇī</title>
+                <title type="mainTitle" xml:lang="en">Dhāraṇī of the Ten Grounds</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-093-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh688" type="text">
+                    <ref>Toh 688</ref>
+                    <biblScope>vol.93, ff.59v-52r(pp.118-123)</biblScope>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="93" start-page="118" end-page="123"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12428" work="W22084"/>
+                </bibl>
+                <bibl key="toh902" type="text">
+                    <ref>Toh 902</ref>
+                    <biblScope>vol.100, ff.223v-226v(pp.446-452)</biblScope>
+                    <location work="UT4CZ5369" count-pages="7">
+                        <volume number="101" start-page="444" end-page="450"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12664" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-093-003-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-05-01T05:12:48.233Z" type="text-version" status="0.0.2" xml:id="UT22084-093-003-2">
+                    <desc>Updated vol. 100 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T12:09:31.452Z" type="translation-status" status="3" xml:id="UT22084-093-003-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T12:09:31.452Z" type="text-version" status="0.0.3" xml:id="UT22084-093-003-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

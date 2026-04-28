@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སྦྱོར་བ་བརྒྱ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">sbyor ba brgya pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Yoga­śataka</title>
+                <title xml:lang="en" type="mainTitle">One Hundred [Medicinal] Compounds</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-198-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4306" type="text">
+                    <ref>Toh 4306</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-198-001-1">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-198-001-2">lo ts+tsha ba shakya'i dge slong dpal nyi ma rgyal mtshan bzang po</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-198-001-3">Jetakarṇa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-198-001-4">Paṇḍita Buddhaśrījñāna</author>
+                    <location work="UT23703" count-pages="15">
+                        <volume number="198" start-page="2" end-page="16"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11092" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11094" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:23:35.323Z" type="import" xml:id="UT23703-198-001-5" source="tengyur-data-4306-4312_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.1" xml:id="UT23703-198-001-6">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-198-001-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

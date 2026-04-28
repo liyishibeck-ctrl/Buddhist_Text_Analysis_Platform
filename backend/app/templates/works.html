@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}目录与正文 | 云上取经{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>目录与正文</h1>
+  <div class="action-row">
+    <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-han">汉传</a>
+    <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-pali">巴利</a>
+    <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">藏传</a>
+    <a class="nav-chip" href="{{ url_for('works_page') }}">全部传统</a>
+  </div>
+  <form method="get" class="filter-form">
+    <label>
+      传统
+      <select name="tradition_id">
+        <option value="">全部</option>
+        {% for item in traditions %}
+        <option value="{{ item.id }}" {% if selected_tradition == item.id %}selected{% endif %}>{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      集合
+      <select name="collection_id">
+        <option value="">全部</option>
+        {% for item in collections %}
+        <option value="{{ item.id }}" {% if selected_collection == item.id %}selected{% endif %}>{{ item.title }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      语言
+      <select name="language_id">
+        <option value="">全部</option>
+        {% for item in languages %}
+        <option value="{{ item.id }}" {% if selected_language == item.id %}selected{% endif %}>{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      三藏归属
+      <select name="pitaka_division">
+        <option value="">全部</option>
+        {% for value, label in pitaka_divisions %}
+        <option value="{{ value }}" {% if selected_pitaka_division == value %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label class="grow">
+      关键词
+      <input type="text" name="q" value="{{ search_term }}" placeholder="如：空 / metta / T0251">
+    </label>
+    <button type="submit">筛选</button>
+  </form>
+  <p class="muted result-summary">当前结果：{{ works|length }} 部作品。</p>
+</section>
+
+<section class="grid grid-2">
+  {% for work in works %}
+  <article class="card">
+    <h2><a href="{{ url_for('work_detail_page', work_id=work.id) }}">{{ work.title }}</a></h2>
+    <p class="muted">{{ work.title_english or "无英文标题" }}</p>
+    <div class="inline-meta">
+      {% if work.is_catalog_only %}
+      <span class="status-chip status-catalog">目录占位</span>
+      {% elif work.has_full_text %}
+      <span class="status-chip status-full">已接入正文</span>
+      {% endif %}
+      {% if work.full_text_version_count %}
+      <span class="catalog-chip">{{ work.full_text_version_count }} 个可读版本</span>
+      {% endif %}
+    </div>
+    <p>传统：{{ work.tradition_name }}</p>
+    <p>集合：{{ work.collection_title }}</p>
+    <p>体裁：{{ work.genre }}</p>
+    {% if work.canonical_code %}
+    <p>编号：{{ work.canonical_code }}</p>
+    {% endif %}
+    {% if work.pitaka_division %}
+    <p>三藏：{{ {"sutra": "经藏", "vinaya": "律藏", "abhidharma": "论藏"}[work.pitaka_division] }}</p>
+    {% endif %}
+    {% if work.fascicle_count %}
+    <p>卷数：{{ work.fascicle_count }}</p>
+    {% endif %}
+    <p>版本数：{{ work.text_version_count }}</p>
+    {% if work.is_catalog_only %}
+    <p class="muted">当前仅接入目录元数据，正文尚未导入。</p>
+    {% elif work.has_full_text %}
+    <p class="muted">可直接进入正文版本，查看段落与 gloss。</p>
+    {% endif %}
+    <div class="action-row">
+      <a class="secondary-link" href="{{ url_for('work_detail_page', work_id=work.id) }}">作品详情</a>
+      {% if work.primary_text_version_id %}
+      <a class="button-link" href="{{ url_for('text_version_detail_page', text_version_id=work.primary_text_version_id) }}">进入正文</a>
+      {% endif %}
+    </div>
+  </article>
+  {% else %}
+  <article class="card">
+    <p>当前筛选条件下暂无结果。</p>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

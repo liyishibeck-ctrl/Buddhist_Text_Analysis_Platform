@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Preeminent Account of Discipline</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vinayottaragrantha</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'dul ba gzhung dam pa/</title>
+                <title type="otherTitle" xml:lang="en">[Note: a variant but more complete version of the preceding text.]</title>
+                <author role="translatorMain" xml:id="UT22084-012-002-5">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-012-002-6">Annie Heckman</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-012-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh7a" type="text">
+                    <ref>Toh 7a</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="1042">
+                        <volume number="12" start-page="184" end-page="603"/>
+                        <volume number="13" start-page="2" end-page="625"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11495" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11517" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-01-23T10:58:19.32Z" type="text-version" status="0.0.1" xml:id="UT22084-012-002-1">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-012-002-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:26:40.72Z" type="translation-status" status="3" xml:id="UT22084-012-002-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:26:40.72Z" type="text-version" status="0.0.3" xml:id="UT22084-012-002-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T13:27:19.457Z" type="text-version" status="0.0.4" xml:id="UT22084-012-002-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

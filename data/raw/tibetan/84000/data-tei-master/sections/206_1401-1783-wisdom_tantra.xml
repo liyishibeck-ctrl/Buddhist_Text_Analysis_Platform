@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/current/section.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc type="section">
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">shes rab kyi rgyud/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn"/>
+                <title type="mainTitle" xml:lang="en">Wisdom tantra</title>
+                <title type="articleTitle" xml:lang="en">Wisdom tantra (Tengyur Section)</title>
+                </titleStmt>
+            <editionStmt>
+                <edition>v 0.1.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Published in 84000 Reading Room</p>
+                <availability status="1"/>
+                <idno xml:id="O1JC76301JC21615"/>
+                <idno type="eft-kb-id">wisdom-tantra</idno>
+                <date>2010</date>
+            </publicationStmt>
+            <sourceDesc work="W23703" sort-index="6">
+                <p>Derived from previous outline file from TBRC</p>
+                <bibl>
+                    <idno parent-id="O1JC76301JC21609"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.1.1" xml:id="O1JC76301JC21615-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <p tid="1">Commentaries and liturgical works related to the mother tantras, centered on a range of deities divided into
+                    six main families (Toh 1401-1783)</p>
+            </div>
+        </front>
+        <body>
+            <div type="article">
+                <head type="article" tid="6">Wisdom tantra</head>
+                <div type="section" xml:id="O1JC76301JC21615-article-1">
+                    <milestone unit="chunk" xml:id="O1JC76301JC21615-1"/>
+                    <p tid="2">Wisdom, or “mother” tantras (<foreign xml:lang="Bo-Ltn">ma’i rgyud</foreign>), are a subset of Unexcelled
+                        Yoga tantras in which, it is said, the emphasis is on wisdom more than skillful means, the profound more
+                        than the vast, seeing the deity as the channels, energies and essences more than as the aggregates,
+                        elements, and sense-fields, relying more on the practice of <foreign xml:lang="Bo-Ltn">gtum mo</foreign>
+                        and bliss than on practices of the channels and energies, and in which female deities are more numerous
+                        than male. They are often also called yoginī tantras (<title xml:lang="Bo-Ltn">rnal ’byor ma’i
+                            rgyud</title>).</p>
+                    <milestone unit="chunk" xml:id="O1JC76301JC21615-2"/>
+                    <p tid="3">The 383 Tengyur works placed in this category by the <foreign xml:lang="Bo-Ltn">dkar chag</foreign> are
+                        here divided for convenience into two groups: </p>
+                    <milestone unit="chunk" xml:id="O1JC76301JC21615-3"/>
+                    <p tid="4">I. the 206 works on the tantras related to Śaṃvara or Cakrasaṃvara and his consort Vajrayoginī or
+                        Vajravārāhī (Toh 1401-1606); and</p>
+                    <milestone unit="chunk" xml:id="O1JC76301JC21615-4"/>
+                    <p tid="5">II. the 177 works on the other wisdom tantras, those of Catuḥpīṭha, Mahāmāyā, Vajrāmṛta, Buddhakapāla,
+                        Buddhasamayoga, and Tāra (Toh 1607-1783).</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="listBibl">
+                <head type="listBibl" tid="7">Bibliography</head>
+                <div type="section" xml:id="O1JC76301JC21615-listBibl-1">
+                    <head type="section" tid="8">Bibliography Section Heading</head>
+                    <bibl rend="default-text" xml:id="O1JC76301JC21615-5">This is a sample bibliographic reference with a <ref target="https://read.84000.co/translation/toh46.html">link example</ref>.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list type="glossary"/>
+            </div>
+        </back>
+    </text>
+</TEI>

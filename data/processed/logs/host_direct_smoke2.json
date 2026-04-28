@@ -1,0 +1,9 @@
+{
+  "status": "paused",
+  "updated_at": "2026-04-27T09:55:33.827172+00:00",
+  "reason": "max_runs_reached",
+  "supervisor_started_at": "2026-04-27T09:54:21.156881+00:00",
+  "runs_completed": 1,
+  "total_processed": 4,
+  "total_failed": 0
+}

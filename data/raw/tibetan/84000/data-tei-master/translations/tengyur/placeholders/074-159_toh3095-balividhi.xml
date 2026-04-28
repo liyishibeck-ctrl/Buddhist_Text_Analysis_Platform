@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">གཏོར་མའི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">gtor ma'i cho ga</title>
+                <title xml:lang="en" type="mainTitle">A Torma Cake Ritual</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-074-159"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3095" type="text">
+                    <ref>Toh 3095</ref>
+                    <biblScope>ff. 188v-189r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-074-159-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-074-159-2">Mahājana</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="74" start-page="376" end-page="377"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9715" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-074-159-3" source="tengyur-data-3068-3116_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-074-159-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mngon par 'byung ba'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Abhiniṣkramaṇasūtra</title>
+                <title type="mainTitle" xml:lang="en">The Sūtra on Going Forth</title>
+                <author role="translatorMain" xml:id="UT22084-072-001-1"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-072-001"/>
+                <date/>
+
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh301" type="text">
+                    <ref>Toh 301</ref>
+                    <biblScope>vol.72, ff.1r-125r(pp.1-149)</biblScope>
+                    <location work="UT4CZ5369" count-pages="248">
+                        <volume number="72" start-page="2" end-page="249"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11970" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2020-03-05T09:23:47.613Z" type="text-version" status="0.0.1" xml:id="UT22084-072-001-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2021-06-10T12:41:45.381Z" type="text-version" status="0.0.2" xml:id="UT22084-072-001-3">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-072-001-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

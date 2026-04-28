@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཡི་གེའི་མདོའི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">yi ge'i mdo'i 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Varṇa­sūtra­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">Commentary on [Candragomin’s] “Rules of Phonemes”</title>
+                <title xml:lang="bo" type="longTitle">ཡི་གེའི་མདོའི་འགྲེལ་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">yi ge'i mdo'i 'grel pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Varṇa­sūtra­vṛtti­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-194-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4272" type="text">
+                    <ref>Toh 4272</ref>
+                    <biblScope>ff. 34v-38v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-194-004-1">Dharmapāla (II)</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-194-004-2">shakya'i dge slong nyi ma rgyal mtshan dpal bzang po</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-194-004-3">Jetakarṇa</author>
+                    <location work="UT23703" count-pages="9">
+                        <volume number="194" start-page="68" end-page="76"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11050" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11055" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4271"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:22:13.369Z" type="import" xml:id="UT23703-194-004-4" source="tengyur-data-4269-4305_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-194-004-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

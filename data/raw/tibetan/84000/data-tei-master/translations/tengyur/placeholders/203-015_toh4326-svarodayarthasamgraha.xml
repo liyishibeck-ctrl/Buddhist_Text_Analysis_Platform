@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དབྱངས་འཆར་བའི་དོན་བསྡུས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dbyangs 'char ba'i don bsdus pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Svarodayārtha­saṃgraha</title>
+                <title xml:lang="en" type="mainTitle">A Summary of the Meaning of the Astrology</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-203-015"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4326" type="text">
+                    <ref>Toh 4326</ref>
+                    <biblScope>ff. 97r-99r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-203-015-1">Harivarman</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-203-015-2">Jayānanda (Kaśmīr)</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-203-015-3">lo tsa ba shes rab rin chen</author>
+                    <location work="UT23703" count-pages="5">
+                        <volume number="203" start-page="193" end-page="197"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11108" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11123" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4322"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:24:31.87Z" type="import" xml:id="UT23703-203-015-4" source="tengyur-data-4313-4327_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-203-015-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

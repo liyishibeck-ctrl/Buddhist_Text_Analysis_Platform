@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Commentary on the Dhāraṇī called “The Ritual of the Noble Blue-Clad Vajrapāṇi”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ārya­nīlāmbara­dhara­vajrapāṇi­kalpa­nāma­dhāraṇī­tīkā</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'phags pa lag na rdo rje gos sngon po can gyi cho ga zhes bya ba'i gzungs kyi 'grel pa/</title>
+                <title type="mainTitle" xml:lang="bo">འཕགས་པ་ལག་ན་རྡོ་རྗེ་གོས་སྔོན་པོ་ཅན་གྱི་ཆོ་ག་ཞེས་བྱ་བའི་གཟུངས་ཀྱི་འགྲེལ་པ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-071-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2675" type="text">
+                    <ref>Toh 2675</ref>
+                    <biblScope>ff. 131v-137v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-071-006-1">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-071-006-2">Atīśa Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-071-006-3">bod kyi lo tsa ba rgya brtson seng ge</author>
+                    <location work="UT23703" count-pages="13">
+                        <volume number="71" start-page="262" end-page="274"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9285" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh748"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-071-006-4" source="tengyur-data-2670-2696_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.2" xml:id="UT23703-071-006-5">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-071-006-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

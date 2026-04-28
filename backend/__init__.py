@@ -1,0 +1,1 @@
+"""Buddha FastAPI backend package."""

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Not Taking Back Vitality</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mdangs phyir mi 'phrog pa/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">mdangs phyir mi 'phrog pa zhes bya ba/</title>
+                <author role="translatorMain" xml:id="UT22084-091-024-1"/>
+                <author role="translatorEng" xml:id="UT22084-091-024-2">Ryan Damron</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-091-024"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh627" type="text">
+                    <ref>Toh 627</ref>
+                    <biblScope>vol.91, ff.63r-63r(pp.125-125)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="91" start-page="125" end-page="125"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12361" work="W22084"/>
+                </bibl>
+                <bibl key="toh1052" type="text">
+                    <ref>Toh 1052</ref>
+                    <biblScope>vol.101, ff.189r-189r(pp.377-377)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="377" end-page="377"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12815" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-01-16T07:46:37.579Z" type="translation-status" status="3" xml:id="UT22084-091-024-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-01-16T07:46:37.579Z" type="text-version" status="0.0.1" xml:id="UT22084-091-024-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-01-16T07:47:15.128Z" type="text-version" status="0.0.2" xml:id="UT22084-091-024-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-091-024-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-05T18:54:15.197Z" type="text-version" status="0.0.4" xml:id="UT22084-091-024-7">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

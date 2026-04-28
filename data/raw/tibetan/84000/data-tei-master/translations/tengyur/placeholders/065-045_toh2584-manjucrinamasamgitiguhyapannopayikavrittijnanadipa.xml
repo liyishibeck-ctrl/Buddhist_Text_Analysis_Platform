@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Running Commentary on the Sādhana in the “Endowed with Secrecy” Tradition for “The Recitation of the Names of Mañjuśrī” called “Clear Gnosis”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ārya­mañjuśrī­nāma­saṃgīti­guhyāpannopāyikā­vṛtti­jñānadīpa­nāma</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i gsang ba dang ldan pa'i sgrub pa'i thabs kyi 'grel pa ye shes gsal ba zhes bya ba/</title>
+                <title type="mainTitle" xml:lang="bo">འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་གསང་བ་དང་ལྡན་པའི་སྒྲུབ་པའི་ཐབས་ཀྱི་འགྲེལ་པ་ཡེ་ཤེས་གསལ་བ་ཞེས་བྱ་བ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-065-045"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2584" type="text">
+                    <ref>Toh 2584</ref>
+                    <biblScope>ff. 107v-150v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-065-045-1">Smṛtijñānakīrti</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-065-045-2">Smṛtijñānakīrti</author>
+                    <location work="UT23703" count-pages="87">
+                        <volume number="65" start-page="214" end-page="300"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9187" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-065-045-3" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-065-045-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

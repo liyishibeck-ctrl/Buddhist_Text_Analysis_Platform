@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་དོན་ཡོད་ཞགས་པའི་དཀྱིལ་འཁོར་གྱི་ལྷ་ཚོགས་ལ་བསྟོད་པ་དྲི་མ་མེད་པའི་འོད་ཅེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa don yod zhags pa'i dkyil 'khor gyi lha tshogs la bstod pa dri ma med pa'i 'od ces bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­amoghapāśa­maṇḍala­deva­gaṇa­stotra­vimala­prabhā­nāma</title>
+                <title xml:lang="en" type="mainTitle">A Praise of the Assembled Deities of the Maṇḍala of Amoghapāśa called “The Stainless Light”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-028"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2721" type="text">
+                    <ref>Toh 2721</ref>
+                    <biblScope>ff. 87r-89v</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-073-028-1">Anon</author>
+                    <location work="UT23703" count-pages="6">
+                        <volume number="73" start-page="173" end-page="178"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9334" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-028-2" source="tengyur-data-2697-2740_PH_new_v2.4b.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-073-028-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

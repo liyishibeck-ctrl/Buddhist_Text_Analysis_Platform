@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">A Vajrasattva Sādhana</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vajrasattva­sādhana</title>
+                <title xml:lang="bo" type="mainTitle">རྡོ་རྗེ་སེམས་དཔའི་སྒྲུབ་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rdo rje sems dpa'i sgrub thabs/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Vajrasattva­sādhana­nāma</title>
+                <title xml:lang="bo" type="longTitle">རྡོ་རྗེ་སེམས་དཔའི་སྒྲུབ་ཐབས་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">rdo rje sems dpa'i sgrub thabs zhes bya ba/</title>
+                <author role="translatorMain" xml:id="UT23703-035-019-10">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT23703-035-019-11">Paul Hackett</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT23703-035-019"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1814" type="text">
+                    <ref>Toh 1814</ref>
+                    <biblScope>ff. 195v-204v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-035-019-1">Candrakīrti</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-035-019-2">lo tsa ba klog skya gzhon nu 'bar</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-035-019-3">Tathāgatarakṣita</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-035-019-4">Dīpaṃkararakṣita</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-035-019-5">khams pa dge slong lo tsA ba ba ri</editor>
+                    <location work="UT23703" count-pages="19">
+                        <volume number="35" start-page="390" end-page="408"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8375" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-035-019-6" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-035-019-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T13:22:21.292Z" type="translation-status" status="3" xml:id="UT23703-035-019-8">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T13:22:21.292Z" type="text-version" status="0.0.1" xml:id="UT23703-035-019-9">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T13:22:54.901Z" type="text-version" status="0.0.1" xml:id="UT23703-035-019-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:13:37.508Z" type="text-version" status="0.0.1" xml:id="UT23703-035-019-13">
+                    <desc>script-increment-version-published</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

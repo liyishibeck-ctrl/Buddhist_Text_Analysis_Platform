@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/current/section.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:eft="http://read.84000.co/ns/1.0">
+    <teiHeader>
+        <fileDesc type="section">
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn"/>
+                <title type="mainTitle" xml:lang="Sa-Ltn"/>
+                <title type="mainTitle" xml:lang="en">Published Translations</title>
+            <title type="articleTitle" xml:lang="en">Published Translations (Tengyur Section)</title>
+                </titleStmt>
+            <editionStmt>
+                <edition>v 0.1.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>Published in 84000 Reading Room</p>
+                <availability status="1"/>
+                <idno xml:id="ALL-TRANSLATED"/>
+                <date>2010</date>
+            </publicationStmt>
+            <sourceDesc work="W" sort-index="1">
+                <p>Derived from previous outline file from TBRC</p>
+                <bibl>
+                    <idno parent-id=""/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.1.1" xml:id="ALL-TRANSLATED-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="abstract">
+                <p tid="1">For quick and easy access, this list gathers into a single page the texts completed and published so far, as well as showing which sections of the Kangyur they are found
+                    in.</p>
+            </div>
+        </front>
+        <body>
+            <div type="filter" xml:id="PUBLISHED-QUICK-READS">
+                <head type="filter" tid="4">Quick Reads</head>
+                <p tid="3">Texts of less than 30 pages from the General Sūtra Section</p>
+                <eft:filter max-pages="30"/>
+                <eft:filter section-id="O1JC114941JC14668"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-FOR-WELLBEING">
+                <head type="filter" tid="5">Sūtras for Well-Being</head>
+                <p tid="28">Sūtras traditionally recited for resilience in difficult times</p>
+                <eft:filter text-id="UT22084-072-012"/>
+                <eft:filter text-id="UT22084-068-019"/>
+                <eft:filter text-id="UT22084-068-020"/>
+                <eft:filter text-id="UT22084-087-009"/>
+                <eft:filter text-id="UT22084-094-008"/>
+                <eft:filter text-id="UT22084-094-013"/>
+                <eft:filter text-id="UT22084-096-062"/>
+                <eft:filter text-id="UT22084-091-074"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-RECITED">
+                <head type="filter" tid="29">Recited Texts</head>
+                <p tid="30">Sūtras and other texts that are traditionally recited as a practice</p>
+                <eft:filter text-id="UT22084-061-013"/>
+                <eft:filter text-id="UT22084-072-012"/>
+                <eft:filter text-id="UT22084-068-001"/>
+                <eft:filter text-id="UT22084-068-004"/>
+                <eft:filter text-id="UT22084-068-019"/>
+                <eft:filter text-id="UT22084-068-020"/>
+                <eft:filter text-id="UT22084-072-012"/>
+                <eft:filter text-id="UT22084-081-007"/>
+                <eft:filter text-id="UT22084-087-009"/>
+                <eft:filter text-id="UT22084-088-007"/>
+                <eft:filter text-id="UT22084-088-008"/>
+                <eft:filter text-id="UT22084-088-016"/>
+                <eft:filter text-id="UT22084-094-008"/>
+                <eft:filter text-id="UT22084-091-072"/>
+                <eft:filter text-id="UT22084-091-073"/>
+                <eft:filter text-id="UT22084-091-074"/>
+                <eft:filter text-id="UT22084-091-077"/>
+                <eft:filter text-id="UT22084-094-002"/>
+                <eft:filter text-id="UT22084-094-006"/>
+                <eft:filter text-id="UT22084-094-007"/>
+                <eft:filter text-id="UT22084-094-008"/>
+                <eft:filter text-id="UT22084-094-013"/>
+                <eft:filter text-id="UT22084-096-062"/>
+                <eft:filter text-id="UT22084-091-074"/>
+                <eft:filter text-id="UT22084-100-001"/>
+                <eft:filter text-id="UT22084-000-002"/>
+                <eft:filter text-id="UT22084-034-009"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-LIFE-OF-BUDDHA">
+                <head type="filter" tid="7">The Buddha’s Life</head>
+                <p tid="8">Texts on the life of the Buddha or centered on episodes from his life</p>
+                <eft:filter text-id="UT22084-046-001"/>
+                <eft:filter text-id="UT22084-056-006"/>
+                <eft:filter text-id="UT22084-072-037"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-DEFINITIVE-MEANING">
+                <head type="filter" tid="19">Sūtras of Definitive Meaning</head>
+                <p tid="13">Sūtras that appear in one or more traditional lists of texts that have definitive meaning</p>
+                <eft:filter text-id="UT22084-047-002"/>
+                <eft:filter text-id="UT22084-049-001"/>
+                <eft:filter text-id="UT22084-051-001"/>
+                <eft:filter text-id="UT22084-055-003"/>
+                <eft:filter text-id="UT22084-057-001"/>
+                <eft:filter text-id="UT22084-057-006"/>
+                <eft:filter text-id="UT22084-058-001"/>
+                <eft:filter text-id="UT22084-060-004"/>
+                <eft:filter text-id="UT22084-061-005"/>
+                <eft:filter text-id="UT22084-064-001"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-BEGINNERS">
+                <head type="filter" tid="20">Sūtras for Beginners</head>
+                <p tid="14">Sūtras suggested as a starting place for exploration</p>
+                <eft:filter text-id="UT22084-058-002"/>
+                <eft:filter text-id="UT22084-061-014"/>
+                <eft:filter text-id="UT22084-062-010"/>
+                <eft:filter text-id="UT22084-062-011"/>
+                <eft:filter text-id="UT22084-062-014"/>
+                <eft:filter text-id="UT22084-062-015"/>
+                <eft:filter text-id="UT22084-063-006"/>
+                <eft:filter text-id="UT22084-066-007"/>
+                <eft:filter text-id="UT22084-068-016"/>
+                <eft:filter text-id="UT22084-071-014"/>
+                <eft:filter text-id="UT22084-072-009"/>
+                <eft:filter text-id="UT22084-072-037"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-DEATH">
+                <head type="filter" tid="21">Sūtras About Death</head>
+                <p tid="15">Sūtras on themes of death and rebirth</p>
+                <eft:filter text-id="UT22084-044-003"/>
+                <eft:filter text-id="UT22084-054-003"/>
+                <eft:filter text-id="UT22084-072-008"/>
+                <eft:filter text-id="UT22084-072-011"/>
+                <eft:filter text-id="UT22084-087-008"/>
+                <eft:filter text-id="UT22084-087-009"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-BUDDHA-NATURE">
+                <head type="filter" tid="22">Buddha-Nature Sūtras</head>
+                <p tid="16">Sūtras mentioned in the buddha-nature literature</p>
+                <eft:filter text-id="UT22084-047-002"/>
+                <eft:filter text-id="UT22084-051-001"/>
+                <eft:filter text-id="UT22084-054-004"/>
+                <eft:filter text-id="UT22084-057-001"/>
+                <eft:filter text-id="UT22084-057-006"/>
+                <eft:filter text-id="UT22084-058-001"/>
+                <eft:filter text-id="UT22084-061-005"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-KARMA">
+                <head type="filter" tid="23">Sūtras About Karma</head>
+                <p tid="17">Sūtras on karma or illustrating karmic cause and effect</p>
+                <eft:filter text-id="UT22084-062-018"/>
+                <eft:filter text-id="UT22084-066-007"/>
+                <eft:filter text-id="UT22084-073-001"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-BUDDHAS-OTHER-REALMS-TIMES">
+                <head type="filter" tid="24">Texts on Other Buddhas</head>
+                <p tid="31">Texts centered on buddhas of other realms and times</p>
+                <eft:filter text-id="UT22084-051-003"/>
+                <eft:filter text-id="UT22084-066-005"/>
+                <eft:filter text-id="UT22084-067-003"/>
+                <eft:filter text-id="UT22084-067-004"/>
+                <eft:filter text-id="UT22084-067-005"/>
+                <eft:filter text-id="UT22084-068-001"/>
+                <eft:filter text-id="UT22084-068-002"/>
+                <eft:filter text-id="UT22084-068-003"/>
+                <eft:filter text-id="UT22084-068-004"/>
+                <eft:filter text-id="UT22084-068-005"/>
+                <eft:filter text-id="UT22084-068-007"/>
+                <eft:filter text-id="UT22084-088-016"/>
+                <eft:filter text-id="UT22084-091-077"/>
+                <eft:filter text-id="UT22084-043-015"/>
+                <eft:filter text-id="UT22084-087-009"/>
+                <eft:filter text-id="UT22084-091-074"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SUTRAS-WOMEN-PROTAGONISTS">
+                <head type="filter" tid="25">Sūtras About Women</head>
+                <p tid="33">Works in which the main protagonist is female</p>
+                <eft:filter text-id="UT22084-043-012"/>
+                <eft:filter text-id="UT22084-043-013"/>
+                <eft:filter text-id="UT22084-043-014"/>
+                <eft:filter text-id="UT22084-044-004"/>
+                <eft:filter text-id="UT22084-044-013"/>
+                <eft:filter text-id="UT22084-046-002"/>
+                <eft:filter text-id="UT22084-059-001"/>
+                <eft:filter text-id="UT22084-059-014"/>
+                <eft:filter text-id="UT22084-061-010"/>
+                <eft:filter text-id="UT22084-061-011"/>
+                <eft:filter text-id="UT22084-061-012"/>
+                <eft:filter text-id="UT22084-061-013"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="TEN-FIVE-ROYAL-SUTRAS">
+                <head type="filter" tid="35">Ten and Five Royal Sūtras</head>
+                <p tid="36">Sets of short texts, traditionally highly regarded.</p>
+                <eft:filter text-id="UT22084-034-009"/>
+                <eft:filter text-id="UT22084-034-011"/>
+                <eft:filter text-id="UT22084-038-002"/>
+                <eft:filter text-id="UT22084-043-005"/>
+                <eft:filter text-id="UT22084-054-003"/>
+                <eft:filter text-id="UT22084-090-034"/>
+                <eft:filter text-id="UT22084-091-059"/>
+                <eft:filter text-id="UT22084-091-073"/>
+                <eft:filter text-id="UT22084-095-003"/>
+                <eft:filter text-id="UT22084-095-005"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="TEXTS-ABOUT-STUPAS">
+                <head type="filter" tid="37">Texts About Stūpas</head>
+                <p tid="38">Texts related to making, consecrating, and honoring stūpas.</p>
+                <eft:filter text-id="UT22084-061-015"/>
+                <eft:filter text-id="UT22084-062-012"/>
+                <eft:filter text-id="UT22084-072-019"/>
+                <eft:filter text-id="UT22084-072-021"/>
+                <eft:filter text-id="UT22084-072-022"/>
+                <eft:filter text-id="UT22084-088-003"/>
+                <eft:filter text-id="UT22084-088-004"/>
+                <eft:filter text-id="UT22084-090-043"/>
+                <eft:filter text-id="UT22084-090-044"/>
+                <eft:filter text-id="UT22084-090-045"/>
+                <eft:filter text-id="UT22084-090-046"/>
+                <eft:filter text-id="UT22084-096-024"/>
+                <eft:display key="carousel"/>
+                <eft:display key="sidebar"/>
+            </div><!--<div type="filter" xml:id="PUBLISHED-2-PAGERS">
+                <head type="filter" tid="9">Two page texts</head>
+                <p tid="10">All texts of two pages or less</p>
+                <eft:filter max-pages="2"/>
+                <eft:display key="sidebar"/>
+            </div>
+            <div type="filter" xml:id="PUBLISHED-SHORT-TANTRAS">
+                <head type="filter" tid="11">Short Tantras</head>
+                <p tid="12">Tantras of less that 50 pages (test for no results).</p>
+                <eft:filter max-pages="50"/>
+                <eft:filter text-id="O1JC114941JC14716"/>
+                <eft:display key="sidebar"/>
+            </div>-->
+        </body>
+        <back>
+            <div type="listBibl">
+                <head type="listBibl" tid="39">Bibliography</head>
+                <div type="section" xml:id="ALL-TRANSLATED-listBibl-1">
+                    <head type="section" tid="40">Bibliography Section Heading</head>
+                    <bibl rend="default-text" xml:id="ALL-TRANSLATED-1">This is a sample bibliographic reference with a <ref target="https://read.84000.co/translation/toh46.html">link example</ref>.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list type="glossary"/>
+            </div>
+        </back>
+    </text>
+</TEI>

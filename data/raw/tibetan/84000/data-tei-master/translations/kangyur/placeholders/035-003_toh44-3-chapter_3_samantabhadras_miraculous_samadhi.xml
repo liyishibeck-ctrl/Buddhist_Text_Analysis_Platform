@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 3: Samantabhadra's Miraculous Samādhi</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">kun bzang ting 'dzin rnam 'phrul le'u/</title>
+                <title type="otherTitle" xml:lang="zh">普賢三昧幻化品/普賢三昧品</title>
+                <author role="translatorMain" xml:id="UT22084-035-003-5">Dharmachakra Translation Committee</author>
+                <consultant role="projectManager" xml:id="UT22084-035-003-6">Thomas Doctor</consultant>
+                <author role="translatorEng" xml:id="UT22084-035-003-7">Thomas Doctor</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-035-003-12">Chökyi Nyima Rinpoche</consultant>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-035-003"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-3" type="chapter">
+                    <ref>Toh 44-3</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="11">
+                        <volume number="35" start-page="166" end-page="176"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14671" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:10:06.1Z" type="text-version" status="0.0.1" xml:id="UT22084-035-003-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-035-003-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:24:42.634Z" type="translation-status" status="3" xml:id="UT22084-035-003-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:24:42.634Z" type="text-version" status="0.0.3" xml:id="UT22084-035-003-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:26:29.712Z" type="text-version" status="0.0.4" xml:id="UT22084-035-003-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:30:47.69Z" type="text-version" status="0.0.5" xml:id="UT22084-035-003-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-29T15:12:17.457Z" type="translation-status" status="2.h" xml:id="UT22084-035-003-14">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-29T15:12:17.457Z" type="text-version" status="0.0.6" xml:id="UT22084-035-003-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Tantra of the Flaming Ḍākinī</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ḍākinyagnijihvājvālātantra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mkha' 'gro ma me lce 'bar ba'i rgyud/</title>
+                <author role="translatorMain" xml:id="UT22084-099-015-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-099-015-5">Lowell Cook</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-099-015"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh842" type="text">
+                    <ref>Toh 842</ref>
+                    <biblScope>vol. 99,ff. 223v-253r(pp.446-505)</biblScope>
+                    <location work="UT4CZ5369" count-pages="60">
+                        <volume number="99" start-page="446" end-page="505"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20566" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12602" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-099-015-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:58:10.728Z" type="translation-status" status="3" xml:id="UT22084-099-015-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:58:10.728Z" type="text-version" status="0.0.1" xml:id="UT22084-099-015-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:58:39.434Z" type="text-version" status="0.0.1" xml:id="UT22084-099-015-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:02:12.257Z" type="text-version" status="0.0.1" xml:id="UT22084-099-015-7">
+                    <desc>script-increment-version-published</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

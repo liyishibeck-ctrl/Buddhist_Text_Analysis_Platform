@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of the King of the True Dharma</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Saddharmarājasūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dam pa'i chos kyi rgyal po'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Saddharmarājamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">dam pa'i chos kyi rgyal po theg pa chen po'i mdo</title>
+                <author role="translatorMain" xml:id="UT22084-066-001-16">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-066-001-17">Lowell Cook</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.9 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-066-001"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh243" type="text">
+                    <ref>Toh 243</ref>
+                    <biblScope>vol.66, ff.1r- 15v(pp.1-30)</biblScope>
+                    <location work="UT4CZ5369" count-pages="29">
+                        <volume number="66" start-page="2" end-page="30"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11893" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-10-02T13:47:14.727Z" type="translation-status" status="4" xml:id="UT22084-066-001-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-10-02T13:47:14.727Z" type="text-version" status="0.0.1" xml:id="UT22084-066-001-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:11:42.983Z" type="translation-status" status="" xml:id="UT22084-066-001-3">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T10:11:42.983Z" type="text-version" status="0.0.2" xml:id="UT22084-066-001-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-08T09:06:19.282Z" type="translation-status" status="4" xml:id="UT22084-066-001-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-08T09:06:19.282Z" type="text-version" status="0.0.3" xml:id="UT22084-066-001-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-08T09:49:35.462Z" type="translation-status" status="" xml:id="UT22084-066-001-7">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2022-03-08T09:49:35.462Z" type="text-version" status="0.0.4" xml:id="UT22084-066-001-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-23T14:22:12.284Z" type="translation-status" status="4" xml:id="UT22084-066-001-9">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-23T14:22:12.284Z" type="text-version" status="0.0.5" xml:id="UT22084-066-001-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-02T14:49:40.171Z" type="translation-status" status="" xml:id="UT22084-066-001-11">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2023-03-02T14:49:40.171Z" type="text-version" status="0.0.6" xml:id="UT22084-066-001-12">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.7" xml:id="UT22084-066-001-13">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:55:11.456Z" type="translation-status" status="3" xml:id="UT22084-066-001-14">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:55:11.456Z" type="text-version" status="0.0.8" xml:id="UT22084-066-001-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-06T12:55:42.447Z" type="text-version" status="0.0.9" xml:id="UT22084-066-001-18">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

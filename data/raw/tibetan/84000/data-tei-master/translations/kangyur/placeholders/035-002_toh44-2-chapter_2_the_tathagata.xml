@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 2: The Tathāgata</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de bzhin gshegs pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">《華嚴經 》之《佛陀品》</title>
+                <author role="translatorMain" xml:id="UT22084-035-002-5">Dharmachakra Translation Committee</author>
+                <consultant role="projectManager" xml:id="UT22084-035-002-6">Thomas Doctor</consultant>
+                <author role="translatorEng" xml:id="UT22084-035-002-7">Thomas Doctor</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-035-002-12">Chökyi Nyima Rinpoche</consultant>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.8 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-035-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-2" type="chapter">
+                    <ref>Toh 44-2</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="38">
+                        <volume number="35" start-page="129" end-page="166"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14670" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:09:34.701Z" type="text-version" status="0.0.1" xml:id="UT22084-035-002-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-035-002-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:23:06.919Z" type="translation-status" status="3" xml:id="UT22084-035-002-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:23:06.919Z" type="text-version" status="0.0.5" xml:id="UT22084-035-002-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:23:50.034Z" type="text-version" status="0.0.6" xml:id="UT22084-035-002-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:30:21.603Z" type="text-version" status="0.0.7" xml:id="UT22084-035-002-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-29T15:34:31.22Z" type="translation-status" status="2.h" xml:id="UT22084-035-002-14">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-29T15:34:31.22Z" type="text-version" status="0.0.8" xml:id="UT22084-035-002-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

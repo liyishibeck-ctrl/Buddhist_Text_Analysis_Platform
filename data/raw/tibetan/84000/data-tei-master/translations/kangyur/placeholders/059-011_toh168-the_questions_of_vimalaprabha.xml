@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Questions of Vimalaprabha</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vimalaprabhaparipṛcchā</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dri med 'od kyis zhus pa/</title>
+                <title type="otherTitle" xml:lang="zh">《無垢光所問經》</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">dri ma med pa'i 'od kyis zhus pa</title>
+                <author role="translatorMain" xml:id="UT22084-059-011-1"/>
+                <author role="translatorEng" xml:id="UT22084-059-011-2">Bruno Galasek-Hul</author>
+                <author role="translatorEng" xml:id="UT22084-059-011-3">Lama Kunga Thartse Rinpoche</author>
+                <consultant role="projectManager" xml:id="UT22084-059-011-4">Bruno Galasek-Hul</consultant>
+                <sponsor xml:id="UT22084-059-011-5">Huizi Zuo and family</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-059-011"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh168" type="text">
+                    <ref>Toh 168</ref>
+                    <biblScope>vol.59, ff. 211r-259v(pp.421-518)</biblScope>
+                    <location work="UT4CZ5369" count-pages="98">
+                        <volume number="59" start-page="421" end-page="518"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11773" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-03-09T16:12:50.794Z" type="text-version" status="0.0.1" xml:id="UT22084-059-011-6">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T06:15:53.372Z" type="text-version" status="0.0.2" xml:id="UT22084-059-011-7">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-08T10:22:59.12Z" type="translation-status" status="2.h" xml:id="UT22084-059-011-8">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-08T10:22:59.12Z" type="text-version" status="0.0.3" xml:id="UT22084-059-011-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-08T10:23:53.598Z" type="text-version" status="0.0.4" xml:id="UT22084-059-011-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-059-011-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="acknowledgment">
+                <p tid="1">Sponsored by Huizi Zuo and family.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

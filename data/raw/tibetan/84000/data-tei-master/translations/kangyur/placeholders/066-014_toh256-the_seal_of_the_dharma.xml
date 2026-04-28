@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Seal of the Dharma</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">(no Sanskrit title, translated from the Chinese)</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">chos kyi rgya mo/</title>
+                <title type="otherTitle" xml:lang="en">The Seal of the Dharma: the Ten Chapters of the Explanation by Buddha Vairocana of the State of Mind of Bodhisattvas</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">chos kyi rgya mo/ sangs rgyas rnam par snang mdzad kyis byang chub sems dpa'i sems kyi gnas bshad pa le'u bcu</title>
+                <author role="translatorMain" xml:id="UT22084-066-014-9">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-066-014-10">Ana Cristina Lopes</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.6 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-066-014"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh256" type="text">
+                    <ref>Toh 256</ref>
+                    <biblScope>vol.66, ff.74-91r(pp.147-181)</biblScope>
+                    <location work="UT4CZ5369" count-pages="35">
+                        <volume number="66" start-page="147" end-page="181"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11908" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-05-25T15:17:18.489Z" type="text-version" status="0.0.1" xml:id="UT22084-066-014-1">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-20T13:56:50.694Z" type="translation-status" status="4" xml:id="UT22084-066-014-2">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2023-07-20T13:56:50.694Z" type="text-version" status="0.0.2" xml:id="UT22084-066-014-3">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-066-014-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-15T09:31:41.312Z" type="translation-status" status="" xml:id="UT22084-066-014-5">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2023-08-15T09:31:41.312Z" type="text-version" status="0.0.4" xml:id="UT22084-066-014-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-07T08:28:47.176Z" type="translation-status" status="3" xml:id="UT22084-066-014-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-07T08:28:47.176Z" type="text-version" status="0.0.5" xml:id="UT22084-066-014-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-07T08:29:18.929Z" type="text-version" status="0.0.6" xml:id="UT22084-066-014-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

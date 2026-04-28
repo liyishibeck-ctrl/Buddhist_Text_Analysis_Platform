@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% macro render_unit(unit) -%}
+<li>
+  <strong>{{ unit.label }}</strong>
+  {% if unit.title %} · {{ unit.title }}{% endif %}
+  <span class="muted">({{ unit.unit_type }})</span>
+  {% if unit.child_units %}
+  <ul class="plain-list nested">
+    {% for child in unit.child_units %}
+    {{ render_unit(child) }}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</li>
+{%- endmacro %}
+{% block title %}{{ text_version.title }} | Buddha MVP{% endblock %}
+{% block content %}
+{% if text_version.language_script == "Tibetan" or text_version.language_script == "Tibetan script" %}
+{% set reading_class = "tibetan-script" %}
+{% elif text_version.language_script == "Pali" or text_version.language_script == "Sinhala" or text_version.language_script == "Pali script" %}
+{% set reading_class = "pali-script" %}
+{% elif text_version.language_script == "Devanagari" %}
+{% set reading_class = "devanagari-script" %}
+{% elif text_version.language_script == "Latin" or text_version.language_script == "Latin transliteration" %}
+{% set reading_class = "latin-script" %}
+{% else %}
+{% set reading_class = "" %}
+{% endif %}
+<section class="card">
+  <h1>{{ text_version.title }}</h1>
+  <p>{{ text_version.version_label }} · {{ text_version.language_name }}</p>
+  <div class="inline-meta">
+    <span class="catalog-chip">{{ text_version.tradition_name }}</span>
+    <span class="catalog-chip">{{ text_version.collection_title }}</span>
+    {% if text_version.is_catalog_only %}
+    <span class="status-chip status-catalog">目录版本</span>
+    {% else %}
+    <span class="status-chip status-full">正文版本</span>
+    {% endif %}
+    {% if text_version.source_title %}
+    <span class="catalog-chip">{{ text_version.source_title }}</span>
+    {% endif %}
+  </div>
+  <p>所属作品：<a href="{{ url_for('work_detail_page', work_id=text_version.work_id) }}">{{ text_version.work_title }}</a></p>
+  <p>传统：{{ text_version.tradition_name }} · 集合：{{ text_version.collection_title }}</p>
+  <p>{{ text_version.summary }}</p>
+  {% if text_version.catalog_note %}<p><strong>目录说明：</strong>{{ text_version.catalog_note }}</p>{% endif %}
+  {% if text_version.sample_note %}<p><strong>版本说明：</strong>{{ text_version.sample_note }}</p>{% endif %}
+  {% if text_version.is_catalog_only %}
+  <p class="muted">这是目录占位版本，用于后续正文导入、结构锚点和检索索引映射。</p>
+  {% else %}
+  <p class="muted">当前页提供轻量阅读模式，直接展示前 {{ reading_limit }} 段正文；需要逐段查看关系时可继续进入段落详情页。</p>
+  {% endif %}
+  <div class="action-row">
+    <a class="secondary-link" href="{{ url_for('work_detail_page', work_id=text_version.work_id) }}">返回作品页</a>
+    <a class="secondary-link" href="{{ url_for('works_page') }}?tradition_id={{ text_version.tradition_id }}">返回{{ text_version.tradition_name }}目录</a>
+  </div>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>版本元数据</h2>
+    <ul class="plain-list">
+      <li>正文段数：{{ text_version.segment_count or "—" }}</li>
+      <li>带 gloss 段数：{{ text_version.gloss_segment_count or 0 }}</li>
+      <li>脚本说明：{{ text_version.script_note or "—" }}</li>
+      <li>日期说明：{{ text_version.date_note or "—" }}</li>
+      <li>来源链接：{% if text_version.source_url %}<a href="{{ text_version.source_url }}">{{ text_version.source_url }}</a>{% else %}—{% endif %}</li>
+    </ul>
+    <h3>人物角色</h3>
+    <ul class="plain-list">
+      {% for role in text_version.roles %}
+      <li>{{ role.display_name }} · {{ role.role }}{% if role.note %} · {{ role.note }}{% endif %}</li>
+      {% else %}
+      <li>暂无版本级角色。</li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="card">
+    <h2>层级结构</h2>
+    {% if text_version.structure %}
+    <ul class="plain-list">
+      {% for unit in text_version.structure %}
+      {{ render_unit(unit) }}
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="muted">当前版本尚未导入结构树。</p>
+    {% endif %}
+  </article>
+</section>
+
+<section class="card">
+  <h2>正文阅读</h2>
+  {% if reading_segments %}
+  <p class="muted">当前展示前 {{ reading_limit }} 段；完整版本共 {{ text_version.segment_count }} 段。</p>
+  <div class="reading-list">
+    {% for segment in reading_segments %}
+    <article class="reading-segment">
+      <div class="reading-header">
+        <a href="{{ url_for('segment_detail_page', segment_id=segment.id) }}">{{ segment.segment_key }}</a>
+        {% if segment.title %}<span class="muted">· {{ segment.title }}</span>{% endif %}
+      </div>
+      <div class="segment-body {{ reading_class }}">{{ segment.content }}</div>
+      {% if segment.content_gloss %}
+      <div class="reading-gloss">
+        <div class="label">对译 / Gloss</div>
+        <div>{{ segment.content_gloss }}</div>
+      </div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="muted">当前版本尚未导入正文段落。</p>
+  {% endif %}
+</section>
+{% endblock %}

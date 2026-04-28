@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཇམ་དཔལ་གྱི་སྒྲ་བརྡ་སྤྲོད་པའི་འགྲེལ་པ་སྟོང་ཕྲག་བརྒྱད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'jam dpal gyi sgra brda sprod pa'i 'grel pa stong phrag brgyad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Aṣṭasāhasrikā­mañjuśrī­śabda­vyākaraṇa­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">A Commentary in Eight Thousand [Verses] on the Grammar called “The Language of Mañjuśrī”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-194-012"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4280" type="text">
+                    <ref>Toh 4280</ref>
+                    <biblScope>ff. 142v-231r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-194-012-1">Rājadeva</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-194-012-2">shakya'i dge slong 'gos lo tsa ba d+harma pa la b+hadra</author>
+                    <location work="UT23703" count-pages="178">
+                        <volume number="194" start-page="284" end-page="461"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11050" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11063" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4433"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:22:13.369Z" type="import" xml:id="UT23703-194-012-3" source="tengyur-data-4269-4305_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-194-012-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

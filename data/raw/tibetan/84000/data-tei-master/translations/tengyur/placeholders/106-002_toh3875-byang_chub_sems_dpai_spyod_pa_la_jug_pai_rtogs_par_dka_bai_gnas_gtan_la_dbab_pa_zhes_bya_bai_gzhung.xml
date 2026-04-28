@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པའི་རྟོགས་པར་དཀའ་བའི་གནས་གཏན་ལ་དབབ་པ་ཞེས་བྱ་བའི་གཞུང་།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">byang chub sems dpa'i spyod pa la 'jug pa'i rtogs par dka' ba'i gnas gtan la dbab pa zhes bya ba'i gzhung /</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Bodhisattvacaryāvatāra­duravabodha[­pada­]nirṇaya­nāma­grantha</title>
+                <title xml:lang="en" type="mainTitle">Settling the Points that are Difficult to Understand in [Śāntideva’s] “Entering into the Deeds of a Bodhisattva”</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-106-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3875" type="text">
+                    <ref>Toh 3875</ref>
+                    <biblScope>ff. 90v-95v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-106-002-1">Kṛṣṇa Paṇḍita</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-106-002-2">Kṛṣṇa Paṇḍita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-106-002-3">lo tsa ba dge slong chos kyi shes rab</author>
+                    <location work="UT23703" count-pages="10">
+                        <volume number="106" start-page="180" end-page="190"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10539" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3871"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-02-15T10:43:30.172Z" type="text-version" status="0.0.1" xml:id="UT23703-106-002-4">
+                    <desc>Page range etc. corrected to insert missing Toh 3875a </desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-106-002-5" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-106-002-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

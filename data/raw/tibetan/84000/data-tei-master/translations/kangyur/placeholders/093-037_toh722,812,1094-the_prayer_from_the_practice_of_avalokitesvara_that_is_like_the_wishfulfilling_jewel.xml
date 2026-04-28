@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Prayer from the Practice of Avalokiteśvara that is like the Wish-Fulfilling Jewel</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">spyan ras gzigs yid bzhin nor bu'i rtog pa las smon lam 'byung ba/</title>
+                <title type="otherTitle" xml:lang="en">A Prayer from the Practice of Avalokiteśvara, who is the Wish-Fulfilling Jewel</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">spyan ras gzigs yid bzhin gyi nor bu'i rtog las smon lam 'byung ba/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa spyan ras gzigs dbang phyug yid bzhin gyi nor bu'i rtog pa las smon lam 'byung ba/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">spyan ras gzigs yid bzhin gyi nor bu'i rtog pa las smon lam 'byung ba/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa spyan ras gzigs dbang phyug yid bzhin gyi nor bu'i rtog pa las smon lam 'byung ba</title>
+                <author role="translatorMain" xml:id="UT22084-093-037-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-093-037-5">Catherine Dalton</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-093-037"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh722" type="text">
+                    <ref>Toh 722</ref>
+                    <biblScope>vol.93, ff.200r-201v(pp.399-402)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="93" start-page="399" end-page="402"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12462" work="W22084"/>
+                </bibl>
+                <bibl key="toh812" type="text">
+                    <ref>Toh 812</ref>
+                    <biblScope>vol.96, ff.251r- 253r(pp.501-505)</biblScope>
+                    <location work="UT4CZ5369" count-pages="5">
+                        <volume number="96" start-page="501" end-page="505"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21416" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12558" work="W22084"/>
+                </bibl>
+                <bibl key="toh1094" type="text">
+                    <ref>Toh 1094</ref>
+                    <biblScope>vol.101, ff.261r-262v(pp.521-524)</biblScope>
+                    <location work="UT4CZ5369" count-pages="4">
+                        <volume number="102" start-page="521" end-page="524"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20569" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12858" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-093-037-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T14:28:21.288Z" type="translation-status" status="3" xml:id="UT22084-093-037-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T14:28:21.288Z" type="text-version" status="0.0.1" xml:id="UT22084-093-037-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-10-03T14:28:50.638Z" type="text-version" status="0.0.1" xml:id="UT22084-093-037-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-12-07T15:11:48.176Z" type="text-version" status="0.0.1" xml:id="UT22084-093-037-7">
+                    <desc>script-increment-version-published</desc>
+                </change>
+                <change who="#sameer" when="2024-07-08T06:43:38.942Z" type="text-version" status="0.0.2" xml:id="UT22084-093-037-8">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་ཀླུ་སྒྲུབ་ཀྱི་ཞལ་སྣ་ནས་མཛད་པའི་མན་ངག་ཟབ་མོ་བཞུགས་ལས། འཕགས་པ་རྩ་བའི་མཛོད་སྨན་ཆེན་པོའི་རིམ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa klu sgrub kyi zhal sna nas mdzad pa'i man ngag zab mo bzhugs las/_'phags pa rtsa ba'i mdzod sman chen po'i rim pa/</title>
+                <title xml:lang="en" type="mainTitle">A Treasury of Excellent Roots, A Collection of the Best Medicines Taken From the Profound Personal Instructions of Ārya Nāgārjunapāda</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-211-015"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4436" type="text">
+                    <ref>Toh 4436</ref>
+                    <biblScope>ff. 290r-294r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-211-015-1">Nāgārjuna</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-211-015-2">rje zha lu lo tsa ba d+harma pa la b+ha dra</author>
+                    <location work="UT23703" count-pages="9">
+                        <volume number="211" start-page="579" end-page="587"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21686" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112481JC21781" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="import" xml:id="UT23703-211-015-3" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="attribution" xml:id="UT23703-211-015-4" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc>Translator attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:27:22.591Z" type="general" xml:id="UT23703-211-015-5" source="tengyur-data-4398-4464_PH_new_v2.4.xml">
+                    <desc>The text is a collection of medicinal formulas, mostly root-based, intended for the treatment of skin ailments, fever, eye diseases, etc. together with their
+            mantras.</desc>
+                </change>
+                <change who="#andre" when="2022-06-11T11:15:46.265Z" type="text-version" status="0.0.1" xml:id="UT23703-211-015-6">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-211-015-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

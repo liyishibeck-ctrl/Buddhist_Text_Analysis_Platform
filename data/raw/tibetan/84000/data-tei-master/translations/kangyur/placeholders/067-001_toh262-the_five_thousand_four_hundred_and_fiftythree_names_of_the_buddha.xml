@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Five Thousand Four Hundred and Fifty-Three Names of the Buddha</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Buddhanāmasahasrapañca­śatacaturtripañcadaśa</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sangs rgyas kyi mtshan lnga stong bzhi brgya lnga bcu rtsa gsum pa/</title>
+                <title type="otherTitle" xml:lang="zh">《五千四百五十三佛名》（大正藏：《五千五百佛名神呪除障滅罪經》）</title>
+                <sponsor xml:id="UT22084-067-001-1">Joseph Tse and Patricia Tse and family, Wai Ling Tse (張惠玲), late Kwok Ying Tse(謝國英); Shu Chiao Lin (林淑嬌) and Family, late Chung Yuen Chow(鄒宗源)</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.10 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-067-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh262" type="text">
+                    <ref>Toh 262</ref>
+                    <biblScope>vol.66, ff.1r-89v(pp.1-178)</biblScope>
+                    <location work="UT4CZ5369" count-pages="177">
+                        <volume number="67" start-page="2" end-page="178"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11917" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T13:34:20.106Z" type="text-version" status="0.0.1" xml:id="UT22084-067-001-2">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#amy" when="2021-05-10T16:46:23.095Z" type="text-version" status="0.0.2" xml:id="UT22084-067-001-3">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-05-21T14:05:38.802Z" type="text-version" status="0.0.3" xml:id="UT22084-067-001-4">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2021-06-15T02:33:08.669Z" type="text-version" status="0.0.4" xml:id="UT22084-067-001-5">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-01-03T05:09:55.499Z" type="text-version" status="0.0.5" xml:id="UT22084-067-001-6">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-01-03T05:10:39.006Z" type="text-version" status="0.0.6" xml:id="UT22084-067-001-7">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T07:12:01.07Z" type="text-version" status="0.0.7" xml:id="UT22084-067-001-8">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.8" xml:id="UT22084-067-001-9">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:33:48.351Z" type="translation-status" status="3" xml:id="UT22084-067-001-10">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-07T07:33:48.351Z" type="text-version" status="0.0.9" xml:id="UT22084-067-001-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-06T13:57:11.907Z" type="translation-status" status="2.h" xml:id="UT22084-067-001-12">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-05-06T13:57:11.907Z" type="text-version" status="0.0.10" xml:id="UT22084-067-001-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

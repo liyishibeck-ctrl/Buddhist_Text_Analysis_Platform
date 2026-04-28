@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཀྱིལ་འཁོར་ཐམས་ཅད་ཀྱི་རྗེས་སུ་འཇུག་པའི་ཆོ་ག་ལྔ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dkyil 'khor thams cad kyi rjes su 'jug pa'i cho ga lnga pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Sarva­maṇḍalānusāreṇa pañca­vidhi</title>
+                <title xml:lang="en" type="mainTitle">Five Rituals for Entering into All Maṇḍalas</title>
+                <title xml:lang="bo" type="longTitle">དཀྱིལ་འཁོར་ཐམས་ཅད་ཀྱི་རྗེས་སུ་འཇུག་པའི་ཆོ་ག་ལྔ་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">dkyil 'khor thams cad kyi rjes su 'jug pa'i cho ga lnga pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Sarva­maṇḍalānusāreṇa pañca­vidhi­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-027-010"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1670" type="text">
+                    <ref>Toh 1670</ref>
+                    <biblScope>ff. 157v-171v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-027-010-1">Kukurāja</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-027-010-2">Vajrahasa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-027-010-3">sgra bsgyur gyi lo tsa ba rma rin chen mchog</author>
+                    <location work="UT23703" count-pages="29">
+                        <volume number="27" start-page="314" end-page="342"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21620" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8222" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="import" xml:id="UT23703-027-010-4" source="tengyur-data-1607-1682_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-027-010-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་འགྲེལ་པ་དྲི་མ་མེད་པའི་འོད་ཅེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i 'grel pa dri ma med pa'i 'od ces bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­mañjuśrī­nāma­saṃgīti­ṭīkā­vimalaprabhā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on “Reciting the Names of Mañjuśrī” called “The Stainless Light”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-015-010"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1398" type="text">
+                    <ref>Toh 1398</ref>
+                    <biblScope>ff. 184v-232v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-015-010-1">Rāja Puṇḍarīka</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-015-010-2">pan+di ta dge slong rdo rje 'dzin pa dpal bsod snyoms pa chen po</author>
+                    <location work="UT23703" count-pages="97">
+                        <volume number="15" start-page="368" end-page="464"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7938" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-015-010-3" source="tengyur-data-1346-1400_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="attribution" xml:id="UT23703-015-010-4" source="tengyur-data-1346-1400_PH_new_v2.4.xml">
+                    <desc>Author and translator attributions taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-015-010-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

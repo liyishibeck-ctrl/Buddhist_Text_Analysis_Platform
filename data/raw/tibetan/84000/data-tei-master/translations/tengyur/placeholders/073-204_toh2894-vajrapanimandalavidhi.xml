@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཕྱག་ན་རྡོ་རྗེ་དཀྱིལ་འཁོར་གྱི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">phyag na rdo rje dkyil 'khor gyi cho ga</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vajrapāṇi­maṇḍala­vidhi</title>
+                <title xml:lang="en" type="mainTitle">A Vajrapāṇi Maṇḍala Ritual</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-204"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2894" type="text">
+                    <ref>Toh 2894</ref>
+                    <biblScope>ff.244r-246v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-073-204-1">Sugatigarbha</author>
+                    <location work="UT23703" count-pages="6">
+                        <volume number="73" start-page="487" end-page="492"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9511" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-204-2" source="tengyur-data-2865-2905_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-073-204-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

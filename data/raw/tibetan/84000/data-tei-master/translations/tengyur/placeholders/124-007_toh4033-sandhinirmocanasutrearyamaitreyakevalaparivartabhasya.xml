@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་དགོངས་པ་ངེས་པར་འགྲེལ་པའི་མདོ་ལས། འཕགས་པ་བྱམས་པའི་ལེའུ་ཉེ་ཚེ་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa dgongs pa nges par 'grel pa'i mdo las/_'phags pa byams pa'i le'u nye tshe bshad pa/</title>
+                <title xml:lang="en" type="mainTitle">An Explanation Singling Out the Chapter of the Noble Maitreya in The Sūtra Unraveling the Intent</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-124-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4033" type="text">
+                    <ref>Toh 4033</ref>
+                    <biblScope>ff. 318v-345r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-124-007-1">Jñānagarbha</author>
+                    <location work="UT23703" count-pages="54">
+                        <volume number="124" start-page="636" end-page="689"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10719" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh106"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-11-16T09:54:40.094Z" type="text-version" status="0.0.2" xml:id="UT23703-124-007-2">
+                    <desc>Auto (update-locations)</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-124-007-3" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="general" xml:id="UT23703-124-007-4" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>A commentary on the eighth (Maitreya) chapter of the “Sūtra Unraveling the Intent” (Saṃdhinirmocana-sūtra).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT23703-124-007-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

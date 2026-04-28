@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">klu'i rgyal po dga' bo nyer dga' 'dul ba'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Nandopanandanāgarājadamanasūtra</title>
+                <title type="mainTitle" xml:lang="en">Sūtra of the Taming of the Nāga King Nandopananda</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT22084-034-027"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh39" type="text">
+                    <ref>Toh 39</ref>
+                    <biblScope>vol:34, ff.279r-281v(pp.557-562)</biblScope>
+                    <location work="UT4CZ5369" count-pages="6">
+                        <volume number="34" start-page="557" end-page="562"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14714" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11558" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-12-08T12:54:37.724Z" type="translation-status" status="4" xml:id="UT22084-034-027-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-12-08T12:54:37.724Z" type="text-version" status="0.0.1" xml:id="UT22084-034-027-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-034-027-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

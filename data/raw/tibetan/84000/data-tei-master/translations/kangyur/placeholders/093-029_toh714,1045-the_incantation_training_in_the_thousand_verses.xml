@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sh+lo ka stong lobs pa'i gzungs/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī, Training in the Thousand Verses</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-093-029"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh714" type="text">
+                    <ref>Toh 714</ref>
+                    <biblScope>vol.93, ff.178v-179r(pp.358-359)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="93" start-page="356" end-page="357"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12454" work="W22084"/>
+                </bibl>
+                <bibl key="toh1045" type="text">
+                    <ref>Toh 1045</ref>
+                    <biblScope>vol.101, ff.187v-187v(pp.374-374)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="374" end-page="374"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12808" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-093-029-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-05T17:53:04.466Z" type="text-version" status="0.0.2" xml:id="UT22084-093-029-2">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T12:13:26.446Z" type="translation-status" status="3" xml:id="UT22084-093-029-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-01T12:13:26.446Z" type="text-version" status="0.0.3" xml:id="UT22084-093-029-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

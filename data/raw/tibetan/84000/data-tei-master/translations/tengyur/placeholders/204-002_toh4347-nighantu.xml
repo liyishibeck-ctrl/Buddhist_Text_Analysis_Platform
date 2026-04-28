@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སྒྲ་སྦྱོར་བམ་པོ་གཉིས་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">sgra sbyor bam po gnyis pa/</title>
+                <title xml:lang="en" type="mainTitle">The Glossary in Two Sections</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-204-002"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4347" type="text">
+                    <ref>Toh 4347</ref>
+                    <biblScope>ff. 131v-160r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-204-002-1">Anon</author>
+                    <location work="UT23703" count-pages="58">
+                        <volume number="204" start-page="262" end-page="319"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21685" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC111481JC21689" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh4346"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="import" xml:id="UT23703-204-002-2" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="title" xml:id="UT23703-204-002-3" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc>The text is also known by the Sanskrit title Madhyavyutpatti.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="general" xml:id="UT23703-204-002-4" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc>The text is a commentary on the immediately preceding Mahāvyutpatti, providing the rationale for Tibetan translations from Sanskrit.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-204-002-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

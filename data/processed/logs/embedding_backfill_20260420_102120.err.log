@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 208, in _embed_with_openai_compatible_provider
+    with urllib.request.urlopen(request, timeout=settings.embedding_timeout_seconds) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 493, in open
+    response = meth(req, response)
+  File "C:\Python314\Lib\urllib\request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "C:\Python314\Lib\urllib\request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Python314\Lib\urllib\request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\backfill_segment_embeddings.py", line 38, in <module>
+    main()
+    ~~~~^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\backfill_segment_embeddings.py", line 20, in main
+    inserted = backfill_segment_embeddings(
+        session,
+    ...<4 lines>...
+        language_id=args.language_id,
+    )
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 750, in backfill_segment_embeddings
+    total_indexed += index_segment_records(session, records, embedding_model=runtime.model)
+                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 326, in index_segment_records
+    runtime, embeddings = embed_text_values(
+                          ~~~~~~~~~~~~~~~~~^
+        [record.get("normalized_content") or record.get("content") or "" for record in materialized],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        embedding_model=embedding_model,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 249, in embed_text_values
+    return runtime, _embed_with_openai_compatible_provider(materialized, runtime=runtime)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 212, in _embed_with_openai_compatible_provider
+    raise ValueError(f"Embedding provider request failed with HTTP {exc.code}: {error_body}") from exc
+ValueError: Embedding provider request failed with HTTP 400: {"error":{"code":"InvalidParameter","message":"The parameter `input` specified in the request are not valid: Embeddings API input limit exceeded: max 10, got 32. Request id: 021776651685141424014be7fb1051365f1445eef4e47ea2fab53","param":"input","type":"BadRequest"}}

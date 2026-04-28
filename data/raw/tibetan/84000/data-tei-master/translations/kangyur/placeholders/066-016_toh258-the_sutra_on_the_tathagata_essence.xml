@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de bzhin gshegs pa'i snying po'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Tathāgatagarbhasūtra</title>
+                <title type="mainTitle" xml:lang="en">The Sūtra on the Tathāgata Essence</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa de bzhin gshegs pa'i snying po zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryatathāgatagarbha­nāmamahāyānasūtra</title>
+                <author role="translatorMain" xml:id="UT22084-066-016-1"/>
+            <author role="translatorEng" xml:id="UT22084-066-016-2">Thomas Cruijsen</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.1.2 <date>2025</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-066-016"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh258" type="text">
+                    <ref>Toh 258</ref>
+                    <biblScope>vol.66, ff.245v-259v(pp.490-518)</biblScope>
+                    <location work="UT4CZ5369" count-pages="29">
+                        <volume number="66" start-page="490" end-page="518"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11910" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#andreas" when="2019-11-29T12:44:41.051Z" type="text-version" status="v 0.1.0" xml:id="UT22084-066-016-3">
+                    <desc>v 0.1.0</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.1.1" xml:id="UT22084-066-016-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-06T09:53:18.845Z" type="translation-status" status="2.h" xml:id="UT22084-066-016-5">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2025-02-06T09:53:18.845Z" type="text-version" status="0.1.2" xml:id="UT22084-066-016-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

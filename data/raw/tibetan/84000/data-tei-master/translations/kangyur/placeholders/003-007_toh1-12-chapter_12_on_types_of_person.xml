@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 12: On Types of Person</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pudgalavastu</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">gang zag gi gzhi/</title>
+                <author role="translatorMain" xml:id="UT22084-003-007-1"/>
+                <author role="translatorEng" xml:id="UT22084-003-007-2">Ven. Gyalten Jigdrel</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.9 <date>2025</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-003-007"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1-12" type="chapter">
+                    <ref>Toh 1-12</ref>
+                    <biblScope>vol:3,ff.165v-177r(pp.330-353)</biblScope>
+                    <location work="UT4CZ5369" count-pages="23">
+                        <volume number="3" start-page="330" end-page="353"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11497" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12916" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2019-08-21T03:55:43.646Z" type="translation-status" status="0" xml:id="UT22084-003-007-3">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-003-007-4">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-10T13:07:35.56Z" type="translation-status" status="4" xml:id="UT22084-003-007-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-10T13:07:35.56Z" type="text-version" status="0.0.2" xml:id="UT22084-003-007-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:50:07.803Z" type="translation-status" status="3" xml:id="UT22084-003-007-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:50:07.803Z" type="text-version" status="0.0.3" xml:id="UT22084-003-007-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:50:31.19Z" type="text-version" status="0.0.4" xml:id="UT22084-003-007-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-29T11:50:46.827Z" type="text-version" status="0.0.5" xml:id="UT22084-003-007-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-22T12:16:05.521Z" type="text-version" status="0.0.6" xml:id="UT22084-003-007-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.7" xml:id="UT22084-003-007-12">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-01-31T15:58:19.411Z" type="translation-status" status="2.h" xml:id="UT22084-003-007-13">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-01-31T15:58:19.411Z" type="text-version" status="0.0.8" xml:id="UT22084-003-007-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-16T12:35:55.256Z" type="translation-status" status="2.g" xml:id="UT22084-003-007-15">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-16T12:35:55.256Z" type="text-version" status="0.0.9" xml:id="UT22084-003-007-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="acknowledgment" xml:id="UT22084-003-007-acknowledgment"/>
+        </front>
+    </text>
+</TEI>

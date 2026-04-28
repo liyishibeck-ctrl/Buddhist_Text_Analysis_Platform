@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 7: The Teaching on the Ornaments of the Underlying Ground of the Ocean of the World's Realms</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'jig rten khams rgya mtsho'i sa gzhi rgyan bstan pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">世界海地莊嚴品</title>
+                <author role="translatorMain" xml:id="UT22084-035-007-5">Dharmachakra Translation Committee</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-035-007-8">Chökyi Nyima Rinpoche</consultant>
+                <author role="translatorEng" xml:id="UT22084-035-007-9">Thomas Doctor</author>
+                <consultant role="projectManager" xml:id="UT22084-035-007-10">Thomas Doctor</consultant>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-035-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-7" type="chapter">
+                    <ref>Toh 44-7</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="3">
+                        <volume number="35" start-page="208" end-page="210"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14675" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:11:25.461Z" type="text-version" status="0.0.1" xml:id="UT22084-035-007-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-035-007-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:33:50.353Z" type="translation-status" status="3" xml:id="UT22084-035-007-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:33:50.353Z" type="text-version" status="0.0.3" xml:id="UT22084-035-007-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:34:19.864Z" type="text-version" status="0.0.4" xml:id="UT22084-035-007-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:34:43.363Z" type="text-version" status="0.0.5" xml:id="UT22084-035-007-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

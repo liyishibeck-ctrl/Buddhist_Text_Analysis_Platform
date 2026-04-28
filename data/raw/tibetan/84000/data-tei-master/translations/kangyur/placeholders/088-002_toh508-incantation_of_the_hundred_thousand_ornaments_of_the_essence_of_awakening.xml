@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">byang chub snying po'i rgyan 'bum gyi gzungs/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Bodhimaṇḍasyālaṃkāralakṣadhāraṇī</title>
+                <title type="mainTitle" xml:lang="en">Dhāraṇī of the Hundred Thousand Ornaments of the Essence of Awakening</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">byang chub snying po'i rgyan 'bum zhes bya ba'i gzungs/</title>
+                <title type="otherTitle" xml:lang="en">[Note: translated from Chinese. Only in late Degé printings; not in Degé par phud, nor in Narthang, Peking, or Cone Kangyurs. Lhasa 479, Urga 508.]</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT22084-088-002"/>
+    <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh508" type="text">
+                    <ref>Toh 508</ref>
+                    <biblScope>vol.88, ff.7v-24v(pp.14-48)</biblScope>
+                    <location work="UT4CZ5369" count-pages="35">
+                        <volume number="88" start-page="14" end-page="48"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12230" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2020-06-09T16:51:38.525Z" type="text-version" status="0.0.2" xml:id="UT22084-088-002-1">
+                    <desc>Text note added</desc>
+                </change>
+                <change who="#john" when="2020-06-09T16:51:38.525Z" type="publication-date" xml:id="UT22084-088-002-2">
+                    <desc>Text note added</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-088-002-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

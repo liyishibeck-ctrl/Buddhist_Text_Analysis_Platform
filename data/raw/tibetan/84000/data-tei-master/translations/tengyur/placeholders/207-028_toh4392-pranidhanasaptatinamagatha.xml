@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སྨོན་ལམ་བདུན་ཅུ་པ་ཞེས་བྱ་བའི་ཚིགས་སུ་བཅད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">smon lam bdun cu pa zhes bya ba'i tshigs su bcad pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Praṇidhāna­saptati­nāma­gāthā</title>
+                <title xml:lang="en" type="mainTitle">An Aspirational Prayer called “The Seventy Verses”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-207-028"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4392" type="text">
+                    <ref>Toh 4392</ref>
+                    <biblScope>ff. 320v-324r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-207-028-1">Parahitaghoṣa Āraṇyaka</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-207-028-2">lo tsa ba ban+de dpal gyi lhun po'i sde</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-207-028-3">Dharmaśrīprabha</author>
+                    <location work="UT23703" count-pages="8">
+                        <volume number="207" start-page="640" end-page="647"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21687" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC111971JC21734" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:25:19.656Z" type="import" xml:id="UT23703-207-028-4" source="tengyur-data-4328-4397_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-207-028-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

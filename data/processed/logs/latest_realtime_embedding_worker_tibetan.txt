@@ -1,0 +1,9 @@
+PID=262372
+STDOUT=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-tibetan-supervisor-20260427-161307.out.log
+STDERR=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-tibetan-supervisor-20260427-161307.err.log
+STARTED_AT=2026-04-27T08:13:08.0318585Z
+TRADITION_ID=trad-tibetan
+CONTENT_FIELD=normalized_content
+EMBEDDING_MODEL=text-embedding-3-large
+STORAGE_EMBEDDING_MODEL=text-embedding-3-large
+DIMENSION=2048

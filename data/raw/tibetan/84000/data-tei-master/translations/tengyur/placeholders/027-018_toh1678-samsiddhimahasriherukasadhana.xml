@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Practical Sādhana for the Great and Glorious Heruka</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Saṃsiddhi­mahā­śrī­herukopāyikā</title>
+                <title type="mainTitle" xml:lang="bo">དཔལ་ཁྲག་འཐུང་ཆེན་པོའི་སྒྲུབ་ཐབས་ཡང་དག་པར་གྲུབ་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dpal khrag 'thung chen po'i sgrub thabs yang dag par grub pa/</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Saṃsiddhi­mahā­śrī­herukopāyikā­nāma</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">dpal khrag 'thung chen po'i sgrub thabs yang dag par grub pa zhes bya ba/</title>
+                <title type="longTitle" xml:lang="bo">དཔལ་ཁྲག་འཐུང་ཆེན་པོའི་སྒྲུབ་ཐབས་ཡང་དག་པར་གྲུབ་པ་ཞེས་བྱ་བ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-027-018"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1678" type="text">
+                    <ref>Toh 1678</ref>
+                    <biblScope>ff. 276r-277v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-027-018-1">Hūṁkāravajra</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-027-018-2">Hūṁkāravajra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-027-018-3">zhu chen gyi lo tsa ba ban+d+he gnubs nam mkha'i snying po</author>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="27" start-page="551" end-page="554"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21620" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8230" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:27:55.711Z" type="import" xml:id="UT23703-027-018-4" source="tengyur-data-1607-1682_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-027-018-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

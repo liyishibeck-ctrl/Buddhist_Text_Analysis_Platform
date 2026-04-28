@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དེ་ཁོ་ན་ཉིད་བསྡུས་པའི་རྒྱ་ཆེར་བཤད་པ་ཀོ་ས་ལའི་རྒྱན།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">de kho na nyid bsdus pa'i rgya cher bshad pa ko sa la'i rgyan/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Kosalālaṃkāra­tattva­saṃgraha­tīka</title>
+                <title xml:lang="en" type="mainTitle">An Extensive Explanation of the Compendium of Suchness Tantra, called “The Ornament of Kosala”</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-055-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2503" type="text">
+                    <ref>Toh 2503</ref>
+                    <biblScope>vol 55 ff. 1v-245r, vol 56 ff. 1v-202r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-055-001-1">Śākyamitra (II)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-055-001-2">Dharmaśrībhadra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-055-001-3">zhu chen gyi lo tsa ba dge slong rin chen bzang po</author>
+                    <location work="UT23703" count-pages="890">
+                        <volume number="55" start-page="2" end-page="489"/>
+                        <volume number="56" start-page="2" end-page="403"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9089" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh479"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-055-001-4" source="tengyur-data-2501-2531_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-055-001-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

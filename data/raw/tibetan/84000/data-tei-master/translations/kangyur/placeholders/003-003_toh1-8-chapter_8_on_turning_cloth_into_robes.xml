@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 8: On Turning Cloth into Robes</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Kaṭhinavastu</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">sra brkyang gi gzhi/</title>
+                <author role="translatorMain" xml:id="UT22084-003-003-1">Jin kyoung Choi</author>
+                <author role="translatorEng" xml:id="UT22084-003-003-2">Jin Kyoung Choi</author>
+                <author role="translatorEng" xml:id="UT22084-003-003-11">Charles DiSimone</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.8 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-003-003"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1-8" type="chapter">
+                    <ref>Toh 1-8</ref>
+                    <biblScope>vol:3,ff.115v-124r(pp.230-247)</biblScope>
+                    <location work="UT4CZ5369" count-pages="18">
+                        <volume number="3" start-page="230" end-page="247"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11497" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12912" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2021-10-19T09:24:56.208Z" type="translation-status" status="3" xml:id="UT22084-003-003-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-19T09:24:56.208Z" type="text-version" status="0.0.1" xml:id="UT22084-003-003-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-19T09:25:12.683Z" type="text-version" status="0.0.2" xml:id="UT22084-003-003-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-10-19T09:25:31.579Z" type="text-version" status="0.0.3" xml:id="UT22084-003-003-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-30T12:41:03.03Z" type="text-version" status="0.0.4" xml:id="UT22084-003-003-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-003-003-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-02T09:59:02.799Z" type="text-version" status="0.0.6" xml:id="UT22084-003-003-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-02T10:04:05.272Z" type="translation-status" status="2.h" xml:id="UT22084-003-003-13">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-02T10:04:05.272Z" type="text-version" status="0.0.7" xml:id="UT22084-003-003-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-29T12:35:03.963Z" type="translation-status" status="2.g" xml:id="UT22084-003-003-15">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-29T12:35:03.963Z" type="text-version" status="0.0.8" xml:id="UT22084-003-003-16">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

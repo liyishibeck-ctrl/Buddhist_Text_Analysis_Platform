@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Vajrāmṛta</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Vajrāmṛtatantra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rdo rje bdud rtsi/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">rdo rje bdud rtsi'i rgyud/</title>
+                <author role="translatorMain" xml:id="UT22084-081-004-4">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-081-004-5">Sophie McGrath</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-081-004"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh435" type="text">
+                    <ref>Toh 435</ref>
+                    <biblScope>vol.81, ff.16v-27r(pp.32-53)</biblScope>
+                    <location work="UT4CZ5369" count-pages="22">
+                        <volume number="81" start-page="32" end-page="53"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12142" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+            
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-081-004-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-07T11:16:41.203Z" type="translation-status" status="3" xml:id="UT22084-081-004-2">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-07T11:16:41.203Z" type="text-version" status="0.0.1" xml:id="UT22084-081-004-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-12-07T11:17:13.963Z" type="text-version" status="0.0.2" xml:id="UT22084-081-004-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

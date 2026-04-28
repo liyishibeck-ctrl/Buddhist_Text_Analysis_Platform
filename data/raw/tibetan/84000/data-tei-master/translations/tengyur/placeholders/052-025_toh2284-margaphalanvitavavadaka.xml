@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Sūtras Relating the Path and Result</title>
+                <title type="mainTitle" xml:lang="bo">ལམ་འབྲས་གསུང་མདོ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">lam 'bras gsung mdo/</title>
+                <title type="longTitle" xml:lang="en">Fundamental Vajra Lines of Verse Together with the Path and Its Fruit</title>
+                <title type="longTitle" xml:lang="bo">ལམ་འབྲས་བུ་དང་བཅས་པའི་རྩ་བ་རྡོ་རྗེའི་ཚིག་རྐང་།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">lam 'bras bu dang bcas pa'i rtsa ba rdo rje'i tshig rkang /</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-052-025"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2284" type="text">
+                    <ref>Toh 2284</ref>
+                    <biblScope>ff. 139r-142r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-052-025-1">Virūpa</author>
+                    <location work="UT23703" count-pages="8">
+                        <volume number="52" start-page="277" end-page="284"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8866" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2021-12-01T20:08:44.485Z" user="john">No title is given at the start of the text. The title “lam 'bras gsung mdo” comes from the opening promise of composition, while “lam 'bras bu dang bcas pa'i rtsa ba rdo rje'i tshig rkang” (provided in the Degé Catalog) comes from the colophon to the text.</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-052-025-2" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="attribution" xml:id="UT23703-052-025-3" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc>Author attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="title" xml:id="UT23703-052-025-4" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc>No title is given at the start of the text. The title _lam 'bras gsung mdo_ come from the opening promise of composition, while _lam 'bras bu dang bcas pa'i
+            rtsa ba rdo rje'i tshig rkang_ (provided inthe Derge Dkar-chag) comes from the colophon to the text.</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="general" xml:id="UT23703-052-025-5" source="tengyur-data-2255-2302_PH_new_v2.4.xml">
+                    <desc>This is considered the root text associated with the "Path and Result" [Tradition] (lam 'bras bu dang bcas pa'i rtsa ba rdo rje'i tshig rkang).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-052-025-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

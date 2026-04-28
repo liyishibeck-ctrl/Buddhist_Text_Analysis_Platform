@@ -1,0 +1,277 @@
+Dīgha Nikāya 15 ||| Long Discourses 15
+Mahānidānasutta ||| The Great Discourse on Causation
+1. Paṭiccasamuppāda ||| 1. Dependent Origination
+Evaṁ me sutaṁ— ||| So I have heard.
+ekaṁ samayaṁ bhagavā kurūsu viharati kammāsadhammaṁ nāma kurūnaṁ nigamo. ||| At one time the Buddha was staying in the land of the Kurus, near the Kuru town named Kammāsadamma.
+Atha kho āyasmā ānando yena bhagavā tenupasaṅkami, upasaṅkamitvā bhagavantaṁ abhivādetvā ekamantaṁ nisīdi. Ekamantaṁ nisinno kho āyasmā ānando bhagavantaṁ etadavoca: ||| Then Venerable Ānanda went up to the Buddha, bowed, sat down to one side, and said to him,
+“acchariyaṁ, bhante, abbhutaṁ, bhante. ||| “It’s incredible, sir, it’s amazing,
+Yāva gambhīro cāyaṁ, bhante, paṭiccasamuppādo gambhīrāvabhāso ca, atha ca pana me uttānakuttānako viya khāyatī”ti. ||| in that this dependent origination is deep and appears deep, yet to me it seems as plain as can be.”
+“Mā hevaṁ, ānanda, avaca, mā hevaṁ, ānanda, avaca. ||| “Don’t say that, Ānanda, don’t say that!
+Gambhīro cāyaṁ, ānanda, paṭiccasamuppādo gambhīrāvabhāso ca. ||| This dependent origination is deep and appears deep.
+Etassa, ānanda, dhammassa ananubodhā appaṭivedhā evamayaṁ pajā tantākulakajātā kulagaṇṭhikajātā muñjapabbajabhūtā apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattati. ||| It is because of not understanding and not penetrating this teaching that this population has become tangled like string, knotted like a ball of thread, and matted like rushes and reeds, and it doesn’t escape the places of loss, the bad places, the underworld, transmigration.
+‘Atthi idappaccayā jarāmaraṇan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for old age and death?’ you should answer, ‘There is.’
+‘Kiṁpaccayā jarāmaraṇan’ti iti ce vadeyya, ‘jātipaccayā jarāmaraṇan’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for old age and death?’ you should answer, ‘Rebirth is a requirement for old age and death.’
+‘Atthi idappaccayā jātī’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for rebirth?’ you should answer, ‘There is.’
+‘Kiṁpaccayā jātī’ti iti ce vadeyya, ‘bhavapaccayā jātī’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for rebirth?’ you should answer, ‘Continued existence is a requirement for rebirth.’
+‘Atthi idappaccayā bhavo’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for continued existence?’ you should answer, ‘There is.’
+‘Kiṁpaccayā bhavo’ti iti ce vadeyya, ‘upādānapaccayā bhavo’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for continued existence?’ you should answer, ‘Grasping is a requirement for continued existence.’
+‘Atthi idappaccayā upādānan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for grasping?’ you should answer, ‘There is.’
+‘Kiṁpaccayā upādānan’ti iti ce vadeyya, ‘taṇhāpaccayā upādānan’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for grasping?’ you should answer, ‘Craving is a requirement for grasping.’
+‘Atthi idappaccayā taṇhā’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for craving?’ you should answer, ‘There is.’
+‘Kiṁpaccayā taṇhā’ti iti ce vadeyya, ‘vedanāpaccayā taṇhā’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for craving?’ you should answer, ‘Feeling is a requirement for craving.’
+‘Atthi idappaccayā vedanā’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for feeling?’ you should answer, ‘There is.’
+‘Kiṁpaccayā vedanā’ti iti ce vadeyya, ‘phassapaccayā vedanā’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for feeling?’ you should answer, ‘Contact is a requirement for feeling.’
+‘Atthi idappaccayā phasso’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for contact?’ you should answer, ‘There is.’
+‘Kiṁpaccayā phasso’ti iti ce vadeyya, ‘nāmarūpapaccayā phasso’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for contact?’ you should answer, ‘Name and form are requirements for contact.’
+‘Atthi idappaccayā nāmarūpan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for name and form?’ you should answer, ‘There is.’
+‘Kiṁpaccayā nāmarūpan’ti iti ce vadeyya, ‘viññāṇapaccayā nāmarūpan’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for name and form?’ you should answer, ‘Consciousness is a requirement for name and form.’
+‘Atthi idappaccayā viññāṇan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ||| When asked, ‘Is there a specific condition for consciousness?’ you should answer, ‘There is.’
+‘Kiṁpaccayā viññāṇan’ti iti ce vadeyya, ‘nāmarūpapaccayā viññāṇan’ti iccassa vacanīyaṁ. ||| If they say, ‘What is a requirement for consciousness?’ you should answer, ‘Name and form are requirements for consciousness.’
+Iti kho, ānanda, nāmarūpapaccayā viññāṇaṁ, viññāṇapaccayā nāmarūpaṁ, nāmarūpapaccayā phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ||| So: name and form are requirements for consciousness. Consciousness is a requirement for name and form. Name and form are requirements for contact. Contact is a requirement for feeling. Feeling is a requirement for craving. Craving is a requirement for grasping. Grasping is a requirement for continued existence. Continued existence is a requirement for rebirth. Rebirth is a requirement for old age and death, sorrow, lamentation, pain, sadness, and distress to come to be.
+Evametassa kevalassa dukkhakkhandhassa samudayo hoti. ||| That is how this entire mass of suffering originates.
+‘Jātipaccayā jarāmaraṇan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā jātipaccayā jarāmaraṇaṁ. ||| ‘Rebirth is a requirement for old age and death’—that’s what I said. And this is a way to understand how this is so.
+Jāti ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no rebirth for anyone anywhere.
+devānaṁ vā devattāya, gandhabbānaṁ vā gandhabbattāya, yakkhānaṁ vā yakkhattāya, bhūtānaṁ vā bhūtattāya, manussānaṁ vā manussattāya, catuppadānaṁ vā catuppadattāya, pakkhīnaṁ vā pakkhittāya, sarīsapānaṁ vā sarīsapattāya, tesaṁ tesañca hi, ānanda, sattānaṁ tadattāya jāti nābhavissa. Sabbaso jātiyā asati jātinirodhā api nu kho jarāmaraṇaṁ paññāyethā”ti? ||| That is, there were no rebirth of sentient beings into their various realms—of gods, centaurs, spirits, creatures, humans, quadrupeds, birds, or reptiles, each into their own realm. When there’s no rebirth at all, with the cessation of rebirth, would old age and death still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo jarāmaraṇassa, yadidaṁ jāti. ||| “That’s why this is the cause, source, origin, and reason of old age and death, namely rebirth.
+‘Bhavapaccayā jātī’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā bhavapaccayā jāti. ||| ‘Continued existence is a requirement for rebirth’—that’s what I said. And this is a way to understand how this is so.
+Bhavo ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no continued existence for anyone anywhere.
+kāmabhavo vā rūpabhavo vā arūpabhavo vā, sabbaso bhave asati bhavanirodhā api nu kho jāti paññāyethā”ti? ||| That is, continued existence in the sensual realm, the realm of luminous form, or the formless realm. When there’s no continued existence at all, with the cessation of continued existence, would rebirth still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo jātiyā, yadidaṁ bhavo. ||| “That’s why this is the cause, source, origin, and reason of rebirth, namely continued existence.
+‘Upādānapaccayā bhavo’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā upādānapaccayā bhavo. ||| ‘Grasping is a requirement for continued existence’—that’s what I said. And this is a way to understand how this is so.
+Upādānañca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no grasping for anyone anywhere.
+kāmupādānaṁ vā diṭṭhupādānaṁ vā sīlabbatupādānaṁ vā attavādupādānaṁ vā, sabbaso upādāne asati upādānanirodhā api nu kho bhavo paññāyethā”ti? ||| That is, grasping at sensual pleasures, views, precepts and observances, and theories of a self. When there’s no grasping at all, with the cessation of grasping, would continued existence still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo bhavassa, yadidaṁ upādānaṁ. ||| “That’s why this is the cause, source, origin, and reason of continued existence, namely grasping.
+‘Taṇhāpaccayā upādānan’ti iti kho panetaṁ vuttaṁ tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā taṇhāpaccayā upādānaṁ. ||| ‘Craving is a requirement for grasping’—that’s what I said. And this is a way to understand how this is so.
+Taṇhā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no craving for anyone anywhere.
+rūpataṇhā saddataṇhā gandhataṇhā rasataṇhā phoṭṭhabbataṇhā dhammataṇhā, sabbaso taṇhāya asati taṇhānirodhā api nu kho upādānaṁ paññāyethā”ti? ||| That is, craving for sights, sounds, smells, tastes, touches, and ideas. When there’s no craving at all, with the cessation of craving, would grasping still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo upādānassa, yadidaṁ taṇhā. ||| “That’s why this is the cause, source, origin, and reason of grasping, namely craving.
+‘Vedanāpaccayā taṇhā’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā vedanāpaccayā taṇhā. ||| ‘Feeling is a requirement for craving’—that’s what I said. And this is a way to understand how this is so.
+Vedanā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no feeling for anyone anywhere.
+cakkhusamphassajā vedanā sotasamphassajā vedanā ghānasamphassajā vedanā jivhāsamphassajā vedanā kāyasamphassajā vedanā manosamphassajā vedanā, sabbaso vedanāya asati vedanānirodhā api nu kho taṇhā paññāyethā”ti? ||| That is, feeling born of contact through the eye, ear, nose, tongue, body, and mind. When there’s no feeling at all, with the cessation of feeling, would craving still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo taṇhāya, yadidaṁ vedanā. ||| “That’s why this is the cause, source, origin, and reason of craving, namely feeling.
+Iti kho panetaṁ, ānanda, vedanaṁ paṭicca taṇhā, taṇhaṁ paṭicca pariyesanā, pariyesanaṁ paṭicca lābho, lābhaṁ paṭicca vinicchayo, vinicchayaṁ paṭicca chandarāgo, chandarāgaṁ paṭicca ajjhosānaṁ, ajjhosānaṁ paṭicca pariggaho, pariggahaṁ paṭicca macchariyaṁ, macchariyaṁ paṭicca ārakkho. ||| So it is, Ānanda, that feeling gives rise to craving. Craving gives rise to searching. Searching gives rise to gaining material things. Gaining material things gives rise to evaluation. Evaluation gives rise to desire and lust. Desire and lust gives rise to attachment. Attachment gives rise to ownership. Ownership gives rise to stinginess. Stinginess gives rise to safeguarding.
+Ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavanti. ||| Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, and disputes, accusations, backbiting, and lies.
+‘Ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavantī’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavanti. ||| ‘Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, and disputes, accusations, backbiting, and lies’—that’s what I said. And this is a way to understand how this is so.
+Ārakkho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso ārakkhe asati ārakkhanirodhā api nu kho daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhaveyyun”ti? ||| Suppose there were totally and utterly no safeguarding for anyone anywhere. When there’s no safeguarding at all, with the cessation of safeguarding, would those many bad, unskillful things still come to be?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādānaṁ anekesaṁ pāpakānaṁ akusalānaṁ dhammānaṁ sambhavāya yadidaṁ ārakkho. ||| “That’s why this is the cause, source, origin, and reason for the origination of those many bad, unskillful things, namely safeguarding.
+‘Macchariyaṁ paṭicca ārakkho’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā macchariyaṁ paṭicca ārakkho. ||| ‘Stinginess gives rise to safeguarding’—that’s what I said. And this is a way to understand how this is so.
+Macchariyañca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso macchariye asati macchariyanirodhā api nu kho ārakkho paññāyethā”ti? ||| Suppose there were totally and utterly no stinginess for anyone anywhere. When there’s no stinginess at all, with the cessation of stinginess, would safeguarding still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo ārakkhassa, yadidaṁ macchariyaṁ. ||| “That’s why this is the cause, source, origin, and reason of safeguarding, namely stinginess.
+‘Pariggahaṁ paṭicca macchariyan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā pariggahaṁ paṭicca macchariyaṁ. ||| ‘Ownership gives rise to stinginess’—that’s what I said. And this is a way to understand how this is so.
+Pariggaho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso pariggahe asati pariggahanirodhā api nu kho macchariyaṁ paññāyethā”ti? ||| Suppose there were totally and utterly no ownership for anyone anywhere. When there’s no ownership at all, with the cessation of ownership, would stinginess still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo macchariyassa, yadidaṁ pariggaho. ||| “That’s why this is the cause, source, origin, and reason of stinginess, namely ownership.
+‘Ajjhosānaṁ paṭicca pariggaho’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā ajjhosānaṁ paṭicca pariggaho. ||| ‘Attachment gives rise to ownership’—that’s what I said. And this is a way to understand how this is so.
+Ajjhosānañca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso ajjhosāne asati ajjhosānanirodhā api nu kho pariggaho paññāyethā”ti? ||| Suppose there were totally and utterly no attachment for anyone anywhere. When there’s no attachment at all, with the cessation of attachment, would ownership still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo pariggahassa—yadidaṁ ajjhosānaṁ. ||| “That’s why this is the cause, source, origin, and reason of ownership, namely attachment.
+‘Chandarāgaṁ paṭicca ajjhosānan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā chandarāgaṁ paṭicca ajjhosānaṁ. ||| ‘Desire and lust gives rise to attachment’—that’s what I said. And this is a way to understand how this is so.
+Chandarāgo ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso chandarāge asati chandarāganirodhā api nu kho ajjhosānaṁ paññāyethā”ti? ||| Suppose there were totally and utterly no desire and lust for anyone anywhere. When there’s no desire and lust at all, with the cessation of desire and lust, would attachment still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo ajjhosānassa, yadidaṁ chandarāgo. ||| “That’s why this is the cause, source, origin, and reason of attachment, namely desire and lust.
+‘Vinicchayaṁ paṭicca chandarāgo’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā vinicchayaṁ paṭicca chandarāgo. ||| Evaluation gives rise to desire and lust’—that’s what I said. And this is a way to understand how this is so.
+Vinicchayo ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso vinicchaye asati vinicchayanirodhā api nu kho chandarāgo paññāyethā”ti? ||| Suppose there were totally and utterly no evaluation for anyone anywhere. When there’s no evaluation at all, with the cessation of evaluation, would desire and lust still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo chandarāgassa, yadidaṁ vinicchayo. ||| “That’s why this is the cause, source, origin, and reason of desire and lust, namely evaluation.
+‘Lābhaṁ paṭicca vinicchayo’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā lābhaṁ paṭicca vinicchayo. ||| ‘Gaining material things gives rise to evaluation’—that’s what I said. And this is a way to understand how this is so.
+Lābho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso lābhe asati lābhanirodhā api nu kho vinicchayo paññāyethā”ti? ||| Suppose there were totally and utterly no gaining of material things for anyone anywhere. When there’s no gaining of material things at all, with the cessation of gaining material things, would evaluation still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo vinicchayassa, yadidaṁ lābho. ||| “That’s why this is the cause, source, origin, and reason of evaluation, namely the gaining of material things.
+‘Pariyesanaṁ paṭicca lābho’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā pariyesanaṁ paṭicca lābho. ||| ‘Searching gives rise to gaining material things’—that’s what I said. And this is a way to understand how this is so.
+Pariyesanā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso pariyesanāya asati pariyesanānirodhā api nu kho lābho paññāyethā”ti? ||| Suppose there were totally and utterly no searching for anyone anywhere. When there’s no searching at all, with the cessation of searching, would the gaining of material things still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo lābhassa, yadidaṁ pariyesanā. ||| “That’s why this is the cause, source, origin, and reason of gaining material things, namely searching.
+‘Taṇhaṁ paṭicca pariyesanā’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā taṇhaṁ paṭicca pariyesanā. ||| ‘Craving gives rise to searching’—that’s what I said. And this is a way to understand how this is so.
+Taṇhā ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no craving for anyone anywhere.
+kāmataṇhā bhavataṇhā vibhavataṇhā, sabbaso taṇhāya asati taṇhānirodhā api nu kho pariyesanā paññāyethā”ti? ||| That is, craving for sensual pleasures, craving for continued existence, and craving for nonexistence. When there’s no craving at all, with the cessation of craving, would searching still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo pariyesanāya, yadidaṁ taṇhā. ||| “That’s why this is the cause, source, origin, and reason of searching, namely craving.
+Iti kho, ānanda, ime dve dhammā dvayena vedanāya ekasamosaraṇā bhavanti. ||| And so, Ānanda, these two things meet at the two aspects of feeling.
+‘Phassapaccayā vedanā’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā phassapaccayā vedanā. ||| ‘Contact is a requirement for feeling’—that’s what I said. And this is a way to understand how this is so.
+Phasso ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, seyyathidaṁ— ||| Suppose there were totally and utterly no contact for anyone anywhere.
+cakkhusamphasso sotasamphasso ghānasamphasso jivhāsamphasso kāyasamphasso manosamphasso, sabbaso phasse asati phassanirodhā api nu kho vedanā paññāyethā”ti? ||| That is, contact through the eye, ear, nose, tongue, body, and mind. When there’s no contact at all, with the cessation of contact, would feeling still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo vedanāya, yadidaṁ phasso. ||| “That’s why this is the cause, source, origin, and reason of feeling, namely contact.
+‘Nāmarūpapaccayā phasso’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā nāmarūpapaccayā phasso. ||| ‘Name and form are requirements for contact’—that’s what I said. And this is a way to understand how this is so.
+Yehi, ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi nāmakāyassa paññatti hoti, tesu ākāresu tesu liṅgesu tesu nimittesu tesu uddesesu asati api nu kho rūpakāye adhivacanasamphasso paññāyethā”ti? ||| Suppose there were none of the features, attributes, signs, and details by which the set of mental phenomena known as name is found. Would labeling contact still be found in the set of physical phenomena?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Yehi, ānanda, ākārehi yehi liṅgehi yehi nimittehi yehi uddesehi rūpakāyassa paññatti hoti, tesu ākāresu …pe… tesu uddesesu asati api nu kho nāmakāye paṭighasamphasso paññāyethā”ti? ||| “Suppose there were none of the features, attributes, signs, and details by which the set of physical phenomena known as form is found. Would impingement contact still be found in the set of mental phenomena?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Yehi, ānanda, ākārehi …pe… yehi uddesehi nāmakāyassa ca rūpakāyassa ca paññatti hoti, tesu ākāresu …pe… tesu uddesesu asati api nu kho adhivacanasamphasso vā paṭighasamphasso vā paññāyethā”ti? ||| “Suppose there were none of the features, attributes, signs, and details by which the set of phenomena known as name and the set of phenomena known as form are found. Would either labeling contact or impingement contact still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Yehi, ānanda, ākārehi …pe… yehi uddesehi nāmarūpassa paññatti hoti, tesu ākāresu …pe… tesu uddesesu asati api nu kho phasso paññāyethā”ti? ||| “Suppose there were none of the features, attributes, signs, and details by which name and form are found. Would contact still be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo phassassa, yadidaṁ nāmarūpaṁ. ||| “That’s why this is the cause, source, origin, and reason of contact, namely name and form.
+‘Viññāṇapaccayā nāmarūpan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā viññāṇapaccayā nāmarūpaṁ. ||| ‘Consciousness is a requirement for name and form’—that’s what I said. And this is a way to understand how this is so.
+Viññāṇañca hi, ānanda, mātukucchismiṁ na okkamissatha, api nu kho nāmarūpaṁ mātukucchismiṁ samuccissathā”ti? ||| If consciousness were not conceived in the mother’s womb, would name and form coagulate there?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Viññāṇañca hi, ānanda, mātukucchismiṁ okkamitvā vokkamissatha, api nu kho nāmarūpaṁ itthattāya abhinibbattissathā”ti? ||| “If consciousness, after being conceived in the mother’s womb, were to be miscarried, would name and form be born into this place?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Viññāṇañca hi, ānanda, daharasseva sato vocchijjissatha kumārakassa vā kumārikāya vā, api nu kho nāmarūpaṁ vuddhiṁ virūḷhiṁ vepullaṁ āpajjissathā”ti? ||| “If the consciousness of a young boy or girl were to be cut off, would name and form achieve growth, increase, and maturity?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo nāmarūpassa—yadidaṁ viññāṇaṁ. ||| “That’s why this is the cause, source, origin, and reason of name and form, namely consciousness.
+‘Nāmarūpapaccayā viññāṇan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā nāmarūpapaccayā viññāṇaṁ. ||| ‘Name and form are requirements for consciousness’—that’s what I said. And this is a way to understand how this is so.
+Viññāṇañca hi, ānanda, nāmarūpe patiṭṭhaṁ na labhissatha, api nu kho āyatiṁ jātijarāmaraṇaṁ dukkhasamudayasambhavo paññāyethā”ti? ||| If consciousness were not established in name and form, would the coming to be of the origin of suffering—of rebirth, old age, and death in the future—be found?”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, eseva hetu etaṁ nidānaṁ esa samudayo esa paccayo viññāṇassa yadidaṁ nāmarūpaṁ. ||| “That’s why this is the cause, source, origin, and reason of consciousness, namely name and form.
+Ettāvatā kho, ānanda, jāyetha vā jīyetha vā mīyetha vā cavetha vā upapajjetha vā. ||| This is the extent to which one may be reborn, grow old, die, pass away, or reappear.
+Ettāvatā adhivacanapatho, ettāvatā niruttipatho, ettāvatā paññattipatho, ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ nāmarūpaṁ saha viññāṇena aññamaññapaccayatā pavattati. ||| This is how far the scope of labeling, definition, and description extends; how far the sphere of wisdom extends; how far the cycle of rebirths spins so that this state of being may be found; namely, name and form together with consciousness.
+2. Attapaññatti ||| 2. Describing the Self
+Kittāvatā ca, ānanda, attānaṁ paññapento paññapeti? ||| How do those who describe the self describe it?
+Rūpiṁ vā hi, ānanda, parittaṁ attānaṁ paññapento paññapeti: ||| They describe it as formed and limited:
+‘rūpī me paritto attā’ti. ||| ‘My self is formed and limited.’
+Rūpiṁ vā hi, ānanda, anantaṁ attānaṁ paññapento paññapeti: ||| Or they describe it as formed and infinite:
+‘rūpī me ananto attā’ti. ||| ‘My self is formed and infinite.’
+Arūpiṁ vā hi, ānanda, parittaṁ attānaṁ paññapento paññapeti: ||| Or they describe it as formless and limited:
+‘arūpī me paritto attā’ti. ||| ‘My self is formless and limited.’
+Arūpiṁ vā hi, ānanda, anantaṁ attānaṁ paññapento paññapeti: ||| Or they describe it as formless and infinite:
+‘arūpī me ananto attā’ti. ||| ‘My self is formless and infinite.’
+Tatrānanda, yo so rūpiṁ parittaṁ attānaṁ paññapento paññapeti. ||| Now, take those who describe the self as formed and limited.
+Etarahi vā so rūpiṁ parittaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so rūpiṁ parittaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti. ||| They describe the self in the present as formed and limited; or they describe it as sure to be in some other place formed and limited; or else they think: ‘Though it is not like that, I will ensure it is provided with what it needs to become like that.’
+Evaṁ santaṁ kho, ānanda, rūpiṁ parittattānudiṭṭhi anusetīti iccālaṁ vacanāya. ||| This being so, it’s appropriate to say that a theory of self as formed and limited underlies them.
+Tatrānanda, yo so rūpiṁ anantaṁ attānaṁ paññapento paññapeti. ||| Now, take those who describe the self as formed and infinite …
+Etarahi vā so rūpiṁ anantaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so rūpiṁ anantaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti.
+Evaṁ santaṁ kho, ānanda, rūpiṁ anantattānudiṭṭhi anusetīti iccālaṁ vacanāya.
+Tatrānanda, yo so arūpiṁ parittaṁ attānaṁ paññapento paññapeti. ||| formless and limited …
+Etarahi vā so arūpiṁ parittaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so arūpiṁ parittaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti.
+Evaṁ santaṁ kho, ānanda, arūpiṁ parittattānudiṭṭhi anusetīti iccālaṁ vacanāya.
+Tatrānanda, yo so arūpiṁ anantaṁ attānaṁ paññapento paññapeti. ||| formless and infinite.
+Etarahi vā so arūpiṁ anantaṁ attānaṁ paññapento paññapeti, tattha bhāviṁ vā so arūpiṁ anantaṁ attānaṁ paññapento paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa hoti. ||| They describe the self as formless and infinite in the present; or as sure to become formless and infinite in some other place; or else they think: ‘Though it is not like that, I will ensure it is provided with what it needs to become like that.’
+Evaṁ santaṁ kho, ānanda, arūpiṁ anantattānudiṭṭhi anusetīti iccālaṁ vacanāya. ||| This being so, it’s appropriate to say that a theory of self as formless and infinite underlies them.
+Ettāvatā kho, ānanda, attānaṁ paññapento paññapeti. ||| That’s how those who describe the self describe it.
+3. Naattapaññatti ||| 3. Not Describing the Self
+Kittāvatā ca, ānanda, attānaṁ na paññapento na paññapeti? ||| How do those who don’t describe the self not describe it?
+Rūpiṁ vā hi, ānanda, parittaṁ attānaṁ na paññapento na paññapeti: ||| They don’t describe it as formed and limited …
+‘rūpī me paritto attā’ti.
+Rūpiṁ vā hi, ānanda, anantaṁ attānaṁ na paññapento na paññapeti: ||| formed and infinite …
+‘rūpī me ananto attā’ti.
+Arūpiṁ vā hi, ānanda, parittaṁ attānaṁ na paññapento na paññapeti: ||| formless and limited …
+‘arūpī me paritto attā’ti.
+Arūpiṁ vā hi, ānanda, anantaṁ attānaṁ na paññapento na paññapeti: ||| formless and infinite:
+‘arūpī me ananto attā’ti. ||| ‘My self is formless and infinite.’
+Tatrānanda, yo so rūpiṁ parittaṁ attānaṁ na paññapento na paññapeti. ||| Now, take those who don’t describe the self as formed and limited …
+Etarahi vā so rūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so rūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti.
+Evaṁ santaṁ kho, ānanda, rūpiṁ parittattānudiṭṭhi nānusetīti iccālaṁ vacanāya.
+Tatrānanda, yo so rūpiṁ anantaṁ attānaṁ na paññapento na paññapeti. ||| formed and infinite …
+Etarahi vā so rūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so rūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti.
+Evaṁ santaṁ kho, ānanda, rūpiṁ anantattānudiṭṭhi nānusetīti iccālaṁ vacanāya.
+Tatrānanda, yo so arūpiṁ parittaṁ attānaṁ na paññapento na paññapeti. ||| formless and limited …
+Etarahi vā so arūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so arūpiṁ parittaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti.
+Evaṁ santaṁ kho, ānanda, arūpiṁ parittattānudiṭṭhi nānusetīti iccālaṁ vacanāya.
+Tatrānanda, yo so arūpiṁ anantaṁ attānaṁ na paññapento na paññapeti. ||| formless and infinite.
+Etarahi vā so arūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, tattha bhāviṁ vā so arūpiṁ anantaṁ attānaṁ na paññapento na paññapeti, ‘atathaṁ vā pana santaṁ tathattāya upakappessāmī’ti iti vā panassa na hoti. ||| They don’t describe the self in the present as formless and infinite; or as sure to become in some other place formless and infinite; and they don’t think: ‘Though it is not like that, I will ensure it is provided with what it needs to become like that.’
+Evaṁ santaṁ kho, ānanda, arūpiṁ anantattānudiṭṭhi nānusetīti iccālaṁ vacanāya. ||| This being so, it’s appropriate to say that a theory of self as formless and infinite doesn’t underlie them.
+Ettāvatā kho, ānanda, attānaṁ na paññapento na paññapeti. ||| That’s how those who don’t describe the self don’t describe it.
+4. Attasamanupassanā ||| 4. Regarding a Self
+Kittāvatā ca, ānanda, attānaṁ samanupassamāno samanupassati? ||| How do those who regard the self regard it?
+Vedanaṁ vā hi, ānanda, attānaṁ samanupassamāno samanupassati: ||| They regard feeling as self:
+‘vedanā me attā’ti. ||| ‘Feeling is my self.’
+‘Na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti iti vā hi, ānanda, attānaṁ samanupassamāno samanupassati. ||| Or they regard it like this: ‘Feeling is definitely not my self. My self does not experience feeling.’
+‘Na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti iti vā hi, ānanda, attānaṁ samanupassamāno samanupassati. ||| Or they regard it like this: ‘Feeling is definitely not my self. But it’s not that my self does not experience feeling. My self feels, for my self is liable to feel.’
+Tatrānanda, yo so evamāha: ||| Now, as to those who say:
+‘vedanā me attā’ti, ||| ‘Feeling is my self.’
+so evamassa vacanīyo: ||| You should say this to them:
+‘tisso kho imā, āvuso, vedanā— ||| ‘Reverend, there are three feelings:
+sukhā vedanā dukkhā vedanā adukkhamasukhā vedanā. ||| pleasant, painful, and neutral.
+Imāsaṁ kho tvaṁ tissannaṁ vedanānaṁ katamaṁ attato samanupassasī’ti? ||| Which one of these do you regard as self?’
+Yasmiṁ, ānanda, samaye sukhaṁ vedanaṁ vedeti, neva tasmiṁ samaye dukkhaṁ vedanaṁ vedeti, na adukkhamasukhaṁ vedanaṁ vedeti; ||| Ānanda, at a time when you feel a pleasant feeling, you don’t feel a painful or neutral feeling;
+sukhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ||| you only feel a pleasant feeling.
+Yasmiṁ, ānanda, samaye dukkhaṁ vedanaṁ vedeti, neva tasmiṁ samaye sukhaṁ vedanaṁ vedeti, na adukkhamasukhaṁ vedanaṁ vedeti; ||| At a time when you feel a painful feeling, you don’t feel a pleasant or neutral feeling;
+dukkhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ||| you only feel a painful feeling.
+Yasmiṁ, ānanda, samaye adukkhamasukhaṁ vedanaṁ vedeti, neva tasmiṁ samaye sukhaṁ vedanaṁ vedeti, na dukkhaṁ vedanaṁ vedeti; ||| At a time when you feel a neutral feeling, you don’t feel a pleasant or painful feeling;
+adukkhamasukhaṁyeva tasmiṁ samaye vedanaṁ vedeti. ||| you only feel a neutral feeling.
+Sukhāpi kho, ānanda, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā. ||| Pleasant feelings, painful feelings, and neutral feelings are all impermanent, conditioned, dependently originated, liable to end, vanish, fade away, and cease.
+Dukkhāpi kho, ānanda, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā.
+Adukkhamasukhāpi kho, ānanda, vedanā aniccā saṅkhatā paṭiccasamuppannā khayadhammā vayadhammā virāgadhammā nirodhadhammā.
+Tassa sukhaṁ vedanaṁ vediyamānassa ‘eso me attā’ti hoti. ||| When feeling a pleasant feeling they think: ‘This is my self.’
+Tassāyeva sukhāya vedanāya nirodhā ‘byagā me attā’ti hoti. ||| When their pleasant feeling ceases they think: ‘My self has expired.’
+Dukkhaṁ vedanaṁ vediyamānassa ‘eso me attā’ti hoti. ||| When feeling a painful feeling they think: ‘This is my self.’
+Tassāyeva dukkhāya vedanāya nirodhā ‘byagā me attā’ti hoti. ||| When their painful feeling ceases they think: ‘My self has expired.’
+Adukkhamasukhaṁ vedanaṁ vediyamānassa ‘eso me attā’ti hoti. ||| When feeling a neutral feeling they think: ‘This is my self.’
+Tassāyeva adukkhamasukhāya vedanāya nirodhā ‘byagā me attā’ti hoti. ||| When their neutral feeling ceases they think: ‘My self has expired.’
+Iti so diṭṭheva dhamme aniccasukhadukkhavokiṇṇaṁ uppādavayadhammaṁ attānaṁ samanupassamāno samanupassati, yo so evamāha: ‘vedanā me attā’ti. ||| So those who say ‘feeling is my self’ regard as self that which is evidently impermanent, mixed with pleasure and pain, and liable to rise and fall.
+Tasmātihānanda, etena petaṁ nakkhamati: ‘vedanā me attā’ti samanupassituṁ. ||| That’s why it’s not acceptable to regard feeling as self.
+Tatrānanda, yo so evamāha: ||| Now, as to those who say:
+‘na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti, so evamassa vacanīyo: ||| ‘Feeling is definitely not my self. My self does not experience feeling.’ You should say this to them,
+‘yattha panāvuso, sabbaso vedayitaṁ natthi api nu kho, tattha “ayamahamasmī”ti siyā’”ti? ||| ‘But reverend, where there is nothing felt at all, would the thought “I am” occur there?’”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, etena petaṁ nakkhamati: ‘na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti samanupassituṁ. ||| “That’s why it’s not acceptable to regard self as that which does not experience feeling.
+Tatrānanda, yo so evamāha: ||| Now, as to those who say:
+‘na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti. ||| ‘Feeling is definitely not my self. But it’s not that my self does not experience feeling. My self feels, for my self is liable to feel.’
+So evamassa vacanīyo— ||| You should say this to them,
+vedanā ca hi, āvuso, sabbena sabbaṁ sabbathā sabbaṁ aparisesā nirujjheyyuṁ. ||| ‘Suppose feelings were to totally and utterly cease without remainder.
+Sabbaso vedanāya asati vedanānirodhā api nu kho tattha ‘ayamahamasmī’ti siyā”ti? ||| When there’s no feeling at all, with the cessation of feeling, would the thought “I am this” occur there?’”
+“No hetaṁ, bhante”. ||| “No, sir.”
+“Tasmātihānanda, etena petaṁ nakkhamati: ‘na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti samanupassituṁ. ||| “That’s why it’s not acceptable to regard self as that which is liable to feel.
+Yato kho, ānanda, bhikkhu neva vedanaṁ attānaṁ samanupassati, nopi appaṭisaṁvedanaṁ attānaṁ samanupassati, nopi ‘attā me vediyati, vedanādhammo hi me attā’ti samanupassati.
+So evaṁ na samanupassanto na ca kiñci loke upādiyati, ||| Not regarding anything in this way, they don’t grasp at anything in the world.
+anupādiyaṁ na paritassati, aparitassaṁ paccattaññeva parinibbāyati, ||| Not grasping, they’re not anxious. Not being anxious, they personally become extinguished.
+‘khīṇā jāti, vusitaṁ brahmacariyaṁ, kataṁ karaṇīyaṁ, nāparaṁ itthattāyā’ti pajānāti. ||| They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’
+Evaṁ vimuttacittaṁ kho, ānanda, bhikkhuṁ yo evaṁ vadeyya: ||| It wouldn’t be appropriate to say that a mendicant whose mind is freed like this holds the following views:
+‘hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ||| ‘A realized one still exists after death’;
+‘Na hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ||| ‘A realized one no longer exists after death’;
+‘Hoti ca na ca hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ||| ‘A realized one both still exists and no longer exists after death’;
+‘Neva hoti na na hoti tathāgato paraṁ maraṇā itissa diṭṭhī’ti, tadakallaṁ. ||| ‘A realized one neither still exists nor no longer exists after death’.
+Taṁ kissa hetu? ||| Why is that?
+Yāvatā, ānanda, adhivacanaṁ yāvatā adhivacanapatho, yāvatā nirutti yāvatā niruttipatho, yāvatā paññatti yāvatā paññattipatho, yāvatā paññā yāvatā paññāvacaraṁ, yāvatā vaṭṭaṁ, yāvatā vaṭṭati, tadabhiññāvimutto bhikkhu, tadabhiññāvimuttaṁ bhikkhuṁ ‘na jānāti na passati itissa diṭṭhī’ti, tadakallaṁ. ||| A mendicant is freed by directly knowing this: how far labeling and the scope of labeling extend; how far definition and the scope of definition extend; how far description and the scope of description extend; how far wisdom and the sphere of wisdom extend; how far the cycle of rebirths and its continuation extend. It wouldn’t be appropriate to say that a mendicant freed by directly knowing this holds the view: ‘There is no such thing as knowing and seeing.’
+5. Sattaviññāṇaṭṭhiti ||| 5. Planes of Consciousness
+Satta kho, ānanda, viññāṇaṭṭhitiyo, dve āyatanāni. ||| Ānanda, there are seven planes of consciousness and two dimensions.
+Katamā satta? ||| What seven?
+Santānanda, sattā nānattakāyā nānattasaññino, seyyathāpi manussā, ekacce ca devā, ekacce ca vinipātikā. ||| There are sentient beings that are diverse in body and diverse in perception, such as human beings, some gods, and some beings in the underworld.
+Ayaṁ paṭhamā viññāṇaṭṭhiti. ||| This is the first plane of consciousness.
+Santānanda, sattā nānattakāyā ekattasaññino, seyyathāpi devā brahmakāyikā paṭhamābhinibbattā. ||| There are sentient beings that are diverse in body and unified in perception, such as the gods reborn in the Divinity’s host through the first absorption.
+Ayaṁ dutiyā viññāṇaṭṭhiti. ||| This is the second plane of consciousness.
+Santānanda, sattā ekattakāyā nānattasaññino, seyyathāpi devā ābhassarā. ||| There are sentient beings that are unified in body and diverse in perception, such as the gods of streaming radiance.
+Ayaṁ tatiyā viññāṇaṭṭhiti. ||| This is the third plane of consciousness.
+Santānanda, sattā ekattakāyā ekattasaññino, seyyathāpi devā subhakiṇhā. ||| There are sentient beings that are unified in body and unified in perception, such as the gods of universal beauty.
+Ayaṁ catutthī viññāṇaṭṭhiti. ||| This is the fourth plane of consciousness.
+Santānanda, sattā sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanūpagā. ||| There are sentient beings that have gone totally beyond perceptions of form. With the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, they have been reborn in the dimension of infinite space.
+Ayaṁ pañcamī viññāṇaṭṭhiti. ||| This is the fifth plane of consciousness.
+Santānanda, sattā sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanūpagā. ||| There are sentient beings that have gone totally beyond the dimension of infinite space. Aware that ‘consciousness is infinite’, they have been reborn in the dimension of infinite consciousness.
+Ayaṁ chaṭṭhī viññāṇaṭṭhiti. ||| This is the sixth plane of consciousness.
+Santānanda, sattā sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanūpagā. ||| There are sentient beings that have gone totally beyond the dimension of infinite consciousness. Aware that ‘there is nothing at all’, they have been reborn in the dimension of nothingness.
+Ayaṁ sattamī viññāṇaṭṭhiti. ||| This is the seventh plane of consciousness.
+Asaññasattāyatanaṁ nevasaññānāsaññāyatanameva dutiyaṁ. ||| Then there is the dimension of non-percipient beings, and secondly, the dimension of neither perception nor non-perception.
+Tatrānanda, yāyaṁ paṭhamā viññāṇaṭṭhiti nānattakāyā nānattasaññino, seyyathāpi manussā, ekacce ca devā, ekacce ca vinipātikā. ||| Now, regarding these seven planes of consciousness and two dimensions,
+Yo nu kho, ānanda, tañca pajānāti, tassā ca samudayaṁ pajānāti, tassā ca atthaṅgamaṁ pajānāti, tassā ca assādaṁ pajānāti, tassā ca ādīnavaṁ pajānāti, tassā ca nissaraṇaṁ pajānāti, kallaṁ nu tena tadabhinanditun”ti? ||| is it appropriate for someone who understands them—and their origin, disappearance, gratification, drawback, and escape—to take pleasure in them?”
+“No hetaṁ, bhante” …pe… ||| “No, sir.”
+“tatrānanda, yamidaṁ asaññasattāyatanaṁ.
+Yo nu kho, ānanda, tañca pajānāti, tassa ca samudayaṁ pajānāti, tassa ca atthaṅgamaṁ pajānāti, tassa ca assādaṁ pajānāti, tassa ca ādīnavaṁ pajānāti, tassa ca nissaraṇaṁ pajānāti, kallaṁ nu tena tadabhinanditun”ti?
+“No hetaṁ, bhante”.
+“Tatrānanda, yamidaṁ nevasaññānāsaññāyatanaṁ.
+Yo nu kho, ānanda, tañca pajānāti, tassa ca samudayaṁ pajānāti, tassa ca atthaṅgamaṁ pajānāti, tassa ca assādaṁ pajānāti, tassa ca ādīnavaṁ pajānāti, tassa ca nissaraṇaṁ pajānāti, kallaṁ nu tena tadabhinanditun”ti?
+“No hetaṁ, bhante”.
+“Yato kho, ānanda, bhikkhu imāsañca sattannaṁ viññāṇaṭṭhitīnaṁ imesañca dvinnaṁ āyatanānaṁ samudayañca atthaṅgamañca assādañca ādīnavañca nissaraṇañca yathābhūtaṁ viditvā anupādā vimutto hoti, ayaṁ vuccatānanda, bhikkhu paññāvimutto. ||| “When a mendicant, having truly understood the origin, disappearance, gratification, drawback, and escape regarding these seven planes of consciousness and these two dimensions, is freed by not grasping, they’re called a mendicant who is freed by wisdom.
+6. Aṭṭhavimokkha ||| 6. The Eight Liberations
+Aṭṭha kho ime, ānanda, vimokkhā. ||| Ānanda, there are these eight liberations.
+Katame aṭṭha? ||| What eight?
+Rūpī rūpāni passati ||| Having physical form, they see forms.
+ayaṁ paṭhamo vimokkho. ||| This is the first liberation.
+Ajjhattaṁ arūpasaññī bahiddhā rūpāni passati, ||| Not perceiving form internally, they see forms externally.
+ayaṁ dutiyo vimokkho. ||| This is the second liberation.
+Subhanteva adhimutto hoti, ||| They’re focused only on beauty.
+ayaṁ tatiyo vimokkho. ||| This is the third liberation.
+Sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati, ||| Going totally beyond perceptions of form, with the disappearance of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, they enter and remain in the dimension of infinite space.
+ayaṁ catuttho vimokkho. ||| This is the fourth liberation.
+Sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati, ||| Going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, they enter and remain in the dimension of infinite consciousness.
+ayaṁ pañcamo vimokkho. ||| This is the fifth liberation.
+Sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati, ||| Going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, they enter and remain in the dimension of nothingness.
+ayaṁ chaṭṭho vimokkho. ||| This is the sixth liberation.
+Sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati, ||| Going totally beyond the dimension of nothingness, they enter and remain in the dimension of neither perception nor non-perception.
+ayaṁ sattamo vimokkho. ||| This is the seventh liberation.
+Sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati, ||| Going totally beyond the dimension of neither perception nor non-perception, they enter and remain in the cessation of perception and feeling.
+ayaṁ aṭṭhamo vimokkho. ||| This is the eighth liberation.
+Ime kho, ānanda, aṭṭha vimokkhā. ||| These are the eight liberations.
+Yato kho, ānanda, bhikkhu ime aṭṭha vimokkhe anulomampi samāpajjati, paṭilomampi samāpajjati, anulomapaṭilomampi samāpajjati, yatthicchakaṁ yadicchakaṁ yāvaticchakaṁ samāpajjatipi vuṭṭhātipi. ||| When a mendicant enters into and withdraws from these eight liberations—in forward order, in reverse order, and in forward and reverse order—wherever they wish, whenever they wish, and for as long as they wish;
+Āsavānañca khayā anāsavaṁ cetovimuttiṁ paññāvimuttiṁ diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharati, ayaṁ vuccatānanda, bhikkhu ubhatobhāgavimutto. ||| and when they realize the undefiled freedom of heart and freedom by wisdom in this very life, and live having realized it with their own insight due to the ending of defilements, they’re called a mendicant who is freed both ways.
+Imāya ca, ānanda, ubhatobhāgavimuttiyā aññā ubhatobhāgavimutti uttaritarā vā paṇītatarā vā natthī”ti. ||| And, Ānanda, there is no other freedom both ways that is better or finer than this.”
+Idamavoca bhagavā. ||| That is what the Buddha said.
+Attamano āyasmā ānando bhagavato bhāsitaṁ abhinandīti. ||| Satisfied, Venerable Ānanda approved what the Buddha said.
+Mahānidānasuttaṁ niṭṭhitaṁ dutiyaṁ.

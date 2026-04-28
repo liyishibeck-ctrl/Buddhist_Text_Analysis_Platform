@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}{{ concept.label }} | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>{{ concept.label }}</h1>
+  <p>{{ concept.description }}</p>
+  <p>作用域：{{ concept.tradition_scope }}</p>
+  <p>关联段落：{{ concept.segment_count }}</p>
+</section>
+
+{% if concept.analysis %}
+<section class="grid grid-2">
+  <article class="card">
+    <h2>传统分布</h2>
+    <ul class="plain-list">
+      {% for item in concept.analysis.tradition_distribution %}
+      <li>{{ item.tradition_name }}：{{ item.segment_count }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+  <article class="card">
+    <h2>高频作品</h2>
+    <ul class="plain-list">
+      {% for item in concept.analysis.top_works %}
+      <li>{{ item.work_title }} · {{ item.tradition_name }} · {{ item.segment_count }}</li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+
+{% if concept.analysis.related_concepts %}
+<section class="card">
+  <h2>概念共现</h2>
+  <div class="catalog-line">
+    {% for item in concept.analysis.related_concepts %}
+    <span class="catalog-chip">{{ item.label }} · {{ item.count }}</span>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endif %}
+
+<section class="card">
+  <h2>出现位置</h2>
+  <ul class="plain-list">
+    {% for segment in concept.segments %}
+    <li>
+      <a href="{{ url_for('segment_detail_page', segment_id=segment.id) }}">{{ segment.segment_key }}</a>
+      · {{ segment.work_title }} · {{ segment.tradition_name }} · {{ segment.language_name }}
+      <div class="muted">{{ segment.content_preview }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock %}

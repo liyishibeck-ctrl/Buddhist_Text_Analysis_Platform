@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'od srung chen po'i mdo/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahākāśyapasūtra</title>
+                <title type="mainTitle" xml:lang="en">The Mahākāśyapa Sūtra</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT22084-034-028"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh40" type="text">
+                    <ref>Toh 40</ref>
+                    <biblScope>vol:34, ff.281v-282r(pp.562-563)</biblScope>
+                    <location work="UT4CZ5369" count-pages="2">
+                        <volume number="34" start-page="562" end-page="563"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14714" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11559" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-12-08T12:55:08.461Z" type="translation-status" status="4" xml:id="UT22084-034-028-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-12-08T12:55:08.461Z" type="text-version" status="0.0.1" xml:id="UT22084-034-028-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-034-028-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

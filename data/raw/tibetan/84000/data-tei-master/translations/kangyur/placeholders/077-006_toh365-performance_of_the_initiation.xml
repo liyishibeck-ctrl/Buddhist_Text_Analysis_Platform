@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dbang gi rab tu byed pa/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śekaprakriyā</title>
+                <title type="mainTitle" xml:lang="en">Performance of the Initiation</title>
+                <title type="otherTitle" xml:lang="en">[Note: an extract from the 3rd and 5th chapters of the Kālacakra Laghutantra]</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT22084-077-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh365" type="text">
+                    <ref>Toh 365</ref>
+                    <biblScope>vol.77, ff.146r-150r(pp.291-299)</biblScope>
+                    <location work="UT4CZ5369" count-pages="9">
+                        <volume number="77" start-page="291" end-page="299"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12058" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT22084-077-006-1">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-03-26T08:04:08.87Z" type="translation-status" status="4" xml:id="UT22084-077-006-2">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2024-03-26T08:04:08.87Z" type="text-version" status="0.0.1" xml:id="UT22084-077-006-3">
+                    <desc>User set version to 0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2024-04-10T06:56:20.099Z" type="translation-status" status="" xml:id="UT22084-077-006-4">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2024-04-10T06:56:20.099Z" type="text-version" status="0.0.2" xml:id="UT22084-077-006-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-04T10:06:50.394Z" type="translation-status" status="4" xml:id="UT22084-077-006-6">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-04T10:06:50.394Z" type="text-version" status="0.0.3" xml:id="UT22084-077-006-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

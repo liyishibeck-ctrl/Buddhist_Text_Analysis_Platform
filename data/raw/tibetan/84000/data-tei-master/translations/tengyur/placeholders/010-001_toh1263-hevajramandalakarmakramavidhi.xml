@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཀྱེའི་རྡོ་རྗེའི་དཀྱིལ་འཁོར་གྱི་ལས་ཀྱི་རིམ་པའི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">kye'i rdo rje'i dkyil 'khor gyi las kyi rim pa'i cho ga</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Hevajra­maṇḍala­karma­krama­vidhi</title>
+                <title xml:lang="en" type="mainTitle">A Ritual for the Stages of Activity for the Maṇḍala of Hevajra</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-010-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1263" type="text">
+                    <ref>Toh 1263</ref>
+                    <biblScope>ff. 1v-14r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-010-001-1">Saroruhavajra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-010-001-2">dge slong shakya ye shes</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-010-001-3">Gayādhara</author>
+                    <location work="UT23703" count-pages="26">
+                        <volume number="10" start-page="2" end-page="27"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21614" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7797" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:58:22.645Z" type="import" xml:id="UT23703-010-001-4" source="tengyur-data-1180-1304_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-010-001-5">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-010-001-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

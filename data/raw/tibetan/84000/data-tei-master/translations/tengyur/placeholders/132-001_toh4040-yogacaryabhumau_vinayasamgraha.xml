@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྣལ་འབྱོར་སྤྱོད་པའི་ས་ལས་འདུལ་བ་བསྡུ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rnal 'byor spyod pa'i sa las 'dul ba bsdu ba/</title>
+                <title xml:lang="en" type="mainTitle">From The Levels of Spiritual Practice: The Collection on the Vinaya</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.16 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-132-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4040" type="text">
+                    <ref>Toh 4040</ref>
+                    <biblScope>ff. 1v-22r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-132-001-1">Asaṅga</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-132-001-2">Jinamitra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-132-001-3">zhu chen gyi lo tsa ba ban de ye shes sde</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-132-001-4">Prajñāvarman</author>
+                    <location work="UT23703" count-pages="43">
+                        <volume number="132" start-page="2" end-page="44"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10736" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2021-12-21T11:34:23.518Z" user="john">This and the preceding text together make up the third of the “Five Sections on the Levels” (sa sde lnga), which covers the three piṭakas; this text covers the vinaya. A third text covering the mātṛkā (or abhidharma) does not seem to have been translated into Tibetan but exists in Chinese.</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#john" when="2021-12-15T19:23:21.096Z" type="text-version" status="0.0.3" xml:id="UT23703-132-001-5">
+                    <desc>Auto (update-locations)</desc>
+                </change>
+                <change who="#john" when="2021-12-15T19:24:34.157Z" type="text-version" status="0.0.4" xml:id="UT23703-132-001-6">
+                    <desc>Auto (update-locations)</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-132-001-7" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="attribution" xml:id="UT23703-132-001-8" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>Authorship taken from Degé dkar chag.</desc>
+                </change>
+                <change who="#sameer" when="2022-03-10T07:43:47.284Z" type="text-version" status="0.0.7" xml:id="UT23703-132-001-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-04-18T08:53:55.118Z" type="text-version" status="0.0.8" xml:id="UT23703-132-001-10">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-04-18T09:53:16.819Z" type="text-version" status="0.0.9" xml:id="UT23703-132-001-11">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-05-19T14:26:43.261Z" type="text-version" status="0.0.10" xml:id="UT23703-132-001-12">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-05-22T20:30:05.109Z" type="text-version" status="0.0.11" xml:id="UT23703-132-001-13">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-06-07T06:48:13.515Z" type="text-version" status="0.0.12" xml:id="UT23703-132-001-14">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-07-23T21:11:43.192Z" type="text-version" status="0.0.13" xml:id="UT23703-132-001-15">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T13:21:54.154Z" type="text-version" status="0.0.14" xml:id="UT23703-132-001-16">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-09-30T16:24:42.058Z" type="text-version" status="0.0.15" xml:id="UT23703-132-001-17">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.16" xml:id="UT23703-132-001-18">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

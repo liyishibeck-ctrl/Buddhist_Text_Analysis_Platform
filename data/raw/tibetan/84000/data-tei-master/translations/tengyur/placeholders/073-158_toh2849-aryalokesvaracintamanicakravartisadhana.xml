@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་འཇིག་རྟེན་དབང་ཕྱུག་གི་ཡིད་བཞིན་གྱི་ནོར་བུ་འཁོར་ལོས་སྒྱུར་བའི་སྒྲུབ་ཐབས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa 'jig rten dbang phyug gi yid bzhin gyi nor bu 'khor los sgyur ba'i sgrub thabs/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­lokeśvara­cintāmaṇi­cakravarti­sādhana</title>
+                <title xml:lang="en" type="mainTitle">A Sādhana of the Cakravartin Ārya Cintamāṇi Avalokiteśvara</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-158"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2849" type="text">
+                    <ref>Toh 2849</ref>
+                    <biblScope>ff. 188r-191v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-073-158-1">Jetāri</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-073-158-2">Puṇyakīrti</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-073-158-3">sna nam rdo rje bla ma</author>
+                    <location work="UT23703" count-pages="7">
+                        <volume number="73" start-page="376" end-page="382"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9465" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-158-4" source="tengyur-data-2848-2864_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-073-158-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

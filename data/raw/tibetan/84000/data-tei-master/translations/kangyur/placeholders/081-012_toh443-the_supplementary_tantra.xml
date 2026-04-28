@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Supplementary Tantra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rgyud phyi ma/</title>
+                <title type="otherTitle" xml:lang="en">The Supplementary Tantra (to the Guhyasamāja)</title>
+                <author role="translatorMain" xml:id="UT22084-081-012-1"/>
+                <author role="translatorEng" xml:id="UT22084-081-012-2">Catherine Dalton</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.9 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT22084-081-012"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh443" type="text">
+                    <ref>Toh 443</ref>
+                    <biblScope>vol.81, ff.148r-157v(pp.295-314)</biblScope>
+                    <location work="UT4CZ5369" count-pages="20">
+                        <volume number="81" start-page="295" end-page="314"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12152" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt>
+                <note type="title" date-time="2022-01-14T18:37:57.638Z" user="john">The eighteenth chapter of the Guhysamājatantra, treated as a separate text.</note>
+            </notesStmt>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-081-012-3">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2020-12-09T11:08:38.59Z" type="translation-status" status="" xml:id="UT22084-081-012-4">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2020-12-09T11:08:38.59Z" type="text-version" status="0.0.2" xml:id="UT22084-081-012-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-06-10T14:42:21.507Z" type="text-version" status="0.0.3" xml:id="UT22084-081-012-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:11:06.281Z" type="translation-status" status="3" xml:id="UT22084-081-012-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:11:06.281Z" type="text-version" status="0.0.5" xml:id="UT22084-081-012-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:11:27.579Z" type="text-version" status="0.0.6" xml:id="UT22084-081-012-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:11:42.449Z" type="text-version" status="0.0.7" xml:id="UT22084-081-012-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.8" xml:id="UT22084-081-012-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-05T07:45:46.192Z" type="translation-status" status="2.h" xml:id="UT22084-081-012-12">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-05T07:45:46.192Z" type="text-version" status="0.0.9" xml:id="UT22084-081-012-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

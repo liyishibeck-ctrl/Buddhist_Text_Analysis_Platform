@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of Repaying the Kindness of the Buddha Who Has Great Skill in Means</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">thabs mkhas pa chen po sangs rgyas drin lan bsab pa'i mdo/</title>
+                <title type="otherTitle" xml:lang="zh">大方便佛報恩經 (Da fangbian fo bao’en jing)</title>
+                <author role="translatorMain" xml:id="UT22084-076-007-8">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-076-007-9">Ana Cristina Lopes</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-076-007"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh353" type="text">
+                    <ref>Toh 353</ref>
+                    <biblScope>vol.76, ff.86r-197v(pp.171-394)</biblScope>
+                    <location work="UT4CZ5369" count-pages="224">
+                        <volume number="76" start-page="171" end-page="394"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12043" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2020-10-02T13:54:26.637Z" type="translation-status" status="4" xml:id="UT22084-076-007-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2020-10-02T13:54:26.637Z" type="text-version" status="0.0.1" xml:id="UT22084-076-007-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T09:51:46.591Z" type="translation-status" status="" xml:id="UT22084-076-007-3">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2020-11-30T09:51:46.591Z" type="text-version" status="0.0.2" xml:id="UT22084-076-007-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-076-007-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T14:09:02.372Z" type="translation-status" status="3" xml:id="UT22084-076-007-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T14:09:02.372Z" type="text-version" status="0.0.4" xml:id="UT22084-076-007-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T14:09:30.088Z" type="text-version" status="0.0.5" xml:id="UT22084-076-007-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

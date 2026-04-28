@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མཁའ་འགྲོ་མ་རྡོ་རྗེ་གསང་བའི་གླུ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mkha' 'gro ma rdo rje gsang ba'i glu/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ḍākinī­vajra­guhya­gīti</title>
+                <title xml:lang="en" type="mainTitle">A Song of the Secret Vajra Ḍākiṇī</title>
+                <title xml:lang="bo" type="longTitle">མཁའ་འགྲོ་མ་རྡོ་རྗེ་གསང་བའི་གླུ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">mkha' 'gro ma rdo rje gsang ba'i glu zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Ḍākinī­vajra­guhya­gīti­nāma</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-106"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2446" type="text">
+                    <ref>Toh 2446</ref>
+                    <biblScope>ff. 79r-81r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-053-106-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-053-106-2">zha ma lo tsA ba ston pa seng ge rgyal po</author>
+                    <location work="UT23703" count-pages="5">
+                        <volume number="53" start-page="157" end-page="161"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9030" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-106-3" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="general" xml:id="UT23703-053-106-4" source="tengyur-data-2373-2449_PH_new_v2.4.xml">
+                    <desc>The colophon states that the text was taken from the “secret treasury of the ḍākiṇīs” (mkha' 'gro ma'i gsang mdzod).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-053-106-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

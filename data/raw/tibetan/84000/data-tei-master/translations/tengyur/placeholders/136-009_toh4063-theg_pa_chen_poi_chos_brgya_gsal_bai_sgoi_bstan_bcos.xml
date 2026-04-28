@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ཐེག་པ་ཆེན་པོའི་ཆོས་བརྒྱ་གསལ་པའི་སྒོའི་བསྟན་བཅོས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">theg pa chen po'i chos brgya gsal pa'i sgo'i bstan bcos/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Mahāyāna­śatadharma­prakāśa­mukha­śāstra</title>
+                <title xml:lang="en" type="mainTitle">A Treatise on the Gateway to the Knowledge on One Hundred Doctrines of the Mahāyāna</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.7 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-136-009"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4063" type="text">
+                    <ref>Toh 4063</ref>
+                    <biblScope>ff. 145r-146v</biblScope>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-136-009-1">Dharmapāla (I)</author>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-136-009-2">Vasubandhu</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-136-009-3">Thang­saṃ­tsang</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="1" xml:id="UT23703-136-009-4">ston pa dge slong chos kyi rgyal mtshan</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" revision="2" xml:id="UT23703-136-009-5">rgya nag chen po'i lha btsun chos kyi rin chen</editor>
+                    <location work="UT23703" count-pages="4">
+                        <volume number="136" start-page="289" end-page="292"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10763" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-12-16T09:21:32.669Z" type="text-version" status="0.0.3" xml:id="UT23703-136-009-6">
+                    <desc>Auto (update-locations)</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-136-009-7" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="attribution" xml:id="UT23703-136-009-8" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>The colophon notes that it appears that in the Chinese version this text is attributed to Vasubandhu, but in Tibet the text is attributed to Dharmapāla
+            (fl. ca. 530-561).</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.5" xml:id="UT23703-136-009-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.6" xml:id="UT23703-136-009-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#admin" when="2024-01-29T08:49:50.232Z" type="text-version" status="0.0.7" xml:id="UT23703-136-009-11">
+                    <desc>TEI migrated to 2.21.0 - author contested</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

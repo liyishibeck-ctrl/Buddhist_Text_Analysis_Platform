@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">thabs kyi zhags pa pad+mo'i phreng ba/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="en">The Noble Lasso of Methods, the Lotus Garland</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa thabs kyi zhags pa pad+mo'i phreng zhes bya ba/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">thabs kyi zhags pa pad+mo'i phreng ba don bsdus pa'i rgyud/</title>
+                <title type="otherTitle" xml:lang="en">The Noose of Methods, the Lotus Garland Synopsis Tantra</title>
+                <author role="translatorMain" xml:id="UT22084-098-005-1"/>
+                <author role="translatorEng" xml:id="UT22084-098-005-2">Robert Mayer</author>
+                <author role="translatorEng" xml:id="UT22084-098-005-3">Cathy Cantwell</author>
+                <editor role="projectEditor" xml:id="UT22084-098-005-4">Tom Tillemans</editor>
+                <editor role="projectEditor" xml:id="UT22084-098-005-5">James Duncan Gentry</editor>
+                <consultant role="projectManager" xml:id="UT22084-098-005-6">Cathy Cantwell</consultant>
+                <consultant role="dharmaMaster" xml:id="UT22084-098-005-7">Khenpo Gyurme Tsultrim</consultant>
+                <consultant role="dharmaMaster" xml:id="UT22084-098-005-8">Ven. Changling Rinpoche</consultant>
+                <consultant role="dharmaMaster" xml:id="UT22084-098-005-9">Lopon P. Ogyan Tanzin</consultant>
+                <consultant role="dharmaMaster" xml:id="UT22084-098-005-10">Lama Kunzang Dorje</consultant>
+                <consultant role="advisor" xml:id="UT22084-098-005-11">Vesna Wallace</consultant>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-098-005"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh835" type="text">
+                    <ref>Toh 835</ref>
+                    <biblScope>vol.98,ff. 299r-311r(pp. 597-621)</biblScope>
+                    <location work="UT4CZ5369" count-pages="25">
+                        <volume number="98" start-page="597" end-page="621"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20566" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12584" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-098-005-12">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T10:01:16.811Z" type="text-version" status="0.0.2" xml:id="UT22084-098-005-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T10:01:44.765Z" type="text-version" status="0.0.3" xml:id="UT22084-098-005-14">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T10:02:05.33Z" type="text-version" status="0.0.4" xml:id="UT22084-098-005-15">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-098-005-16">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary">
+                <head type="summary" tid="2">Summary</head>
+                <p tid="1">Reconstructed stemmatic edition of the tantra together with its Tengyur commentary (G 2716, Q 4717; not found in Degé) in a restored version, IOLTibJ321.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

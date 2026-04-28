@@ -1,0 +1,62 @@
+{
+  "source": {
+    "id": "source-tibetan-kangyur-tengyur-plain",
+    "slug": "tibetan-kangyur-tengyur-plain",
+    "title": "Tibetan Kangyur/Tengyur plain text (Wylie)",
+    "source_type": "canon",
+    "citation": "Based on open access Tibetan Buddhist canon resources including the 84000 project and THL Tibetan Literary Archive.",
+    "url": "https://84000.co/",
+    "access_note": "This sample uses selected texts for academic research purposes.",
+    "is_sample": false
+  },
+  "texts": [
+    {
+      "work_id": "work-shes-rab-snying-po",
+      "canonical_code": "Kangyur Prajnaparamita Heart Sutra",
+      "language_id": "lang-bo",
+      "text_path": "data/raw/tibetan/texts/shes_rab_snying_po.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-shes-rab-snying-po-wylie",
+        "slug": "shes-rab-snying-po-wylie",
+        "title": "Shes rab snying po (Heart Sutra)",
+        "version_label": "Wylie transliteration",
+        "summary": "The Prajnaparamita Heart Sutra in Tibetan translation from the Kangyur. This is the classic text on emptiness widely studied in Tibetan Buddhism.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-buddha",
+          "role": "attributed_speaker",
+          "note": "The Heart Sutra attributed to the Buddha in the Tibetan canon."
+        }
+      ]
+    },
+    {
+      "work_id": "work-bodhicaryavatara",
+      "canonical_code": "Tengyur Bodhicaryavatara",
+      "language_id": "lang-bo",
+      "text_path": "data/raw/tibetan/texts/bodhicaryavatara_preface_ch1.txt",
+      "segment_by": "paragraph",
+      "is_sample": false,
+      "text_version": {
+        "id": "tv-bodhicaryavatara-ch1-wylie",
+        "slug": "bodhicaryavatara-ch1-wylie",
+        "title": "Bodhicaryavatara - Chapter 1",
+        "version_label": "Shantideva Wylie",
+        "summary": "Preface and first chapter of Bodhicaryavatara by Shantideva, praising bodhicitta.",
+        "sample_note": null,
+        "is_sample": false
+      },
+      "person_roles": [
+        {
+          "person_id": "person-shantideva",
+          "role": "author",
+          "note": "Shantideva, 8th century Indian Buddhist scholar."
+        }
+      ]
+    }
+  ]
+}

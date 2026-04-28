@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">Corpus of Verbal Roots for the Kātantra [System]</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Kalāpa­dhātu­kāya</title>
+                <title xml:lang="bo" type="mainTitle">བྱིངས་ཀྱི་ཚོགས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">byings kyi tshogs/</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT23703-195-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4285" type="text">
+                    <ref>Toh 4285</ref>
+                    <biblScope>ff. 63r-75r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-195-004-3">Durgasiṃha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-195-004-4">shakya'i dge slong rin chen grub</author>
+                    <location work="UT23703" count-pages="25">
+                        <volume number="195" start-page="125" end-page="149"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11050" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11069" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:22:13.369Z" type="import" xml:id="UT23703-195-004-5" source="tengyur-data-4269-4305_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2022-03-23T12:44:28.815Z" type="translation-status" status="3" xml:id="UT23703-195-004-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-23T12:44:28.815Z" type="text-version" status="0.0.1" xml:id="UT23703-195-004-7">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-23T12:44:57.212Z" type="text-version" status="0.0.2" xml:id="UT23703-195-004-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-195-004-9">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-06T07:34:40.135Z" type="translation-status" status="4" xml:id="UT23703-195-004-10">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-06T07:34:40.135Z" type="text-version" status="0.0.4" xml:id="UT23703-195-004-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-06T07:35:12.138Z" type="text-version" status="0.0.5" xml:id="UT23703-195-004-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

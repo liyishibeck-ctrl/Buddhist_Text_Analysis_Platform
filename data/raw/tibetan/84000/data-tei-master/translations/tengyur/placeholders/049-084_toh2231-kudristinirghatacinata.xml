@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">ལྟ་བ་ངན་སེལ་གྱི་འདྲན་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">lta ba ngan sel gyi 'dran pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Kudṛṣṭi­nirghāta­cintā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Difficult Points of “Clearing Away Bad Views”</title>
+                <title xml:lang="bo" type="longTitle">ལྟ་བ་ངན་པ་སེལ་བའི་དཀའ་འགྲེལ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">lta ba ngan pa sel ba'i dka' 'grel/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Kudṛṣṭi­nirghāta­vākya­ṭippinikā</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.1 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-049-084"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2231" type="text">
+                    <ref>Toh 2231</ref>
+                    <biblScope/>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-049-084-1">Avadhūtipa Advayavajra</author>
+                    <author role="authorContested" xml:lang="Sa-Ltn" xml:id="UT23703-049-084-2">Maitrīpa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-049-084-3">mtshur</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-049-084-4">Vajrapāṇi</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="49" start-page="219" end-page="221"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8811" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh2229"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-049-084-5" source="tengyur-data-2217-2254_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="general" xml:id="UT23703-049-084-6" source="tengyur-data-2217-2254_PH_new_v2.4.xml">
+                    <desc>The commentary on the Kudṛṣṭinirghātana distinguishes three states: a causal state, the state of fruition, and the state of working for others. In the root
+            text there is only mention of a causal state, but the last two are easily seen to correlate with the state of no more learning.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-049-084-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#admin" when="2024-01-29T08:49:50.232Z" type="text-version" status="0.0.1" xml:id="UT23703-049-084-8">
+                    <desc>TEI migrated to 2.21.0 - author contested</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

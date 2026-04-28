@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དཔལ་འཁོར་ལོ་སྡོམ་པའི་དཀའ་འགྲེལ་སྒྲུབ་པའི་ཐབས་ཀྱི་གླེང་གཞི་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">dpal 'khor lo sdom pa'i dka' 'grel sgrub pa'i thabs kyi gleng gzhi zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Sādhana­nidāna­nāma­śrī­cakrasaṃvara­pañjikā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Difficult Points of the Cakrasaṃvara Tantra called “An Introduction to the Sādhana”</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Sādhananidhi­nāma­śrīcakrasaṃvarapañjikā</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-016-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1401" type="text">
+                    <ref>Toh 1401</ref>
+                    <biblScope>ff. 1v-78r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-016-001-1">Kambalapāda</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-016-001-2">Sūryagupta</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-016-001-3">bod kyi lo tsa ba 'gos lhas btsas</author>
+                    <location work="UT23703" count-pages="154">
+                        <volume number="16" start-page="2" end-page="155"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7942" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh368"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-016-001-4" source="tengyur-data-1401-1424_PH_new_v2.3.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-016-001-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

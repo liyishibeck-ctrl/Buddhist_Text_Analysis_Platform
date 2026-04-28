@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Detailed Procedures for the Thousand-Armed, Thousand-Eyed Avalokiteśvara</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">spyan ras gzigs lag stong mig stong gi cho ga zhib mo/</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">byang chub sems dpa' 'phags pa spyan ras gzigs dbang phyug lag pa stong dang mig stong dang ldan pa'i cho ga zhib mo/</title>
+                <title type="otherTitle" xml:lang="zh">《千手千眼觀世音菩薩詳軌》（千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼經）</title>
+                <author role="translatorMain" xml:id="UT22084-093-005-1"/>
+                <author role="translatorEng" xml:id="UT22084-093-005-2">Joshua Capitanio</author>
+                <sponsor xml:id="UT22084-093-005-3">George Gu, May E Ho Gu, Likai Gu, Lilian Gu</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-093-005"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh690" type="text">
+                    <ref>Toh 690</ref>
+                    <biblScope>vol.93, ff.66r-94r(pp.131-187)</biblScope>
+                    <location work="UT4CZ5369" count-pages="57">
+                        <volume number="93" start-page="131" end-page="187"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12430" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#cabie-sim" when="2022-07-26T07:42:16.581Z" type="text-version" status="0.0.1" xml:id="UT22084-093-005-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-09-27T14:00:41.19Z" type="translation-status" status="4" xml:id="UT22084-093-005-5">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2022-09-27T14:00:41.19Z" type="text-version" status="0.0.2" xml:id="UT22084-093-005-6">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-10-06T08:41:10.984Z" type="translation-status" status="3" xml:id="UT22084-093-005-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-10-06T08:41:10.984Z" type="text-version" status="0.0.3" xml:id="UT22084-093-005-8">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-10-06T08:54:46.133Z" type="text-version" status="0.0.4" xml:id="UT22084-093-005-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-093-005-10">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="acknowledgment">
+                <p tid="1">Sponsored by George Gu, May E Ho Gu, Likai Gu, Lilian Gu.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

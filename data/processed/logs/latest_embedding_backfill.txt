@@ -1,0 +1,6 @@
+PID=23808
+STDOUT=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\embedding_backfill_20260422_101127.out.log
+STDERR=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\embedding_backfill_20260422_101127.err.log
+BATCH_SIZE=10
+START_AFTER=seg-cbeta-t0001-2364
+STATE_FILE=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\embedding_resume_state.json

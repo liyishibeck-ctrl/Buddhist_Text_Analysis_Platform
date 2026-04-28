@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Dhāraṇī for Assuaging Epidemic Fevers</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rims nad zhi ba'i gzungs/</title>
+                <author role="translatorMain" xml:id="UT22084-091-021-1"/>
+                <author role="translatorEng" xml:id="UT22084-091-021-2">Ryan Damron</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-091-021"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh624" type="text">
+                    <ref>Toh 624</ref>
+                    <biblScope>vol.91, ff.62v-62v(pp.124-124)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="91" start-page="124" end-page="124"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21415" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12358" work="W22084"/>
+                </bibl>
+                <bibl key="toh1017" type="text">
+                    <ref>Toh 1017</ref>
+                    <biblScope>vol.101, ff.181r-181r(pp.361-361)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="102" start-page="361" end-page="361"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC20568" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12780" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2022-12-15T14:13:47.303Z" type="translation-status" status="3" xml:id="UT22084-091-021-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-15T14:13:47.303Z" type="text-version" status="0.0.1" xml:id="UT22084-091-021-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-15T14:14:21.145Z" type="text-version" status="0.0.2" xml:id="UT22084-091-021-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-091-021-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#sameer" when="2024-07-03T06:02:41.402Z" type="text-version" status="0.0.4" xml:id="UT22084-091-021-7">
+                    <desc>Updated vol. 101 page numbers to match the ekangyur</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

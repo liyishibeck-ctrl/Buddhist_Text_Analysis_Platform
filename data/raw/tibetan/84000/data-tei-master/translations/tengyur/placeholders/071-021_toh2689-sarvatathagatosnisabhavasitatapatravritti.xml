@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་གཙུག་ཏོར་ནས་བྱུང་བ་གདུགས་དཀར་མོ་ཅན་ཞེས་བྱ་བའི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">de bzhin gshegs pa thams cad kyi gtsug tor nas byung ba gdugs dkar mo can zhes bya ba'i 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Sarvatathāgatoṣṇīṣa­bhava­sitātapatrā­nāma­vṛtti</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on Sitātapatrā, Arisen from the Uṣṇīṣa of All Tathāgatas</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-071-021"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2689" type="text">
+                    <ref>Toh 2689</ref>
+                    <biblScope>ff. 320v-330r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-071-021-1">Śūraṅgamavajra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-071-021-2">zangs dkar 'phags pa shes rab</author>
+                    <location work="UT23703" count-pages="20">
+                        <volume number="71" start-page="640" end-page="659"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9300" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-071-021-3" source="tengyur-data-2670-2696_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-071-021-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

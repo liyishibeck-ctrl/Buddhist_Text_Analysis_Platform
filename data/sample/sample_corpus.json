@@ -1,0 +1,1014 @@
+{
+  "metadata": {
+    "dataset_name": "Buddhist Text Analysis Platform Sample Corpus",
+    "is_sample_corpus": true,
+    "warning": "All passages are sample/mock excerpts or condensed paraphrases for architecture validation only, not a complete canonical corpus."
+  },
+  "traditions": [
+    {
+      "id": "trad-han",
+      "slug": "han",
+      "name": "汉传",
+      "description": "Chinese Buddhist textual tradition sample.",
+      "canonical_scope": "Taisho-oriented sample collection"
+    },
+    {
+      "id": "trad-pali",
+      "slug": "pali",
+      "name": "巴利 / 上座部",
+      "description": "Pali canon sample for Theravada-oriented comparison.",
+      "canonical_scope": "Sutta Pitaka oriented sample"
+    },
+    {
+      "id": "trad-tibetan",
+      "slug": "tibetan",
+      "name": "藏传",
+      "description": "Tibetan Buddhist textual tradition sample.",
+      "canonical_scope": "Kangyur/Tengyur-related sample"
+    }
+  ],
+  "languages": [
+    {
+      "id": "lang-lzh",
+      "code": "lzh",
+      "name": "文言汉文",
+      "script": "Han",
+      "direction": "ltr",
+      "description": "Literary Chinese for the Chinese canon sample."
+    },
+    {
+      "id": "lang-pi",
+      "code": "pi-Latn",
+      "name": "Pali (Romanized)",
+      "script": "Latin",
+      "direction": "ltr",
+      "description": "Romanized Pali for the MVP sample."
+    },
+    {
+      "id": "lang-pi-sinh",
+      "code": "pi-Sinh",
+      "name": "Pali (Sinhala script)",
+      "script": "Sinhala",
+      "direction": "ltr",
+      "description": "Pali in the native Sinhala script."
+    },
+    {
+      "id": "lang-pi-deva",
+      "code": "pi-Deva",
+      "name": "Pali (Devanagari)",
+      "script": "Devanagari",
+      "direction": "ltr",
+      "description": "Pali written in Devanagari (common in South Asian traditions)."
+    },
+    {
+      "id": "lang-bo",
+      "code": "bo-x-ewts",
+      "name": "Tibetan (Wylie)",
+      "script": "Latin transliteration",
+      "direction": "ltr",
+      "description": "Tibetan represented in Wylie transliteration for stable MVP handling."
+    },
+    {
+      "id": "lang-bo-tibt",
+      "code": "bo-Tibt",
+      "name": "Tibetan (Ucen script)",
+      "script": "Tibetan",
+      "direction": "ltr",
+      "description": "Tibetan in the native Tibetan Uchen script (Unicode)."
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-taisho",
+      "slug": "taisho-sample",
+      "title": "Taisho canon metadata sample",
+      "source_type": "catalog",
+      "citation": "Representative Taisho-oriented metadata entry used only for sample seeding.",
+      "url": "https://example.org/sample/taisho",
+      "access_note": "Sample/mock only; not a full digital canon mirror.",
+      "is_sample": true
+    },
+    {
+      "id": "source-cst4",
+      "slug": "cst4-sample",
+      "title": "Pali canon metadata sample",
+      "source_type": "catalog",
+      "citation": "Representative Pali metadata entry inspired by public canon catalogs.",
+      "url": "https://example.org/sample/pali",
+      "access_note": "Sample/mock only; excerpt content condensed for MVP.",
+      "is_sample": true
+    },
+    {
+      "id": "source-kangyur",
+      "slug": "kangyur-sample",
+      "title": "Tibetan Kangyur metadata sample",
+      "source_type": "catalog",
+      "citation": "Representative Tibetan canon metadata sample for cross-tradition modeling.",
+      "url": "https://example.org/sample/kangyur",
+      "access_note": "Sample/mock only; not a full witness record.",
+      "is_sample": true
+    },
+    {
+      "id": "source-tengyur",
+      "slug": "tengyur-sample",
+      "title": "Tengyur and scholastic sample",
+      "source_type": "catalog",
+      "citation": "Representative scholastic metadata sample used to validate related-text handling.",
+      "url": "https://example.org/sample/tengyur",
+      "access_note": "Sample/mock only; doctrinal excerpts are condensed.",
+      "is_sample": true
+    }
+  ],
+  "collections": [
+    {
+      "id": "coll-taisho-sample",
+      "slug": "taisho-sample",
+      "title": "汉传大藏经样本集",
+      "tradition_id": "trad-han",
+      "description": "Small Taisho-like sample collection for MVP validation.",
+      "coverage_note": "Contains three works with representative structure only.",
+      "is_sample": true
+    },
+    {
+      "id": "coll-pali-sutta-sample",
+      "slug": "pali-sutta-sample",
+      "title": "巴利三藏样本集",
+      "tradition_id": "trad-pali",
+      "description": "Small Pali Sutta sample for paragraph search and comparison.",
+      "coverage_note": "Contains three sutta samples.",
+      "is_sample": true
+    },
+    {
+      "id": "coll-kangyur-sample",
+      "slug": "kangyur-sample",
+      "title": "藏文甘珠尔样本集",
+      "tradition_id": "trad-tibetan",
+      "description": "Kangyur-related sample entries for Tibetan canonical browsing.",
+      "coverage_note": "Contains one canonical-style sample work.",
+      "is_sample": true
+    },
+    {
+      "id": "coll-tengyur-sample",
+      "slug": "tengyur-sample",
+      "title": "藏文论典样本集",
+      "tradition_id": "trad-tibetan",
+      "description": "Tengyur and scholastic sample entries for related works.",
+      "coverage_note": "Contains one scholastic sample work.",
+      "is_sample": true
+    }
+  ],
+  "persons": [
+    {
+      "id": "person-xuanzang",
+      "slug": "xuanzang",
+      "display_name": "玄奘",
+      "native_name": "玄奘",
+      "tradition_affiliation": "汉传",
+      "role_summary": "译者",
+      "note": "Sample role entry for translated Chinese canonical texts."
+    },
+    {
+      "id": "person-kumarajiva",
+      "slug": "kumarajiva",
+      "display_name": "鸠摩罗什",
+      "native_name": "鸠摩罗什",
+      "tradition_affiliation": "汉传",
+      "role_summary": "译者",
+      "note": "Sample translator entry."
+    },
+    {
+      "id": "person-buddha",
+      "slug": "buddha",
+      "display_name": "Buddha",
+      "native_name": "佛陀",
+      "tradition_affiliation": "cross-tradition",
+      "role_summary": "Attributed speaker",
+      "note": "Used in sample metadata as attributed speaker rather than a modern critical author field."
+    },
+    {
+      "id": "person-shantideva",
+      "slug": "shantideva",
+      "display_name": "Shantideva",
+      "native_name": "Santideva",
+      "tradition_affiliation": "藏传 / 印度佛教",
+      "role_summary": "Author",
+      "note": "Sample scholastic author entry."
+    },
+    {
+      "id": "person-anon-redactors",
+      "slug": "anonymous-redactors",
+      "display_name": "Anonymous Redactors",
+      "native_name": null,
+      "tradition_affiliation": "cross-tradition",
+      "role_summary": "Compilers",
+      "note": "Used where critical authorship is collective or uncertain."
+    },
+    {
+      "id": "person-imperial-tibetan-translators",
+      "slug": "imperial-tibetan-translators",
+      "display_name": "Imperial Tibetan Translators",
+      "native_name": null,
+      "tradition_affiliation": "藏传",
+      "role_summary": "Translation lineage",
+      "note": "Collective placeholder for Tibetan translation teams in the MVP."
+    }
+  ],
+  "works": [
+    {
+      "id": "work-xinjing",
+      "slug": "xinjing",
+      "tradition_id": "trad-han",
+      "collection_id": "coll-taisho-sample",
+      "title": "般若波罗蜜多心经",
+      "title_english": "Heart Sutra",
+      "title_transliterated": "Banruo boluomiduo xinjing",
+      "genre": "sutra",
+      "summary": "Chinese Heart Sutra sample with condensed paragraph-level structure for comparison.",
+      "authenticity_note": "Sample/mock excerpt only; not a critical edition.",
+      "is_sample": true
+    },
+    {
+      "id": "work-jingangjing",
+      "slug": "jingangjing",
+      "tradition_id": "trad-han",
+      "collection_id": "coll-taisho-sample",
+      "title": "金刚般若波罗蜜经",
+      "title_english": "Diamond Sutra",
+      "title_transliterated": "Jingang banruo boluomi jing",
+      "genre": "sutra",
+      "summary": "Chinese Diamond Sutra sample focusing on non-attachment and marks.",
+      "authenticity_note": "Sample/mock excerpt only; not a full text.",
+      "is_sample": true
+    },
+    {
+      "id": "work-amituojing",
+      "slug": "amituojing",
+      "tradition_id": "trad-han",
+      "collection_id": "coll-taisho-sample",
+      "title": "阿弥陀经",
+      "title_english": "Amitabha Sutra",
+      "title_transliterated": "Amituo jing",
+      "genre": "sutra",
+      "summary": "Chinese Pure Land sample for concept-tag and collection validation.",
+      "authenticity_note": "Sample/mock excerpt only; not a full liturgical witness.",
+      "is_sample": true
+    },
+    {
+      "id": "work-dhammacakkappavattana",
+      "slug": "dhammacakkappavattana",
+      "tradition_id": "trad-pali",
+      "collection_id": "coll-pali-sutta-sample",
+      "title": "Dhammacakkappavattana Sutta",
+      "title_english": "Setting the Wheel of Dhamma in Motion",
+      "title_transliterated": null,
+      "genre": "sutta",
+      "summary": "Pali sample centered on the middle way and the four noble truths.",
+      "authenticity_note": "Sample/mock excerpt only; condensed for schema validation.",
+      "is_sample": true
+    },
+    {
+      "id": "work-metta-sutta",
+      "slug": "metta-sutta",
+      "tradition_id": "trad-pali",
+      "collection_id": "coll-pali-sutta-sample",
+      "title": "Karaniya Metta Sutta",
+      "title_english": "Discourse on Loving-Kindness",
+      "title_transliterated": null,
+      "genre": "sutta",
+      "summary": "Pali sample on loving-kindness for cross-tradition concept analysis.",
+      "authenticity_note": "Sample/mock excerpt only.",
+      "is_sample": true
+    },
+    {
+      "id": "work-anattalakkhana",
+      "slug": "anattalakkhana",
+      "tradition_id": "trad-pali",
+      "collection_id": "coll-pali-sutta-sample",
+      "title": "Anattalakkhana Sutta",
+      "title_english": "Discourse on the Characteristic of Non-self",
+      "title_transliterated": null,
+      "genre": "sutta",
+      "summary": "Pali sample on non-self and impermanence.",
+      "authenticity_note": "Sample/mock excerpt only.",
+      "is_sample": true
+    },
+    {
+      "id": "work-shes-rab-snying-po",
+      "slug": "shes-rab-snying-po",
+      "tradition_id": "trad-tibetan",
+      "collection_id": "coll-kangyur-sample",
+      "title": "Shes rab snying po",
+      "title_english": "Heart of Prajnaparamita",
+      "title_transliterated": "Shes rab snying po",
+      "genre": "sutra",
+      "summary": "Tibetan Heart Sutra sample aligned to the Chinese sample by segment.",
+      "authenticity_note": "Sample/mock excerpt only; alignment is illustrative.",
+      "is_sample": true
+    },
+    {
+      "id": "work-bodhicaryavatara",
+      "slug": "bodhicaryavatara",
+      "tradition_id": "trad-tibetan",
+      "collection_id": "coll-tengyur-sample",
+      "title": "Byang chub sems dpa'i spyod pa la 'jug pa",
+      "title_english": "Bodhicaryavatara",
+      "title_transliterated": "Bodhicaryavatara",
+      "genre": "treatise",
+      "summary": "Tibetan scholastic sample for bodhicitta and compassion-oriented concept tracking.",
+      "authenticity_note": "Sample/mock excerpt only; not a full scholastic witness.",
+      "is_sample": true
+    }
+  ],
+  "work_person_roles": [
+    {
+      "work_id": "work-dhammacakkappavattana",
+      "person_id": "person-buddha",
+      "role": "attributed_speaker",
+      "note": "Illustrative metadata role only."
+    },
+    {
+      "work_id": "work-anattalakkhana",
+      "person_id": "person-buddha",
+      "role": "attributed_speaker",
+      "note": "Illustrative metadata role only."
+    },
+    {
+      "work_id": "work-bodhicaryavatara",
+      "person_id": "person-shantideva",
+      "role": "author",
+      "note": "Scholastic authorship sample."
+    },
+    {
+      "work_id": "work-metta-sutta",
+      "person_id": "person-anon-redactors",
+      "role": "canonical_compilers",
+      "note": "Collective redaction placeholder."
+    }
+  ],
+  "text_versions": [
+    {
+      "id": "tv-xinjing-xuanzang",
+      "slug": "xinjing-xuanzang-sample",
+      "work_id": "work-xinjing",
+      "language_id": "lang-lzh",
+      "source_id": "source-taisho",
+      "title": "般若波罗蜜多心经（样本）",
+      "version_label": "玄奘译样本",
+      "script_note": "Chinese characters",
+      "date_note": "Sample dating metadata only",
+      "summary": "Three condensed sample segments for MVP paragraph retrieval.",
+      "sample_note": "sample/mock excerpt, not a complete translation witness",
+      "is_sample": true
+    },
+    {
+      "id": "tv-jingangjing-kumarajiva",
+      "slug": "jingangjing-kumarajiva-sample",
+      "work_id": "work-jingangjing",
+      "language_id": "lang-lzh",
+      "source_id": "source-taisho",
+      "title": "金刚经（样本）",
+      "version_label": "鸠摩罗什译样本",
+      "script_note": "Chinese characters",
+      "date_note": "Sample dating metadata only",
+      "summary": "Three condensed sample segments focused on marks and non-abiding.",
+      "sample_note": "sample/mock excerpt, not a full canonical text",
+      "is_sample": true
+    },
+    {
+      "id": "tv-amituojing-kumarajiva",
+      "slug": "amituojing-kumarajiva-sample",
+      "work_id": "work-amituojing",
+      "language_id": "lang-lzh",
+      "source_id": "source-taisho",
+      "title": "阿弥陀经（样本）",
+      "version_label": "鸠摩罗什译样本",
+      "script_note": "Chinese characters",
+      "date_note": "Sample dating metadata only",
+      "summary": "Three condensed Pure Land sample segments.",
+      "sample_note": "sample/mock excerpt, not a ritual edition",
+      "is_sample": true
+    },
+    {
+      "id": "tv-dhammacakkappavattana-cst4",
+      "slug": "dhammacakkappavattana-cst4-sample",
+      "work_id": "work-dhammacakkappavattana",
+      "language_id": "lang-pi",
+      "source_id": "source-cst4",
+      "title": "Dhammacakkappavattana Sutta (sample)",
+      "version_label": "Romanized Pali sample",
+      "script_note": "Latin transliteration",
+      "date_note": "Sample source metadata only",
+      "summary": "Three condensed sample segments on middle way and noble truths.",
+      "sample_note": "sample/mock excerpt, not a full Pali edition",
+      "is_sample": true
+    },
+    {
+      "id": "tv-metta-cst4",
+      "slug": "metta-sutta-cst4-sample",
+      "work_id": "work-metta-sutta",
+      "language_id": "lang-pi",
+      "source_id": "source-cst4",
+      "title": "Karaniya Metta Sutta (sample)",
+      "version_label": "Romanized Pali sample",
+      "script_note": "Latin transliteration",
+      "date_note": "Sample source metadata only",
+      "summary": "Three condensed sample segments for universal friendliness.",
+      "sample_note": "sample/mock excerpt only",
+      "is_sample": true
+    },
+    {
+      "id": "tv-anatta-cst4",
+      "slug": "anattalakkhana-cst4-sample",
+      "work_id": "work-anattalakkhana",
+      "language_id": "lang-pi",
+      "source_id": "source-cst4",
+      "title": "Anattalakkhana Sutta (sample)",
+      "version_label": "Romanized Pali sample",
+      "script_note": "Latin transliteration",
+      "date_note": "Sample source metadata only",
+      "summary": "Three condensed sample segments on non-self and impermanence.",
+      "sample_note": "sample/mock excerpt only",
+      "is_sample": true
+    },
+    {
+      "id": "tv-heart-tibetan-kangyur",
+      "slug": "heart-tibetan-kangyur-sample",
+      "work_id": "work-shes-rab-snying-po",
+      "language_id": "lang-bo",
+      "source_id": "source-kangyur",
+      "title": "Shes rab snying po (sample)",
+      "version_label": "Tibetan canonical sample",
+      "script_note": "Wylie transliteration",
+      "date_note": "Sample source metadata only",
+      "summary": "Three Tibetan sample segments aligned to the Chinese Heart Sutra sample.",
+      "sample_note": "sample/mock excerpt only; alignment is demonstrative",
+      "is_sample": true
+    },
+    {
+      "id": "tv-bodhicaryavatara-tibetan",
+      "slug": "bodhicaryavatara-tibetan-sample",
+      "work_id": "work-bodhicaryavatara",
+      "language_id": "lang-bo",
+      "source_id": "source-tengyur",
+      "title": "Bodhicaryavatara (sample)",
+      "version_label": "Tibetan scholastic sample",
+      "script_note": "Wylie transliteration",
+      "date_note": "Sample source metadata only",
+      "summary": "Three Tibetan scholastic sample segments on bodhicitta and compassion.",
+      "sample_note": "sample/mock excerpt only",
+      "is_sample": true
+    }
+  ],
+  "text_version_person_roles": [
+    {
+      "text_version_id": "tv-xinjing-xuanzang",
+      "person_id": "person-xuanzang",
+      "role": "translator",
+      "note": "Sample translator metadata."
+    },
+    {
+      "text_version_id": "tv-jingangjing-kumarajiva",
+      "person_id": "person-kumarajiva",
+      "role": "translator",
+      "note": "Sample translator metadata."
+    },
+    {
+      "text_version_id": "tv-amituojing-kumarajiva",
+      "person_id": "person-kumarajiva",
+      "role": "translator",
+      "note": "Sample translator metadata."
+    },
+    {
+      "text_version_id": "tv-dhammacakkappavattana-cst4",
+      "person_id": "person-anon-redactors",
+      "role": "edition_compilers",
+      "note": "Edition lineage placeholder."
+    },
+    {
+      "text_version_id": "tv-metta-cst4",
+      "person_id": "person-anon-redactors",
+      "role": "edition_compilers",
+      "note": "Edition lineage placeholder."
+    },
+    {
+      "text_version_id": "tv-anatta-cst4",
+      "person_id": "person-anon-redactors",
+      "role": "edition_compilers",
+      "note": "Edition lineage placeholder."
+    },
+    {
+      "text_version_id": "tv-heart-tibetan-kangyur",
+      "person_id": "person-imperial-tibetan-translators",
+      "role": "translation_lineage",
+      "note": "Collective Tibetan translation placeholder."
+    },
+    {
+      "text_version_id": "tv-bodhicaryavatara-tibetan",
+      "person_id": "person-imperial-tibetan-translators",
+      "role": "translation_lineage",
+      "note": "Collective Tibetan translation placeholder."
+    }
+  ],
+  "structural_units": [
+    { "id": "su-xj-root", "text_version_id": "tv-xinjing-xuanzang", "parent_id": null, "unit_type": "sutra", "label": "Whole Text", "title": "心经总段", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-xj-01", "text_version_id": "tv-xinjing-xuanzang", "parent_id": "su-xj-root", "unit_type": "section", "label": "Section 1", "title": "空性展开", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-xj-02", "text_version_id": "tv-xinjing-xuanzang", "parent_id": "su-xj-root", "unit_type": "section", "label": "Section 2", "title": "无碍与解脱", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-jg-root", "text_version_id": "tv-jingangjing-kumarajiva", "parent_id": null, "unit_type": "sutra", "label": "Whole Text", "title": "金刚经总段", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-jg-01", "text_version_id": "tv-jingangjing-kumarajiva", "parent_id": "su-jg-root", "unit_type": "section", "label": "Section 1", "title": "诸相与非相", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-jg-02", "text_version_id": "tv-jingangjing-kumarajiva", "parent_id": "su-jg-root", "unit_type": "section", "label": "Section 2", "title": "应无所住", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-am-root", "text_version_id": "tv-amituojing-kumarajiva", "parent_id": null, "unit_type": "sutra", "label": "Whole Text", "title": "阿弥陀经总段", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-am-01", "text_version_id": "tv-amituojing-kumarajiva", "parent_id": "su-am-root", "unit_type": "section", "label": "Section 1", "title": "极乐世界", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-am-02", "text_version_id": "tv-amituojing-kumarajiva", "parent_id": "su-am-root", "unit_type": "section", "label": "Section 2", "title": "持名往生", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-dc-root", "text_version_id": "tv-dhammacakkappavattana-cst4", "parent_id": null, "unit_type": "sutta", "label": "Whole Text", "title": "Sutta overview", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-dc-01", "text_version_id": "tv-dhammacakkappavattana-cst4", "parent_id": "su-dc-root", "unit_type": "section", "label": "Section 1", "title": "Two extremes and middle way", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-dc-02", "text_version_id": "tv-dhammacakkappavattana-cst4", "parent_id": "su-dc-root", "unit_type": "section", "label": "Section 2", "title": "Noble truths", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-me-root", "text_version_id": "tv-metta-cst4", "parent_id": null, "unit_type": "sutta", "label": "Whole Text", "title": "Metta Sutta overview", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-me-01", "text_version_id": "tv-metta-cst4", "parent_id": "su-me-root", "unit_type": "section", "label": "Section 1", "title": "Cultivation prerequisites", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-me-02", "text_version_id": "tv-metta-cst4", "parent_id": "su-me-root", "unit_type": "section", "label": "Section 2", "title": "Universal loving-kindness", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-an-root", "text_version_id": "tv-anatta-cst4", "parent_id": null, "unit_type": "sutta", "label": "Whole Text", "title": "Anattalakkhana overview", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-an-01", "text_version_id": "tv-anatta-cst4", "parent_id": "su-an-root", "unit_type": "section", "label": "Section 1", "title": "Aggregates are not self", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-an-02", "text_version_id": "tv-anatta-cst4", "parent_id": "su-an-root", "unit_type": "section", "label": "Section 2", "title": "Impermanence and release", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-th-root", "text_version_id": "tv-heart-tibetan-kangyur", "parent_id": null, "unit_type": "sutra", "label": "Whole Text", "title": "Shes rab snying po overview", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-th-01", "text_version_id": "tv-heart-tibetan-kangyur", "parent_id": "su-th-root", "unit_type": "section", "label": "Section 1", "title": "Stong pa nyid", "position": 1, "depth": 1, "path": "whole-text/section-1" },
+    { "id": "su-th-02", "text_version_id": "tv-heart-tibetan-kangyur", "parent_id": "su-th-root", "unit_type": "section", "label": "Section 2", "title": "Sgrib pa med pa", "position": 2, "depth": 1, "path": "whole-text/section-2" },
+    { "id": "su-bc-root", "text_version_id": "tv-bodhicaryavatara-tibetan", "parent_id": null, "unit_type": "treatise", "label": "Whole Text", "title": "Bodhicaryavatara overview", "position": 1, "depth": 0, "path": "whole-text" },
+    { "id": "su-bc-01", "text_version_id": "tv-bodhicaryavatara-tibetan", "parent_id": "su-bc-root", "unit_type": "chapter", "label": "Chapter 1", "title": "Bodhicitta praise", "position": 1, "depth": 1, "path": "whole-text/chapter-1" },
+    { "id": "su-bc-02", "text_version_id": "tv-bodhicaryavatara-tibetan", "parent_id": "su-bc-root", "unit_type": "chapter", "label": "Chapter 2", "title": "Compassion and self-grasping", "position": 2, "depth": 1, "path": "whole-text/chapter-2" }
+  ],
+  "segments": [
+    {
+      "id": "seg-xj-001",
+      "text_version_id": "tv-xinjing-xuanzang",
+      "structural_unit_id": "su-xj-01",
+      "segment_key": "XJ.1",
+      "title": "色空不二",
+      "content": "色不异空，空不异色；受想行识，亦复如是。",
+      "content_gloss": "Form and emptiness are inseparable; the same applies to the aggregates.",
+      "normalized_content": "色不异空 空不异色 受想行识 亦复如是",
+      "note": "sample/mock paraphrase",
+      "position": 1,
+      "char_count": 22,
+      "metadata_json": { "is_mock_excerpt": true, "section": "emptiness" }
+    },
+    {
+      "id": "seg-xj-002",
+      "text_version_id": "tv-xinjing-xuanzang",
+      "structural_unit_id": "su-xj-01",
+      "segment_key": "XJ.2",
+      "title": "诸法无著",
+      "content": "无眼耳鼻舌身意，无色声香味触法；以此显诸法不可执著。",
+      "content_gloss": "The senses and their objects are denied to loosen attachment to fixed dharmas.",
+      "normalized_content": "无眼耳鼻舌身意 无色声香味触法 诸法不可执著",
+      "note": "sample/mock paraphrase",
+      "position": 2,
+      "char_count": 29,
+      "metadata_json": { "is_mock_excerpt": true, "section": "non-attachment" }
+    },
+    {
+      "id": "seg-xj-003",
+      "text_version_id": "tv-xinjing-xuanzang",
+      "structural_unit_id": "su-xj-02",
+      "segment_key": "XJ.3",
+      "title": "心无罣碍",
+      "content": "依般若波罗蜜多，心无罣碍，故无有恐怖，远离颠倒梦想。",
+      "content_gloss": "Reliance on prajna removes obstruction and fear.",
+      "normalized_content": "依般若波罗蜜多 心无罣碍 故无有恐怖 远离颠倒梦想",
+      "note": "sample/mock paraphrase",
+      "position": 3,
+      "char_count": 30,
+      "metadata_json": { "is_mock_excerpt": true, "section": "liberation" }
+    },
+    {
+      "id": "seg-jg-001",
+      "text_version_id": "tv-jingangjing-kumarajiva",
+      "structural_unit_id": "su-jg-01",
+      "segment_key": "JG.1",
+      "title": "诸相非相",
+      "content": "凡所有相，皆是虚妄；若见诸相非相，即见如来。",
+      "content_gloss": "All marks are deceptive; seeing non-mark as such is seeing the Tathagata.",
+      "normalized_content": "凡所有相 皆是虚妄 若见诸相非相 即见如来",
+      "note": "sample/mock paraphrase",
+      "position": 1,
+      "char_count": 24,
+      "metadata_json": { "is_mock_excerpt": true, "section": "marks" }
+    },
+    {
+      "id": "seg-jg-002",
+      "text_version_id": "tv-jingangjing-kumarajiva",
+      "structural_unit_id": "su-jg-02",
+      "segment_key": "JG.2",
+      "title": "应无所住",
+      "content": "应无所住而生其心，发心而不滞于色声等境。",
+      "content_gloss": "Generate resolve without abiding in sensory objects.",
+      "normalized_content": "应无所住而生其心 发心而不滞于色声等境",
+      "note": "sample/mock paraphrase",
+      "position": 2,
+      "char_count": 23,
+      "metadata_json": { "is_mock_excerpt": true, "section": "non-abiding" }
+    },
+    {
+      "id": "seg-jg-003",
+      "text_version_id": "tv-jingangjing-kumarajiva",
+      "structural_unit_id": "su-jg-02",
+      "segment_key": "JG.3",
+      "title": "离相求见",
+      "content": "若以色见我，以音声求我，是人行邪道，不能见如来。",
+      "content_gloss": "Seeking awakening through visible or audible signs misleads.",
+      "normalized_content": "若以色见我 以音声求我 是人行邪道 不能见如来",
+      "note": "sample/mock paraphrase",
+      "position": 3,
+      "char_count": 27,
+      "metadata_json": { "is_mock_excerpt": true, "section": "misdirected-seeking" }
+    },
+    {
+      "id": "seg-am-001",
+      "text_version_id": "tv-amituojing-kumarajiva",
+      "structural_unit_id": "su-am-01",
+      "segment_key": "AM.1",
+      "title": "极乐国土",
+      "content": "从是西方，过十万亿佛土，有世界名曰极乐。",
+      "content_gloss": "Beyond many Buddha-fields lies the realm called Sukhavati.",
+      "normalized_content": "从是西方 过十万亿佛土 有世界名曰极乐",
+      "note": "sample/mock paraphrase",
+      "position": 1,
+      "char_count": 22,
+      "metadata_json": { "is_mock_excerpt": true, "section": "pure-land" }
+    },
+    {
+      "id": "seg-am-002",
+      "text_version_id": "tv-amituojing-kumarajiva",
+      "structural_unit_id": "su-am-01",
+      "segment_key": "AM.2",
+      "title": "无有众苦",
+      "content": "其国众生，无有众苦，但受诸乐，故名极乐。",
+      "content_gloss": "That realm is characterized by freedom from suffering and abundance of joy.",
+      "normalized_content": "其国众生 无有众苦 但受诸乐 故名极乐",
+      "note": "sample/mock paraphrase",
+      "position": 2,
+      "char_count": 22,
+      "metadata_json": { "is_mock_excerpt": true, "section": "pure-land" }
+    },
+    {
+      "id": "seg-am-003",
+      "text_version_id": "tv-amituojing-kumarajiva",
+      "structural_unit_id": "su-am-02",
+      "segment_key": "AM.3",
+      "title": "执持名号",
+      "content": "闻说阿弥陀佛，执持名号，一心不乱，可为往生之门。",
+      "content_gloss": "Single-minded recollection of Amitabha is presented as a path to rebirth there.",
+      "normalized_content": "闻说阿弥陀佛 执持名号 一心不乱 可为往生之门",
+      "note": "sample/mock paraphrase",
+      "position": 3,
+      "char_count": 26,
+      "metadata_json": { "is_mock_excerpt": true, "section": "practice" }
+    },
+    {
+      "id": "seg-dc-001",
+      "text_version_id": "tv-dhammacakkappavattana-cst4",
+      "structural_unit_id": "su-dc-01",
+      "segment_key": "DC.1",
+      "title": "Two extremes",
+      "content": "Dve me bhikkhave anta pabbajitena na sevitabba; ete ubho ante anupagamma majjhima patipada.",
+      "content_gloss": "Two extremes are to be avoided; the middle way is taught instead.",
+      "normalized_content": "dve me bhikkhave anta pabbajitena na sevitabba ete ubho ante anupagamma majjhima patipada",
+      "note": "sample/mock condensed passage",
+      "position": 1,
+      "char_count": 104,
+      "metadata_json": { "is_mock_excerpt": true, "section": "middle-way" }
+    },
+    {
+      "id": "seg-dc-002",
+      "text_version_id": "tv-dhammacakkappavattana-cst4",
+      "structural_unit_id": "su-dc-02",
+      "segment_key": "DC.2",
+      "title": "Four noble truths",
+      "content": "Idam dukkham ariyasaccam; ayam dukkhasamudayo; ayam dukkhanirodho; ayam dukkhanirodhagamina patipada.",
+      "content_gloss": "The discourse frames suffering, its arising, cessation, and the path.",
+      "normalized_content": "idam dukkham ariyasaccam ayam dukkhasamudayo ayam dukkhanirodho ayam dukkhanirodhagamina patipada",
+      "note": "sample/mock condensed passage",
+      "position": 2,
+      "char_count": 118,
+      "metadata_json": { "is_mock_excerpt": true, "section": "four-noble-truths" }
+    },
+    {
+      "id": "seg-dc-003",
+      "text_version_id": "tv-dhammacakkappavattana-cst4",
+      "structural_unit_id": "su-dc-02",
+      "segment_key": "DC.3",
+      "title": "Vision arises",
+      "content": "Yam kinci samudayadhammam sabbam tam nirodhadhammam; dhammacakkhum udapadi.",
+      "content_gloss": "Insight arises that what has a nature of arising also ceases.",
+      "normalized_content": "yam kinci samudayadhammam sabbam tam nirodhadhammam dhammacakkhum udapadi",
+      "note": "sample/mock condensed passage",
+      "position": 3,
+      "char_count": 83,
+      "metadata_json": { "is_mock_excerpt": true, "section": "insight" }
+    },
+    {
+      "id": "seg-me-001",
+      "text_version_id": "tv-metta-cst4",
+      "structural_unit_id": "su-me-01",
+      "segment_key": "ME.1",
+      "title": "Kusalena",
+      "content": "Karaniyam attha kusalena: sakko uju ca suhuju ca, suvaco cassa mudu anatimani.",
+      "content_gloss": "One cultivating the good should be capable, upright, gentle, and humble.",
+      "normalized_content": "karaniyam attha kusalena sakko uju ca suhuju ca suvaco cassa mudu anatimani",
+      "note": "sample/mock condensed passage",
+      "position": 1,
+      "char_count": 92,
+      "metadata_json": { "is_mock_excerpt": true, "section": "ethics" }
+    },
+    {
+      "id": "seg-me-002",
+      "text_version_id": "tv-metta-cst4",
+      "structural_unit_id": "su-me-02",
+      "segment_key": "ME.2",
+      "title": "Mother and child",
+      "content": "Mata yatha niyam puttam ayusa eka puttam anurakkhe, evampi sabbabhutesu mettam bhavaye aparimanam.",
+      "content_gloss": "Like a mother guarding her only child, one should cultivate boundless loving-kindness.",
+      "normalized_content": "mata yatha niyam puttam ayusa eka puttam anurakkhe evampi sabbabhutesu mettam bhavaye aparimanam",
+      "note": "sample/mock condensed passage",
+      "position": 2,
+      "char_count": 116,
+      "metadata_json": { "is_mock_excerpt": true, "section": "loving-kindness" }
+    },
+    {
+      "id": "seg-me-003",
+      "text_version_id": "tv-metta-cst4",
+      "structural_unit_id": "su-me-02",
+      "segment_key": "ME.3",
+      "title": "Boundless mind",
+      "content": "Mettan ca sabbalokasmin manasam bhavaye aparimanam uddham adho ca tiriyanca.",
+      "content_gloss": "One should cultivate an immeasurable mind of friendliness in every direction.",
+      "normalized_content": "mettan ca sabbalokasmin manasam bhavaye aparimanam uddham adho ca tiriyanca",
+      "note": "sample/mock condensed passage",
+      "position": 3,
+      "char_count": 88,
+      "metadata_json": { "is_mock_excerpt": true, "section": "boundlessness" }
+    },
+    {
+      "id": "seg-an-001",
+      "text_version_id": "tv-anatta-cst4",
+      "structural_unit_id": "su-an-01",
+      "segment_key": "AN.1",
+      "title": "Form is not self",
+      "content": "Rupam bhikkhave anatta; yadanatta tam n'etam mama n'eso ham asmi na me so atta.",
+      "content_gloss": "Form is not self and should not be grasped as mine or me.",
+      "normalized_content": "rupam bhikkhave anatta yadanatta tam netam mama neso ham asmi na me so atta",
+      "note": "sample/mock condensed passage",
+      "position": 1,
+      "char_count": 89,
+      "metadata_json": { "is_mock_excerpt": true, "section": "non-self" }
+    },
+    {
+      "id": "seg-an-002",
+      "text_version_id": "tv-anatta-cst4",
+      "structural_unit_id": "su-an-01",
+      "segment_key": "AN.2",
+      "title": "Aggregates are not self",
+      "content": "Vedana anatta, sanna anatta, sankhara anatta, vinnanam anatta.",
+      "content_gloss": "Feeling, perception, formations, and consciousness are likewise not self.",
+      "normalized_content": "vedana anatta sanna anatta sankhara anatta vinnanam anatta",
+      "note": "sample/mock condensed passage",
+      "position": 2,
+      "char_count": 71,
+      "metadata_json": { "is_mock_excerpt": true, "section": "aggregates" }
+    },
+    {
+      "id": "seg-an-003",
+      "text_version_id": "tv-anatta-cst4",
+      "structural_unit_id": "su-an-02",
+      "segment_key": "AN.3",
+      "title": "Impermanent, suffering, not self",
+      "content": "Yam aniccam tam dukkham; yam dukkham tadanatta; evam passato nibbindati virajjati vimuccati.",
+      "content_gloss": "What is impermanent is suffering; what is suffering is not self; through seeing this one is released.",
+      "normalized_content": "yam aniccam tam dukkham yam dukkham tadanatta evam passato nibbindati virajjati vimuccati",
+      "note": "sample/mock condensed passage",
+      "position": 3,
+      "char_count": 106,
+      "metadata_json": { "is_mock_excerpt": true, "section": "release" }
+    },
+    {
+      "id": "seg-th-001",
+      "text_version_id": "tv-heart-tibetan-kangyur",
+      "structural_unit_id": "su-th-01",
+      "segment_key": "TH.1",
+      "title": "Gzugs stong pa",
+      "content": "gzugs stong pa'o stong pa nyid kyang gzugs so; tshor ba dang 'du shes dang 'du byed dang rnam par shes pa'ang de bzhin no.",
+      "content_gloss": "Form is emptiness and emptiness is form; the same holds for the aggregates.",
+      "normalized_content": "gzugs stong pao stong pa nyid kyang gzugs so tshor ba dang du shes dang du byed dang rnam par shes paang de bzhin no",
+      "note": "sample/mock transliterated excerpt",
+      "position": 1,
+      "char_count": 130,
+      "metadata_json": { "is_mock_excerpt": true, "section": "emptiness" }
+    },
+    {
+      "id": "seg-th-002",
+      "text_version_id": "tv-heart-tibetan-kangyur",
+      "structural_unit_id": "su-th-01",
+      "segment_key": "TH.2",
+      "title": "Mig med",
+      "content": "mig med rna ba med sna med lce med lus med yid med; gzugs sgra dri ro reg bya chos rnams la mi gnas pa bstan pa.",
+      "content_gloss": "The sense faculties and their fields are denied to indicate non-clinging to dharmas.",
+      "normalized_content": "mig med rna ba med sna med lce med lus med yid med gzugs sgra dri ro reg bya chos rnams la mi gnas pa bstan pa",
+      "note": "sample/mock transliterated excerpt",
+      "position": 2,
+      "char_count": 124,
+      "metadata_json": { "is_mock_excerpt": true, "section": "non-attachment" }
+    },
+    {
+      "id": "seg-th-003",
+      "text_version_id": "tv-heart-tibetan-kangyur",
+      "structural_unit_id": "su-th-02",
+      "segment_key": "TH.3",
+      "title": "Sgrib pa med",
+      "content": "shes rab kyi pha rol tu phyin pa la brten nas sems la sgrib pa med do; de ltar na 'jigs pa med do.",
+      "content_gloss": "Because one relies on prajnaparamita, the mind is unobstructed and free from fear.",
+      "normalized_content": "shes rab kyi pha rol tu phyin pa la brten nas sems la sgrib pa med do de ltar na jigs pa med do",
+      "note": "sample/mock transliterated excerpt",
+      "position": 3,
+      "char_count": 108,
+      "metadata_json": { "is_mock_excerpt": true, "section": "liberation" }
+    },
+    {
+      "id": "seg-bc-001",
+      "text_version_id": "tv-bodhicaryavatara-tibetan",
+      "structural_unit_id": "su-bc-01",
+      "segment_key": "BC.1",
+      "title": "Bodhicitta jewel",
+      "content": "gang tshe byang chub sems ni rin chen gyi 'bras bu lta bu zhig yin no.",
+      "content_gloss": "Bodhicitta is praised as something like an incomparable jewel.",
+      "normalized_content": "gang tshe byang chub sems ni rin chen gyi bras bu lta bu zhig yin no",
+      "note": "sample/mock paraphrase in Wylie",
+      "position": 1,
+      "char_count": 73,
+      "metadata_json": { "is_mock_excerpt": true, "section": "bodhicitta" }
+    },
+    {
+      "id": "seg-bc-002",
+      "text_version_id": "tv-bodhicaryavatara-tibetan",
+      "structural_unit_id": "su-bc-02",
+      "segment_key": "BC.2",
+      "title": "Benefit of beings",
+      "content": "bde ba thams cad sems can gyi don du 'dod pa las byung ba lta bur bshad do.",
+      "content_gloss": "All happiness is described as arising from concern for the welfare of beings.",
+      "normalized_content": "bde ba thams cad sems can gyi don du dod pa las byung ba lta bur bshad do",
+      "note": "sample/mock paraphrase in Wylie",
+      "position": 2,
+      "char_count": 82,
+      "metadata_json": { "is_mock_excerpt": true, "section": "compassion" }
+    },
+    {
+      "id": "seg-bc-003",
+      "text_version_id": "tv-bodhicaryavatara-tibetan",
+      "structural_unit_id": "su-bc-02",
+      "segment_key": "BC.3",
+      "title": "Self-grasping quiets",
+      "content": "rang bzhin med pa rtogs pas bdag 'dzin zhi bar 'gyur zhes bstan pa.",
+      "content_gloss": "Realizing lack of inherent nature quiets self-grasping.",
+      "normalized_content": "rang bzhin med pa rtogs pas bdag dzin zhi bar gyur zhes bstan pa",
+      "note": "sample/mock paraphrase in Wylie",
+      "position": 3,
+      "char_count": 72,
+      "metadata_json": { "is_mock_excerpt": true, "section": "emptiness" }
+    }
+  ],
+  "concept_tags": [
+    { "id": "concept-emptiness", "slug": "emptiness", "label": "空性 / Emptiness", "tradition_scope": "cross-tradition", "description": "Used for emptiness-oriented passages across traditions." },
+    { "id": "concept-non-attachment", "slug": "non-attachment", "label": "不执著 / Non-attachment", "tradition_scope": "cross-tradition", "description": "Used for passages about non-clinging to marks, senses, or dharmas." },
+    { "id": "concept-pure-land", "slug": "pure-land", "label": "净土 / Pure Land", "tradition_scope": "han", "description": "Used for Amitabha and Sukhavati-oriented passages." },
+    { "id": "concept-middle-way", "slug": "middle-way", "label": "中道 / Middle Way", "tradition_scope": "pali", "description": "Used for middle-way discourse samples." },
+    { "id": "concept-four-noble-truths", "slug": "four-noble-truths", "label": "四圣谛 / Four Noble Truths", "tradition_scope": "pali", "description": "Used for core truth-structure passages." },
+    { "id": "concept-loving-kindness", "slug": "loving-kindness", "label": "慈 / Loving-Kindness", "tradition_scope": "cross-tradition", "description": "Used for metta and allied compassion-oriented passages." },
+    { "id": "concept-non-self", "slug": "non-self", "label": "无我 / Non-self", "tradition_scope": "cross-tradition", "description": "Used for passages explicitly negating selfhood." },
+    { "id": "concept-bodhicitta", "slug": "bodhicitta", "label": "菩提心 / Bodhicitta", "tradition_scope": "tibetan", "description": "Used for bodhicitta-oriented scholastic passages." },
+    { "id": "concept-compassion", "slug": "compassion", "label": "悲 / Compassion", "tradition_scope": "cross-tradition", "description": "Used for concern for the welfare of beings." }
+  ],
+  "segment_concept_tags": [
+    { "segment_id": "seg-xj-001", "concept_tag_id": "concept-emptiness", "confidence": 0.99, "note": "Core emptiness formula." },
+    { "segment_id": "seg-xj-002", "concept_tag_id": "concept-non-attachment", "confidence": 0.94, "note": "Denial of fixed sensory dharmas." },
+    { "segment_id": "seg-xj-003", "concept_tag_id": "concept-emptiness", "confidence": 0.82, "note": "Liberation through prajna." },
+    { "segment_id": "seg-jg-001", "concept_tag_id": "concept-emptiness", "confidence": 0.77, "note": "Marks and non-marks." },
+    { "segment_id": "seg-jg-002", "concept_tag_id": "concept-non-attachment", "confidence": 0.96, "note": "Non-abiding mind." },
+    { "segment_id": "seg-jg-003", "concept_tag_id": "concept-non-attachment", "confidence": 0.73, "note": "Avoiding sign-based seeking." },
+    { "segment_id": "seg-am-001", "concept_tag_id": "concept-pure-land", "confidence": 0.97, "note": "Sukhavati sample." },
+    { "segment_id": "seg-am-002", "concept_tag_id": "concept-pure-land", "confidence": 0.95, "note": "Characteristics of the realm." },
+    { "segment_id": "seg-am-003", "concept_tag_id": "concept-pure-land", "confidence": 0.89, "note": "Name-recitation as practice." },
+    { "segment_id": "seg-dc-001", "concept_tag_id": "concept-middle-way", "confidence": 0.98, "note": "Middle-way statement." },
+    { "segment_id": "seg-dc-002", "concept_tag_id": "concept-four-noble-truths", "confidence": 0.99, "note": "Truth structure." },
+    { "segment_id": "seg-dc-003", "concept_tag_id": "concept-four-noble-truths", "confidence": 0.76, "note": "Insight into arising and cessation." },
+    { "segment_id": "seg-me-002", "concept_tag_id": "concept-loving-kindness", "confidence": 0.99, "note": "Classic metta analogy." },
+    { "segment_id": "seg-me-003", "concept_tag_id": "concept-loving-kindness", "confidence": 0.94, "note": "Immeasurable friendliness." },
+    { "segment_id": "seg-an-001", "concept_tag_id": "concept-non-self", "confidence": 0.99, "note": "Form is not self." },
+    { "segment_id": "seg-an-002", "concept_tag_id": "concept-non-self", "confidence": 0.99, "note": "Aggregates are not self." },
+    { "segment_id": "seg-an-003", "concept_tag_id": "concept-non-self", "confidence": 0.96, "note": "Impermanent, suffering, not self." },
+    { "segment_id": "seg-th-001", "concept_tag_id": "concept-emptiness", "confidence": 0.99, "note": "Tibetan parallel to XJ.1." },
+    { "segment_id": "seg-th-002", "concept_tag_id": "concept-non-attachment", "confidence": 0.92, "note": "Tibetan denial of sensory fields." },
+    { "segment_id": "seg-th-003", "concept_tag_id": "concept-emptiness", "confidence": 0.82, "note": "Freedom from obstruction." },
+    { "segment_id": "seg-bc-001", "concept_tag_id": "concept-bodhicitta", "confidence": 0.99, "note": "Praise of bodhicitta." },
+    { "segment_id": "seg-bc-002", "concept_tag_id": "concept-compassion", "confidence": 0.95, "note": "Benefit of beings." },
+    { "segment_id": "seg-bc-003", "concept_tag_id": "concept-emptiness", "confidence": 0.85, "note": "Emptiness reduces self-grasping." },
+    { "segment_id": "seg-bc-003", "concept_tag_id": "concept-non-self", "confidence": 0.78, "note": "Self-grasping softens through insight." }
+  ],
+  "parallel_links": [
+    {
+      "id": "pl-xj-th-001",
+      "source_segment_id": "seg-xj-001",
+      "target_segment_id": "seg-th-001",
+      "relation_type": "equivalent_translation",
+      "confidence": 0.99,
+      "note": "Chinese and Tibetan Heart Sutra sample alignment."
+    },
+    {
+      "id": "pl-xj-th-002",
+      "source_segment_id": "seg-xj-002",
+      "target_segment_id": "seg-th-002",
+      "relation_type": "equivalent_translation",
+      "confidence": 0.97,
+      "note": "Chinese and Tibetan denial-of-sense-fields alignment."
+    },
+    {
+      "id": "pl-xj-th-003",
+      "source_segment_id": "seg-xj-003",
+      "target_segment_id": "seg-th-003",
+      "relation_type": "equivalent_translation",
+      "confidence": 0.96,
+      "note": "Chinese and Tibetan liberation/fearlessness alignment."
+    },
+    {
+      "id": "pl-jg-an-001",
+      "source_segment_id": "seg-jg-001",
+      "target_segment_id": "seg-an-003",
+      "relation_type": "thematic_correspondence",
+      "confidence": 0.58,
+      "note": "Not a strict parallel; used to show cross-tradition conceptual resonance."
+    },
+    {
+      "id": "pl-me-bc-001",
+      "source_segment_id": "seg-me-002",
+      "target_segment_id": "seg-bc-002",
+      "relation_type": "thematic_correspondence",
+      "confidence": 0.64,
+      "note": "Boundless kindness and universal concern for beings."
+    }
+  ],
+  "citation_links": [
+    {
+      "id": "cl-bc-xj-001",
+      "source_segment_id": "seg-bc-003",
+      "target_segment_id": "seg-xj-001",
+      "relation_type": "doctrinal_echo",
+      "note": "Illustrative citation-style relation for future graph expansion."
+    }
+  ],
+  "embedding_index_metadata": [
+    {
+      "id": "eim-seg-xj-001",
+      "owner_type": "segment",
+      "owner_id": "seg-xj-001",
+      "chunk_scope": "segment",
+      "embedding_model": "text-embedding-3-large",
+      "vector_backend": "pgvector",
+      "dimension": 3072,
+      "status": "planned",
+      "indexed_at": null,
+      "metadata_json": { "collection": "sample", "priority": "high" }
+    },
+    {
+      "id": "eim-seg-th-001",
+      "owner_type": "segment",
+      "owner_id": "seg-th-001",
+      "chunk_scope": "segment",
+      "embedding_model": "text-embedding-3-large",
+      "vector_backend": "pgvector",
+      "dimension": 3072,
+      "status": "planned",
+      "indexed_at": null,
+      "metadata_json": { "collection": "sample", "priority": "high" }
+    },
+    {
+      "id": "eim-seg-me-002",
+      "owner_type": "segment",
+      "owner_id": "seg-me-002",
+      "chunk_scope": "segment",
+      "embedding_model": "text-embedding-3-large",
+      "vector_backend": "pgvector",
+      "dimension": 3072,
+      "status": "planned",
+      "indexed_at": null,
+      "metadata_json": { "collection": "sample", "priority": "medium" }
+    },
+    {
+      "id": "eim-work-bc",
+      "owner_type": "work",
+      "owner_id": "work-bodhicaryavatara",
+      "chunk_scope": "work",
+      "embedding_model": "text-embedding-3-large",
+      "vector_backend": "pgvector",
+      "dimension": 3072,
+      "status": "planned",
+      "indexed_at": null,
+      "metadata_json": { "collection": "sample", "priority": "medium", "strategy": "aggregate-work-summary" }
+    }
+  ]
+}

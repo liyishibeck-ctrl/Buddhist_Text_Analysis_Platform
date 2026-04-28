@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 44: Transcendence of the World</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Lokottaraparivarta</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'jig rten las 'das pa'i le'u/</title>
+                <title type="otherTitle" xml:lang="zh">離世間品</title>
+                <author role="translatorMain" xml:id="UT22084-037-006-8">Dharmachakra Translation Committee</author>
+                <consultant role="dharmaMaster" xml:id="UT22084-037-006-11">Chökyi Nyima Rinpoche</consultant>
+                <consultant role="projectManager" xml:id="UT22084-037-006-12">Thomas Doctor</consultant>
+                <author role="translatorEng" xml:id="UT22084-037-006-13">Thomas Doctor</author>
+                <sponsor xml:id="UT22084-037-006-1">Nomura Shin, Dong Biao, and Ozer Dong</sponsor>
+                <sponsor xml:id="UT22084-037-006-2">Yang Xi Juan</sponsor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.6 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-037-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-44" type="chapter">
+                    <ref>Toh 44-44</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="268">
+                        <volume number="37" start-page="282" end-page="549"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14712" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-03-16T16:42:23.413Z" type="text-version" status="0.0.1" xml:id="UT22084-037-006-3">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#amy" when="2021-05-11T05:20:57.221Z" type="text-version" status="0.0.2" xml:id="UT22084-037-006-4">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-037-006-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:50:32.028Z" type="translation-status" status="3" xml:id="UT22084-037-006-6">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:50:32.028Z" type="text-version" status="0.0.4" xml:id="UT22084-037-006-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:51:01.865Z" type="text-version" status="0.0.5" xml:id="UT22084-037-006-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-11-09T12:51:24.392Z" type="text-version" status="0.0.6" xml:id="UT22084-037-006-14">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

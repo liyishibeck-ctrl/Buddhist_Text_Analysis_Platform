@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Sūtra of the Dense Array</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ghanavyūhasūtra</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rgyan stug po bkod pa'i mdo/</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Āryaghanavyūhanāmamahāyānasūtra</title>
+                <title type="otherTitle" xml:lang="Bo-Ltn">'phags pa rgyan stug po bkod pa zhes bya ba theg pa chen po'i mdo</title>
+                <title type="otherTitle" xml:lang="zh">《大乘密嚴經》</title>
+                <author role="translatorMain" xml:id="UT22084-050-001-1"/>
+                <author role="translatorEng" xml:id="UT22084-050-001-2">Khenpo Konchok Tamphel</author>
+                <author role="translatorEng" xml:id="UT22084-050-001-3">Casey Kemp</author>
+                <consultant role="projectManager" xml:id="UT22084-050-001-4">Khenpo Konchok Tamphel</consultant>
+                <consultant role="dharmaMaster" xml:id="UT22084-050-001-5">Drikung Kyabgon Chetsang Rinpoche</consultant>
+                <consultant role="advisor" xml:id="UT22084-050-001-6">Acharya Shanta Kumar Negi</consultant>
+                <editor role="reviser" xml:id="UT22084-050-001-7">Kay Candler</editor>
+                <sponsor xml:id="UT22084-050-001-8">Liu Xiao Lei</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.8 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-050-001"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh110" type="text">
+                    <ref>Toh 110</ref>
+                    <biblScope>vol.50, ff.1r-55v(pp.1-110)</biblScope>
+                    <location work="UT4CZ5369" count-pages="109">
+                        <volume number="50" start-page="2" end-page="110"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11673" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-050-001-9">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T09:48:28.379Z" type="text-version" status="0.0.2" xml:id="UT22084-050-001-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T09:49:12.966Z" type="text-version" status="0.0.3" xml:id="UT22084-050-001-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T09:51:10.142Z" type="text-version" status="0.0.4" xml:id="UT22084-050-001-12">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2021-04-15T09:52:22.526Z" type="text-version" status="0.0.5" xml:id="UT22084-050-001-13">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T04:24:12.596Z" type="text-version" status="0.0.6" xml:id="UT22084-050-001-14">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-07-26T04:24:57.443Z" type="text-version" status="0.0.7" xml:id="UT22084-050-001-15">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.8" xml:id="UT22084-050-001-16">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="acknowledgment">
+                <p tid="1">Sponsored by Liu Xiao Lei.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

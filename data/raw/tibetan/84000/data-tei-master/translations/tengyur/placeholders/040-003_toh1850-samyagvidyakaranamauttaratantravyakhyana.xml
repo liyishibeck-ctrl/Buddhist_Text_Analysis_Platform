@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">An Explanation of the Guhyasamājottara Tantra called “Bestowing Correct Knowledge”</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Samyagvidyākāra­nāma­uttara­tantra­vyākhyāna</title>
+                <title xml:lang="bo" type="mainTitle">ཡང་དག་རིག་བྱེད་ཅེས་བྱ་བ་ཕྱི་མའི་རྒྱུད་ཀྱི་རྣམ་པར་བཤད་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">yang dag rig byed ces bya ba phyi ma'i rgyud kyi rnam par bshad pa/</title>
+                <author role="translatorMain" xml:id="UT23703-040-003-1"/>
+                <author role="translatorEng" xml:id="UT23703-040-003-2">Catherine Dalton</author>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.5 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="2.h"/>
+                <idno xml:id="UT23703-040-003"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1850" type="text">
+                    <ref>Toh 1850</ref>
+                    <biblScope>ff. 180r-202r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-040-003-3">Vitapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-040-003-4">bod kyi lo tsa ba mnga' bdag lha ye shes rgyal mtshan</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-040-003-5">Kamalaguhya</author>
+                    <location work="UT23703" count-pages="45">
+                        <volume number="40" start-page="359" end-page="403"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8416" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh443"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-040-003-6" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:12:22.457Z" type="translation-status" status="3" xml:id="UT23703-040-003-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:12:22.457Z" type="text-version" status="0.0.1" xml:id="UT23703-040-003-8">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:12:42.122Z" type="text-version" status="0.0.2" xml:id="UT23703-040-003-9">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-07T12:12:59.998Z" type="text-version" status="0.0.3" xml:id="UT23703-040-003-10">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT23703-040-003-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-05T07:48:08.618Z" type="translation-status" status="2.h" xml:id="UT23703-040-003-12">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-05T07:48:08.618Z" type="text-version" status="0.0.5" xml:id="UT23703-040-003-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

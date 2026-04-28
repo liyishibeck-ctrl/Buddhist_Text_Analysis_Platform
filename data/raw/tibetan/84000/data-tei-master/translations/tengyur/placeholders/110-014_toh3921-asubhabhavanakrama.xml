@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">མི་སྡུག་པ་བསྒོམ་པའི་རིམ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">mi sdug pa bsgom pa'i rim pa/</title>
+                <title xml:lang="en" type="mainTitle">The Stages of Meditation on Ugliness</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-110-014"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh3921" type="text">
+                    <ref>Toh 3921</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-110-014-1">Kalyāṇavarman</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="110" start-page="143" end-page="144"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10474" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10589" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="import" xml:id="UT23703-110-014-2" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="title" xml:id="UT23703-110-014-3" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>An alternate Tibetan title is given in the colophon, “An Explanation of the Methods for Meditating on Impurity” (mi gtsang ba bsgom pa'i thabs bshad
+            pa).</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:13:45.147Z" type="general" xml:id="UT23703-110-014-4" source="tengyur-data-3824-3980_PH_new_v2.4.xml">
+                    <desc>The colophon states that “this translation was made the early generation of great translators, and so the language is archaic” ('di ni sngon gyi lo tsā ba
+            chen po rnams kyis bsgyur ba ste, 'gyur rnying lags skad do)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-110-014-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 14: The Awakening Through the Tathāgata's Rays of Light</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de bzhin gshegs pa'i 'od zer las rnam par sangs rgyas pa le'u/</title>
+                <title type="otherTitle" xml:lang="zh">《華嚴經 》之《如來光明正等覺品》</title>
+                <author role="translatorMain" xml:id="UT22084-035-014-1"/>
+                <author role="translatorEng" xml:id="UT22084-035-014-2">Dr. Geshe Lozang Jamspal</author>
+                <author role="translatorEng" xml:id="UT22084-035-014-3">Kaia Fischer</author>
+                <consultant role="projectManager" xml:id="UT22084-035-014-4">Kaia Fischer</consultant>
+                <sponsor xml:id="UT22084-035-014-5">Richard and Carol Weingarten</sponsor>
+                <sponsor xml:id="UT22084-035-014-6">Nicholas Weeks</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-035-014"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-14" type="chapter">
+                    <ref>Toh 44-14</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="26">
+                        <volume number="35" start-page="381" end-page="406"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14682" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2019-03-09T12:31:57.992Z" type="text-version" status="" xml:id="UT22084-035-014-7">
+                    <desc/>
+                </change>
+                <change who="#john" when="2019-03-09T12:31:57.992Z" type="translation-status" status="3" xml:id="UT22084-035-014-8">
+                    <desc>3</desc>
+                </change>
+                <change who="#andreas" when="2020-01-10T07:02:55.642Z" type="text-version" status="0.0.1" xml:id="UT22084-035-014-9">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-06-29T15:43:34.927Z" type="text-version" status="0.0.2" xml:id="UT22084-035-014-10">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-035-014-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</tei:TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Being Mindful of the Community</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Saṅghānusmṛti</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dge 'dun rjes su dran pa/</title>
+                <author role="translatorMain" xml:id="UT22084-068-015-1"/>
+                <author role="translatorEng" xml:id="UT22084-068-015-2">John Canti</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-068-015"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh281" type="text">
+                    <ref>Toh 281</ref>
+                    <biblScope>vol.68, ff.55v-55v(pp.110-110)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="68" start-page="110" end-page="110"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC11942" work="W22084"/>
+                </bibl>
+                <!-- Atisa section removed
+                <bibl key="toh4522" type="text">
+                    <ref>Toh 4522</ref>
+                    <biblScope/>
+                    <author role="translatorTib">Atisa</author>
+                    <location work="UT23703" count-pages="1">
+                        <volume number="213" start-page="56" end-page="56"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC11278" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC112784522" work="http://read.84000.co/sections"/>
+                </bibl>-->
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2022-12-13T14:22:30.163Z" type="translation-status" status="3" xml:id="UT22084-068-015-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-13T14:22:30.163Z" type="text-version" status="0.0.1" xml:id="UT22084-068-015-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2022-12-13T14:23:05.77Z" type="text-version" status="0.0.2" xml:id="UT22084-068-015-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT22084-068-015-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

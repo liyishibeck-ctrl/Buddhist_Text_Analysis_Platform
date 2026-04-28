@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Coercive Activities</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">[no Sanskrit title]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">mngon spyod kyi las/</title>
+                <author role="translatorMain" xml:id="UT22084-085-004-6">Patrick Lambelet</author>
+                <author role="translatorEng" xml:id="UT22084-085-004-7">Patrick Lambelet</author>
+                <editor role="projectEditor" xml:id="UT22084-085-004-18">Rory Lindsay</editor>
+                <editor role="copyEditor" xml:id="UT22084-085-004-19">Konchog Norbu</editor>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.10 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.d"/>
+                <idno xml:id="UT22084-085-004"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh484" type="text">
+                    <ref>Toh 484</ref>
+                    <biblScope>vol.85, ff.96r-96r(pp.191-191)</biblScope>
+                    <location work="UT4CZ5369" count-pages="1">
+                        <volume number="85" start-page="191" end-page="191"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21413" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12200" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2021-08-26T13:21:21.927Z" type="translation-status" status="4" xml:id="UT22084-085-004-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2021-08-26T13:21:21.927Z" type="text-version" status="0.0.1" xml:id="UT22084-085-004-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-085-004-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-09T10:14:11.594Z" type="translation-status" status="3" xml:id="UT22084-085-004-4">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-09T10:14:11.594Z" type="text-version" status="0.0.3" xml:id="UT22084-085-004-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-09T10:14:43.051Z" type="text-version" status="0.0.4" xml:id="UT22084-085-004-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-18T14:51:43.318Z" type="translation-status" status="2.g" xml:id="UT22084-085-004-9">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-18T14:51:43.318Z" type="text-version" status="0.0.5" xml:id="UT22084-085-004-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#john" when="2024-09-26T10:22:49.053Z" type="text-version" status="0.0.6" xml:id="UT22084-085-004-11">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-07T09:47:53.661Z" type="translation-status" status="2.f" xml:id="UT22084-085-004-12">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-07T09:47:53.661Z" type="text-version" status="0.0.7" xml:id="UT22084-085-004-13">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-26T11:10:26.275Z" type="translation-status" status="2.e" xml:id="UT22084-085-004-14">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-26T11:10:26.275Z" type="text-version" status="0.0.8" xml:id="UT22084-085-004-15">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-26T11:11:12.761Z" type="text-version" status="0.0.9" xml:id="UT22084-085-004-20">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-13T15:49:18.706Z" type="translation-status" status="2.d" xml:id="UT22084-085-004-21">
+                    <desc>2.d</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-13T15:49:18.706Z" type="text-version" status="0.0.10" xml:id="UT22084-085-004-22">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

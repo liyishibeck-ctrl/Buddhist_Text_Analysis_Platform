@@ -1,0 +1,51 @@
+{
+  "started_at": "2026-04-20T03:32:15.023779+00:00",
+  "workers": 2,
+  "batch_size": 10,
+  "max_segments_per_worker": 20,
+  "state_dir": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_states_demo2",
+  "worker_runs": [
+    {
+      "shard_index": 0,
+      "pid": 20448,
+      "state_file": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_states_demo2\\embedding_shard_0_of_2.json",
+      "stdout": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_20260420_033215_shard0.out.log",
+      "stderr": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_20260420_033215_shard0.err.log",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "D:\\Buddhist_Text_Analysis_Platform\\scripts\\analysis\\backfill_segment_embeddings.py",
+        "--batch-size",
+        "10",
+        "--max-segments",
+        "20",
+        "--shard-count",
+        "2",
+        "--shard-index",
+        "0",
+        "--state-file",
+        "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_states_demo2\\embedding_shard_0_of_2.json"
+      ]
+    },
+    {
+      "shard_index": 1,
+      "pid": 23160,
+      "state_file": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_states_demo2\\embedding_shard_1_of_2.json",
+      "stdout": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_20260420_033215_shard1.out.log",
+      "stderr": "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_20260420_033215_shard1.err.log",
+      "command": [
+        "C:\\Python314\\python.exe",
+        "D:\\Buddhist_Text_Analysis_Platform\\scripts\\analysis\\backfill_segment_embeddings.py",
+        "--batch-size",
+        "10",
+        "--max-segments",
+        "20",
+        "--shard-count",
+        "2",
+        "--shard-index",
+        "1",
+        "--state-file",
+        "D:\\Buddhist_Text_Analysis_Platform\\data\\processed\\logs\\embedding_pool_states_demo2\\embedding_shard_1_of_2.json"
+      ]
+    }
+  ]
+}

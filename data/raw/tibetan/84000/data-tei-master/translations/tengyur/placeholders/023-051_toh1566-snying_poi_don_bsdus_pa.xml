@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">A Teaching on the Concise Meaning of the Essential Practices [of the Śābaripāda System]</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">snying po'i don bsdus pa bstan pa/</title>
+                <title type="mainTitle" xml:lang="bo">སྙིང་པོའི་དོན་བསྡུས་པ་བསྟན་པ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-023-051"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1566" type="text">
+                    <ref>Toh 1566</ref>
+                    <biblScope>ff. 237r-237v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-023-051-1">Nāgadatta</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-023-051-2">Dānaśīla (III)</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="23" start-page="473" end-page="474"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21619" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8114" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="import" xml:id="UT23703-023-051-3" source="tengyur-data-1541-1606_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:18:33.485Z" type="general" xml:id="UT23703-023-051-4" source="tengyur-data-1541-1606_PH_new_v2.4.xml">
+                    <desc>A brief description of a mantra, torma, and fire offering in the tradition of Śābaripāda.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-023-051-5">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

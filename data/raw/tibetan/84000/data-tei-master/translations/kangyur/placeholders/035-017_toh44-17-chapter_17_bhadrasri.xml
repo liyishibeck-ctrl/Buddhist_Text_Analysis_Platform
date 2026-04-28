@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tei:TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 17: Bhadraśrī</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">bzang po'i dpal gyi le'u/</title>
+                <title type="otherTitle" xml:lang="zh">《華嚴經 》之《賢吉祥品》</title>
+                <author role="translatorMain" xml:id="UT22084-035-017-1"/>
+                <author role="translatorEng" xml:id="UT22084-035-017-2">Dr. Geshe Lozang Jamspal</author>
+                <author role="translatorEng" xml:id="UT22084-035-017-3">Kaia Fischer</author>
+                <sponsor xml:id="UT22084-035-017-4">Richard and Carol Weingarten</sponsor>
+                <sponsor xml:id="UT22084-035-017-5">Nicholas Weeks</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-035-017"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-17" type="chapter">
+                    <ref>Toh 44-17</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="38">
+                        <volume number="35" start-page="438" end-page="475"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14685" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2019-03-09T12:36:13.053Z" type="text-version" status="" xml:id="UT22084-035-017-6">
+                    <desc/>
+                </change>
+                <change who="#john" when="2019-03-09T12:36:13.053Z" type="translation-status" status="3" xml:id="UT22084-035-017-7">
+                    <desc>3</desc>
+                </change>
+                <change who="#andreas" when="2020-01-10T07:04:14.488Z" type="text-version" status="0.0.1" xml:id="UT22084-035-017-8">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#john" when="2021-12-13T10:29:19.292Z" type="text-version" status="0.0.2" xml:id="UT22084-035-017-9">
+                    <desc>0.0.2</desc>
+                </change>
+                <change who="#cabie-sim" when="2022-06-29T15:47:14.835Z" type="text-version" status="0.0.3" xml:id="UT22084-035-017-10">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-035-017-11">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</tei:TEI>

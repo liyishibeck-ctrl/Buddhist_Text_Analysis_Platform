@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+                <fileDesc>
+                        <titleStmt>
+                                <title type="mainTitle" xml:lang="Bo-Ltn">’phags pa chos bzhi pa’i
+                                        rnam par bshad pa</title>
+                                <title type="mainTitle" xml:lang="bo">འཕགས་པ་ཆོས་བཞི་པའི་རྣམ་པར་བཤད་པ།</title>
+                                <title type="mainTitle" xml:lang="en">An Explanation of The Noble
+                                        Sūtra on the Four Factors</title>
+                                <title type="mainTitle" xml:lang="Sa-Ltn">*Ārya­catur­dharmaka­vyākhyāna</title>
+                                <author role="translatorMain" xml:id="UT23703-113-010-59">Translated by Adam
+                                        Pearcey<lb/>under the patronage and supervision of 84000:
+                                        Translating the Words of the Buddha</author>
+                                <author role="translatorEng" xml:id="UT23703-113-010-60">Adam
+                                        Pearcey</author>
+                                <editor role="projectEditor" xml:id="UT23703-113-010-61">David
+                                        Fiordalis</editor>
+                                <editor role="copyEditor" xml:id="UT23703-113-010-62">Dawn Collins</editor>
+                                <editor role="projectEditor" xml:id="UT23703-113-010-63">Andreas
+                                        Doctor</editor>
+                                <editor role="projectEditor" xml:id="UT23703-113-010-64">Rory
+                                        Lindsay</editor>
+                                <editor role="TEImarkupEditor" xml:id="UT23703-113-010-65">Martina
+                                        Cotter</editor>
+                        </titleStmt>
+                        <editionStmt>
+                <edition>v 1.0.7 <date>2024</date>
+                </edition>
+            </editionStmt>
+                        <publicationStmt>
+                <publisher>
+                    <name>84000: Translating the Words of the Buddha</name>
+                                        is a global non-profit initiative to translate all the
+                                        Buddha’s words into modern languages, and to make them
+                                        available to everyone. </publisher>
+                <availability status="1">
+                                        <licence>
+                                                <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
+                                                <p>This work is provided under the protection of a
+                                                  Creative Commons CC BY-NC-ND (Attribution -
+                                                  Non-commercial - No-derivatives) 3.0 copyright. It
+                                                  may be copied or printed for fair use, but only
+                                                  with full attribution, and not for commercial
+                                                  advantage or personal compensation. For full
+                                                  details, see the Creative Commons license.</p>
+                                        </licence>
+                                </availability>
+                <idno xml:id="UT23703-113-010"/>
+                <note>An early mistake in the assigning of UT numbers within the
+                                        84000 project means that these ids diverge slightly from the
+                                        standard logic.</note>
+                <date>2023-08-14</date>
+            </publicationStmt>
+                        <tei:sourceDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
+                                <bibl key="toh3990" type="text">
+                                        <ref>Toh 3990</ref>
+                                        <biblScope>Degé Tengyur, vol. 113 (mdo ’grel, ngi), folios
+                                                66.a–66.b</biblScope>
+                                        <author xml:lang="Sa-Ltn" xml:id="UT23703-113-010-66">Vasubandhu</author>
+                                        <location work="UT23703" count-pages="2">
+                                                <volume number="113" start-page="131" end-page="132"/>
+                                        </location>
+                                        <idno parent-id="O1JC76301JC10651" work="http://read.84000.co/sections"/>
+                                        <idno source-id="O1JC76301JC10662" work="W23703"/>
+                                </bibl>
+                                <link type="isCommentaryOf" target="toh251"/>
+                        </tei:sourceDesc>
+                        <notesStmt/>
+                    <revisionDesc>
+                <change who="#line-tofte" when="2022-01-28T08:36:55.219Z" type="translation-status" status="4" xml:id="UT23703-113-010-67">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2022-01-28T08:36:55.219Z" type="text-version" status="0.0.2" xml:id="UT23703-113-010-68">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-113-010-69" source="tengyur-data-3981-4019_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2022-02-09T16:12:22.16Z" type="translation-status" status="3" xml:id="UT23703-113-010-70">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-09T16:12:22.16Z" type="text-version" status="0.0.3" xml:id="UT23703-113-010-71">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-10T12:18:35.206Z" type="text-version" status="0.0.4" xml:id="UT23703-113-010-72">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-10T12:19:09.906Z" type="text-version" status="0.0.5" xml:id="UT23703-113-010-73">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-10T12:19:53.452Z" type="translation-status" status="2.h" xml:id="UT23703-113-010-74">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-10T12:19:53.452Z" type="text-version" status="0.0.6" xml:id="UT23703-113-010-75">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-02-10T12:20:12.73Z" type="text-version" status="0.0.5" xml:id="UT23703-113-010-76">
+                    <desc>0.0.5</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.6" xml:id="UT23703-113-010-77">
+                    <desc>Auto
+                                        (entity-merge-attribution)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-15T15:53:13.75Z" type="translation-status" status="2.g" xml:id="UT23703-113-010-78">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-15T15:53:13.75Z" type="text-version" status="0.0.7" xml:id="UT23703-113-010-79">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-15T15:54:07.249Z" type="text-version" status="0.0.8" xml:id="UT23703-113-010-80">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-29T13:29:49.286Z" type="translation-status" status="2.f" xml:id="UT23703-113-010-81">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2023-03-29T13:29:49.286Z" type="text-version" status="0.0.9" xml:id="UT23703-113-010-82">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-04-20T09:54:56.376Z" type="translation-status" status="2.e" xml:id="UT23703-113-010-83">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2023-04-20T09:54:56.376Z" type="text-version" status="0.0.10" xml:id="UT23703-113-010-84">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-04-20T09:55:50.885Z" type="text-version" status="0.0.11" xml:id="UT23703-113-010-85">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-17T10:00:47.138Z" type="translation-status" status="2.d" xml:id="UT23703-113-010-86">
+                    <desc>2.d</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-17T10:00:47.138Z" type="text-version" status="0.0.12" xml:id="UT23703-113-010-87">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-25T07:42:19.669Z" type="translation-status" status="2.c" xml:id="UT23703-113-010-88">
+                    <desc>2.c</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-25T07:42:19.669Z" type="text-version" status="0.0.13" xml:id="UT23703-113-010-89">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-25T07:42:56.176Z" type="text-version" status="0.0.14" xml:id="UT23703-113-010-90">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-31T10:04:52.614Z" type="translation-status" status="2.b" xml:id="UT23703-113-010-91">
+                    <desc>2.b</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-31T10:04:52.614Z" type="text-version" status="0.0.15" xml:id="UT23703-113-010-92">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-05-31T10:05:27.451Z" type="text-version" status="0.0.16" xml:id="UT23703-113-010-93">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-01T12:18:41.217Z" type="translation-status" status="2.a" xml:id="UT23703-113-010-94">
+                    <desc>2.a</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-01T12:18:41.217Z" type="text-version" status="0.0.17" xml:id="UT23703-113-010-95">
+                    <desc>Auto
+                                        (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-01T12:19:13.809Z" type="text-version" status="0.0.18" xml:id="UT23703-113-010-96">
+                    <desc>Auto
+                                        (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-09T10:21:14.164Z" type="translation-status" status="2" xml:id="UT23703-113-010-97">
+                    <desc>2</desc>
+                </change>
+                <change who="#line-tofte" when="2023-06-09T10:21:14.164Z" type="text-version" status="0.0.2" xml:id="UT23703-113-010-98">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-113-010-99">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#john" when="2023-08-12T18:21:49.191Z" type="text-version" status="0.1.1" xml:id="UT23703-113-010-147">
+                    <desc>Final check and several edits to intro, notes, bibliography.</desc>
+                </change>
+                <change who="#john" when="2023-08-12T18:22:39.76Z" type="text-version" status="0.1.2" xml:id="UT23703-113-010-148">
+                    <desc>User set version to 0.1.2</desc>
+                </change>
+                <change who="#john" when="2023-08-14T13:08:29.063Z" type="text-version" status="0.1.3" xml:id="UT23703-113-010-248">
+                    <desc>Further edits to notes and bibliography.</desc>
+                </change>
+                <change who="#martina-cotter" when="2023-08-14T21:31:25.496Z" type="translation-status" status="1.a" xml:id="UT23703-113-010-250">
+                    <desc>1.a</desc>
+                </change>
+                <change who="#martina-cotter" when="2023-08-14T21:31:25.496Z" type="text-version" status="1.0.0" xml:id="UT23703-113-010-251">
+                    <desc>First published version</desc>
+                </change>
+                <change who="#andre" when="2023-08-26T10:08:05.141Z" type="text-version" status="1.0.1" xml:id="UT23703-113-010-252">
+                    <desc>Glossary integration revised - activated in CG</desc>
+                </change>
+                <change who="#sameer" when="2023-09-17T09:22:00.829Z" type="translation-status" status="1" xml:id="UT23703-113-010-253">
+                    <desc>1</desc>
+                </change>
+                <change who="#sameer" when="2023-09-17T09:22:00.829Z" type="text-version" status="1.0.2" xml:id="UT23703-113-010-254">
+                    <desc>Included in App v 3.6</desc>
+                </change>
+                <change who="#celso" when="2023-10-13T11:48:10.305Z" type="text-version" status="1.0.3" xml:id="UT23703-113-010-255">
+                    <desc>reapplied capital letters in Wylie and covert to TibUni-glossary</desc>
+                </change>
+                <change who="#martina-cotter" when="2023-10-20T14:25:32.585Z" type="text-version" status="1.0.4" xml:id="UT23703-113-010-257">
+                    <desc>Added pending links.</desc>
+                </change>
+                <change who="#celso" when="2024-02-19T20:37:35.455Z" type="text-version" status="1.0.5" xml:id="UT23703-113-010-258">
+                    <desc>Adjusted source pagination</desc>
+                </change>
+                <change who="#martina-cotter" when="2024-02-20T18:01:50.795Z" type="text-version" status="1.0.6" xml:id="UT23703-113-010-259">
+                    <desc>update footnote 2</desc>
+                </change>
+                <change who="#celso" when="2024-03-27T12:59:31.833Z" type="text-version" status="1.0.7" xml:id="UT23703-113-010-260">
+                    <desc>modified title type</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+        </teiHeader>
+        <text>
+                <!--Note the "Contents" outline from the Word DOCX has not been included in the script. If the 
+                    Outline to the text is quite complex, it is recommended that you paste the outlined contents from the DOCX here as a comment for
+                    markup's reference. The actual table of contents will be generated in the Reading Room by the parser.-->
+                <front>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="summary">
+                                <head type="summary" tid="1">Summary</head>
+                                <milestone unit="chunk" xml:id="UT23703-113-010-1"/>
+                                <p tid="2">This short commentary, ascribed to Vasubandhu, explains
+                                                <title xml:lang="en">The Noble Mahāyāna Sūtra on the
+                                                        Four Factors</title> (<title xml:lang="Sa-Ltn">Ārya­catur­dharmaka­nāma­mahāyāna­sūtra</title>, Toh
+                                        251), a discourse on a set of four
+                                        factors of the path of a bodhisattva: the thought of
+                                        awakening, the spiritual friend, the twin qualities of
+                                        tolerance and lenience, and dwelling in the forest. The
+                                        commentary proposes various reasons for the sūtra’s
+                                        composition and explains why it refers to bodhisattvas as
+                                        followers of the Great Vehicle. It also specifies the four
+                                        factors, which obstructive elements these factors overcome,
+                                        which beneficial elements they support, and why śrāvakas and
+                                        pratyekabuddhas are not called bodhisattvas.</p>
+                        </tei:div>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="acknowledgment">
+                                <head type="acknowledgment" tid="3">Acknowledgements</head>
+                                <milestone unit="chunk" xml:id="UT23703-113-010-2"/>
+                                <p tid="4">The translation was completed by Adam Pearcey, under the
+                                        patronage and supervision of 84000: Translating the Words of
+                                        the Buddha, and was edited by the 84000 editorial team.</p>
+                                <lb/>
+                        </tei:div>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="introduction">
+                                <head type="introduction" tid="7">Introduction</head>
+                                <tei:div type="section" xml:id="UT23703-113-010-introduction-1">
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-5"/>
+                                        <p tid="9">
+                        <title xml:lang="en">An Explanation of The Noble
+                                                  Sūtra on the Four Factors</title> (Toh
+                                                3990), attributed in the
+                                                text itself to the famed Indian scholar
+                                                  Vasubandhu,<note place="end" xml:id="UT23703-113-010-6"> Vasubandhu is thought
+                                                  to have flourished in the fourth or fifth century
+                                                  <hi rend="small-caps">ce</hi>, but many of the
+                                                  details of his life are unclear. For attempts to
+                                                  reconcile the various biographical sources, see
+                                                  Anacker (1984), pp. 7–28, Pereira and Tiso
+                                                  (1987), Skilling (2000), and Gold (2015) pp. 1–21.</note> is a 
+                                                commentary on <title xml:lang="en">The Noble Mahāyāna Sūtra on the Four
+                                                          Factors</title> (<title xml:lang="Sa-Ltn">Ārya­catur­dharmaka­nāma­mahāyāna­sūtra</title>, Toh
+                                                251).<note place="end" xml:id="UT23703-113-010-256">
+                                                        Pearcey, Adam. trans., <title xml:lang="en">
+                                <ref target="http://read.84000.co/translation/toh251.html">The Sūtra on the Four Factors</ref>
+                                                        </title>, Toh 251 (84000:
+                                                        Translating the Words of the Buddha, 2023).</note> In this short sūtra,
+                                                the Buddha lists the thought of awakening, the spiritual friend, the twin qualities of tolerance and
+                                                lenience, and
+                                                dwelling in the forest, as four factors that bodhisattvas
+                                                should not abandon even at the cost of their lives.
+                                                Vasubandhu’s commentary is one of two commentaries
+                                                related to that sūtra preserved in Tibetan in the Tengyur.
+                                                The other, <title xml:lang="en">A Commentary on An
+                                                  Explanation of The Noble Sūtra on the Four
+                                                  Factors</title> (*<title xml:lang="Sa-Ltn">Ārya­catur­dharmakavyākhyāna­ṭīkā</title>; <title xml:lang="Bo-Ltn">’phags pa chos bzhi pa’i rgya
+                                                  cher bshad pa’i rgya cher ’grel pa</title>, Toh
+                                                3990a),<ref rend="pending" target="http://read.84000.co/translation/toh3990a.html"/> is attributed to
+                                                  Jñānadatta,<note place="end" xml:id="UT23703-113-010-7"> That commentary,
+                                                  titled <title xml:lang="Bo-Ltn">’phags pa chos
+                                                  bzhi pa’i rnam par bshad pa’i rgya cher ’grel
+                                                  pa</title>, is the only text attributed to
+                                                  Jñānadatta (ye shes byin) within the Tengyur.
+                                                  However, another text by an author of that name
+                                                  can be found among the Dunhuang documents: <title xml:lang="Bo-Ltn">’phags pa sgo drug pa’i gzungs
+                                                  kyi rnam par bshad pa rgya cher ’grel pa</title>
+                                                          (<ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Tib J 430;img=1">IOL Tib J 430</ref>).</note> 
+                                                and is a commentary
+                                                on Vasubandhu’s text rather than on the sūtra
+                                                  itself.<note place="end" xml:id="UT23703-113-010-8"> Jñānadatta begins his
+                                                  commentary by noting that the sūtra has already
+                                                  been commented on by “scholars” (<foreign xml:lang="Bo-Ltn" type="term">mkhas pa
+                                                  dag</foreign>)—the plural particle here might even
+                                                  indicate the Sanskrit dual and thus signify two
+                                                  scholars. In any case, Jñānadatta’s words suggest
+                                                  the existence of at least one other commentary on
+                                                  the sūtra that is no longer extant.</note>
+                                        </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-9"/>
+                                        <p tid="10">Vasubandhu’s commentary begins with a discussion
+                                                of the sūtra’s purpose. The author then proceeds to
+                                                discuss why the sūtra focuses specifically on four
+                                                factors. Several different reasons are given,
+                                                including simplicity and ease of memorization. The
+                                                commentary also notes that the sūtra refers to
+                                                followers of the Great Vehicle as bodhisattvas,
+                                                great beings, and it offers some interesting
+                                                explanations for the use of these terms.</p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-10"/>
+                                        <p tid="11">The longest portion of the commentary pairs the
+                                                four factors from the sūtra with other sets of four
+                                                factors, such as four factors conducive to the
+                                                accumulation of the supplies for awakening. It
+                                                describes the set of four factors from the sūtra
+                                                either as providing the basis for these other
+                                                factors, or as the antidote to them. Jñānadatta
+                                                unpacks the specifics of these correlations at
+                                                greater length in the subcommentary. The main
+                                                commentary concludes with a brief comment on why
+                                                those who strive for the awakening of śrāvakas and
+                                                pratyekabuddhas are not also called bodhisattvas and
+                                                reiterates the main purpose of the sūtra. The
+                                                commentary makes no mention of the sūtra’s two
+                                                concluding verses.<note place="end" xml:id="UT23703-113-010-11"> Jñānadatta does cite
+                                                  two lines from these verses in his sub-commentary:
+                                                  <foreign xml:lang="Bo-Ltn" type="quote">mkhas ’dir
+                                                  chos ’di dag la rtag gnas na | bdud rnams bcom ste
+                                                  byang chub ’tshang rgya’o ||</foreign>.</note>
+                                        </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-12"/>
+                                        <p tid="12">There is no translator’s colophon to
+                                                Vasubandhu’s commentary and therefore no clear
+                                                information as to who translated it. Jñānadatta’s
+                                                commentary does have a colophon, stating that the
+                                                translators were Dānaśīla, Prajñāvarman, and Yeshé
+                                                De. It is possible that both commentaries were
+                                                translated at the same time and that the colophon
+                                                applies to them both. The two commentaries are also
+                                                listed together in the Denkarma catalog of
+                                                translated works,<note place="end" xml:id="UT23703-113-010-13"> See Denkarma
+                                                  F.306.b.1. See also Herrmann-Pfandt (2008), pp.
+                                                  315–17. Vasubandhu’s text is no. 557.</note> and
+                                                both texts also appear among the Dunhuang documents
+                                                (IOL Tib J 71–74).</p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-14"/>
+                                        <p tid="13">The following translation was primarily based on
+                                                the Degé block print with reference to the
+                                                Comparative Edition (<title xml:lang="Bo-Ltn">dpe
+                                                  bsdur ma</title>) and the commentary ascribed to
+                                                Jñānadatta. </p>
+                                </tei:div>
+                        </tei:div>
+                </front>
+                <body>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="translation">
+                                <head type="translation"> The Translation </head>
+                                <head type="titleMain" tid="16">An Explanation of The Noble Sūtra on
+                                        the Four Factors</head>
+                                <tei:div type="section" xml:id="UT23703-113-010-section-1">
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-17"/>
+                                        <p tid="20">
+                        <ref cRef="F.66.a" type="folio" xml:id="UT23703-113-010-57"/> Homage to the youthful Mañjuśrī!</p>
+                                        <lb/>
+                                        <p tid="23">This sūtra explains that <q type="inline">
+                            <ptr type="quote-ref" rend="substring" target="#UT22084-066-009-30" xml:id="UT23703-113-010-249"/>for as long as they
+                                                live, bodhisattvas, great beings, should not abandon
+                                                four factors even at the cost of their lives.</q> For
+                                                what purpose was it undertaken? It was undertaken
+                                                for the purpose of giving an explanation to those
+                                                who have embarked upon the Great Vehicle and might
+                                                be confused regarding how unsurpassable awakening
+                                                should be attained. It was also undertaken for the
+                                                purpose of encouraging the heedless to take proper
+                                                care, motivating those who are thoroughly
+                                                discouraged, and delighting those who have set out
+                                                on the Great Vehicle.</p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-21"/>
+                                        <p tid="24">The number four is used so that anyone who is
+                                                intimidated by vastness will abandon any resistance
+                                                to listening to the teaching. Using a number also
+                                                facilitates memorization. Tolerance and gentleness,
+                                                which appear toward the end, are not counted
+                                                separately because they both have a single
+                                                  purpose.<note place="end" xml:id="UT23703-113-010-22"> In his commentary,
+                                                  Jñānadatta elaborates further on this point and
+                                                  says that the two serve as an antidote to wishing
+                                                  harm on others.</note>
+                    </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-23"/>
+                                        <p tid="25">There are many ways of referring to those who
+                                                have set out on the Great Vehicle, but here two
+                                                names are specified.<note place="end" xml:id="UT23703-113-010-24"> In commenting on
+                                                        this, Jñānadatta cites a passage from the <title xml:lang="Sa-Ltn">Bodhisattva­bhūmi</title> that
+                                                  offers a number of different epithets:
+                                                  “Bodhisattva, great being, intelligent one,
+                                                  supreme in brilliance, heir of the victors,
+                                                  conqueror, supporter of victory, scion of the
+                                                  victorious, mighty one, marvelous one, leader, one
+                                                  of great renown, compassionate one, possessor of
+                                                  great merit, lord, and similarly, the righteous
+                                                  one.” (<foreign xml:lang="Bo-Ltn" type="quote">byang chub sems dpa’ sems dpa’ che | blo dang
+                                                  ldan pa gsal ba’i mchog | rgyal sras rgyal ba nyid
+                                                  dang ni | rgyal gzhi rgyal ba’i myu gu dang |
+                                                  rtsal dang ldan pa ngo mtshar ba | ded dpon grags
+                                                  pa chen po dang | thugs rje ldan dang bsod nams
+                                                  che | dbang phyug de bzhin chos can no ||</foreign>). See Engle (2016), pp.
+                                                  490–91.</note> There are three reasons for this,
+                                                related to interest, practice, and comprehension.
+                                                Because of their interest in profound objects of
+                                                knowledge, they are referred to as
+                                                  <distinct>bodhisattvas</distinct>, and because of
+                                                their interest in great power, they are referred to
+                                                as <distinct>great beings</distinct>. How do these
+                                                names relate to practice? Such beings strive
+                                                intensely toward complete, perfect, and
+                                                unsurpassable awakening for themselves, and they
+                                                fully protect all sentient beings from suffering.
+                                                How do these names relate to understanding?
+                                                Awakening is realized through the two powers. What
+                                                are these two? They are the power of intelligence
+                                                and the power of diligence. Awakening cannot be
+                                                realized where there is a lack of knowledge or
+                                                through minimal effort.</p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-25"/>
+                                        <p tid="26">The statement that these factors should not be
+                                                relinquished for as long <ref cRef="F.66.b" type="folio" xml:id="UT23703-113-010-58"/> as one lives is
+                                                an indication that they should be continuously
+                                                present. “Even at the cost of their lives” shows
+                                                just how highly these factors are to be regarded. </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-26"/>
+                                        <p tid="27">What is the reason that there are said to be
+                                                four factors? Is this not too few or too many? There
+                                                are four factors that obstruct the accumulation of
+                                                the supplies necessary for awakening, and these are
+                                                four remedies for them. What are these four
+                                                obstructive factors? They are (1) not seeking the
+                                                goal, (2) not knowing the methods, (3) a lack of
+                                                concern for sentient beings, and (4) concern for
+                                                sense objects. The alternative set of four is (1)
+                                                not getting started, (2) getting started in the
+                                                wrong way, (3) quitting what one has started, and
+                                                (4) becoming distracted after getting started. </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-27"/>
+                                        <p tid="28">Alternatively, there are four factors conducive
+                                                to the accumulation of the supplies necessary for
+                                                awakening, and these four factors constitute their
+                                                foundation. What are the four factors conducive to
+                                                the accumulation of the supplies necessary for
+                                                awakening? They are (1) longing for instructions and
+                                                guidance, (2) acquiring them, (3) being a worthy
+                                                recipient of them, and (4) having accomplished them.
+                                                The alternative set of four is (1) seeking the goal,
+                                                (2) knowing the methods and then accomplishing them,
+                                                with subdivision into (3) bringing sentient beings
+                                                to maturity, and (4) developing the qualities of a
+                                                buddha. </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-28"/>
+                                        <p tid="29">Another set of four is (1) not abandoning
+                                                saṃsāra, (2) remaining wholly undefiled by it, (3)
+                                                attracting sentient beings, and (4) becoming
+                                                purified through diligence. </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-29"/>
+                                        <p tid="30">Alternatively, four reasons one would travel a
+                                                difficult path to traverse are (1) the wish to go,
+                                                (2) knowledge of the path, (3) setting aside
+                                                discouragement, and (4) heedfulness. It is through
+                                                these that the path of samsara is traversed, and the
+                                                four factors constitute their foundation. </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-30"/>
+                                        <p tid="31">Why are those who strive for the awakening of
+                                                the śrāvakas and pratyekabuddhas not called
+                                                bodhisattvas? It is because the name applies only to
+                                                the preeminent case, just as in the case of “the
+                                                  light-maker.”<note place="end" xml:id="UT23703-113-010-31"> “Light-maker”
+                                                  (<foreign xml:lang="Bo-Ltn" type="term">snang
+                                                  byed</foreign> in Tibetan, or <foreign xml:lang="Sa-Ltn" type="term">bhāskara</foreign>
+                                                  in Sanskrit) is a common name for the sun.
+                                                  Jñānadatta gives the counterexample of a firefly
+                                                  (<foreign xml:lang="Bo-Ltn" type="term">srin bu me
+                                                  khyer</foreign>) as a lesser source of
+                                                  illumination.</note>
+                    </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-32"/>
+                                        <p tid="32">Put briefly, in this sūtra the Blessed One
+                                                explains the actions that are appropriate for those
+                                                who have embarked upon the Great Vehicle and how
+                                                these actions will not fail to bear fruit. </p>
+                                        <milestone unit="chunk" xml:id="UT23703-113-010-33"/>
+                                        <trailer tid="33">This concludes <title xml:lang="en">“An
+                                                  Explanation of The Noble Sūtra of the Four Factors”
+                                                  by the Master Vasubandhu.</title>
+                    </trailer>
+                                </tei:div>
+                        </tei:div>
+                </body>
+                <back>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="notes">
+                                <head type="notes" tid="36">Notes</head>
+                        </tei:div>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="listBibl">
+                                <head type="listBibl" tid="38">Bibliography</head>
+                                <tei:div type="section" xml:id="UT23703-113-010-listBibl-1">
+                                        <head type="section" tid="39">Tibetan Texts</head>
+                                        <bibl xml:id="UT23703-113-010-35">Vasubandhu.<title xml:lang="Bo-Ltn">’phags pa chos bzhi pa’i rnam
+                                                par bshad pa</title> (*<title xml:lang="Sa-Ltn">Ārya­catur­dharma­kavyākhyāna</title>). Toh 3990.
+                                                Degé Tengyur vol. 113 (mdo ’grel, ngi), folios
+                                                66.a–66.b.</bibl>
+                                        <bibl xml:id="UT23703-113-010-36">Vasubandhu. <title xml:lang="Bo-Ltn">’phags pa chos bzhi pa’i rnam
+                                                  par bshad pa</title>. bstan ’gyur (dpe bsdur ma)
+                                                [Comparative Edition of the Tengyur], krung go’i bod
+                                                rig pa zhib ’jug ste gnas kyi bka’ bstan dpe sdur
+                                                khang (The Tibetan Tripiṭaka Collation Bureau of the
+                                                China Tibetology Research Center). 120 volumes.
+                                                Beijing: krung go’i bod rig pa dpe skrun khang
+                                                (China Tibetology Publishing House), 1994–2008, vol.
+                                                65, pp. 914–17.</bibl>
+                                        <bibl xml:id="UT23703-113-010-37">
+                        <title xml:lang="Bo-Ltn">’phags pa chos bzhi pa zhes bya ba theg pa chen
+                                                po’i mdo</title> (<title xml:lang="Sa-Ltn">Ārya­catur­dharmaka­nāma­mahāyāna­sūtra</title>). Toh
+                                                251, Degé Kangyur vol. 66 (mdo sde, za), folios
+                                                60.b–61.a. English translation in 
+                                                <ref target="https://read.84000.co/translation/toh251.html">Pearcey 2023</ref>.</bibl>
+                                        <bibl xml:id="UT23703-113-010-38">
+                        <title xml:lang="Bo-Ltn">’phags pa chos bzhi pa zhes bya ba theg pa chen
+                                                  po’i mdo</title>. bka’ ’gyur (dpe bsdur ma)
+                                                [Comparative Edition of the Kangyur], krung go’i bod
+                                                rig pa zhib ’jug ste gnas kyi bka’ bstan dpe sdur
+                                                khang (The Tibetan Tripiṭaka Collation Bureau of the
+                                                China Tibetology Research Center). 108 volumes.
+                                                Beijing: krung go’i bod rig pa dpe skrun khang
+                                                (China Tibetology Publishing House), 2006–9, vol.
+                                                66, pp. 169–70.</bibl>
+                                        <bibl xml:id="UT23703-113-010-39">
+                        <title xml:lang="Bo-Ltn">’phags pa chos bzhi pa zhes bya ba theg pa chen
+                                                  po’i mdo</title>. Stok Palace Kangyur vol. 65
+                                                (stog pho brang bris ma bka’ ’gyur), folios
+                                                417.a–418.a.</bibl>
+                                        <bibl xml:id="UT23703-113-010-40">
+                        <title xml:lang="Bo-Ltn">pho brang stod thang ldan dkar gyi chos kyi ’gyur
+                                                  ro cog gi dkar chag</title> [Denkarma]. Toh 4364,
+                                                Degé Tengyur vol. 206 (sna tshogs, jo), folios
+                                                294.b–310.a.</bibl>
+                                        <bibl xml:id="UT23703-113-010-41">Jñānadatta. <title xml:lang="Bo-Ltn">’phags pa chos bzhi pa’i rgya
+                                                  cher bshad pa’i rgya cher ’grel pa</title>
+                                                (*<title xml:lang="Sa-Ltn">Ārya­catur­dharmaka­vyākhyāna­ṭīkā</title>). Toh
+                                                3990b. Degé Tengyur vol. 113 (mdo ’grel, ngi),
+                                                folios 67.a–71.b.</bibl>
+                                        <bibl xml:id="UT23703-113-010-42">Dunhuang manuscripts: <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Tib J 71;img=1">IOL Tib J 71</ref>, 
+                                                <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Tib J 72;img=1">IOL Tib J 72</ref>,
+                                                <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Tib J 73;img=1">IOL Tib J 73</ref>,
+                                                <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Tib J 72;img=1">IOL Tib J 74</ref>,
+                                                and <ref target="http://idp.bl.uk/database/oo_loader.a4d?pm=IOL Tib J 72;img=1">IOL Tib J 430</ref>.
+                                                British Library, London. Accessed through The
+                                                International Dunhuang Project: The Silk Road
+                                                Online.</bibl>
+                                </tei:div>
+                                <tei:div type="section" xml:id="UT23703-113-010-listBibl-2">
+                                        <head type="section" tid="40">Western Language Sources and
+                                                Translations</head>
+                                        <bibl xml:id="UT23703-113-010-43">Anacker, Stefan. <title xml:lang="en">Seven Works of Vasubandhu: The
+                                                  Buddhist Psychological Doctor</title>. Delhi:
+                                                Motilal Banarsidass, 1984.</bibl>
+                                        <bibl xml:id="UT23703-113-010-44">Engle, Artemus B. <title xml:lang="en">The Bodhisattva Path to Complete
+                                                  Enlightenment: A Complete Translation of the
+                                                  Bodhisattvabhūmi</title>. Boulder, CO: Snow Lion
+                                                Publications, 2016. </bibl>
+                                        <bibl xml:id="UT23703-113-010-45">Feer, Henri Léon. “Le
+                                                Sūtra des Quatre Préceptes.” <title xml:lang="fr">Journal
+                                                  Asiatique</title>, sér. 6, tome 8 (1866):
+                                                269–357.</bibl>
+                                        <bibl xml:id="UT23703-113-010-246">Gold, Jonathan C.
+                                                <title xml:lang="de">Paving the Great Way: Vasubandhu’s Unifying Buddhist Philosophy</title>. 
+                                                New York: Columbia University Press, 2015.</bibl>
+                                        <bibl xml:id="UT23703-113-010-46">Herrmann-Pfandt, Adelheid.
+                                                  <title xml:lang="de">Die lHan kar ma:
+                                                  ein früher Katalog der ins Tibetische übersetzten
+                                                  buddhistischen Texte</title>. Wien: Verlag der
+                                                Österreichischen Akademie der Wissenschaften,
+                                                2008.</bibl>
+                                        <bibl xml:id="UT23703-113-010-146">Pearcey, Adam, trans. 
+                                                <title xml:lang="en">
+                            <ref target="https://read.84000.co/translation/toh251.html">The Noble Mahāyāna Sūtra on
+                                                        the Four Factors</ref>
+                        </title> (<title xml:lang="Sa-Ltn">Ārya­­catur­dharmaka­nāma­­mahā­yāna­­sūtra</title>, Toh
+                                                251). 84000: Translating the Words of the Buddha,
+                                                2023.</bibl>
+                                        <bibl xml:id="UT23703-113-010-47">Pereira, José, and Francis
+                                                Tiso. “The Life of Vasubandhu According to Recent
+                                                Research.” <title xml:lang="en">East and
+                                                  West</title>, vol. 37, no. 1/4 (1987):
+                                                451–54.</bibl>
+                                        <bibl xml:id="UT23703-113-010-247">Skilling, Peter (2000). “Vasubandhu and the Vyākhyāyukti Literature.” In 
+                                                <title xml:lang="en">Journal of the International
+                                                Association of Buddhist Studies.</title>, vol. 23, no. 2, 2000: pp. 297–350.</bibl>
+                                        <bibl xml:id="UT23703-113-010-48">———— (2021). <title xml:lang="en">Questioning the Buddha: A Selection
+                                                  of Twenty-Five Sutras</title>. Somerville, MA:
+                                                Wisdom Publications, 2021.</bibl>
+                                </tei:div>
+                        </tei:div>
+                        <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" type="glossary">
+                                <list type="glossary">
+                                        <item>
+                        <gloss type="term" xml:id="UT23703-113-010-50">
+                            <term type="translationMain">thought of awakening</term>
+                            <term xml:lang="Sa-Ltn" type="sourceUnspecified" status="verified">bodhicitta</term>
+                            <term xml:lang="Bo-Ltn" type="attestedSource" n="1" status="verified">byang chub sems</term>
+                            <term xml:lang="bo" type="attestedSource" n="1" status="verified">བྱང་ཆུབ་སེམས།</term>
+                        </gloss>
+                    </item>
+                                        <item>
+                        <gloss type="term" xml:id="UT23703-113-010-51">
+                            <term type="translationMain">lenience</term>
+                            <term xml:lang="Sa-Ltn" type="sourceUnspecified" status="verified">sauratya</term>
+                            <term xml:lang="Bo-Ltn" type="attestedSource" n="1" status="verified">des pa</term>
+                            <term xml:lang="bo" type="attestedSource" n="1" status="verified">དེས་པ།</term>
+                            <note type="definition">
+                                <p>Gentleness, especially in
+                                                  one’s thoughts and behavior toward others; the
+                                                  absence of any desire for retaliation. This is
+                                                  often paired with tolerance.</p>
+                            </note>
+                        </gloss>
+                    </item>
+                                        <item>
+                        <gloss type="term" xml:id="UT23703-113-010-52">
+                            <term type="translationMain">tolerance</term>
+                            <term xml:lang="Sa-Ltn" type="sourceUnspecified" status="verified">kṣānti</term>
+                            <term xml:lang="Bo-Ltn" type="attestedSource" n="1" status="verified">bzod pa</term>
+                            <term xml:lang="bo" type="attestedSource" n="1" status="verified">བཟོད་པ།</term>
+                            <note type="definition">
+                                <p>Forbearance of the harm
+                                                  done to one by others. </p>
+                            </note>
+                        </gloss>
+                    </item>
+                                        <item>
+                        <gloss type="term" xml:id="UT23703-113-010-53">
+                            <term type="translationMain">dwelling in the forest</term>
+                            <term xml:lang="Sa-Ltn" type="attestedOther" status="verified">araṇyavāsa</term>
+                            <term xml:lang="Bo-Ltn" type="attestedSource" n="1" status="verified">dgon pa la gnas pa</term>
+                            <term xml:lang="bo" type="attestedSource" n="1" status="verified">དགོན་པ་ལ་གནས་པ།</term>
+                            <note type="definition">
+                                <p>An ideal lifestyle for a practitioner is described as dwelling in a place
+                                                  suitably removed from the social world of the town
+                                                  so as to best enable spiritual practice. In some contexts the term can also 
+                                be understood on a more inward level as remaining free from distraction and other disturbing states of mind.</p>
+                            </note>
+                        </gloss>
+                    </item>
+                                        <item>
+                        <gloss type="term" xml:id="UT23703-113-010-54">
+                            <term type="translationMain">spiritual friend</term>
+                            <term xml:lang="Sa-Ltn" type="sourceUnspecified" status="verified">kalyāṇamitra</term>
+                            <term xml:lang="Bo-Ltn" type="attestedSource" n="1" status="verified">dge ba’i bshes gnyen</term>
+                            <term xml:lang="bo" type="attestedSource" n="1" status="verified">དགེ་བའི་བཤེས་གཉེན།</term>
+                            <note type="definition">
+                                <p>A teacher of the spiritual
+                                                  path.</p>
+                            </note>
+                        </gloss>
+                    </item>
+                                        <item>
+                        <gloss type="person" xml:id="UT23703-113-010-56">
+                            <term type="translationMain">Vasubandhu</term>
+                            <term xml:lang="Sa-Ltn" type="sourceUnspecified" status="verified">vasubandhu</term>
+                            <term xml:lang="Bo-Ltn" type="attestedSource" n="1" status="verified">dbyig gnyen</term>
+                            <term xml:lang="bo" type="attestedSource" n="1" status="verified">དབྱིག་གཉེན།</term>
+                            <note type="definition">
+                                    <p>The great scholar and author of fourth or fifth century Buddhist India, born in Gandhāra and said 
+                                            according to Tibetan and Chinese traditions to have been related to Asaṅga, perhaps as his younger brother.</p>
+                            </note>
+                         </gloss>
+                    </item>
+                        </list>
+                        </tei:div>
+                </back>
+        </text>
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Proclaiming the Names of the Tathāgatas, A Garland of Ornaments for the Fortunate Eon</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Tathāgata­nāma­saṃgīti­kalpika­bhadrālaṃkāra­mālā</title>
+                <title type="mainTitle" xml:lang="bo">དེ་བཞིན་གཤེགས་པའི་མཚན་བརྗོད་བསྐལ་བཟང་རྒྱན་གྱི་ཕྲེང་བ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">de bzhin gshegs pa'i mtshan brjod bskal bzang rgyan gyi phreng ba/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-001-061"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1169" type="text">
+                    <ref>Toh 1169</ref>
+                    <biblScope>ff. 241r-246v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-001-061-1">Śākyaśrībhadra</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-001-061-2">Śākyaśrībhadra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-001-061-3">lo ts+tsha ba byams pa'i dpal</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-001-061-4">sa skya lo tsA ba</editor>
+                    <location work="UT23703" count-pages="12">
+                        <volume number="1" start-page="481" end-page="492"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC7631" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC7693" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T12:46:53.821Z" type="import" xml:id="UT23703-001-061-5" source="tengyur-data-1109-1179_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-001-061-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 5: On Leather</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Carmavastu</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">ko lpags kyi gzhi/</title>
+                <author role="translatorMain" xml:id="UT22084-001-005-1">Lochung Translation Committee</author>
+                <consultant role="projectManager" xml:id="UT22084-001-005-2">Cuilan Liu</consultant>
+                <author role="translatorEng" xml:id="UT22084-001-005-3">Cuilan Liu</author>
+                <author role="translatorEng" xml:id="UT22084-001-005-4">Susan Roach</author>
+                <author role="translatorEng" xml:id="UT22084-001-005-5">Andy Francis</author>
+                <author role="translatorEng" xml:id="UT22084-001-005-6">Jamyang Rinchen</author>
+                <editor role="projectEditor" xml:id="UT22084-001-005-21">Robert Miller</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.10 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.d"/>
+                <idno xml:id="UT22084-001-005"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1-5" type="chapter">
+                    <ref>Toh 1-5</ref>
+                    <biblScope>vol:1,ff.251r-277v(pp.502-554)</biblScope>
+                    <location work="UT4CZ5369" count-pages="53">
+                        <volume number="1" start-page="502" end-page="554"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11497" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12909" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-001-005-7">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-07T11:14:31.388Z" type="text-version" status="0.0.2" xml:id="UT22084-001-005-8">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-08T09:44:14.428Z" type="translation-status" status="2.h" xml:id="UT22084-001-005-9">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2022-08-08T09:44:14.428Z" type="text-version" status="0.0.3" xml:id="UT22084-001-005-10">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-01-26T10:27:08.587Z" type="text-version" status="0.0.4" xml:id="UT22084-001-005-11">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.5" xml:id="UT22084-001-005-12">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-07-01T14:09:28.352Z" type="translation-status" status="2.g" xml:id="UT22084-001-005-13">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-07-01T14:09:28.352Z" type="text-version" status="0.0.6" xml:id="UT22084-001-005-14">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-07-01T14:10:16.351Z" type="text-version" status="0.0.7" xml:id="UT22084-001-005-22">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-20T14:51:56.191Z" type="translation-status" status="2.f" xml:id="UT22084-001-005-23">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2024-08-20T14:51:56.191Z" type="text-version" status="0.0.8" xml:id="UT22084-001-005-24">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-13T10:40:46.165Z" type="translation-status" status="2.e" xml:id="UT22084-001-005-25">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-13T10:40:46.165Z" type="text-version" status="0.0.9" xml:id="UT22084-001-005-26">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-24T12:57:06.085Z" type="translation-status" status="2.d" xml:id="UT22084-001-005-27">
+                    <desc>2.d</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-24T12:57:06.085Z" type="text-version" status="0.0.10" xml:id="UT22084-001-005-28">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="summary" xml:id="UT22084-001-005-summary">
+                <head type="summary" tid="2">Summary</head>
+                <p tid="1">This text discusses the use of hides by members of the Buddhist monastic community for various occasions. It begins with a lengthy narrative on the life story of Śroṇa
+                    Koṭikarṇa, whose wandering in the realms of the hungry ghosts eventually led him to become an ordained Buddhist monk. Regulations on the matter of hides were first discussed when
+                    Śroṇa Koṭikarṇa, on behalf of his master Mahākātyāyana, asked the Blessed One five questions concerning the special circumstances in the region of Aśmāparāntaka. More rules were
+                    established to regulate the use of shoes and the materials that could be use to make shoes, rugs, sitting mats, as well as rules that regulate the use of tall and wide bed, issues
+                    concerning river-crossing, bathing, and the storage of tools for repairing shoes.</p>
+            </div>
+        </front>
+    </text>
+</TEI>

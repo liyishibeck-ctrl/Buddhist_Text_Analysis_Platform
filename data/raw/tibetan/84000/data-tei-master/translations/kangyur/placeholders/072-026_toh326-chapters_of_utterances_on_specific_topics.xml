@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en" type="mainTitle">Chapters of Utterances on Specific Topics</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Udāna­varga</title>
+                <title xml:lang="bo" type="mainTitle">ཆེད་དུ་བརྗོད་པའི་ཚོམས།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">ched du brjod pa'i tshoms/</title>
+                <title xml:lang="zh" type="otherTitle">（大正藏：法集要頌經）</title>
+                <title xml:lang="zh" type="otherTitle">優陀那品</title>
+                <author role="translatorMain" xml:id="UT22084-072-026-1"/>
+                <author role="translatorEng" xml:id="UT22084-072-026-2">Geshe Lozang Jamspal</author>
+                <author role="translatorEng" xml:id="UT22084-072-026-3">Norman Guberman</author>
+                <editor role="associateEditor" xml:id="UT22084-072-026-4">James Duncan Gentry</editor>
+                <consultant role="projectManager" xml:id="UT22084-072-026-5">Geshe Lozang Jamspal</consultant>
+                <author role="translatorEng" xml:id="UT22084-072-026-6">Kaia Fischer</author>
+                <sponsor xml:id="UT22084-072-026-7">苏慧, 姚雨含, 黄腾进, 刘建国, 邵帅, 郭瑾贺, 曲尼俄萨, 王泽庆, 杨群, 梁起彰, 阮松孙</sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.9 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="3"/>
+                <idno xml:id="UT22084-072-026"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh326" type="text">
+                    <ref>Toh 326</ref>
+                    <biblScope>vol.72, ff.209r-253r(pp.417-505)</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT22084-072-026-8">Dharmatrāta (III)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT22084-072-026-9">Vidyākaraprabha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT22084-072-026-10">lo tsa ba ban+de rin chen mchog</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT22084-072-026-11">zhu chen gyi lo tsA ba ban+de dpal brtsegs</editor>
+                    <location work="UT4CZ5369" count-pages="89">
+                        <volume number="72" start-page="417" end-page="505"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC14668" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12003" work="W22084"/>
+                </bibl>
+                <bibl key="toh4099" type="text">
+                    <ref>Toh 4099</ref>
+                    <biblScope>ff. 1v-45r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT22084-072-026-12">Dharmatrāta (III)</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT22084-072-026-13">Vidyākaraprabha</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT22084-072-026-14">lo tsa ba ban+de rin chen mchog</author>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT22084-072-026-15">zhu chen gyi lo tsA ba ban+de dpal brtsegs</editor>
+                    <location work="UT23703" count-pages="88">
+                        <volume number="148" start-page="2" end-page="89"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10788" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10816" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2019-12-20T12:56:48.575Z" type="text-version" status="v 0.0.1" xml:id="UT22084-072-026-16">
+                    <desc>Automated version increment</desc>
+                </change>
+                <change who="#mike" when="2020-01-27T13:03:14.276Z" type="translation-status" status="2.h" xml:id="UT22084-072-026-17">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2020-03-06T07:59:03.233Z" type="translation-status" status="3" xml:id="UT22084-072-026-18">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2021-01-14T14:53:16.297Z" type="text-version" status="0.0.2" xml:id="UT22084-072-026-19">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T14:16:18.239Z" type="import" xml:id="UT22084-072-026-20" source="tengyur-data-4086-4103_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:16:18.239Z" type="title" xml:id="UT22084-072-026-21" source="tengyur-data-4086-4103_PH_new_v2.4.xml">
+                    <desc>The “utterances” to which the title refers being attributed to the Buddha,  
+            the anthology is found in both the Kangyur and Tengyur. Tradition attributes their compilation to Dharmatrāta. 
+        </desc>
+                </change>
+                <change who="#andre" when="2022-02-19T06:29:15.579Z" type="text-version" status="0.0.3" xml:id="UT22084-072-026-22">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#line-tofte" when="2022-03-16T07:47:30.309Z" type="text-version" status="0.0.4" xml:id="UT22084-072-026-23">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#martina-cotter" when="2022-05-10T13:31:02.903Z" type="text-version" status="0.0.5" xml:id="UT22084-072-026-24">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-08-02T10:32:34.829Z" type="text-version" status="0.0.6" xml:id="UT22084-072-026-25">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#cabie-sim" when="2023-02-22T03:09:16.136Z" type="text-version" status="0.0.7" xml:id="UT22084-072-026-26">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#cabie-sim" when="2023-02-22T03:11:01.825Z" type="text-version" status="0.0.8" xml:id="UT22084-072-026-27">
+                    <desc>Auto (update-sponsorship)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.9" xml:id="UT22084-072-026-28">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

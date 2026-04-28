@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Ascertaining the True Path Leading to the Attainments</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Siddhi­san­mārga­nirṇaya</title>
+                <title type="mainTitle" xml:lang="bo">གྲུབ་པ་དམ་པའི་ལམ་ངེས་པ།</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">grub pa dam pa'i lam nges pa/</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-053-127"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2467" type="text">
+                    <ref>Toh 2467</ref>
+                    <biblScope>ff. 141r-141v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-053-127-1">Mitrayogin</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="53" start-page="281" end-page="282"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21617" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9051" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="import" xml:id="UT23703-053-127-2" source="tengyur-data-2450-2500_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:47:33.72Z" type="attribution" xml:id="UT23703-053-127-3" source="tengyur-data-2450-2500_PH_new_v2.4.xml">
+                    <desc>Authorship attribution taken from Derge Dkar-chag.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-053-127-4">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">འཕགས་པ་བཟང་པོ་སྤྱོད་པའི་སྨོན་ལམ་གྱི་འགྲེལ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">'phags pa bzang po spyod pa'i smon lam gyi 'grel pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Ārya­bhadracaryā­praṇidhāna­ṭīkā</title>
+                <title xml:lang="en" type="mainTitle">A Commentary on the Prayer for Good Conduct</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-117-006"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4015" type="text">
+                    <ref>Toh 4015</ref>
+                    <biblScope>ff. 252v-269r</biblScope>
+                    <author xml:id="UT23703-117-006-1" xml:lang="Sa-Ltn">Vasubandhu</author>
+                    <author role="translatorTib" xml:id="UT23703-117-006-2" xml:lang="Bo-Ltn">lo tsa ba dge slong b+ha dra pa la</author>
+                    <author role="translatorTib" xml:id="UT23703-117-006-3" xml:lang="Sa-Ltn">Bharat Ācārya Ānanda</author>
+                    <location work="UT23703" count-pages="34">
+                        <volume number="117" start-page="504" end-page="537"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10651" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10691" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh44"/>
+                <link type="isCommentaryOf" target="toh1095"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-117-006-4" source="tengyur-data-3981-4019_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#andre" when="2022-09-03T10:19:05.33Z" type="text-version" status="0.0.1" xml:id="UT23703-117-006-5">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-117-006-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#admin" when="2024-01-23T12:50:28.689Z" type="text-version" status="0.0.3" xml:id="UT23703-117-006-7">
+                    <desc>Auto (update-locations)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="Bo-Ltn">rnal 'byor ma'i kun tu spyod pa/</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Yoginīsaṃcāra</title>
+                <title type="mainTitle" xml:lang="en">The Rotation of Yoginīs</title>
+                <title type="otherTitle" xml:lang="en">[Note: in spite of the Tibetan kun tu spyod
+                    pa, saṃcāra does not seem to mean “conduct” or “career” here, but rather
+                    “manifesting.” This is brought out in commentaries. E.g., saṃcāra is explained
+                    in the Saṃcāranibandha (a commentary on the Yoginīsaṃcāra) as: saṃcāraḥ pracāro
+                    yogīnāṃ yogiśarīre maṇḍale ca “Saṃcāra is the manifestation of yoginīs in the
+                    practitioner’s body and in the maṇḍala”. The interpretation is confirmed by the
+                    other commentary on the same text, the Upadeśānusariṇīvyākhyā.]</title>
+                <title xml:lang="en" type="otherTitle">Note: in spite of the Tibetan kun tu spyod
+                    pa, saṃcāra does not seem to mean “conduct” or “career” here, but rather
+                    “rotation.” This is brought out in commentaries. E.g., saṃcāra is explained in
+                    the Saṃcāranibandha (a commentary on the Yoginīsaṃcāra) as: saṃcāraḥ pracāro
+                    yogīnāṃ yogiśarīre maṇḍale ca “Saṃcāra is the movement of yoginīs in the
+                    practitioner’s body and in the maṇḍala”. The interpretation is confirmed by the
+                    other commentary on the same text, the Upadeśānusariṇīvyākhyā.</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.4 <date>2024</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status="4"/>
+                <idno xml:id="UT22084-079-002"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh375" type="text">
+                    <ref>Toh 375</ref>
+                    <biblScope>vol.79, ff.34r-44v(pp.67-88)</biblScope>
+                    <location work="UT4CZ5369" count-pages="22">
+                        <volume number="79" start-page="67" end-page="88"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC21412" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12073" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-12-06T14:57:36.723Z" type="translation-status" status="4" xml:id="UT22084-079-002-1">
+                    <desc>4</desc>
+                </change>
+                <change who="#john" when="2021-12-06T14:57:36.723Z" type="text-version" status="0.0.1" xml:id="UT22084-079-002-2">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-079-002-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-08-03T09:36:19.23Z" type="translation-status" status="" xml:id="UT22084-079-002-4">
+                    <desc/>
+                </change>
+                <change who="#line-tofte" when="2023-08-03T09:36:19.23Z" type="text-version" status="0.0.3" xml:id="UT22084-079-002-5">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-04T10:07:31.662Z" type="translation-status" status="4" xml:id="UT22084-079-002-6">
+                    <desc>4</desc>
+                </change>
+                <change who="#line-tofte" when="2024-10-04T10:07:31.662Z" type="text-version" status="0.0.4" xml:id="UT22084-079-002-7">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Drop of Liberation</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mukti­tilaka</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">grol ba'i thig le/</title>
+                <title type="mainTitle" xml:lang="bo">གྲོལ་བའི་ཐིག་ལེ།</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Mukti­tilaka­nāma</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">grol ba'i thig le zhes bya ba/</title>
+                <title type="longTitle" xml:lang="bo">གྲོལ་བའི་ཐིག་ལེ་ཞེས་བྱ་བ།</title>
+                <title type="otherTitle" xml:lang="Sa-Ltn">Muktibindu (Szanto 2015)</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-042-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1859" type="text">
+                    <ref>Toh 1859</ref>
+                    <biblScope>ff. 47r-52r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-042-007-1">Buddhaśrījñānapāda</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-042-007-2">bod kyi zhu chen gyi lo tsa ba chen po mnga' bdag lha ye shes rgyal mtshan</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-042-007-3">Kamalaguhya</author>
+                    <location work="UT23703" count-pages="11">
+                        <volume number="42" start-page="93" end-page="103"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21621" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC8428" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="import" xml:id="UT23703-042-007-4" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T13:32:54.498Z" type="title" xml:id="UT23703-042-007-5" source="tengyur-data-1784-1917_PH_new_v2.4.xml">
+                    <desc>Szántó (2015) gives the Sanskrit title as Muktibindu.</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-042-007-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

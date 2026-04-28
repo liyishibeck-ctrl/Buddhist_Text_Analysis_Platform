@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 11: On a Group of Troublesome Monks</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Pāṇḍulohitakavastu</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">dmar ser can gyi gzhi/</title>
+                <author role="translatorMain" xml:id="UT22084-003-006-1"/>
+                <author role="translatorEng" xml:id="UT22084-003-006-2">Susan Roach</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.6 <date>2024</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.g"/>
+                <idno xml:id="UT22084-003-006"/>
+                <date/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh1-11" type="chapter">
+                    <ref>Toh 1-11</ref>
+                    <biblScope>vol:3,ff.140r-165v(pp.280-330)</biblScope>
+                    <location work="UT4CZ5369" count-pages="51">
+                        <volume number="3" start-page="280" end-page="330"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11497" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC12915" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#line-tofte" when="2023-01-12T09:47:33.012Z" type="translation-status" status="3" xml:id="UT22084-003-006-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-01-12T09:47:33.012Z" type="text-version" status="0.0.1" xml:id="UT22084-003-006-4">
+                    <desc>0.0.1</desc>
+                </change>
+                <change who="#line-tofte" when="2023-01-12T09:48:11.836Z" type="text-version" status="0.0.2" xml:id="UT22084-003-006-5">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-01-12T09:48:43.761Z" type="text-version" status="0.0.3" xml:id="UT22084-003-006-6">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.4" xml:id="UT22084-003-006-7">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-07T14:36:23.599Z" type="translation-status" status="2.h" xml:id="UT22084-003-006-8">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-07T14:36:23.599Z" type="text-version" status="0.0.5" xml:id="UT22084-003-006-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-11T14:12:28.191Z" type="translation-status" status="2.g" xml:id="UT22084-003-006-10">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-11T14:12:28.191Z" type="text-version" status="0.0.6" xml:id="UT22084-003-006-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

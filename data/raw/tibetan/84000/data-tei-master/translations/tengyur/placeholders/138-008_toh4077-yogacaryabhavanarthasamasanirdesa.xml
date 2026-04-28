@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྣལ་འབྱོར་སྤྱོད་པའི་བསྒོམ་པའི་དོན་མདོར་བསྡུས་ཏེ་བསྟན་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rnal 'byor spyod pa'i bsgom pa'i don mdor bsdus te bstan pa/</title>
+                <title xml:lang="en" type="mainTitle">A Teaching that Summarizes the Cultivation of Spiritual Practice</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.11 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-138-008"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4077" type="text">
+                    <ref>Toh 4077</ref>
+                    <biblScope>ff. 130v-131v</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-138-008-1">Jñānacandra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-138-008-2">zhu chen gyi lo tsa ba ban de ye shes sde</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-138-008-3">Prajñāvarman</author>
+                    <location work="UT23703" count-pages="3">
+                        <volume number="138" start-page="260" end-page="262"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10703" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10779" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh3890"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.4" xml:id="UT23703-138-008-4">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="import" xml:id="UT23703-138-008-5" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-28T10:32:05.149Z" type="general" xml:id="UT23703-138-008-6" source="tengyur-data-4020-4085_PH_new_v2.4.xml">
+                    <desc>Text is a commentary on Nāgamitra's "Door for Entering into the Three Bodies” (Kāyatrayāvatāra-mukha-nāma-śāstra; Toh 3890).</desc>
+                </change>
+                <change who="#sameer" when="2022-03-10T07:43:47.284Z" type="text-version" status="0.0.5" xml:id="UT23703-138-008-7">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-04-18T08:53:55.118Z" type="text-version" status="0.0.6" xml:id="UT23703-138-008-8">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-05-19T14:26:43.261Z" type="text-version" status="0.0.7" xml:id="UT23703-138-008-9">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#sameer" when="2022-05-22T20:30:05.109Z" type="text-version" status="0.0.8" xml:id="UT23703-138-008-10">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-09-03T13:21:54.154Z" type="text-version" status="0.0.9" xml:id="UT23703-138-008-11">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#andre" when="2022-09-30T16:24:42.058Z" type="text-version" status="0.0.10" xml:id="UT23703-138-008-12">
+                    <desc>Auto (entity-merge-attribution)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.11" xml:id="UT23703-138-008-13">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

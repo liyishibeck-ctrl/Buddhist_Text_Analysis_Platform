@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">Chapter 19: The Verses of the Assembly of Bodhisattvas</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">byang sems tshogs kyi tshigs bcad le'u/</title>
+                <title type="otherTitle" xml:lang="zh">菩薩雲集說偈品/菩薩雲集妙勝殿上說偈品/須彌頂上偈讚品</title>
+                <author role="translatorMain" xml:id="UT22084-035-019-5">84000 Associate Translators</author>
+                <author role="translatorEng" xml:id="UT22084-035-019-6">Ana Cristina Lopes</author>
+                <editor role="projectEditor" xml:id="UT22084-035-019-14">Nathaniel Rich</editor>
+                <editor role="copyEditor" xml:id="UT22084-035-019-23">Dawn Collins</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.12 <date>2025</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status="2.c"/>
+                <idno xml:id="UT22084-035-019"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh44-19" type="chapter">
+                    <ref>Toh 44-19</ref>
+                    <biblScope/>
+                    <location work="UT4CZ5369" count-pages="10">
+                        <volume number="35" start-page="479" end-page="488"/>
+                    </location>
+                    <idno parent-id="O1JC114941JC11565" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC114941JC14687" work="W22084"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#amy" when="2021-05-10T17:14:06.817Z" type="text-version" status="0.0.1" xml:id="UT22084-035-019-1">
+                    <desc>Auto (update-titles)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT22084-035-019-2">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:43:33.081Z" type="translation-status" status="3" xml:id="UT22084-035-019-3">
+                    <desc>3</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:43:33.081Z" type="text-version" status="0.0.3" xml:id="UT22084-035-019-4">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2023-09-28T13:44:03.273Z" type="text-version" status="0.0.4" xml:id="UT22084-035-019-7">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-07T14:29:51.479Z" type="translation-status" status="2.h" xml:id="UT22084-035-019-8">
+                    <desc>2.h</desc>
+                </change>
+                <change who="#line-tofte" when="2024-02-07T14:29:51.479Z" type="text-version" status="0.0.5" xml:id="UT22084-035-019-9">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-11T14:22:47.767Z" type="translation-status" status="2.g" xml:id="UT22084-035-019-10">
+                    <desc>2.g</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-11T14:22:47.767Z" type="text-version" status="0.0.6" xml:id="UT22084-035-019-11">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-06-11T14:23:20.904Z" type="text-version" status="0.0.7" xml:id="UT22084-035-019-15">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-16T13:48:28.899Z" type="translation-status" status="2.f" xml:id="UT22084-035-019-16">
+                    <desc>2.f</desc>
+                </change>
+                <change who="#line-tofte" when="2024-09-16T13:48:28.899Z" type="text-version" status="0.0.8" xml:id="UT22084-035-019-17">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-18T11:02:15.749Z" type="translation-status" status="2.e" xml:id="UT22084-035-019-18">
+                    <desc>2.e</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-18T11:02:15.749Z" type="text-version" status="0.0.9" xml:id="UT22084-035-019-19">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-11-18T11:04:49.697Z" type="text-version" status="0.0.10" xml:id="UT22084-035-019-24">
+                    <desc>Auto (update-contributors)</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-02T10:45:35.365Z" type="translation-status" status="2.d" xml:id="UT22084-035-019-25">
+                    <desc>2.d</desc>
+                </change>
+                <change who="#line-tofte" when="2024-12-02T10:45:35.365Z" type="text-version" status="0.0.11" xml:id="UT22084-035-019-26">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-07T14:07:13.366Z" type="translation-status" status="2.c" xml:id="UT22084-035-019-27">
+                    <desc>2.c</desc>
+                </change>
+                <change who="#line-tofte" when="2025-01-07T14:07:13.366Z" type="text-version" status="0.0.12" xml:id="UT22084-035-019-28">
+                    <desc>Auto (update-publication-status)</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

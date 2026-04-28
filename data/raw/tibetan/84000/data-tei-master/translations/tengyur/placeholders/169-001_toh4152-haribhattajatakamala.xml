@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">སེང་གེ་ཞབས་འབྲིང་པའི་སྐྱེས་པ་རབས་ཀྱི་ཕྲེང་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">seng ge zhabs 'bring pa'i skyes pa rabs kyi phreng pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Haribhaṭṭa­jātakamālā­nāma</title>
+                <title xml:lang="en" type="mainTitle">Haribhaṭṭa’s Garland of Previous Lives</title>
+                <title xml:lang="bo" type="longTitle">སེང་གེ་ཞབས་འབྲིང་པའི་སྐྱེས་པ་རབས་ཀྱི་ཕྲེང་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">seng ge zhabs 'bring pa'i skyes pa rabs kyi phreng pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Haribhaṭṭa­jātakamālā</title>
+            </titleStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-169-001"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4152" type="text">
+                    <ref>Toh 4152</ref>
+                    <biblScope>ff. 1v-197r</biblScope>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-169-001-1">Haribhaṭṭa</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-169-001-2">bod kyi lo tsa ba shakya'i dge slong tshul khrims 'byung gnas sbas pa</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-169-001-3">Alaṃkāradeva</author>
+                    <location work="UT23703" count-pages="392">
+                        <volume number="169" start-page="2" end-page="393"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10893" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC10898" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:17:45.617Z" type="import" xml:id="UT23703-169-001-4" source="tengyur-data-4150-4157_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2021-11-02T14:17:45.617Z" type="general" xml:id="UT23703-169-001-5" source="tengyur-data-4150-4157_PH_new_v2.4.xml">
+                    <desc>An example of early Sanskrit poetry written in the Campu style (mixed poetry and prose).</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.1" xml:id="UT23703-169-001-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

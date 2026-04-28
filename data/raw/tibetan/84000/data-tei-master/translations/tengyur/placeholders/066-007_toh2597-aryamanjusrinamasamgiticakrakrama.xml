@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="en">The Arrangement of the Circles of Mantras of “The Recitation of the Names of Mañjuśrī”</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Ārya­mañjuśrī­nāma­saṃgīti­cakra­krama</title>
+                <title type="mainTitle" xml:lang="Bo-Ltn">'phags pa 'jam dpal gyi mtshan yang dag par brjod pa'i 'khor lo'i rim pa/</title>
+                <title type="mainTitle" xml:lang="bo">འཕགས་པ་འཇམ་དཔལ་གྱི་མཚན་ཡང་དག་པར་བརྗོད་པའི་འཁོར་ལོའི་རིམ་པ།</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-066-007"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2597" type="text">
+                    <ref>Toh 2597</ref>
+                    <biblScope>ff. 50r-53r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-066-007-1">Anon</author>
+                    <location work="UT23703" count-pages="7">
+                        <volume number="66" start-page="99" end-page="105"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21610" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9201" work="W23703"/>
+                </bibl>
+                <link type="isCommentaryOf" target="toh360"/>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T13:52:02.501Z" type="import" xml:id="UT23703-066-007-2" source="tengyur-data-2532-2622_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-066-007-3">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

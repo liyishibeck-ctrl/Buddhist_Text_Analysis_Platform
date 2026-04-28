@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\backfill_segment_embeddings.py", line 119, in <module>
+    main()
+    ~~~~^^
+  File "D:\Buddhist_Text_Analysis_Platform\scripts\analysis\backfill_segment_embeddings.py", line 85, in main
+    result = backfill_segment_embeddings(
+        session,
+    ...<10 lines>...
+        progress_callback=progress_callback,
+    )
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 855, in backfill_segment_embeddings
+    
+    
+    ...<4 lines>...
+    shard_filter = _segment_shard_filter(shard_count=shard_count, shard_index=shard_index)
+    ^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 383, in index_segment_records
+    runtime, embeddings = embed_text_values(
+                          ~~~~~~~~~~~~~~~~~^
+        [record.get("normalized_content") or record.get("content") or "" for record in materialized],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        embedding_model=embedding_model,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 305, in embed_text_values
+    return runtime, _embed_with_openai_compatible_provider(materialized, runtime=runtime)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 203, in _embed_with_openai_compatible_provider
+    embeddings.extend(_embed_openai_compatible_batch(batch, runtime=runtime))
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Buddhist_Text_Analysis_Platform\backend\app\services\vector_service.py", line 234, in _embed_openai_compatible_batch
+    payload = json.loads(response.read().decode("utf-8"))
+                         ~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 500, in read
+    s = self._safe_read(self.length)
+  File "C:\Python314\Lib\http\client.py", line 648, in _safe_read
+    data = self.fp.read(cursize)
+  File "C:\Python314\Lib\socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out

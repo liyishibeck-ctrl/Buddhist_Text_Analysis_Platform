@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རྣམ་པར་རིག་པ་ཙམ་ཉིད་དུ་གྲུབ་པ།</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rnam par rig pa tsam nyid du grub pa/</title>
+                <title xml:lang="Sa-Ltn" type="mainTitle">Vijñapti­mātratā­siddhi</title>
+                <title xml:lang="en" type="mainTitle">Establishing Consciousness-Only</title>
+                <title xml:lang="bo" type="longTitle">རྣམ་པར་རིག་པ་ཙམ་ཉིད་དུ་གྲུབ་པ་ཞེས་བྱ་བ།</title>
+                <title xml:lang="Bo-Ltn" type="longTitle">rnam par rig pa tsam nyid du grub pa zhes bya ba/</title>
+                <title xml:lang="Sa-Ltn" type="longTitle">Vijñapti­mātratā­siddhi­nāma</title>
+            </titleStmt>
+    <editionStmt>
+                <edition>v 0.0.2 <date>2023</date>
+                </edition>
+            </editionStmt>
+
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-190-024"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh4259" type="text">
+                    <ref>Toh 4259</ref>
+                    <biblScope/>
+                    <author xml:lang="Sa-Ltn" xml:id="UT23703-190-024-1">Ratnākaraśānti</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-190-024-2">Jetahandu Śāntibhadra</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-190-024-3">bod kyi lo tsa ba 'bro dge slong shakya 'od</author>
+                    <editor role="reviser" xml:lang="Sa-Ltn" xml:id="UT23703-190-024-4">Jetahandu Śāntibhadra</editor>
+                    <editor role="reviser" xml:lang="Bo-Ltn" xml:id="UT23703-190-024-5">klog skya shes rab brtsegs</editor>
+                    <location work="UT23703" count-pages="7">
+                        <volume number="190" start-page="612" end-page="618"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC10956" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC11036" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#admin" when="2021-11-02T14:20:22.423Z" type="import" xml:id="UT23703-190-024-6" source="tengyur-data-4203-4268_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2022-01-20T09:14:07.444Z" type="text-version" status="0.0.1" xml:id="UT23703-190-024-7">
+                    <desc>Auto (correct-orphaned-attributions)</desc>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.2" xml:id="UT23703-190-024-8">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

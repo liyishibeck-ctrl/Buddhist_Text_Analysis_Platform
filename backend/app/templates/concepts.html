@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}概念页 | Buddha MVP{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>概念标签</h1>
+  <p>当前概念页用于验证跨传统概念聚合能力。现在已经补上第一版分布分析和概念共现，后续还可以继续叠加 embedding 聚类、术语归并和知识图谱视图。</p>
+</section>
+
+<section class="grid grid-3">
+  {% for concept in concepts %}
+  <article class="card">
+    <h2><a href="{{ url_for('concept_detail_page', concept_slug=concept.slug) }}">{{ concept.label }}</a></h2>
+    <p>{{ concept.description }}</p>
+    <p class="muted">作用域：{{ concept.tradition_scope }}</p>
+    <p>关联段落：{{ concept.segment_count }}</p>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

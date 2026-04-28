@@ -1,0 +1,10 @@
+PID=317412
+STDOUT=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-trad-tibetan-normalized-content-maxlen1999-maxrt3499-supervisor-20260428-110859-512.out.log
+STDERR=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime-trad-tibetan-normalized-content-maxlen1999-maxrt3499-supervisor-20260428-110859-512.err.log
+STARTED_AT=2026-04-28T03:08:59Z
+SUPERVISOR_STATE=D:\Buddhist_Text_Analysis_Platform\data\processed\logs\realtime_worker_smoke3.json
+TRADITION_ID=trad-tibetan
+CONTENT_FIELD=normalized_content
+EMBEDDING_MODEL=text-embedding-3-large
+STORAGE_EMBEDDING_MODEL=text-embedding-3-large
+DIMENSION=2048

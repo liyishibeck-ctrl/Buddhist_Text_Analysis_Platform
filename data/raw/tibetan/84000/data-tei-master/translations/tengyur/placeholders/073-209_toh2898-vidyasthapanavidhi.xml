@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../schema/current/translation.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="bo" type="mainTitle">རིག་སྔགས་གཏད་པའི་ཆོ་ག</title>
+                <title xml:lang="Bo-Ltn" type="mainTitle">rig sngags gtad pa'i cho ga</title>
+                <title xml:lang="en" type="mainTitle">A Ritual Focussing on Knowledge Mantras</title>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 0.0.3 <date>2023</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <availability status=""/>
+                <idno xml:id="UT23703-073-209"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl key="toh2898" type="text">
+                    <ref>Toh 2898</ref>
+                    <biblScope>ff. 251v-252r</biblScope>
+                    <author xml:lang="en" xml:id="UT23703-073-209-1">Anon</author>
+                    <author role="translatorTib" xml:lang="Sa-Ltn" xml:id="UT23703-073-209-2">Kṛṣṇa Paṇḍita</author>
+                    <author role="translatorTib" xml:lang="Bo-Ltn" xml:id="UT23703-073-209-3">tshul khrims rgyal ba</author>
+                    <location work="UT23703" count-pages="2">
+                        <volume number="73" start-page="502" end-page="503"/>
+                    </location>
+                    <idno parent-id="O1JC76301JC21612" work="http://read.84000.co/sections"/>
+                    <idno source-id="O1JC76301JC9516" work="W23703"/>
+                </bibl>
+            </sourceDesc>
+            <notesStmt/>
+            <revisionDesc>
+                <change who="#john" when="2021-01-29T19:20:50.328Z" type="text-version" status="0.0.2" xml:id="UT23703-073-209-4">
+                    <desc>Disentangled placeholder from Toh 3898</desc>
+                </change>
+                <change who="#admin" when="2021-11-02T13:56:37.974Z" type="import" xml:id="UT23703-073-209-5" source="tengyur-data-2865-2905_PH_new_v2.4.xml">
+                    <desc/>
+                </change>
+                <change who="#admin" when="2023-07-30T22:39:48.323Z" type="text-version" status="0.0.3" xml:id="UT23703-073-209-6">
+                    <desc>TEI migrated to 2.19.0</desc>
+                </change>
+            </revisionDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front/>
+    </text>
+</TEI>

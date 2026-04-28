@@ -1,0 +1,11 @@
+.env
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+pytest-cache-files-*/
+data/processed/*.db
+data/processed/*.sqlite
+data/processed/*.sqlite3
+uvicorn.out.log
+uvicorn.err.log
