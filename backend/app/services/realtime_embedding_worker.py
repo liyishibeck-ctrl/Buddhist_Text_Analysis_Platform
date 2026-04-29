@@ -4,6 +4,7 @@ import asyncio
 import base64
 import json
 import math
+import os
 import random
 import socket
 import sys
@@ -51,6 +52,9 @@ REALTIME_INITIAL_BACKOFF_SECONDS = 2.0
 REALTIME_STAGING_TABLE_NAME = "segment_embedding_staging"
 REALTIME_DB_WRITE_MAX_RETRIES = 3
 REALTIME_DB_WRITE_INITIAL_BACKOFF_SECONDS = 2.0
+REALTIME_SCAN_WINDOW_MULTIPLIER = 5
+REALTIME_SCAN_WINDOW_MIN = 512
+REALTIME_SCAN_WINDOW_MAX = 5_000
 TIBETAN_CONSERVATIVE_TOKEN_MULTIPLIER = 1.8
 
 
@@ -66,6 +70,7 @@ class RealtimeEmbeddingCandidate:
 class RealtimeEmbeddingBatch:
     records: list[dict[str, Any]]
     token_count: int
+    batch_index: int = 0
 
 
 @dataclass(slots=True)
@@ -84,6 +89,16 @@ class RealtimeEmbeddingStats:
     failed: int = 0
     skipped_oversize: int = 0
     tokens_used: int = 0
+    input_resume_after_segment_id: Optional[str] = None
+    scan_started_after_segment_id: Optional[str] = None
+    scan_last_seen_segment_id: Optional[str] = None
+    scan_candidate_hits: int = 0
+    scan_selected_count: int = 0
+    planned_embedding_segments: int = 0
+    scan_elapsed_seconds: float = 0.0
+    api_elapsed_seconds: float = 0.0
+    db_write_elapsed_seconds: float = 0.0
+    batch_metrics: list[dict[str, Any]] = field(default_factory=list)
     resume_after_segment_id: Optional[str] = None
     completed_scan: bool = False
 
@@ -99,6 +114,16 @@ class RealtimeEmbeddingStats:
             "segments_per_min": self.processed / elapsed_minutes,
             "tokens_per_min": self.tokens_used / elapsed_minutes,
             "started_at": self.started_at_utc,
+            "input_resume_after_segment_id": self.input_resume_after_segment_id,
+            "scan_started_after_segment_id": self.scan_started_after_segment_id,
+            "scan_last_seen_segment_id": self.scan_last_seen_segment_id,
+            "scan_candidate_hits": self.scan_candidate_hits,
+            "scan_selected_count": self.scan_selected_count,
+            "planned_embedding_segments": self.planned_embedding_segments,
+            "scan_elapsed_time": self.scan_elapsed_seconds,
+            "api_elapsed_time": self.api_elapsed_seconds,
+            "db_write_elapsed_time": self.db_write_elapsed_seconds,
+            "batch_metrics": self.batch_metrics,
             "resume_after_segment_id": self.resume_after_segment_id,
             "completed_scan": self.completed_scan,
         }
@@ -248,6 +273,10 @@ def request_realtime_embeddings(
     if not records:
         return RealtimeEmbeddingResponse(payloads=[], tokens_used=0, skipped_records=[])
     text_values = [segment_text_value(record, content_field=content_field) for record in records]
+    print(
+        f"embedding_request_start size={len(records)} field={content_field}",
+        flush=True,
+    )
     backoff_seconds = REALTIME_INITIAL_BACKOFF_SECONDS
     last_error: str | None = None
 
@@ -262,8 +291,16 @@ def request_realtime_embeddings(
             last_error = f"HTTP {exc.code}: {error_body}"
             if exc.code == 400 and "maximum input length is 8192 tokens" in error_body:
                 if len(records) == 1:
+                    print(
+                        f"embedding_request_skip_oversize size={len(records)} reason={last_error}",
+                        flush=True,
+                    )
                     return RealtimeEmbeddingResponse(payloads=[], tokens_used=0, skipped_records=[records[0]])
                 midpoint = max(1, len(records) // 2)
+                print(
+                    f"embedding_request_split size={len(records)} midpoint={midpoint} reason={last_error}",
+                    flush=True,
+                )
                 left = request_realtime_embeddings(
                     records[:midpoint],
                     runtime=runtime,
@@ -281,13 +318,24 @@ def request_realtime_embeddings(
                 )
             if exc.code == 429 or exc.code >= 500:
                 if attempt < REALTIME_MAX_RETRIES:
-                    time.sleep(max(backoff_seconds, retry_after))
+                    sleep_seconds = max(backoff_seconds, retry_after)
+                    print(
+                        f"embedding_request_retry size={len(records)} attempt={attempt + 1} "
+                        f"sleep={sleep_seconds:.2f} reason={last_error}",
+                        flush=True,
+                    )
+                    time.sleep(sleep_seconds)
                     backoff_seconds *= 2
                     continue
             raise RuntimeError(last_error) from exc
         except urllib.error.URLError as exc:
             last_error = f"URL error: {exc.reason}"
             if attempt < REALTIME_MAX_RETRIES:
+                print(
+                    f"embedding_request_retry size={len(records)} attempt={attempt + 1} "
+                    f"sleep={backoff_seconds:.2f} reason={last_error}",
+                    flush=True,
+                )
                 time.sleep(backoff_seconds)
                 backoff_seconds *= 2
                 continue
@@ -295,6 +343,11 @@ def request_realtime_embeddings(
         except (TimeoutError, socket.timeout) as exc:
             last_error = f"Timeout: {exc}"
             if attempt < REALTIME_MAX_RETRIES:
+                print(
+                    f"embedding_request_retry size={len(records)} attempt={attempt + 1} "
+                    f"sleep={backoff_seconds:.2f} reason={last_error}",
+                    flush=True,
+                )
                 time.sleep(backoff_seconds)
                 backoff_seconds *= 2
                 continue
@@ -337,6 +390,10 @@ def request_realtime_embeddings(
 
     usage = payload.get("usage") or {}
     tokens_used = int(usage.get("total_tokens") or usage.get("prompt_tokens") or 0)
+    print(
+        f"embedding_request_done size={len(records)} tokens_used={tokens_used}",
+        flush=True,
+    )
     return RealtimeEmbeddingResponse(payloads=staged_payloads, tokens_used=tokens_used)
 
 
@@ -378,6 +435,41 @@ def _needs_realtime_embedding(
     return False
 
 
+def _matching_text_version_ids(
+    session: Session,
+    *,
+    tradition_id: Optional[str],
+    collection_id: Optional[str],
+    language_id: Optional[str],
+) -> Optional[set[str]]:
+    if not tradition_id and not collection_id and not language_id:
+        return None
+    stmt = select(TextVersion.id).join(TextVersion.work)
+    if tradition_id:
+        stmt = stmt.where(Work.tradition_id == tradition_id)
+    if collection_id:
+        stmt = stmt.where(Work.collection_id == collection_id)
+    if language_id:
+        stmt = stmt.where(TextVersion.language_id == language_id)
+    return set(session.scalars(stmt).all())
+
+
+def _scope_bootstrap_segment_id(
+    session: Session,
+    *,
+    allowed_text_version_ids: Optional[set[str]],
+) -> Optional[str]:
+    if not allowed_text_version_ids:
+        return None
+    stmt = (
+        select(Segment.id)
+        .where(Segment.text_version_id.in_(allowed_text_version_ids))
+        .order_by(Segment.id)
+        .limit(1)
+    )
+    return session.scalar(stmt)
+
+
 def fetch_pending_realtime_candidates(
     session: Session,
     *,
@@ -388,77 +480,107 @@ def fetch_pending_realtime_candidates(
     language_id: Optional[str],
     start_after_segment_id: Optional[str],
     scan_limit: int,
+    candidate_limit: Optional[int],
     min_text_length: Optional[int],
     max_text_length: Optional[int],
     min_routing_tokens: Optional[int],
     max_routing_tokens: Optional[int],
 ) -> tuple[list[RealtimeEmbeddingCandidate], Optional[str], bool]:
     storage_embedding_model = resolve_storage_embedding_model(runtime.model, content_field=content_field)
-    stmt = (
-        select(Segment)
-        .options(
-            selectinload(Segment.text_version).selectinload(TextVersion.language),
-            selectinload(Segment.text_version).selectinload(TextVersion.work).selectinload(Work.tradition),
-            selectinload(Segment.text_version).selectinload(TextVersion.work).selectinload(Work.collection),
-        )
-        .join(Segment.text_version)
-        .join(TextVersion.work)
-        .order_by(Segment.id)
-        .limit(scan_limit)
-    )
-    if start_after_segment_id:
-        stmt = stmt.where(Segment.id > start_after_segment_id)
-    if tradition_id:
-        stmt = stmt.where(Work.tradition_id == tradition_id)
-    if collection_id:
-        stmt = stmt.where(Work.collection_id == collection_id)
-    if language_id:
-        stmt = stmt.where(TextVersion.language_id == language_id)
-
-    segments = session.scalars(stmt).unique().all()
-    if not segments:
-        return [], start_after_segment_id, True
-
-    segment_ids = [segment.id for segment in segments]
-    indexed_rows = session.scalars(
-        select(EmbeddingIndexMetadata).where(
-            EmbeddingIndexMetadata.owner_type == "segment",
-            EmbeddingIndexMetadata.owner_id.in_(segment_ids),
-            EmbeddingIndexMetadata.embedding_model == storage_embedding_model,
-        )
-    ).all()
-    indexed_by_id = {row.owner_id: row for row in indexed_rows}
-
     candidates: list[RealtimeEmbeddingCandidate] = []
-    for segment in segments:
-        record = _segment_record_payload(segment)
-        text_value = segment_text_value(record, content_field=content_field).strip()
-        if not text_value:
-            continue
-        metadata = indexed_by_id.get(segment.id)
-        if not _needs_realtime_embedding(record, metadata, runtime=runtime, content_field=content_field):
-            continue
-        text_length = len(text_value)
-        if min_text_length is not None and text_length < min_text_length:
-            continue
-        if max_text_length is not None and text_length > max_text_length:
-            continue
-        token_count = estimate_segment_tokens(text_value)
-        routing_token_count = estimate_routing_tokens(record, text_value=text_value, token_count=token_count)
-        if min_routing_tokens is not None and routing_token_count < min_routing_tokens:
-            continue
-        if max_routing_tokens is not None and routing_token_count > max_routing_tokens:
-            continue
-        candidates.append(
-            RealtimeEmbeddingCandidate(
-                record=record,
-                token_count=token_count,
-                text_length=text_length,
-                routing_token_count=routing_token_count,
-            )
+    allowed_text_version_ids = _matching_text_version_ids(
+        session,
+        tradition_id=tradition_id,
+        collection_id=collection_id,
+        language_id=language_id,
+    )
+    target_candidates = max(1, candidate_limit or scan_limit)
+    scan_window_size = min(
+        REALTIME_SCAN_WINDOW_MAX,
+        max(REALTIME_SCAN_WINDOW_MIN, target_candidates * REALTIME_SCAN_WINDOW_MULTIPLIER),
+    )
+    scanned_rows_total = 0
+    last_seen_segment_id = start_after_segment_id
+    bootstrap_segment_id = None
+    if start_after_segment_id is None:
+        bootstrap_segment_id = _scope_bootstrap_segment_id(
+            session,
+            allowed_text_version_ids=allowed_text_version_ids,
         )
 
-    return candidates, segments[-1].id, False
+    while scanned_rows_total < scan_limit:
+        remaining_scan_rows = max(1, scan_limit - scanned_rows_total)
+        stmt = (
+            select(Segment)
+            .options(
+                selectinload(Segment.text_version).selectinload(TextVersion.language),
+                selectinload(Segment.text_version).selectinload(TextVersion.work).selectinload(Work.tradition),
+                selectinload(Segment.text_version).selectinload(TextVersion.work).selectinload(Work.collection),
+            )
+            .order_by(Segment.id)
+            .limit(min(scan_window_size, remaining_scan_rows))
+        )
+        if last_seen_segment_id:
+            stmt = stmt.where(Segment.id > last_seen_segment_id)
+        elif bootstrap_segment_id:
+            stmt = stmt.where(Segment.id >= bootstrap_segment_id)
+            bootstrap_segment_id = None
+
+        segments = session.scalars(stmt).unique().all()
+        if not segments:
+            return candidates, last_seen_segment_id, True
+
+        scanned_rows_total += len(segments)
+        last_seen_segment_id = segments[-1].id
+
+        if allowed_text_version_ids is not None:
+            scoped_segments = [segment for segment in segments if segment.text_version_id in allowed_text_version_ids]
+        else:
+            scoped_segments = segments
+        if not scoped_segments:
+            continue
+
+        segment_ids = [segment.id for segment in scoped_segments]
+        indexed_rows = session.scalars(
+            select(EmbeddingIndexMetadata).where(
+                EmbeddingIndexMetadata.owner_type == "segment",
+                EmbeddingIndexMetadata.owner_id.in_(segment_ids),
+                EmbeddingIndexMetadata.embedding_model == storage_embedding_model,
+            )
+        ).all()
+        indexed_by_id = {row.owner_id: row for row in indexed_rows}
+
+        for segment in scoped_segments:
+            record = _segment_record_payload(segment)
+            text_value = segment_text_value(record, content_field=content_field).strip()
+            if not text_value:
+                continue
+            metadata = indexed_by_id.get(segment.id)
+            if not _needs_realtime_embedding(record, metadata, runtime=runtime, content_field=content_field):
+                continue
+            text_length = len(text_value)
+            if min_text_length is not None and text_length < min_text_length:
+                continue
+            if max_text_length is not None and text_length > max_text_length:
+                continue
+            token_count = estimate_segment_tokens(text_value)
+            routing_token_count = estimate_routing_tokens(record, text_value=text_value, token_count=token_count)
+            if min_routing_tokens is not None and routing_token_count < min_routing_tokens:
+                continue
+            if max_routing_tokens is not None and routing_token_count > max_routing_tokens:
+                continue
+            candidates.append(
+                RealtimeEmbeddingCandidate(
+                    record=record,
+                    token_count=token_count,
+                    text_length=text_length,
+                    routing_token_count=routing_token_count,
+                )
+            )
+            if len(candidates) >= target_candidates:
+                return candidates, segment.id, False
+
+    return candidates, last_seen_segment_id, False
 
 
 def scan_pending_realtime_candidates(
@@ -470,6 +592,7 @@ def scan_pending_realtime_candidates(
     language_id: Optional[str],
     start_after_segment_id: Optional[str],
     scan_limit: int,
+    candidate_limit: Optional[int],
     min_text_length: Optional[int],
     max_text_length: Optional[int],
     min_routing_tokens: Optional[int],
@@ -485,6 +608,7 @@ def scan_pending_realtime_candidates(
             language_id=language_id,
             start_after_segment_id=start_after_segment_id,
             scan_limit=scan_limit,
+            candidate_limit=candidate_limit,
             min_text_length=min_text_length,
             max_text_length=max_text_length,
             min_routing_tokens=min_routing_tokens,
@@ -874,6 +998,7 @@ async def run_realtime_embedding_worker(
     collection_id: Optional[str] = None,
     language_id: Optional[str] = None,
     start_after_segment_id: Optional[str] = None,
+    dry_run_scan_only: bool = False,
     concurrency: int = 4,
     scan_batch_size: int = 2_000,
     max_segments_per_request: int = REALTIME_MAX_SEGMENTS_PER_REQUEST,
@@ -893,21 +1018,28 @@ async def run_realtime_embedding_worker(
     runtime = resolve_embedding_runtime(tradition_id=tradition_id)
     validate_realtime_runtime(runtime)
     run_id = run_id or datetime.now(timezone.utc).strftime("rt-%Y%m%d%H%M%S")
-
-    with SessionLocal() as session:
-        ensure_realtime_embedding_tables(session.connection(), dimension=runtime.dimension)
-
-    flush_staging_backlog(runtime=runtime, content_field=resolved_field, tradition_id=tradition_id)
+    if not dry_run_scan_only:
+        with SessionLocal() as session:
+            ensure_realtime_embedding_tables(session.connection(), dimension=runtime.dimension)
+        flush_staging_backlog(runtime=runtime, content_field=resolved_field, tradition_id=tradition_id)
 
     queue: asyncio.Queue[RealtimeEmbeddingBatch | None] = asyncio.Queue(maxsize=max(1, concurrency * 2))
-    stats = RealtimeEmbeddingStats()
+    stats = RealtimeEmbeddingStats(
+        input_resume_after_segment_id=start_after_segment_id,
+        scan_started_after_segment_id=start_after_segment_id,
+    )
     stats_lock = asyncio.Lock()
     db_write_semaphore = asyncio.Semaphore(1)
 
     async def producer() -> None:
         last_segment_id = start_after_segment_id
         queued_missing = 0
+        next_batch_index = 1
         while True:
+            scan_started_at = time.monotonic()
+            remaining_candidates = None
+            if max_segments is not None:
+                remaining_candidates = max(1, max_segments - queued_missing)
             candidates, scanned_cursor, completed = await asyncio.to_thread(
                 scan_pending_realtime_candidates,
                 runtime=runtime,
@@ -917,11 +1049,16 @@ async def run_realtime_embedding_worker(
                 language_id=language_id,
                 start_after_segment_id=last_segment_id,
                 scan_limit=scan_batch_size,
+                candidate_limit=remaining_candidates,
                 min_text_length=min_text_length,
                 max_text_length=max_text_length,
                 min_routing_tokens=min_routing_tokens,
                 max_routing_tokens=max_routing_tokens,
             )
+            scan_elapsed = time.monotonic() - scan_started_at
+            async with stats_lock:
+                stats.scan_elapsed_seconds += scan_elapsed
+                stats.scan_last_seen_segment_id = scanned_cursor
             if not candidates and completed:
                 async with stats_lock:
                     stats.resume_after_segment_id = scanned_cursor or last_segment_id
@@ -944,10 +1081,28 @@ async def run_realtime_embedding_worker(
                 max_tokens_per_request=max_tokens_per_request,
                 max_single_segment_tokens=max_single_segment_tokens,
             )
+            for batch in batches:
+                batch.batch_index = next_batch_index
+                next_batch_index += 1
             async with stats_lock:
+                stats.scan_candidate_hits += original_candidate_count
+                stats.scan_selected_count += len(candidates)
+                stats.planned_embedding_segments += sum(len(batch.records) for batch in batches)
                 stats.total_missing += len(candidates)
                 stats.failed += len(oversize)
                 stats.skipped_oversize += len(oversize)
+                if dry_run_scan_only:
+                    for batch in batches:
+                        stats.batch_metrics.append(
+                            {
+                                "batch_index": batch.batch_index,
+                                "batch_size": len(batch.records),
+                                "batch_tokens": batch.token_count,
+                                "request_elapsed_time": 0.0,
+                                "db_write_elapsed_time": 0.0,
+                                "dry_run": True,
+                            }
+                        )
             queued_missing += len(candidates)
             if candidates:
                 if truncated:
@@ -960,6 +1115,8 @@ async def run_realtime_embedding_worker(
                 stats.resume_after_segment_id = last_segment_id
                 if completed and not truncated:
                     stats.completed_scan = True
+            if dry_run_scan_only and completed and not truncated:
+                break
             for batch in batches:
                 await queue.put(batch)
             if completed and not truncated:
@@ -974,13 +1131,16 @@ async def run_realtime_embedding_worker(
             try:
                 if batch is None:
                     return
+                request_started_at = time.monotonic()
                 response = await asyncio.to_thread(
                     request_realtime_embeddings,
                     batch.records,
                     runtime=runtime,
                     content_field=resolved_field,
                 )
+                request_elapsed = time.monotonic() - request_started_at
                 async with db_write_semaphore:
+                    db_started_at = time.monotonic()
                     processed_count = await asyncio.to_thread(
                         _persist_response_batch,
                         response,
@@ -988,17 +1148,35 @@ async def run_realtime_embedding_worker(
                         runtime=runtime,
                         content_field=resolved_field,
                     )
+                    db_elapsed = time.monotonic() - db_started_at
                 async with stats_lock:
                     stats.processed += processed_count
                     stats.tokens_used += response.tokens_used
                     stats.failed += len(response.skipped_records)
                     stats.skipped_oversize += len(response.skipped_records)
+                    stats.api_elapsed_seconds += request_elapsed
+                    stats.db_write_elapsed_seconds += db_elapsed
+                    stats.batch_metrics.append(
+                        {
+                            "batch_index": batch.batch_index,
+                            "batch_size": len(batch.records),
+                            "batch_tokens": batch.token_count,
+                            "request_elapsed_time": request_elapsed,
+                            "db_write_elapsed_time": db_elapsed,
+                            "processed_count": processed_count,
+                            "skipped_records": len(response.skipped_records),
+                        }
+                    )
             except Exception:
                 async with stats_lock:
                     stats.failed += len(batch.records)
                 raise
             finally:
                 queue.task_done()
+
+    if dry_run_scan_only:
+        await producer()
+        return stats.snapshot()
 
     producer_task = asyncio.create_task(producer())
     worker_tasks = [asyncio.create_task(worker()) for _ in range(max(1, concurrency))]

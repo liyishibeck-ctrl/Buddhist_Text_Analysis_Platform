@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% block title %}巴利主题地图 | 云上取经{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>巴利主题地图</h1>
+  {% if theme_map %}
+  <p>这张地图基于巴利正文的英文 gloss snapshot 生成，用主题词表标出高频教义区块与共现关系。它现在更像“可浏览的研究草图”，适合先看全局分布、再点进代表段落，不把它当成最终本体分类。</p>
+  <div class="inline-meta">
+    <span class="catalog-chip">主题 {{ theme_map.theme_count }}</span>
+    <span class="catalog-chip">gloss 段落 {{ theme_map.gloss_segment_count }}</span>
+    <span class="catalog-chip">命中主题段落 {{ theme_map.matched_segment_count }}</span>
+    <span class="catalog-chip">未命中 {{ theme_map.unmatched_segment_count }}</span>
+    <span class="catalog-chip">生成时间 {{ theme_map.generated_at[:19].replace("T", " ") }} UTC</span>
+  </div>
+  {% else %}
+  <p>巴利主题地图 snapshot 还没生成。运行 `python scripts/analysis/build_pali_theme_map.py` 后，这里会显示全量主题分布。</p>
+  {% endif %}
+</section>
+
+{% if theme_map %}
+<section class="card">
+  <div class="section-head">
+    <div>
+      <h2>主题网络</h2>
+      <p class="muted">节点大小表示命中段落数，连线表示同一段落内的主题共现。</p>
+    </div>
+    <div class="theme-family-row">
+      {% for family in theme_map.families %}
+      <span class="theme-family-chip" style="--family-color: {{ family.color }};">{{ family.label }} · {{ family.segment_count }}</span>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="theme-map-canvas">
+    <svg class="theme-map-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      {% for edge in theme_map.edges %}
+      <line
+        x1="{{ edge.x1 }}"
+        y1="{{ edge.y1 }}"
+        x2="{{ edge.x2 }}"
+        y2="{{ edge.y2 }}"
+        stroke-width="{{ edge.stroke_width }}"
+      ></line>
+      {% endfor %}
+    </svg>
+    {% for node in theme_map.nodes %}
+    <a
+      class="theme-map-node"
+      href="#theme-{{ node.slug }}"
+      style="left: calc({{ node.x }}% - {{ node.size_px // 2 }}px); top: calc({{ node.y }}% - {{ node.size_px // 2 }}px); width: {{ node.size_px }}px; height: {{ node.size_px }}px; --node-color: {{ node.family_color }};"
+    >
+      <span class="theme-map-node-label">{{ node.label }}</span>
+      <span class="theme-map-node-count">{{ node.segment_count }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="grid grid-2">
+  {% for node in theme_map.nodes %}
+  <article class="card theme-detail-card" id="theme-{{ node.slug }}">
+    <div class="catalog-line">
+      <h2>{{ node.label }}</h2>
+      <span class="theme-family-chip" style="--family-color: {{ node.family_color }};">{{ node.family_label }}</span>
+      <span class="catalog-chip">{{ node.segment_count }} 段</span>
+      <span class="catalog-chip">{{ node.share_percent }}%</span>
+    </div>
+    <p>{{ node.description }}</p>
+
+    {% if node.top_works %}
+    <h3>高频作品</h3>
+    <ul class="plain-list">
+      {% for item in node.top_works %}
+      <li>{{ item.work_title }} · {{ item.segment_count }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if node.examples %}
+    <h3>代表段落</h3>
+    <ul class="plain-list">
+      {% for item in node.examples %}
+      <li>
+        <a href="{{ url_for('segment_detail_page', segment_id=item.segment_id) }}">{{ item.segment_key }}</a>
+        · {{ item.work_title }}
+        <div class="muted">{{ item.preview }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}

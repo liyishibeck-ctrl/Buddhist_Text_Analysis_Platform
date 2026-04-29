@@ -19,6 +19,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--tradition-id")
     parser.add_argument("--collection-id")
     parser.add_argument("--language-id")
+    parser.add_argument("--dry-run-scan-only", action="store_true")
     parser.add_argument("--concurrency", type=int, default=4)
     parser.add_argument("--scan-batch-size", type=int, default=2000)
     parser.add_argument("--max-segments-per-request", type=int, default=REALTIME_MAX_SEGMENTS_PER_REQUEST)
@@ -41,6 +42,7 @@ def main() -> None:
             tradition_id=args.tradition_id,
             collection_id=args.collection_id,
             language_id=args.language_id,
+            dry_run_scan_only=args.dry_run_scan_only,
             concurrency=args.concurrency,
             scan_batch_size=args.scan_batch_size,
             max_segments_per_request=args.max_segments_per_request,
@@ -61,8 +63,27 @@ def main() -> None:
     print(f"elapsed_time={stats['elapsed_time']:.2f}")
     print(f"segments_per_min={stats['segments_per_min']:.2f}")
     print(f"tokens_per_min={stats['tokens_per_min']:.2f}")
+    print(f"input_resume_after_segment_id={stats.get('input_resume_after_segment_id') or ''}")
+    print(f"scan_started_after_segment_id={stats.get('scan_started_after_segment_id') or ''}")
+    print(f"scan_last_seen_segment_id={stats.get('scan_last_seen_segment_id') or ''}")
+    print(f"scan_candidate_hits={stats.get('scan_candidate_hits', 0)}")
+    print(f"scan_selected_count={stats.get('scan_selected_count', 0)}")
+    print(f"planned_embedding_segments={stats.get('planned_embedding_segments', 0)}")
+    print(f"scan_elapsed_time={stats.get('scan_elapsed_time', 0.0):.2f}")
+    print(f"api_elapsed_time={stats.get('api_elapsed_time', 0.0):.2f}")
+    print(f"db_write_elapsed_time={stats.get('db_write_elapsed_time', 0.0):.2f}")
     print(f"resume_after_segment_id={stats.get('resume_after_segment_id') or ''}")
     print(f"completed_scan={bool(stats.get('completed_scan'))}")
+    for batch in stats.get("batch_metrics", []):
+        print(
+            "batch_metric="
+            f"index:{batch.get('batch_index')} "
+            f"size:{batch.get('batch_size')} "
+            f"tokens:{batch.get('batch_tokens')} "
+            f"request_elapsed:{batch.get('request_elapsed_time', 0.0):.2f} "
+            f"db_write_elapsed:{batch.get('db_write_elapsed_time', 0.0):.2f} "
+            f"dry_run:{batch.get('dry_run', False)}"
+        )
 
 
 if __name__ == "__main__":

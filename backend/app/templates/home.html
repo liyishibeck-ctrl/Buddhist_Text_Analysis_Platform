@@ -8,6 +8,7 @@
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-han">看汉传正文</a>
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-pali">看巴利正文</a>
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">看藏文正文</a>
+    <a class="secondary-link" href="{{ url_for('pali_theme_map_page') }}">看巴利主题地图</a>
   </div>
 </section>
 
@@ -98,6 +99,14 @@
       <li><a href="{{ url_for('research_page') }}">进入研究工具页</a></li>
     </ul>
   </article>
+</section>
+
+<section class="card">
+  <h2>巴利主题地图</h2>
+  <p>巴利库已经补上英文 gloss，这意味着我们现在可以先用 gloss 做一版主题分布图，快速看四谛、缘起、无我、禅定、慈心、解脱这些核心主题在库中的落点与共现。</p>
+  <div class="action-row">
+    <a class="button-link" href="{{ url_for('pali_theme_map_page') }}">进入巴利主题地图</a>
+  </div>
 </section>
 
 <section>

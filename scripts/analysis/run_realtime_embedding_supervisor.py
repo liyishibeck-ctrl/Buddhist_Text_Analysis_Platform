@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import os
 import sys
 import time
 import traceback
@@ -25,6 +26,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--state-file", type=Path, default=DEFAULT_STATE_FILE)
     parser.add_argument("--tradition-id")
     parser.add_argument("--content-field", required=True)
+    parser.add_argument("--dry-run-scan-only", action="store_true")
     parser.add_argument("--concurrency", type=int, default=1)
     parser.add_argument("--max-segments-per-request", type=int, default=64)
     parser.add_argument("--max-segments-per-run", type=int, default=256)
@@ -39,7 +41,9 @@ def parse_args() -> argparse.Namespace:
 
 def _write_state(path: Path, payload: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    tmp_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp_path, path)
 
 
 def _load_state(path: Path) -> dict[str, Any]:
@@ -67,6 +71,8 @@ def _worker_command(args: argparse.Namespace) -> list[str]:
     ]
     if args.tradition_id:
         command.extend(["--tradition-id", args.tradition_id])
+    if args.dry_run_scan_only:
+        command.append("--dry-run-scan-only")
     if args.min_text_length is not None:
         command.extend(["--min-text-length", str(args.min_text_length)])
     if args.max_text_length is not None:
@@ -127,6 +133,7 @@ def main() -> None:
                     "filters": {
                         "tradition_id": args.tradition_id,
                         "content_field": args.content_field,
+                        "dry_run_scan_only": args.dry_run_scan_only,
                         "concurrency": args.concurrency,
                         "max_segments_per_request": args.max_segments_per_request,
                         "max_segments_per_run": args.max_segments_per_run,
@@ -145,6 +152,7 @@ def main() -> None:
                     content_field=args.content_field,
                     tradition_id=args.tradition_id,
                     start_after_segment_id=resume_after_segment_id,
+                    dry_run_scan_only=args.dry_run_scan_only,
                     concurrency=args.concurrency,
                     max_segments_per_request=args.max_segments_per_request,
                     max_segments=args.max_segments_per_run,
@@ -161,6 +169,28 @@ def main() -> None:
             print(f"elapsed_time={stats['elapsed_time']:.2f}", flush=True)
             print(f"segments_per_min={stats['segments_per_min']:.2f}", flush=True)
             print(f"tokens_per_min={stats['tokens_per_min']:.2f}", flush=True)
+            print(f"input_resume_after_segment_id={stats.get('input_resume_after_segment_id') or ''}", flush=True)
+            print(f"scan_started_after_segment_id={stats.get('scan_started_after_segment_id') or ''}", flush=True)
+            print(f"scan_last_seen_segment_id={stats.get('scan_last_seen_segment_id') or ''}", flush=True)
+            print(f"scan_candidate_hits={stats.get('scan_candidate_hits', 0)}", flush=True)
+            print(f"scan_selected_count={stats.get('scan_selected_count', 0)}", flush=True)
+            print(f"planned_embedding_segments={stats.get('planned_embedding_segments', 0)}", flush=True)
+            print(f"scan_elapsed_time={stats.get('scan_elapsed_time', 0.0):.2f}", flush=True)
+            print(f"api_elapsed_time={stats.get('api_elapsed_time', 0.0):.2f}", flush=True)
+            print(f"db_write_elapsed_time={stats.get('db_write_elapsed_time', 0.0):.2f}", flush=True)
+            print(f"resume_after_segment_id={stats.get('resume_after_segment_id') or ''}", flush=True)
+            print(f"completed_scan={bool(stats.get('completed_scan'))}", flush=True)
+            for batch in stats.get("batch_metrics", []):
+                print(
+                    "batch_metric="
+                    f"index:{batch.get('batch_index')} "
+                    f"size:{batch.get('batch_size')} "
+                    f"tokens:{batch.get('batch_tokens')} "
+                    f"request_elapsed:{batch.get('request_elapsed_time', 0.0):.2f} "
+                    f"db_write_elapsed:{batch.get('db_write_elapsed_time', 0.0):.2f} "
+                    f"dry_run:{batch.get('dry_run', False)}",
+                    flush=True,
+                )
             processed = int(stats.get("processed", 0) or 0)
             failed = int(stats.get("failed", 0) or 0)
             resume_after_segment_id = stats.get("resume_after_segment_id") or resume_after_segment_id
@@ -190,7 +220,8 @@ def main() -> None:
                 },
             )
 
-            if processed <= 0 or bool(stats.get("completed_scan")):
+            no_progress = processed <= 0 and not args.dry_run_scan_only
+            if no_progress or bool(stats.get("completed_scan")):
                 _write_state(
                     args.state_file,
                     {

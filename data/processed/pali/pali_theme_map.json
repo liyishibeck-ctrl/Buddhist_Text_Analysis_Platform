@@ -1,0 +1,1513 @@
+{
+  "generated_at": "2026-04-28T06:45:53.549873+00:00",
+  "tradition_id": "trad-pali",
+  "content_field": "content_gloss",
+  "gloss_segment_count": 111604,
+  "matched_segment_count": 16826,
+  "unmatched_segment_count": 94778,
+  "theme_count": 17,
+  "families": [
+    {
+      "slug": "insight",
+      "label": "观慧",
+      "color": "#8F4F23",
+      "segment_count": 6446
+    },
+    {
+      "slug": "practice",
+      "label": "修行",
+      "color": "#4E7C59",
+      "segment_count": 4863
+    },
+    {
+      "slug": "heart",
+      "label": "梵住",
+      "color": "#9D5C63",
+      "segment_count": 330
+    },
+    {
+      "slug": "samsara",
+      "label": "轮回",
+      "color": "#7A5F2F",
+      "segment_count": 6322
+    },
+    {
+      "slug": "liberation",
+      "label": "解脱",
+      "color": "#496B8A",
+      "segment_count": 1986
+    }
+  ],
+  "nodes": [
+    {
+      "slug": "four-noble-truths",
+      "label": "四谛",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕苦、集、灭、道结构的核心教说。",
+      "segment_count": 295,
+      "share_percent": 0.26,
+      "size_px": 107,
+      "x": 24.0,
+      "y": 23.0,
+      "top_works": [
+        {
+          "work_id": "work-pi-mn2970174726",
+          "work_title": "141. Analysis of Truth SC 1Thus have I heard. On one occasion the Blessed One... (Majjhima Nikāya 2970174726)",
+          "segment_count": 12
+        },
+        {
+          "work_id": "work-pi-sn1098358052",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Truths 56.16. Remembrance (2) SC ... (Saṁyutta Nikāya 1098358052)",
+          "segment_count": 12
+        },
+        {
+          "work_id": "work-pi-dn2848739179",
+          "work_title": "Long Discourses Great Chapter 22. The Long Discourse about the Ways of Attend... (Dīgha Nikāya 2848739179)",
+          "segment_count": 10
+        },
+        {
+          "work_id": "work-pi-sn3090162125",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Truths 56.11. Setting in Motion t... (Saṁyutta Nikāya 3090162125)",
+          "segment_count": 10
+        },
+        {
+          "work_id": "work-pi-an3400652727",
+          "work_title": "Aṅguttara Nikāya The Book of the Threes 3.61. Sectarian SC 1“Bhikkhus, there ... (Aṅguttara Nikāya 3400652727)",
+          "segment_count": 8
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-dc-002",
+          "segment_key": "DC.2",
+          "text_version_id": "tv-dhammacakkappavattana-cst4",
+          "work_id": "work-dhammacakkappavattana",
+          "work_title": "Dhammacakkappavattana Sutta",
+          "canonical_code": "",
+          "preview": "The discourse frames suffering, its arising, cessation, and the path."
+        },
+        {
+          "segment_id": "seg-plain-an-120446080-022",
+          "segment_key": "AN 120446080-PLAIN-022",
+          "text_version_id": "tv-an120446080-cst4",
+          "work_id": "work-pi-an120446080",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.181. The Warrior “Endowed with four qual... (Aṅguttara Nikāya 120446080)",
+          "canonical_code": "AN 120446080",
+          "preview": "It’s when they truly understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’."
+        },
+        {
+          "segment_id": "seg-plain-an-1223999307-093",
+          "segment_key": "AN 1223999307-PLAIN-093",
+          "text_version_id": "tv-an1223999307-cst4",
+          "work_id": "work-pi-an1223999307",
+          "work_title": "Aṅguttara Nikāya Book of the Fives 5.75. The Warrior (1) “Monks, there are th... (Aṅguttara Nikāya 1223999307)",
+          "canonical_code": "AN 1223999307",
+          "preview": "He truly understands: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’."
+        },
+        {
+          "segment_id": "seg-plain-an-1467464475-018",
+          "segment_key": "AN 1467464475-PLAIN-018",
+          "text_version_id": "tv-an1467464475-cst4",
+          "work_id": "work-pi-an1467464475",
+          "work_title": "Aṅguttara Nikāya 4.259 26. Abhiññāvagga Paṭhamaājānīyasutta “Catūhi, bhikkhav... (Aṅguttara Nikāya 1467464475)",
+          "canonical_code": "AN 1467464475",
+          "preview": "It’s when they truly understand: ‘This is suffering’ … ‘This is the origin of suffering’ … ‘This is the cessation of suffering’ … ‘This is the practice that leads to the cessation of suffering’."
+        }
+      ]
+    },
+    {
+      "slug": "dependent-origination",
+      "label": "缘起",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕缘起、条件生起与因果链条的教义。",
+      "segment_count": 94,
+      "share_percent": 0.08,
+      "size_px": 97,
+      "x": 32.6,
+      "y": 27.14,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn3762980193",
+          "work_title": "Long Discourses Brahmajāla Sutta 1. The All-embracing Net of Views I. Talk on... (Dīgha Nikāya 3762980193)",
+          "segment_count": 7
+        },
+        {
+          "work_id": "work-pi-an2883121986",
+          "work_title": "Aṅguttara Nikāya 9.11 2. Sīhanādavagga Sīhanādasutta Ekaṁ samayaṁ bhagavā sāv... (Aṅguttara Nikāya 2883121986)",
+          "segment_count": 5
+        },
+        {
+          "work_id": "work-pi-sn3621844108",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on Causation 12.20. Conditions SC 1At Sa... (Saṁyutta Nikāya 3621844108)",
+          "segment_count": 5
+        },
+        {
+          "work_id": "work-pi-an1412040796",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.162. (Modes of Practice) in Detail “Monk... (Aṅguttara Nikāya 1412040796)",
+          "segment_count": 4
+        },
+        {
+          "work_id": "work-pi-an482807090",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.163. Unattractiveness “Monks, there are ... (Aṅguttara Nikāya 482807090)",
+          "segment_count": 4
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1052459471-080",
+          "segment_key": "AN 1052459471-PLAIN-080",
+          "text_version_id": "tv-an1052459471-cst4",
+          "work_id": "work-pi-an1052459471",
+          "work_title": "Aṅguttara Nikāya 5.192 20. Brāhmaṇavagga Doṇabrāhmaṇasutta Atha kho doṇo brāh... (Aṅguttara Nikāya 1052459471)",
+          "canonical_code": "AN 1052459471",
+          "preview": "Having ensured his progeny through sex, his child makes him happy. Because of this attachment he stays in his family property, and does not go forth from the lay life to homelessness."
+        },
+        {
+          "segment_id": "seg-plain-an-1412040796-016",
+          "segment_key": "AN 1412040796-PLAIN-016",
+          "text_version_id": "tv-an1412040796-cst4",
+          "work_id": "work-pi-an1412040796",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.162. (Modes of Practice) in Detail “Monk... (Aṅguttara Nikāya 1412040796)",
+          "canonical_code": "AN 1412040796",
+          "preview": "Because of this, they only slowly attain the conditions for ending the defilements in the present life."
+        },
+        {
+          "segment_id": "seg-plain-an-1412040796-024",
+          "segment_key": "AN 1412040796-PLAIN-024",
+          "text_version_id": "tv-an1412040796-cst4",
+          "work_id": "work-pi-an1412040796",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.162. (Modes of Practice) in Detail “Monk... (Aṅguttara Nikāya 1412040796)",
+          "canonical_code": "AN 1412040796",
+          "preview": "Because of this, they swiftly attain the conditions for ending the defilements in the present life."
+        },
+        {
+          "segment_id": "seg-plain-an-1412040796-032",
+          "segment_key": "AN 1412040796-PLAIN-032",
+          "text_version_id": "tv-an1412040796-cst4",
+          "work_id": "work-pi-an1412040796",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.162. (Modes of Practice) in Detail “Monk... (Aṅguttara Nikāya 1412040796)",
+          "canonical_code": "AN 1412040796",
+          "preview": "Because of this, they only slowly attain the conditions for ending the defilements in the present life."
+        }
+      ]
+    },
+    {
+      "slug": "impermanence",
+      "label": "无常",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕生灭、坏散与变化不住的观照。",
+      "segment_count": 1226,
+      "share_percent": 1.1,
+      "size_px": 131,
+      "x": 34.72,
+      "y": 36.45,
+      "top_works": [
+        {
+          "work_id": "work-pi-mn890432034",
+          "work_title": "Majjhima Nikāya 147. The Shorter Discourse of Advice to Rāhula SC 1Thus have ... (Majjhima Nikāya 890432034)",
+          "segment_count": 40
+        },
+        {
+          "work_id": "work-pi-mn2175021258",
+          "work_title": "Majjhima Nikāya 146. Advice from Nandaka SC 1Thus have I heard. On one occasi... (Majjhima Nikāya 2175021258)",
+          "segment_count": 31
+        },
+        {
+          "work_id": "work-pi-sn2736565229",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Six Sense Bases 35.93. The Dyad (... (Saṁyutta Nikāya 2736565229)",
+          "segment_count": 20
+        },
+        {
+          "work_id": "work-pi-sn476203946",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Six Sense Bases 35.121. Exhortati... (Saṁyutta Nikāya 476203946)",
+          "segment_count": 20
+        },
+        {
+          "work_id": "work-pi-sn1012681234",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on Causation 12.70. Susīma SC 1Thus have... (Saṁyutta Nikāya 1012681234)",
+          "segment_count": 18
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-an-003",
+          "segment_key": "AN.3",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "What is impermanent is suffering; what is suffering is not self; through seeing this one is released."
+        },
+        {
+          "segment_id": "seg-plain-an-1049275324-006",
+          "segment_key": "AN 1049275324-PLAIN-006",
+          "text_version_id": "tv-an1049275324-cst4",
+          "work_id": "work-pi-an1049275324",
+          "work_title": "Aṅguttara Nikāya Book of the Sevens 7.49. Perceptions “Monks, these seven per... (Aṅguttara Nikāya 1049275324)",
+          "canonical_code": "AN 1049275324",
+          "preview": "The perceptions of ugliness, death, repulsiveness of food, dissatisfaction with the whole world, impermanence, suffering in impermanence, and not-self in suffering."
+        },
+        {
+          "segment_id": "seg-plain-an-1049275324-058",
+          "segment_key": "AN 1049275324-PLAIN-058",
+          "text_version_id": "tv-an1049275324-cst4",
+          "work_id": "work-pi-an1049275324",
+          "work_title": "Aṅguttara Nikāya Book of the Sevens 7.49. Perceptions “Monks, these seven per... (Aṅguttara Nikāya 1049275324)",
+          "canonical_code": "AN 1049275324",
+          "preview": "‘When the perception of impermanence is developed and cultivated it’s very fruitful and beneficial. It has freedom from death as its objective and culmination.’ That’s what I said, but why did I say it?"
+        },
+        {
+          "segment_id": "seg-plain-an-1049275324-060",
+          "segment_key": "AN 1049275324-PLAIN-060",
+          "text_version_id": "tv-an1049275324-cst4",
+          "work_id": "work-pi-an1049275324",
+          "work_title": "Aṅguttara Nikāya Book of the Sevens 7.49. Perceptions “Monks, these seven per... (Aṅguttara Nikāya 1049275324)",
+          "canonical_code": "AN 1049275324",
+          "preview": "When a mendicant often meditates with a mind reinforced with the perception of impermanence, their mind draws back from material things, honors, and fame. …"
+        }
+      ]
+    },
+    {
+      "slug": "suffering",
+      "label": "苦",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕苦、逼迫性与不圆满性的分析。",
+      "segment_count": 2717,
+      "share_percent": 2.43,
+      "size_px": 154,
+      "x": 28.77,
+      "y": 43.91,
+      "top_works": [
+        {
+          "work_id": "work-pi-mn882772486",
+          "work_title": "Collection of Middle Length Discourses 101. At Devadaha I have heard that on ... (Majjhima Nikāya 882772486)",
+          "segment_count": 39
+        },
+        {
+          "work_id": "work-pi-mn2838248223",
+          "work_title": "Majjhima Nikāya 36. The Greater Discourse to Saccaka SC 1Thus have I heard. O... (Majjhima Nikāya 2838248223)",
+          "segment_count": 32
+        },
+        {
+          "work_id": "work-pi-dn2848739179",
+          "work_title": "Long Discourses Great Chapter 22. The Long Discourse about the Ways of Attend... (Dīgha Nikāya 2848739179)",
+          "segment_count": 31
+        },
+        {
+          "work_id": "work-pi-mn890432034",
+          "work_title": "Majjhima Nikāya 147. The Shorter Discourse of Advice to Rāhula SC 1Thus have ... (Majjhima Nikāya 890432034)",
+          "segment_count": 30
+        },
+        {
+          "work_id": "work-pi-sn541809426",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on Causation 12.66. Exploration SC 1Thus... (Saṁyutta Nikāya 541809426)",
+          "segment_count": 29
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-an-003",
+          "segment_key": "AN.3",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "What is impermanent is suffering; what is suffering is not self; through seeing this one is released."
+        },
+        {
+          "segment_id": "seg-dc-002",
+          "segment_key": "DC.2",
+          "text_version_id": "tv-dhammacakkappavattana-cst4",
+          "work_id": "work-dhammacakkappavattana",
+          "work_title": "Dhammacakkappavattana Sutta",
+          "canonical_code": "",
+          "preview": "The discourse frames suffering, its arising, cessation, and the path."
+        },
+        {
+          "segment_id": "seg-plain-an-101053583-016",
+          "segment_key": "AN 101053583-PLAIN-016",
+          "text_version_id": "tv-an101053583-cst4",
+          "work_id": "work-pi-an101053583",
+          "work_title": "Aṅguttara Nikāya 6.61 6. Mahāvagga Majjhesutta Evaṁ me sutaṁ— ekaṁ samayaṁ bh... (Aṅguttara Nikāya 101053583)",
+          "canonical_code": "AN 101053583",
+          "preview": "That’s how a mendicant directly knows what should be directly known and completely understands what should be completely understood. Knowing and understanding thus they make an end of suffering in this very life.”"
+        },
+        {
+          "segment_id": "seg-plain-an-101053583-020",
+          "segment_key": "AN 101053583-PLAIN-020",
+          "text_version_id": "tv-an101053583-cst4",
+          "work_id": "work-pi-an101053583",
+          "work_title": "Aṅguttara Nikāya 6.61 6. Mahāvagga Majjhesutta Evaṁ me sutaṁ— ekaṁ samayaṁ bh... (Aṅguttara Nikāya 101053583)",
+          "canonical_code": "AN 101053583",
+          "preview": "That’s how a mendicant directly knows … an end of suffering in this very life.”"
+        }
+      ]
+    },
+    {
+      "slug": "non-self",
+      "label": "无我",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕无我、非我、非我所的洞见。",
+      "segment_count": 171,
+      "share_percent": 0.15,
+      "size_px": 101,
+      "x": 19.23,
+      "y": 43.91,
+      "top_works": [
+        {
+          "work_id": "work-pi-mn997323630",
+          "work_title": "Majjhima Nikāya 148. The Six Sets of Six SC 1Thus have I heard. On one occasi... (Majjhima Nikāya 997323630)",
+          "segment_count": 12
+        },
+        {
+          "work_id": "work-pi-sn332860087",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Aggregates 22.36. A Certain Bhikk... (Saṁyutta Nikāya 332860087)",
+          "segment_count": 10
+        },
+        {
+          "work_id": "work-pi-mn2730940654",
+          "work_title": "62. The Greater Discourse of Advice to Rāhula SC 1Thus have I heard. On one o... (Majjhima Nikāya 2730940654)",
+          "segment_count": 6
+        },
+        {
+          "work_id": "work-pi-an1887227718",
+          "work_title": "Aṅguttara Nikāya 3.133 14. Yodhājīvavagga Yodhājīvasutta “Tīhi, bhikkhave, aṅ... (Aṅguttara Nikāya 1887227718)",
+          "segment_count": 5
+        },
+        {
+          "work_id": "work-pi-mn2264696467",
+          "work_title": "140. Analysis of Elements SC 1Thus have I heard. On one occasion the Blessed ... (Majjhima Nikāya 2264696467)",
+          "segment_count": 5
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-an-001",
+          "segment_key": "AN.1",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "Form is not self and should not be grasped as mine or me."
+        },
+        {
+          "segment_id": "seg-an-002",
+          "segment_key": "AN.2",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "Feeling, perception, formations, and consciousness are likewise not self."
+        },
+        {
+          "segment_id": "seg-an-003",
+          "segment_key": "AN.3",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "What is impermanent is suffering; what is suffering is not self; through seeing this one is released."
+        },
+        {
+          "segment_id": "seg-plain-an-120446080-015",
+          "segment_key": "AN 120446080-PLAIN-015",
+          "text_version_id": "tv-an120446080-cst4",
+          "work_id": "work-pi-an120446080",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.181. The Warrior “Endowed with four qual... (Aṅguttara Nikāya 120446080)",
+          "canonical_code": "AN 120446080",
+          "preview": "It’s when a mendicant truly sees any kind of form at all—past, future, or present; internal or external; solid or subtle; inferior or superior; far or near: <em>all</em> form—with right understanding: ‘This is not mine, ..."
+        }
+      ]
+    },
+    {
+      "slug": "aggregates",
+      "label": "五蕴",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕色受想行识与五蕴观察的主题。",
+      "segment_count": 331,
+      "share_percent": 0.3,
+      "size_px": 108,
+      "x": 13.28,
+      "y": 36.45,
+      "top_works": [
+        {
+          "work_id": "work-pi-sn3576620482",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Aggregates 22.89. Khemaka SC 1On ... (Saṁyutta Nikāya 3576620482)",
+          "segment_count": 17
+        },
+        {
+          "work_id": "work-pi-mn649579532",
+          "work_title": "109. The Greater Discourse of the Full Moon Night SC 1Thus have I heard. On o... (Majjhima Nikāya 649579532)",
+          "segment_count": 14
+        },
+        {
+          "work_id": "work-pi-sn3803468404",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on the Aggregates 22.82. The Full-Moon N... (Saṁyutta Nikāya 3803468404)",
+          "segment_count": 13
+        },
+        {
+          "work_id": "work-pi-mn2945589482",
+          "work_title": "28. The Greater Discourse on the Simile of the Elephant‘s Footprint SC 1Thus ... (Majjhima Nikāya 2945589482)",
+          "segment_count": 11
+        },
+        {
+          "work_id": "work-pi-sn4113472658",
+          "work_title": "22.122. The Virtuous One SC 1On one occasion Venerable Sāriputta and Venerabl... (Saṁyutta Nikāya 4113472658)",
+          "segment_count": 11
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-an-001",
+          "segment_key": "AN.1",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "Form is not self and should not be grasped as mine or me."
+        },
+        {
+          "segment_id": "seg-an-002",
+          "segment_key": "AN.2",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "Feeling, perception, formations, and consciousness are likewise not self."
+        },
+        {
+          "segment_id": "seg-plain-an-1383440171-011",
+          "segment_key": "AN 1383440171-PLAIN-011",
+          "text_version_id": "tv-an1383440171-cst4",
+          "work_id": "work-pi-an1383440171",
+          "work_title": "Aṅguttara Nikāya 4.254 26. Abhiññāvagga Abhiññāsutta “Cattārome, bhikkhave, d... (Aṅguttara Nikāya 1383440171)",
+          "canonical_code": "AN 1383440171",
+          "preview": "The five grasping aggregates."
+        },
+        {
+          "segment_id": "seg-plain-an-1472051240-016",
+          "segment_key": "AN 1472051240-PLAIN-016",
+          "text_version_id": "tv-an1472051240-cst4",
+          "work_id": "work-pi-an1472051240",
+          "work_title": "Aṅguttara Nikāya Book of the Nines 9.36. Mental Absorption “I tell you, the e... (Aṅguttara Nikāya 1472051240)",
+          "canonical_code": "AN 1472051240",
+          "preview": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as gloom, as an affliction, as alien, as breaking ap..."
+        }
+      ]
+    },
+    {
+      "slug": "wisdom",
+      "label": "慧",
+      "family_slug": "insight",
+      "family_label": "观慧",
+      "family_color": "#8F4F23",
+      "description": "围绕智慧、洞见与如实知见的语汇。",
+      "segment_count": 1612,
+      "share_percent": 1.44,
+      "size_px": 138,
+      "x": 15.4,
+      "y": 27.14,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn1210315042",
+          "work_title": "Long Discourses Mahāparinibbānasutta 16. The Discourse about the Great Emanci... (Dīgha Nikāya 1210315042)",
+          "segment_count": 32
+        },
+        {
+          "work_id": "work-pi-mn4278672189",
+          "work_title": "Majjhima Nikāya The Middle Length Sayings Naḷakapāna Suttaṁ 68. Discourse at ... (Majjhima Nikāya 4278672189)",
+          "segment_count": 28
+        },
+        {
+          "work_id": "work-pi-mn714078158",
+          "work_title": "Majjhima Nikāya 70. At Kīṭāgiri SC 1Thus have I heard. On one occasion the Bl... (Majjhima Nikāya 714078158)",
+          "segment_count": 25
+        },
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 24
+        },
+        {
+          "work_id": "work-pi-sn2068579145",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on Causation 12.4. Vipassī At Savatthi. ... (Saṁyutta Nikāya 2068579145)",
+          "segment_count": 24
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-dc-003",
+          "segment_key": "DC.3",
+          "text_version_id": "tv-dhammacakkappavattana-cst4",
+          "work_id": "work-dhammacakkappavattana",
+          "work_title": "Dhammacakkappavattana Sutta",
+          "canonical_code": "",
+          "preview": "Insight arises that what has a nature of arising also ceases."
+        },
+        {
+          "segment_id": "seg-plain-an-1026550893-075",
+          "segment_key": "AN 1026550893-PLAIN-075",
+          "text_version_id": "tv-an1026550893-cst4",
+          "work_id": "work-pi-an1026550893",
+          "work_title": "Aṅguttara Nikāya 6.44 5. Dhammikavagga Migasālāsutta Atha kho āyasmā ānando p... (Aṅguttara Nikāya 1026550893)",
+          "canonical_code": "AN 1026550893",
+          "preview": "And if Purāṇa had achieved Isidatta’s level of wisdom, Isidatta could not have even known Purāṇa’s destination."
+        },
+        {
+          "segment_id": "seg-plain-an-1035494090-012",
+          "segment_key": "AN 1035494090-PLAIN-012",
+          "text_version_id": "tv-an1035494090-cst4",
+          "work_id": "work-pi-an1035494090",
+          "work_title": "Aṅguttara Nikāya 7.80 8. Vinayavagga Dutiyavinayadharasobhanasutta “Sattahi, ... (Aṅguttara Nikāya 1035494090)",
+          "canonical_code": "AN 1035494090",
+          "preview": "They realize the undefiled freedom of heart and freedom by wisdom in this very life, and live having realized it with their own insight due to the ending of defilements."
+        },
+        {
+          "segment_id": "seg-plain-an-1056661971-029",
+          "segment_key": "AN 1056661971-PLAIN-029",
+          "text_version_id": "tv-an1056661971-cst4",
+          "work_id": "work-pi-an1056661971",
+          "work_title": "Aṅguttara Nikāya Book of the Fours 4.113. The Goad-stick “There are these fou... (Aṅguttara Nikāya 1056661971)",
+          "canonical_code": "AN 1056661971",
+          "preview": "Applying themselves, they directly realize the ultimate truth, and see it with penetrating wisdom."
+        }
+      ]
+    },
+    {
+      "slug": "mindfulness",
+      "label": "念",
+      "family_slug": "practice",
+      "family_label": "修行",
+      "family_color": "#4E7C59",
+      "description": "围绕念住、正念与持续观照的修法。",
+      "segment_count": 2308,
+      "share_percent": 2.07,
+      "size_px": 148,
+      "x": 54.0,
+      "y": 15.0,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 42
+        },
+        {
+          "work_id": "work-pi-mn393738587",
+          "work_title": "Majjhima Nikāya 119. Mindfulness of the Body Nya 1Thus I heard: On one occasi... (Majjhima Nikāya 393738587)",
+          "segment_count": 35
+        },
+        {
+          "work_id": "work-pi-dn2848739179",
+          "work_title": "Long Discourses Great Chapter 22. The Long Discourse about the Ways of Attend... (Dīgha Nikāya 2848739179)",
+          "segment_count": 31
+        },
+        {
+          "work_id": "work-pi-dn2170441370",
+          "work_title": "Long Discourses Pāṭika Chapter 34. The Tenfold Series Thus have I heard. The ... (Dīgha Nikāya 2170441370)",
+          "segment_count": 30
+        },
+        {
+          "work_id": "work-pi-dn1210315042",
+          "work_title": "Long Discourses Mahāparinibbānasutta 16. The Discourse about the Great Emanci... (Dīgha Nikāya 1210315042)",
+          "segment_count": 29
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1035082510-083",
+          "segment_key": "AN 1035082510-PLAIN-083",
+          "text_version_id": "tv-an1035082510-cst4",
+          "work_id": "work-pi-an1035082510",
+          "work_title": "3.65. The Discourse to the People of Kālāma SC 1Thus have I heard. On one occ... (Aṅguttara Nikāya 1035082510)",
+          "canonical_code": "AN 1035082510",
+          "preview": "Then that noble disciple is rid of desire, rid of ill will, unconfused, aware, and mindful. They meditate spreading a heart full of love to one direction, and to the second, and to the third, and to the fourth. In the sa..."
+        },
+        {
+          "segment_id": "seg-plain-an-1089389300-004",
+          "segment_key": "AN 1089389300-PLAIN-004",
+          "text_version_id": "tv-an1089389300-cst4",
+          "work_id": "work-pi-an1089389300",
+          "work_title": "Aṅguttara Nikāya 1 31. Amatavagga 616 “Amataṁ te, bhikkhave, na paribhuñjanti... (Aṅguttara Nikāya 1089389300)",
+          "canonical_code": "AN 1089389300",
+          "preview": "“Mendicants, those who don’t enjoy mindfulness of the body don’t enjoy freedom from death."
+        },
+        {
+          "segment_id": "seg-plain-an-1089389300-005",
+          "segment_key": "AN 1089389300-PLAIN-005",
+          "text_version_id": "tv-an1089389300-cst4",
+          "work_id": "work-pi-an1089389300",
+          "work_title": "Aṅguttara Nikāya 1 31. Amatavagga 616 “Amataṁ te, bhikkhave, na paribhuñjanti... (Aṅguttara Nikāya 1089389300)",
+          "canonical_code": "AN 1089389300",
+          "preview": "Those who enjoy mindfulness of the body enjoy freedom from death.”"
+        },
+        {
+          "segment_id": "seg-plain-an-1089389300-007",
+          "segment_key": "AN 1089389300-PLAIN-007",
+          "text_version_id": "tv-an1089389300-cst4",
+          "work_id": "work-pi-an1089389300",
+          "work_title": "Aṅguttara Nikāya 1 31. Amatavagga 616 “Amataṁ te, bhikkhave, na paribhuñjanti... (Aṅguttara Nikāya 1089389300)",
+          "canonical_code": "AN 1089389300",
+          "preview": "“Mendicants, those who haven’t enjoyed mindfulness of the body haven’t enjoyed freedom from death."
+        }
+      ]
+    },
+    {
+      "slug": "concentration",
+      "label": "定",
+      "family_slug": "practice",
+      "family_label": "修行",
+      "family_color": "#4E7C59",
+      "description": "围绕禅定、三昧、禅那与专注心。",
+      "segment_count": 1970,
+      "share_percent": 1.77,
+      "size_px": 143,
+      "x": 63.53,
+      "y": 31.5,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 44
+        },
+        {
+          "work_id": "work-pi-dn2170441370",
+          "work_title": "Long Discourses Pāṭika Chapter 34. The Tenfold Series Thus have I heard. The ... (Dīgha Nikāya 2170441370)",
+          "segment_count": 29
+        },
+        {
+          "work_id": "work-pi-dn1676949769",
+          "work_title": "Long Discourses Sāmaññaphala Sutta 2. The Fruits of Recluseship Statements of... (Dīgha Nikāya 1676949769)",
+          "segment_count": 24
+        },
+        {
+          "work_id": "work-pi-dn958600234",
+          "work_title": "Long Discourses Chapter on the Virtues 10. To Subha Conduct, Concentration, A... (Dīgha Nikāya 958600234)",
+          "segment_count": 20
+        },
+        {
+          "work_id": "work-pi-mn2695710362",
+          "work_title": "Majjhima Nikāya 31. The Shorter Discourse in Gosinga SC 1Thus have I heard. O... (Majjhima Nikāya 2695710362)",
+          "segment_count": 20
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1033474170-008",
+          "segment_key": "AN 1033474170-PLAIN-008",
+          "text_version_id": "tv-an1033474170-cst4",
+          "work_id": "work-pi-an1033474170",
+          "work_title": "Aṅguttara Nikāya 7.44 5. Mahāyaññavagga Sattaviññāṇaṭṭhitisutta “Sattimā, bhi... (Aṅguttara Nikāya 1033474170)",
+          "canonical_code": "AN 1033474170",
+          "preview": "There are sentient beings that are diverse in body and unified in perception, such as the gods reborn in the Divinity’s host through the first absorption."
+        },
+        {
+          "segment_id": "seg-plain-an-1035494090-011",
+          "segment_key": "AN 1035494090-PLAIN-011",
+          "text_version_id": "tv-an1035494090-cst4",
+          "work_id": "work-pi-an1035494090",
+          "work_title": "Aṅguttara Nikāya 7.80 8. Vinayavagga Dutiyavinayadharasobhanasutta “Sattahi, ... (Aṅguttara Nikāya 1035494090)",
+          "canonical_code": "AN 1035494090",
+          "preview": "They get the four absorptions—blissful meditations in the present life that belong to the higher mind—when they want, without trouble or difficulty."
+        },
+        {
+          "segment_id": "seg-plain-an-1052459471-038",
+          "segment_key": "AN 1052459471-PLAIN-038",
+          "text_version_id": "tv-an1052459471-cst4",
+          "work_id": "work-pi-an1052459471",
+          "work_title": "Aṅguttara Nikāya 5.192 20. Brāhmaṇavagga Doṇabrāhmaṇasutta Atha kho doṇo brāh... (Aṅguttara Nikāya 1052459471)",
+          "canonical_code": "AN 1052459471",
+          "preview": "Having developed these four divine meditations, when the body breaks up, after death, they’re reborn in a good place, a realm of divinity."
+        },
+        {
+          "segment_id": "seg-plain-an-1052459471-059",
+          "segment_key": "AN 1052459471-PLAIN-059",
+          "text_version_id": "tv-an1052459471-cst4",
+          "work_id": "work-pi-an1052459471",
+          "work_title": "Aṅguttara Nikāya 5.192 20. Brāhmaṇavagga Doṇabrāhmaṇasutta Atha kho doṇo brāh... (Aṅguttara Nikāya 1052459471)",
+          "canonical_code": "AN 1052459471",
+          "preview": "When he has gone forth, quite secluded from sensual pleasures, secluded from unskillful qualities, he enters and remains in the first absorption … second absorption … third absorption … fourth absorption."
+        }
+      ]
+    },
+    {
+      "slug": "precepts",
+      "label": "戒",
+      "family_slug": "practice",
+      "family_label": "修行",
+      "family_color": "#4E7C59",
+      "description": "围绕戒、德行、调御与行为规范。",
+      "segment_count": 585,
+      "share_percent": 0.52,
+      "size_px": 116,
+      "x": 44.47,
+      "y": 31.5,
+      "top_works": [
+        {
+          "work_id": "work-pi-mn913585778",
+          "work_title": "6. If One Wishes SC 1Thus have I heard. On one occasion the Blessed One was l... (Majjhima Nikāya 913585778)",
+          "segment_count": 19
+        },
+        {
+          "work_id": "work-pi-an3573806039",
+          "work_title": "Aṅguttara Nikāya 10.76 8. Ākaṅkhavagga Tayodhammasutta “Tayome, bhikkhave, dh... (Aṅguttara Nikāya 3573806039)",
+          "segment_count": 16
+        },
+        {
+          "work_id": "work-pi-an865996886",
+          "work_title": "Aṅguttara Nikāya The Book of the Eights 8.36. Activity SC 1“Bhikkhus, there a... (Aṅguttara Nikāya 865996886)",
+          "segment_count": 15
+        },
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 14
+        },
+        {
+          "work_id": "work-pi-an742388233",
+          "work_title": "Aṅguttara Nikāya Book of the Tens 10.71. Wishes On one occasion the Blessed O... (Aṅguttara Nikāya 742388233)",
+          "segment_count": 12
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1023731465-005",
+          "segment_key": "AN 1023731465-PLAIN-005",
+          "text_version_id": "tv-an1023731465-cst4",
+          "work_id": "work-pi-an1023731465",
+          "work_title": "Aṅguttara Nikāya The Book of the Fours 4.25. The Spiritual Life SC 1“Bhikkhus... (Aṅguttara Nikāya 1023731465)",
+          "canonical_code": "AN 1023731465",
+          "preview": "This spiritual life is lived for the sake of restraint, giving up, fading away, and cessation."
+        },
+        {
+          "segment_id": "seg-plain-an-1023731465-008",
+          "segment_key": "AN 1023731465-PLAIN-008",
+          "text_version_id": "tv-an1023731465-cst4",
+          "work_id": "work-pi-an1023731465",
+          "work_title": "Aṅguttara Nikāya The Book of the Fours 4.25. The Spiritual Life SC 1“Bhikkhus... (Aṅguttara Nikāya 1023731465)",
+          "canonical_code": "AN 1023731465",
+          "preview": "but for the sake of restraint and giving up,"
+        },
+        {
+          "segment_id": "seg-plain-an-1026550893-074",
+          "segment_key": "AN 1026550893-PLAIN-074",
+          "text_version_id": "tv-an1026550893-cst4",
+          "work_id": "work-pi-an1026550893",
+          "work_title": "Aṅguttara Nikāya 6.44 5. Dhammikavagga Migasālāsutta Atha kho āyasmā ānando p... (Aṅguttara Nikāya 1026550893)",
+          "canonical_code": "AN 1026550893",
+          "preview": "If Isidatta had achieved Purāṇa’s level of ethical conduct, Purāṇa could not have even known Isidatta’s destination."
+        },
+        {
+          "segment_id": "seg-plain-an-1035836055-006",
+          "segment_key": "AN 1035836055-PLAIN-006",
+          "text_version_id": "tv-an1035836055-cst4",
+          "work_id": "work-pi-an1035836055",
+          "work_title": "Aṅguttara Nikāya 10.49 5. Akkosavagga Sarīraṭṭhadhammasutta “Dasayime, bhikkh... (Aṅguttara Nikāya 1035836055)",
+          "canonical_code": "AN 1035836055",
+          "preview": "Cold, heat, hunger, thirst, feces, urine, restraint of body, speech, and livelihood, and the will to live that leads to future lives."
+        }
+      ]
+    },
+    {
+      "slug": "loving-kindness",
+      "label": "慈",
+      "family_slug": "heart",
+      "family_label": "梵住",
+      "family_color": "#9D5C63",
+      "description": "围绕慈心、善意、友爱与无量心。",
+      "segment_count": 2,
+      "share_percent": 0.0,
+      "size_px": 86,
+      "x": 74.0,
+      "y": 26.0,
+      "top_works": [
+        {
+          "work_id": "work-metta-sutta",
+          "work_title": "Karaniya Metta Sutta",
+          "segment_count": 2
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-me-002",
+          "segment_key": "ME.2",
+          "text_version_id": "tv-metta-cst4",
+          "work_id": "work-metta-sutta",
+          "work_title": "Karaniya Metta Sutta",
+          "canonical_code": "",
+          "preview": "Like a mother guarding her only child, one should cultivate boundless loving-kindness."
+        },
+        {
+          "segment_id": "seg-me-003",
+          "segment_key": "ME.3",
+          "text_version_id": "tv-metta-cst4",
+          "work_id": "work-metta-sutta",
+          "work_title": "Karaniya Metta Sutta",
+          "canonical_code": "",
+          "preview": "One should cultivate an immeasurable mind of friendliness in every direction."
+        }
+      ]
+    },
+    {
+      "slug": "compassion",
+      "label": "悲",
+      "family_slug": "heart",
+      "family_label": "梵住",
+      "family_color": "#9D5C63",
+      "description": "围绕悲悯、同情与拔苦关怀。",
+      "segment_count": 328,
+      "share_percent": 0.29,
+      "size_px": 108,
+      "x": 74.0,
+      "y": 42.0,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn1659264396",
+          "work_title": "Long Discourses The Great Chapter 19. The Lord High Steward PTS cs 1 PTS vp P... (Dīgha Nikāya 1659264396)",
+          "segment_count": 14
+        },
+        {
+          "work_id": "work-pi-dn1874633256",
+          "work_title": "Long Discourses Sigālovāda Sutta 31. The Buddha’s Advice to Sigālaka This is ... (Dīgha Nikāya 1874633256)",
+          "segment_count": 13
+        },
+        {
+          "work_id": "work-pi-an4146183661",
+          "work_title": "Aṅguttara Nikāya The Book of the Fives 5.44. The Giver of the Agreeable SC 1O... (Aṅguttara Nikāya 4146183661)",
+          "segment_count": 12
+        },
+        {
+          "work_id": "work-pi-dn1210315042",
+          "work_title": "Long Discourses Mahāparinibbānasutta 16. The Discourse about the Great Emanci... (Dīgha Nikāya 1210315042)",
+          "segment_count": 9
+        },
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 8
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1035082510-084",
+          "segment_key": "AN 1035082510-PLAIN-084",
+          "text_version_id": "tv-an1035082510-cst4",
+          "work_id": "work-pi-an1035082510",
+          "work_title": "3.65. The Discourse to the People of Kālāma SC 1Thus have I heard. On one occ... (Aṅguttara Nikāya 1035082510)",
+          "canonical_code": "AN 1035082510",
+          "preview": "They meditate spreading a heart full of compassion to one direction, and to the second, and to the third, and to the fourth. In the same way above, below, across, everywhere, all around, they spread a heart full of compa..."
+        },
+        {
+          "segment_id": "seg-plain-an-1052459471-035",
+          "segment_key": "AN 1052459471-PLAIN-035",
+          "text_version_id": "tv-an1052459471-cst4",
+          "work_id": "work-pi-an1052459471",
+          "work_title": "Aṅguttara Nikāya 5.192 20. Brāhmaṇavagga Doṇabrāhmaṇasutta Atha kho doṇo brāh... (Aṅguttara Nikāya 1052459471)",
+          "canonical_code": "AN 1052459471",
+          "preview": "They meditate spreading a heart full of compassion …"
+        },
+        {
+          "segment_id": "seg-plain-an-1096989903-007",
+          "segment_key": "AN 1096989903-PLAIN-007",
+          "text_version_id": "tv-an1096989903-cst4",
+          "work_id": "work-pi-an1096989903",
+          "work_title": "Aṅguttara Nikāya 9.18 2. Sīhanādavagga Navaṅguposathasutta “Navahi, bhikkhave... (Aṅguttara Nikāya 1096989903)",
+          "canonical_code": "AN 1096989903",
+          "preview": "‘As long as they live, the perfected ones give up killing living creatures, renouncing the rod and the sword. They are scrupulous and kind, and live full of sympathy for all living beings."
+        },
+        {
+          "segment_id": "seg-plain-an-1096989903-008",
+          "segment_key": "AN 1096989903-PLAIN-008",
+          "text_version_id": "tv-an1096989903-cst4",
+          "work_id": "work-pi-an1096989903",
+          "work_title": "Aṅguttara Nikāya 9.18 2. Sīhanādavagga Navaṅguposathasutta “Navahi, bhikkhave... (Aṅguttara Nikāya 1096989903)",
+          "canonical_code": "AN 1096989903",
+          "preview": "I, too, for this day and night will give up killing living creatures, renouncing the rod and the sword. I’ll be scrupulous and kind, and live full of sympathy for all living beings."
+        }
+      ]
+    },
+    {
+      "slug": "craving-and-clinging",
+      "label": "渴爱与执取",
+      "family_slug": "samsara",
+      "family_label": "轮回",
+      "family_color": "#7A5F2F",
+      "description": "围绕爱、取、执著、贪欲与系缚。",
+      "segment_count": 2907,
+      "share_percent": 2.6,
+      "size_px": 156,
+      "x": 30.0,
+      "y": 61.0,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn2848739179",
+          "work_title": "Long Discourses Great Chapter 22. The Long Discourse about the Ways of Attend... (Dīgha Nikāya 2848739179)",
+          "segment_count": 41
+        },
+        {
+          "work_id": "work-pi-sn541809426",
+          "work_title": "Saṁyutta Nikāya Connected Discourses on Causation 12.66. Exploration SC 1Thus... (Saṁyutta Nikāya 541809426)",
+          "segment_count": 38
+        },
+        {
+          "work_id": "work-pi-mn997323630",
+          "work_title": "Majjhima Nikāya 148. The Six Sets of Six SC 1Thus have I heard. On one occasi... (Majjhima Nikāya 997323630)",
+          "segment_count": 32
+        },
+        {
+          "work_id": "work-pi-dn4054138199",
+          "work_title": "Long Discourses Mahānidāna Sutta 15. The Great Discourse on Causation Depende... (Dīgha Nikāya 4054138199)",
+          "segment_count": 30
+        },
+        {
+          "work_id": "work-pi-mn3279592054",
+          "work_title": "11. The Lesser Discourse on the Lion‘s Roar SC 1Thus have I heard. On one occ... (Majjhima Nikāya 3279592054)",
+          "segment_count": 26
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-101053583-014",
+          "segment_key": "AN 101053583-PLAIN-014",
+          "text_version_id": "tv-an101053583-cst4",
+          "work_id": "work-pi-an101053583",
+          "work_title": "Aṅguttara Nikāya 6.61 6. Mahāvagga Majjhesutta Evaṁ me sutaṁ— ekaṁ samayaṁ bh... (Aṅguttara Nikāya 101053583)",
+          "canonical_code": "AN 101053583",
+          "preview": "“Contact, reverends, is one end. The origin of contact is the second end. The cessation of contact is the middle. And craving is the seamstress,"
+        },
+        {
+          "segment_id": "seg-plain-an-101053583-015",
+          "segment_key": "AN 101053583-PLAIN-015",
+          "text_version_id": "tv-an101053583-cst4",
+          "work_id": "work-pi-an101053583",
+          "work_title": "Aṅguttara Nikāya 6.61 6. Mahāvagga Majjhesutta Evaṁ me sutaṁ— ekaṁ samayaṁ bh... (Aṅguttara Nikāya 101053583)",
+          "canonical_code": "AN 101053583",
+          "preview": "for craving weaves one to being regenerated in one state of existence or another."
+        },
+        {
+          "segment_id": "seg-plain-an-101053583-018",
+          "segment_key": "AN 101053583-PLAIN-018",
+          "text_version_id": "tv-an101053583-cst4",
+          "work_id": "work-pi-an101053583",
+          "work_title": "Aṅguttara Nikāya 6.61 6. Mahāvagga Majjhesutta Evaṁ me sutaṁ— ekaṁ samayaṁ bh... (Aṅguttara Nikāya 101053583)",
+          "canonical_code": "AN 101053583",
+          "preview": "“The past, reverends, is one end. The future is the second end. The present is the middle. And craving is the seamstress …"
+        },
+        {
+          "segment_id": "seg-plain-an-101053583-022",
+          "segment_key": "AN 101053583-PLAIN-022",
+          "text_version_id": "tv-an101053583-cst4",
+          "work_id": "work-pi-an101053583",
+          "work_title": "Aṅguttara Nikāya 6.61 6. Mahāvagga Majjhesutta Evaṁ me sutaṁ— ekaṁ samayaṁ bh... (Aṅguttara Nikāya 101053583)",
+          "canonical_code": "AN 101053583",
+          "preview": "“Pleasant feeling, reverends, is one end. Painful feeling is the second end. Neutral feeling is the middle. And craving is the seamstress …"
+        }
+      ]
+    },
+    {
+      "slug": "karma",
+      "label": "业",
+      "family_slug": "samsara",
+      "family_label": "轮回",
+      "family_color": "#7A5F2F",
+      "description": "围绕业、行为后果与道德因果。",
+      "segment_count": 945,
+      "share_percent": 0.85,
+      "size_px": 125,
+      "x": 39.53,
+      "y": 77.5,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn1191642148",
+          "work_title": "Long Discourses Pāṭika Chapter 30. The Marks of the Superman Chapter 1 Thus h... (Dīgha Nikāya 1191642148)",
+          "segment_count": 36
+        },
+        {
+          "work_id": "work-pi-mn2623448448",
+          "work_title": "Collection of Middle Length Discourses Upāli Sutta 56. Upāli, the Householder... (Majjhima Nikāya 2623448448)",
+          "segment_count": 25
+        },
+        {
+          "work_id": "work-pi-an224719739",
+          "work_title": "Aṅguttara Nikāya Book of the Nines 9.13. With Kotthita Then Ven. Maha Kotthit... (Aṅguttara Nikāya 224719739)",
+          "segment_count": 20
+        },
+        {
+          "work_id": "work-pi-mn1653986622",
+          "work_title": "Majjhima Nikāya 57. The Dog-Duty Ascetic SC 1Thus have I heard. On one occasi... (Majjhima Nikāya 1653986622)",
+          "segment_count": 20
+        },
+        {
+          "work_id": "work-pi-an2482307718",
+          "work_title": "Aṅguttara Nikāya The Book of the Tens 10.216. Creeping SC 1“Bhikkhus, I will ... (Aṅguttara Nikāya 2482307718)",
+          "segment_count": 19
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1018122629-028",
+          "segment_key": "AN 1018122629-PLAIN-028",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "“Mendicants, when an individual has wrong view, whatever bodily, verbal, or mental deeds they undertake in line with that view, their intentions, aims, wishes, and choices all lead to what is unlikable, undesirable, disa..."
+        },
+        {
+          "segment_id": "seg-plain-an-1018122629-034",
+          "segment_key": "AN 1018122629-PLAIN-034",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "In the same way, when an individual has wrong view, whatever bodily, verbal, or mental deeds they undertake in line with that view, their intentions, aims, wishes, and choices all lead to what is unlikable, undesirable, ..."
+        },
+        {
+          "segment_id": "seg-plain-an-1018122629-038",
+          "segment_key": "AN 1018122629-PLAIN-038",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "“Mendicants, when an individual has right view, whatever bodily, verbal, or mental deeds they undertake in line with that view, their intentions, aims, wishes, and choices all lead to what is likable, desirable, agreeabl..."
+        },
+        {
+          "segment_id": "seg-plain-an-1018122629-044",
+          "segment_key": "AN 1018122629-PLAIN-044",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "In the same way, when an individual has right view, whatever bodily, verbal, or mental deeds they undertake in line with that view, their intentions, aims, wishes, and choices all lead to what is likable, desirable, agre..."
+        }
+      ]
+    },
+    {
+      "slug": "rebirth",
+      "label": "再生",
+      "family_slug": "samsara",
+      "family_label": "轮回",
+      "family_color": "#7A5F2F",
+      "description": "围绕轮回、再生、来世与有情流转。",
+      "segment_count": 2470,
+      "share_percent": 2.21,
+      "size_px": 150,
+      "x": 20.47,
+      "y": 77.5,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 51
+        },
+        {
+          "work_id": "work-pi-dn1191642148",
+          "work_title": "Long Discourses Pāṭika Chapter 30. The Marks of the Superman Chapter 1 Thus h... (Dīgha Nikāya 1191642148)",
+          "segment_count": 43
+        },
+        {
+          "work_id": "work-pi-mn3794359805",
+          "work_title": "120. Rebirth Based on Thought SC 1Thus have I heard. On one occasion the Bles... (Majjhima Nikāya 3794359805)",
+          "segment_count": 38
+        },
+        {
+          "work_id": "work-pi-mn151554354",
+          "work_title": "Majjhima Nikāya 136. The Great Exposition of Kamma SC 1Thus have I heard. On ... (Majjhima Nikāya 151554354)",
+          "segment_count": 36
+        },
+        {
+          "work_id": "work-pi-dn1210315042",
+          "work_title": "Long Discourses Mahāparinibbānasutta 16. The Discourse about the Great Emanci... (Dīgha Nikāya 1210315042)",
+          "segment_count": 28
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1018122629-022",
+          "segment_key": "AN 1018122629-PLAIN-022",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "“Mendicants, I do not see a single thing that causes sentient beings to be reborn, when their body breaks up, after death, in a place of loss, a bad place, the underworld, hell like wrong view."
+        },
+        {
+          "segment_id": "seg-plain-an-1018122629-023",
+          "segment_key": "AN 1018122629-PLAIN-023",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "It is because they have wrong view that sentient beings, when their body breaks up, after death, are reborn in a place of loss, a bad place, the underworld, hell.”"
+        },
+        {
+          "segment_id": "seg-plain-an-1018122629-025",
+          "segment_key": "AN 1018122629-PLAIN-025",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "“Mendicants, I do not see a single thing that causes sentient beings to be reborn, when their body breaks up, after death, in a good place, a heavenly realm like right view."
+        },
+        {
+          "segment_id": "seg-plain-an-1018122629-026",
+          "segment_key": "AN 1018122629-PLAIN-026",
+          "text_version_id": "tv-an1018122629-cst4",
+          "work_id": "work-pi-an1018122629",
+          "work_title": "Aṅguttara Nikāya 1 25. Dutiyavagga 306 “Nāhaṁ, bhikkhave, aññaṁ ekadhammampi ... (Aṅguttara Nikāya 1018122629)",
+          "canonical_code": "AN 1018122629",
+          "preview": "It is because they have right view that sentient beings, when their body breaks up, after death, are reborn in a good place, a heavenly realm.”"
+        }
+      ]
+    },
+    {
+      "slug": "liberation",
+      "label": "解脱",
+      "family_slug": "liberation",
+      "family_label": "解脱",
+      "family_color": "#496B8A",
+      "description": "围绕离系、释放、出离与阿罗汉果。",
+      "segment_count": 1384,
+      "share_percent": 1.24,
+      "size_px": 134,
+      "x": 72.0,
+      "y": 60.0,
+      "top_works": [
+        {
+          "work_id": "work-pi-mn3835555066",
+          "work_title": "43. The Greater Series of Questions SC 1Thus have I heard. On one occasion th... (Majjhima Nikāya 3835555066)",
+          "segment_count": 30
+        },
+        {
+          "work_id": "work-pi-dn2170441370",
+          "work_title": "Long Discourses Pāṭika Chapter 34. The Tenfold Series Thus have I heard. The ... (Dīgha Nikāya 2170441370)",
+          "segment_count": 27
+        },
+        {
+          "work_id": "work-pi-an959862310",
+          "work_title": "Aṅguttara Nikāya 10.75 8. Ākaṅkhavagga Migasālāsutta Ekaṁ samayaṁ bhagavā sāv... (Aṅguttara Nikāya 959862310)",
+          "segment_count": 24
+        },
+        {
+          "work_id": "work-pi-an1089389300",
+          "work_title": "Aṅguttara Nikāya 1 31. Amatavagga 616 “Amataṁ te, bhikkhave, na paribhuñjanti... (Aṅguttara Nikāya 1089389300)",
+          "segment_count": 23
+        },
+        {
+          "work_id": "work-pi-dn303625521",
+          "work_title": "Long Discourses Pāṭika Chapter 33. The Recital Thus have I heard. The Exalted... (Dīgha Nikāya 303625521)",
+          "segment_count": 20
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-an-003",
+          "segment_key": "AN.3",
+          "text_version_id": "tv-anatta-cst4",
+          "work_id": "work-anattalakkhana",
+          "work_title": "Anattalakkhana Sutta",
+          "canonical_code": "",
+          "preview": "What is impermanent is suffering; what is suffering is not self; through seeing this one is released."
+        },
+        {
+          "segment_id": "seg-plain-an-1026550893-029",
+          "segment_key": "AN 1026550893-PLAIN-029",
+          "text_version_id": "tv-an1026550893-cst4",
+          "work_id": "work-pi-an1026550893",
+          "work_title": "Aṅguttara Nikāya 6.44 5. Dhammikavagga Migasālāsutta Atha kho āyasmā ānando p... (Aṅguttara Nikāya 1026550893)",
+          "canonical_code": "AN 1026550893",
+          "preview": "And they’ve not listened or learned or penetrated theoretically or found even temporary freedom."
+        },
+        {
+          "segment_id": "seg-plain-an-1026550893-032",
+          "segment_key": "AN 1026550893-PLAIN-032",
+          "text_version_id": "tv-an1026550893-cst4",
+          "work_id": "work-pi-an1026550893",
+          "work_title": "Aṅguttara Nikāya 6.44 5. Dhammikavagga Migasālāsutta Atha kho āyasmā ānando p... (Aṅguttara Nikāya 1026550893)",
+          "canonical_code": "AN 1026550893",
+          "preview": "And they’ve listened and learned and penetrated theoretically and found temporary freedom."
+        },
+        {
+          "segment_id": "seg-plain-an-1026550893-037",
+          "segment_key": "AN 1026550893-PLAIN-037",
+          "text_version_id": "tv-an1026550893-cst4",
+          "work_id": "work-pi-an1026550893",
+          "work_title": "Aṅguttara Nikāya 6.44 5. Dhammikavagga Migasālāsutta Atha kho āyasmā ānando p... (Aṅguttara Nikāya 1026550893)",
+          "canonical_code": "AN 1026550893",
+          "preview": "In this case, the individual who is gentle … and has listened, learned, comprehended theoretically, and found temporary freedom"
+        }
+      ]
+    },
+    {
+      "slug": "nirvana",
+      "label": "涅槃",
+      "family_slug": "liberation",
+      "family_label": "解脱",
+      "family_color": "#496B8A",
+      "description": "围绕涅槃、寂灭、无余依与终极止息。",
+      "segment_count": 602,
+      "share_percent": 0.54,
+      "size_px": 117,
+      "x": 72.0,
+      "y": 76.0,
+      "top_works": [
+        {
+          "work_id": "work-pi-dn1210315042",
+          "work_title": "Long Discourses Mahāparinibbānasutta 16. The Discourse about the Great Emanci... (Dīgha Nikāya 1210315042)",
+          "segment_count": 22
+        },
+        {
+          "work_id": "work-pi-dn3762980193",
+          "work_title": "Long Discourses Brahmajāla Sutta 1. The All-embracing Net of Views I. Talk on... (Dīgha Nikāya 3762980193)",
+          "segment_count": 20
+        },
+        {
+          "work_id": "work-pi-mn517460801",
+          "work_title": "1. Discourse on the Root SC 1Thus have I heard. On one occasion the Blessed O... (Majjhima Nikāya 517460801)",
+          "segment_count": 16
+        },
+        {
+          "work_id": "work-pi-mn3522406364",
+          "work_title": "Majjhima Nikāya 75. To Māgandiya SC 1Thus have I heard. On one occasion the B... (Majjhima Nikāya 3522406364)",
+          "segment_count": 15
+        },
+        {
+          "work_id": "work-pi-an3936234872",
+          "work_title": "Aṅguttara Nikāya Book of the Nines 9.34. Unbinding I have heard that on one o... (Aṅguttara Nikāya 3936234872)",
+          "segment_count": 12
+        }
+      ],
+      "examples": [
+        {
+          "segment_id": "seg-plain-an-1023731465-009",
+          "segment_key": "AN 1023731465-PLAIN-009",
+          "text_version_id": "tv-an1023731465-cst4",
+          "work_id": "work-pi-an1023731465",
+          "work_title": "Aṅguttara Nikāya The Book of the Fours 4.25. The Spiritual Life SC 1“Bhikkhus... (Aṅguttara Nikāya 1023731465)",
+          "canonical_code": "AN 1023731465",
+          "preview": "and because its objective is extinguishment."
+        },
+        {
+          "segment_id": "seg-plain-an-1077699578-003",
+          "segment_key": "AN 1077699578-PLAIN-003",
+          "text_version_id": "tv-an1077699578-cst4",
+          "work_id": "work-pi-an1077699578",
+          "work_title": "Aṅguttara Nikāya 9.49 5. Sāmaññavagga Parinibbānasutta “‘Parinibbānaṁ, parini... (Aṅguttara Nikāya 1077699578)",
+          "canonical_code": "AN 1077699578",
+          "preview": "Full Extinguishment"
+        },
+        {
+          "segment_id": "seg-plain-an-1077699578-004",
+          "segment_key": "AN 1077699578-PLAIN-004",
+          "text_version_id": "tv-an1077699578-cst4",
+          "work_id": "work-pi-an1077699578",
+          "work_title": "Aṅguttara Nikāya 9.49 5. Sāmaññavagga Parinibbānasutta “‘Parinibbānaṁ, parini... (Aṅguttara Nikāya 1077699578)",
+          "canonical_code": "AN 1077699578",
+          "preview": "“Reverend, they speak of ‘full extinguishment’. …”"
+        },
+        {
+          "segment_id": "seg-plain-an-1108740261-036",
+          "segment_key": "AN 1108740261-PLAIN-036",
+          "text_version_id": "tv-an1108740261-cst4",
+          "work_id": "work-pi-an1108740261",
+          "work_title": "Aṅguttara Nikāya Book of the Nines 9.1. Self-awakening I have heard that on o... (Aṅguttara Nikāya 1108740261)",
+          "canonical_code": "AN 1108740261",
+          "preview": "Perceiving not-self, you uproot the conceit ‘I am’ and attain extinguishment in this very life.”"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "concentration",
+      "target": "mindfulness",
+      "count": 469,
+      "stroke_width": 6.0,
+      "x1": 63.53,
+      "y1": 31.5,
+      "x2": 54.0,
+      "y2": 15.0
+    },
+    {
+      "source": "impermanence",
+      "target": "suffering",
+      "count": 387,
+      "stroke_width": 5.16,
+      "x1": 34.72,
+      "y1": 36.45,
+      "x2": 28.77,
+      "y2": 43.91
+    },
+    {
+      "source": "liberation",
+      "target": "wisdom",
+      "count": 304,
+      "stroke_width": 4.31,
+      "x1": 72.0,
+      "y1": 60.0,
+      "x2": 15.4,
+      "y2": 27.14
+    },
+    {
+      "source": "four-noble-truths",
+      "target": "suffering",
+      "count": 227,
+      "stroke_width": 3.52,
+      "x1": 24.0,
+      "y1": 23.0,
+      "x2": 28.77,
+      "y2": 43.91
+    },
+    {
+      "source": "aggregates",
+      "target": "craving-and-clinging",
+      "count": 189,
+      "stroke_width": 3.13,
+      "x1": 13.28,
+      "y1": 36.45,
+      "x2": 30.0,
+      "y2": 61.0
+    },
+    {
+      "source": "craving-and-clinging",
+      "target": "suffering",
+      "count": 168,
+      "stroke_width": 2.92,
+      "x1": 30.0,
+      "y1": 61.0,
+      "x2": 28.77,
+      "y2": 43.91
+    },
+    {
+      "source": "liberation",
+      "target": "mindfulness",
+      "count": 159,
+      "stroke_width": 2.83,
+      "x1": 72.0,
+      "y1": 60.0,
+      "x2": 54.0,
+      "y2": 15.0
+    },
+    {
+      "source": "karma",
+      "target": "rebirth",
+      "count": 152,
+      "stroke_width": 2.76,
+      "x1": 39.53,
+      "y1": 77.5,
+      "x2": 20.47,
+      "y2": 77.5
+    },
+    {
+      "source": "mindfulness",
+      "target": "wisdom",
+      "count": 115,
+      "stroke_width": 2.38,
+      "x1": 54.0,
+      "y1": 15.0,
+      "x2": 15.4,
+      "y2": 27.14
+    },
+    {
+      "source": "rebirth",
+      "target": "suffering",
+      "count": 103,
+      "stroke_width": 2.25,
+      "x1": 20.47,
+      "y1": 77.5,
+      "x2": 28.77,
+      "y2": 43.91
+    },
+    {
+      "source": "craving-and-clinging",
+      "target": "impermanence",
+      "count": 72,
+      "stroke_width": 1.94,
+      "x1": 30.0,
+      "y1": 61.0,
+      "x2": 34.72,
+      "y2": 36.45
+    },
+    {
+      "source": "craving-and-clinging",
+      "target": "nirvana",
+      "count": 72,
+      "stroke_width": 1.94,
+      "x1": 30.0,
+      "y1": 61.0,
+      "x2": 72.0,
+      "y2": 76.0
+    },
+    {
+      "source": "concentration",
+      "target": "wisdom",
+      "count": 66,
+      "stroke_width": 1.88,
+      "x1": 63.53,
+      "y1": 31.5,
+      "x2": 15.4,
+      "y2": 27.14
+    },
+    {
+      "source": "concentration",
+      "target": "rebirth",
+      "count": 61,
+      "stroke_width": 1.82,
+      "x1": 63.53,
+      "y1": 31.5,
+      "x2": 20.47,
+      "y2": 77.5
+    },
+    {
+      "source": "suffering",
+      "target": "wisdom",
+      "count": 48,
+      "stroke_width": 1.69,
+      "x1": 28.77,
+      "y1": 43.91,
+      "x2": 15.4,
+      "y2": 27.14
+    },
+    {
+      "source": "craving-and-clinging",
+      "target": "rebirth",
+      "count": 47,
+      "stroke_width": 1.68,
+      "x1": 30.0,
+      "y1": 61.0,
+      "x2": 20.47,
+      "y2": 77.5
+    },
+    {
+      "source": "impermanence",
+      "target": "wisdom",
+      "count": 44,
+      "stroke_width": 1.65,
+      "x1": 34.72,
+      "y1": 36.45,
+      "x2": 15.4,
+      "y2": 27.14
+    },
+    {
+      "source": "craving-and-clinging",
+      "target": "mindfulness",
+      "count": 44,
+      "stroke_width": 1.65,
+      "x1": 30.0,
+      "y1": 61.0,
+      "x2": 54.0,
+      "y2": 15.0
+    }
+  ]
+}

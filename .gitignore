@@ -9,3 +9,10 @@ data/processed/*.sqlite
 data/processed/*.sqlite3
 uvicorn.out.log
 uvicorn.err.log
+.claude/worktrees/
+data/processed/*.log
+data/processed/*.pid
+data/processed/logs/*.log
+data/processed/logs/latest_*.json
+data/processed/logs/latest_*.txt
+data/processed/logs/realtime_*probe*.json

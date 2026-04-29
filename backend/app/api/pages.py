@@ -10,7 +10,14 @@ from sqlalchemy.orm import Session
 from backend.app.api.deps import get_db
 from backend.app.core.config import settings
 from backend.app.models import Collection, Language, Tradition
-from backend.app.services import catalog_service, rag_service, retrieval_service, search_service, vector_service
+from backend.app.services import (
+    catalog_service,
+    pali_theme_map_service,
+    rag_service,
+    retrieval_service,
+    search_service,
+    vector_service,
+)
 
 
 router = APIRouter(include_in_schema=False)
@@ -150,6 +157,19 @@ def concept_detail_page(request: Request, concept_slug: str, db: Session = Depen
     if not concept:
         raise HTTPException(status_code=404, detail="Concept not found")
     return templates.TemplateResponse(request, "concept_detail.html", {"request": request, "concept": concept})
+
+
+@router.get("/pali/theme-map")
+def pali_theme_map_page(request: Request):
+    theme_map = pali_theme_map_service.load_pali_theme_map_snapshot()
+    return templates.TemplateResponse(
+        request,
+        "pali_theme_map.html",
+        {
+            "request": request,
+            "theme_map": theme_map,
+        },
+    )
 
 
 @router.get("/research")
