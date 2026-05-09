@@ -151,8 +151,14 @@ a:hover {
 }
 
 .brand a::before {
-  content: "🪷";
-  font-size: 1.8rem;
+  content: "";
+  width: 1.85rem;
+  height: 1.85rem;
+  flex: 0 0 1.85rem;
+  background:
+    radial-gradient(circle at 50% 68%, rgba(143, 79, 35, 0.24), transparent 28%),
+    url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4a843' stroke='%238f4f23' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M32 9 C38 22 47 28 58 30 C49 36 45 45 45 56 C38 48 33 45 32 45 C31 45 26 48 19 56 C19 45 15 36 6 30 C17 28 26 22 32 9 Z'/%3E%3Cpath d='M32 18 C28 30 22 37 12 42 C23 43 29 48 32 57 C35 48 41 43 52 42 C42 37 36 30 32 18 Z' fill='%23f0d78c'/%3E%3C/g%3E%3C/svg%3E")
+    center / contain no-repeat;
 }
 
 .brand p {
@@ -843,13 +849,26 @@ main {
 
 /* 莲花装饰图案 */
 .lotus-divider {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
   margin: 2rem 0;
   color: var(--gold);
   font-size: 1.6rem;
   letter-spacing: 0.25rem;
   opacity: 0.86;
   text-shadow: 0 4px 14px rgba(212, 168, 67, 0.28);
+}
+
+.lotus-divider::before,
+.lotus-divider::after,
+.lotus-mark {
+  content: "";
+  width: 1.45rem;
+  height: 1.45rem;
+  flex: 0 0 1.45rem;
+  background: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4a843' stroke='%238f4f23' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M32 9 C38 22 47 28 58 30 C49 36 45 45 45 56 C38 48 33 45 32 45 C31 45 26 48 19 56 C19 45 15 36 6 30 C17 28 26 22 32 9 Z'/%3E%3Cpath d='M32 18 C28 30 22 37 12 42 C23 43 29 48 32 57 C35 48 41 43 52 42 C42 37 36 30 32 18 Z' fill='%23f0d78c'/%3E%3C/g%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 /* 法轮图案 */
@@ -861,14 +880,17 @@ main {
 
 /* 页面底部装饰 */
 main::after {
-  content: "🪷    🪷";
+  content: "";
   display: block;
-  text-align: center;
+  width: 6rem;
+  height: 1.45rem;
   margin: 3rem 0 2rem;
-  color: var(--gold);
+  margin-left: auto;
+  margin-right: auto;
   opacity: 0.5;
-  font-size: 1.5rem;
-  letter-spacing: 1rem;
+  background:
+    url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4a843' stroke='%238f4f23' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M32 9 C38 22 47 28 58 30 C49 36 45 45 45 56 C38 48 33 45 32 45 C31 45 26 48 19 56 C19 45 15 36 6 30 C17 28 26 22 32 9 Z'/%3E%3Cpath d='M32 18 C28 30 22 37 12 42 C23 43 29 48 32 57 C35 48 41 43 52 42 C42 37 36 30 32 18 Z' fill='%23f0d78c'/%3E%3C/g%3E%3C/svg%3E") left center / 1.45rem 1.45rem no-repeat,
+    url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4a843' stroke='%238f4f23' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M32 9 C38 22 47 28 58 30 C49 36 45 45 45 56 C38 48 33 45 32 45 C31 45 26 48 19 56 C19 45 15 36 6 30 C17 28 26 22 32 9 Z'/%3E%3Cpath d='M32 18 C28 30 22 37 12 42 C23 43 29 48 32 57 C35 48 41 43 52 42 C42 37 36 30 32 18 Z' fill='%23f0d78c'/%3E%3C/g%3E%3C/svg%3E") right center / 1.45rem 1.45rem no-repeat;
 }
 
 /* 统计卡片特殊样式 */
