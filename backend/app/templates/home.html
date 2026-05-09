@@ -8,7 +8,10 @@
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-han">看汉传正文</a>
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-pali">看巴利正文</a>
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">看藏文正文</a>
-    <a class="secondary-link" href="{{ url_for('pali_theme_map_page') }}">看巴利主题地图</a>
+    <a class="secondary-link" href="{{ url_for('sutra_explainer_page') }}">RAG 解说佛经</a>
+    <a class="secondary-link" href="{{ url_for('embedding_theme_map_page') }}">看三传承主题地图</a>
+    <a class="secondary-link" href="{{ url_for('unit_theme_map_page') }}">看卷/章星图</a>
+    <a class="secondary-link" href="{{ url_for('concept_system_map_page') }}">看概念体系图</a>
   </div>
 </section>
 
@@ -86,26 +89,30 @@
       <li>按传承筛选作品，直接跳到可读正文版本。</li>
       <li>按段浏览正文、gloss、概念标签、对照链接与引文关系。</li>
       <li>在研究工具页统一做关键词、向量与混合检索。</li>
+      <li>在佛经解说页用跨语种 RAG 把汉传、巴利、藏传证据拼到同一个回答里。</li>
       <li>通过 API 拉取 works / text_versions / segments / search 结果。</li>
       <li>继续扩展更多目录、更多正文与更完整的对照关系。</li>
     </ul>
   </article>
   <article class="card">
-    <h2>研究工具页</h2>
+    <h2>研究与解说</h2>
     <ul class="plain-list">
       <li>统一入口：关键词检索、向量检索、RAG 上下文拼装。</li>
       <li>可按传统、集合、语言筛选。</li>
-      <li>返回可直接引用的段落级证据块与 prompt 模板。</li>
+      <li>佛经解说页会扩展“空、大日如来”等概念到跨语种术语，再按传统分轨检索。</li>
       <li><a href="{{ url_for('research_page') }}">进入研究工具页</a></li>
+      <li><a href="{{ url_for('sutra_explainer_page') }}">进入佛经解说页</a></li>
     </ul>
   </article>
 </section>
 
 <section class="card">
-  <h2>巴利主题地图</h2>
-  <p>巴利库已经补上英文 gloss，这意味着我们现在可以先用 gloss 做一版主题分布图，快速看四谛、缘起、无我、禅定、慈心、解脱这些核心主题在库中的落点与共现。</p>
+  <h2>三传承主题地图</h2>
+  <p>汉传、巴利与藏传的 segment embedding 已经可以生成统一主题地形图：用聚类看主题区块，用中心代表段回到正文证据。</p>
   <div class="action-row">
-    <a class="button-link" href="{{ url_for('pali_theme_map_page') }}">进入巴利主题地图</a>
+    <a class="button-link" href="{{ url_for('embedding_theme_map_page') }}">进入主题地图</a>
+    <a class="secondary-link" href="{{ url_for('unit_theme_map_page') }}">进入卷/章/作品星图</a>
+    <a class="secondary-link" href="{{ url_for('concept_system_map_page') }}">进入概念体系图</a>
   </div>
 </section>
 

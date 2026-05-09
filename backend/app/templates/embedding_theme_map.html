@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block title %}三传承主题地图 | 云上取经{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>三传承 embedding 主题地图</h1>
+  {% if theme_maps %}
+  <p>这张地图直接复用已经入库的 segment embedding：每个传统先做较大稳定抽样，再以 k=12 做 MiniBatchKMeans 聚类。节点名来自质心附近代表经文命中的佛学主题词表，连线代表簇中心之间的语义相近度。</p>
+  <div class="inline-meta">
+    <span class="catalog-chip">地图 {{ theme_maps.map_count }}</span>
+    <span class="catalog-chip">方法 k=12 embedding 聚类</span>
+    <span class="catalog-chip">生成时间 {{ theme_maps.generated_at[:19].replace("T", " ") }} UTC</span>
+  </div>
+  <div class="theme-map-tabs">
+    {% for item in theme_maps.maps %}
+    <a class="nav-chip" href="#{{ item.tradition_id }}">{{ item.tradition_short_label }} · {{ item.cluster_count }} 主题</a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>embedding 主题地图 snapshot 还没生成。运行 `python scripts/analysis/build_embedding_theme_maps.py` 后，这里会显示汉、巴、藏三套主题地形。</p>
+  {% endif %}
+</section>
+
+{% if theme_maps %}
+{% for map in theme_maps.maps %}
+<section class="card" id="{{ map.tradition_id }}">
+  <div class="section-head">
+    <div>
+      <h2>{{ map.tradition_label }}</h2>
+      <p class="muted">{{ map.description }}</p>
+    </div>
+    <div class="inline-meta">
+      <span class="catalog-chip">embedding {{ map.embedding_model }}</span>
+      <span class="catalog-chip">字段 {{ map.content_field }}</span>
+      <span class="catalog-chip">已入库 {{ map.indexed_segment_count }}</span>
+      <span class="catalog-chip">抽样 {{ map.sampled_segment_count }}</span>
+    </div>
+  </div>
+
+  {% if map.nodes %}
+  <div class="theme-map-canvas embedding-theme-canvas">
+    <svg class="theme-map-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      {% for edge in map.edges %}
+      <line
+        x1="{{ edge.x1 }}"
+        y1="{{ edge.y1 }}"
+        x2="{{ edge.x2 }}"
+        y2="{{ edge.y2 }}"
+        stroke-width="{{ edge.stroke_width }}"
+      ></line>
+      {% endfor %}
+    </svg>
+    {% for node in map.nodes %}
+    <a
+      class="theme-map-node embedding-theme-node"
+      href="#theme-{{ node.slug }}"
+      style="left: calc({{ node.x }}% - {{ node.size_px // 2 }}px); top: calc({{ node.y }}% - {{ node.size_px // 2 }}px); width: {{ node.size_px }}px; height: {{ node.size_px }}px; --node-color: {{ node.family_color }};"
+    >
+      <span class="theme-map-node-label">{{ node.label }}</span>
+      <span class="theme-map-node-subtitle">{{ node.subtitle }}</span>
+      <span class="theme-map-node-count">样本 {{ node.segment_count }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>该传统还没有可用 embedding 样本。</p>
+  {% endif %}
+</section>
+
+{% if map.nodes %}
+<section class="grid grid-2">
+  {% for node in map.nodes %}
+  <article class="card theme-detail-card" id="theme-{{ node.slug }}">
+    <div class="catalog-line">
+      <h2>{{ node.label }}</h2>
+      <span class="theme-family-chip" style="--family-color: {{ node.family_color }};">{{ node.subtitle }}</span>
+      <span class="catalog-chip">{{ map.tradition_short_label }}</span>
+      <span class="catalog-chip">样本 {{ node.segment_count }}</span>
+      <span class="catalog-chip">估算全量 {{ node.estimated_total_segments }}</span>
+      <span class="catalog-chip">{{ node.sample_share_percent }}%</span>
+    </div>
+    <p>{{ node.description }}</p>
+
+    {% if node.keywords %}
+    <div class="theme-keyword-row">
+      {% for keyword in node.keywords %}
+      <span class="theme-family-chip" style="--family-color: {{ node.family_color }};">{{ keyword }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if node.top_works %}
+    <h3>高频作品</h3>
+    <ul class="plain-list">
+      {% for item in node.top_works %}
+      <li>{{ item.work_title }} · {{ item.segment_count }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if node.examples %}
+    <h3>中心代表段</h3>
+    <ul class="plain-list">
+      {% for item in node.examples %}
+      <li>
+        <a href="{{ url_for('segment_detail_page', segment_id=item.segment_id) }}">{{ item.segment_key }}</a>
+        · {{ item.work_title }}
+        {% if item.canonical_code %} · {{ item.canonical_code }}{% endif %}
+        <div class="muted">中心相似度 {{ item.similarity }} · {{ item.preview }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endblock %}

@@ -22,8 +22,11 @@
         <a href="{{ url_for('works_page') }}">目录与正文</a>
         <a href="{{ url_for('han_catalog_page') }}">汉传目录</a>
         <a href="{{ url_for('research_page') }}">研究工具</a>
+        <a href="{{ url_for('sutra_explainer_page') }}">佛经解说</a>
         <a href="{{ url_for('parallels_page') }}">对照页</a>
-        <a href="{{ url_for('pali_theme_map_page') }}">巴利主题地图</a>
+        <a href="{{ url_for('embedding_theme_map_page') }}">主题地图</a>
+        <a href="{{ url_for('unit_theme_map_page') }}">卷/章星图</a>
+        <a href="{{ url_for('concept_system_map_page') }}">体系图</a>
         <a href="{{ url_for('concepts_page') }}">概念页</a>
         <a href="/api/overview">API 概览</a>
       </nav>
@@ -31,7 +34,10 @@
         <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-han">汉传正文</a>
         <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-pali">巴利正文</a>
         <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">藏文正文</a>
-        <a class="nav-chip" href="{{ url_for('pali_theme_map_page') }}">巴利主题地图</a>
+        <a class="nav-chip" href="{{ url_for('sutra_explainer_page') }}">RAG 佛经解说</a>
+        <a class="nav-chip" href="{{ url_for('embedding_theme_map_page') }}">汉巴藏主题地图</a>
+        <a class="nav-chip" href="{{ url_for('unit_theme_map_page') }}">卷/章/作品星图</a>
+        <a class="nav-chip" href="{{ url_for('concept_system_map_page') }}">概念体系图</a>
       </div>
     </div>
   </header>

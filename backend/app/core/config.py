@@ -90,6 +90,14 @@ class Settings:
     embedding_api_key: str = os.getenv("EMBEDDING_API_KEY", "").strip()
     embedding_batch_size: int = int(os.getenv("EMBEDDING_BATCH_SIZE", "32"))
     embedding_timeout_seconds: float = float(os.getenv("EMBEDDING_TIMEOUT_SECONDS", "30"))
+    llm_api_url: str = (
+        os.getenv("LLM_API_URL")
+        or os.getenv("OPENAI_API_URL")
+        or "https://api.openai.com/v1/responses"
+    ).strip()
+    llm_api_key: str = (os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY") or "").strip()
+    llm_model: str = (os.getenv("LLM_MODEL") or os.getenv("OPENAI_MODEL") or "gpt-4o-mini").strip()
+    llm_timeout_seconds: float = float(os.getenv("LLM_TIMEOUT_SECONDS", "60"))
     templates_dir: Path = (ROOT_DIR / "backend" / "app" / "templates").resolve()
     static_dir: Path = (ROOT_DIR / "backend" / "app" / "static").resolve()
 

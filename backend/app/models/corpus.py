@@ -210,6 +210,22 @@ class StructuralUnit(Base):
     segments: Mapped[list["Segment"]] = relationship(back_populates="structural_unit")
 
 
+class TextUnitSummary(Base):
+    __tablename__ = "text_unit_summaries"
+    __table_args__ = (UniqueConstraint("owner_type", "owner_id", "summary_kind", "model"),)
+
+    id: Mapped[int] = mapped_column(Integer(), primary_key=True, autoincrement=True)
+    owner_type: Mapped[str] = mapped_column(String(32), index=True)
+    owner_id: Mapped[str] = mapped_column(String(64), index=True)
+    summary_kind: Mapped[str] = mapped_column(String(64), default="rag_context", index=True)
+    model: Mapped[str] = mapped_column(String(128), index=True)
+    summary: Mapped[str] = mapped_column(Text())
+    source_segment_count: Mapped[int] = mapped_column(Integer(), default=0)
+    metadata_json: Mapped[Optional[dict]] = mapped_column(JSON(), nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(), default=datetime.utcnow)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(), default=datetime.utcnow, onupdate=datetime.utcnow)
+
+
 class Segment(Base):
     __tablename__ = "segments"
 

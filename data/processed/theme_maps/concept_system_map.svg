@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">三传承主题体系图</title>
+  <desc id="desc">A concept system map comparing Pali, Chinese, and Tibetan Buddhist textual clusters.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="14%" r="75%">
+      <stop offset="0%" stop-color="#fff8df"/>
+      <stop offset="50%" stop-color="#f7edda"/>
+      <stop offset="100%" stop-color="#ead8b9"/>
+    </radialGradient>
+    <linearGradient id="paliGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e7f1ec"/>
+      <stop offset="100%" stop-color="#c9ded8"/>
+    </linearGradient>
+    <linearGradient id="hanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0db"/>
+      <stop offset="100%" stop-color="#ecd1ab"/>
+    </linearGradient>
+    <linearGradient id="tibGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#edf1fb"/>
+      <stop offset="100%" stop-color="#d7dcec"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4d3213" flood-opacity="0.15"/>
+    </filter>
+    <filter id="starBlur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#8d7657"/>
+    </marker>
+    <style>
+      .bg { fill: url(#bgGlow); }
+      .title { font: 700 42px Georgia, "Noto Serif SC", serif; fill: #2f2618; letter-spacing: 2px; }
+      .subtitle { font: 20px Georgia, "Noto Serif SC", serif; fill: #6e614a; }
+      .region-title { font: 700 30px Georgia, "Noto Serif SC", serif; fill: #2f2618; }
+      .region-subtitle { font: 17px Georgia, "Noto Serif SC", serif; fill: #5f5140; }
+      .box-title { font: 700 19px Georgia, "Noto Serif SC", serif; fill: #2f2618; }
+      .box-text { font: 15px Georgia, "Noto Serif SC", serif; fill: #4a3a29; }
+      .small { font: 13px Georgia, "Noto Serif SC", serif; fill: #6a5947; }
+      .axis-title { font: 700 22px Georgia, "Noto Serif SC", serif; fill: #593616; }
+      .axis-text { font: 16px Georgia, "Noto Serif SC", serif; fill: #5c4834; }
+      .region { stroke: rgba(95, 71, 42, 0.35); stroke-width: 1.4; filter: url(#softShadow); }
+      .module { fill: rgba(255, 250, 241, 0.78); stroke: rgba(126, 91, 45, 0.28); stroke-width: 1.1; }
+      .chip { fill: rgba(255, 255, 255, 0.58); stroke: rgba(126, 91, 45, 0.24); stroke-width: 1; }
+      .bridge { fill: rgba(255, 250, 241, 0.78); stroke: rgba(126, 91, 45, 0.35); stroke-width: 1.2; }
+      .line { fill: none; stroke: #8d7657; stroke-width: 2; opacity: 0.58; marker-end: url(#arrow); }
+      .soft-line { fill: none; stroke: #b9a98c; stroke-width: 1.5; opacity: 0.48; }
+      .star { fill: #fff8d7; opacity: 0.75; filter: url(#starBlur); }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="1200"/>
+  <g opacity="0.55">
+    <circle class="star" cx="190" cy="116" r="3"/>
+    <circle class="star" cx="355" cy="181" r="2"/>
+    <circle class="star" cx="1228" cy="148" r="3"/>
+    <circle class="star" cx="1405" cy="246" r="2.4"/>
+    <circle class="star" cx="760" cy="90" r="2.6"/>
+    <circle class="star" cx="1015" cy="1048" r="2.6"/>
+    <circle class="star" cx="220" cy="1004" r="2.2"/>
+    <circle class="star" cx="1420" cy="1000" r="3"/>
+  </g>
+
+  <text x="800" y="62" class="title" text-anchor="middle">三传承主题体系图</text>
+  <text x="800" y="96" class="subtitle" text-anchor="middle">从质心星系到概念系统：训练、菩萨宇宙与经部星云</text>
+
+  <g>
+    <rect x="565" y="124" width="470" height="74" rx="28" fill="rgba(255,250,241,0.82)" stroke="#d1bb91"/>
+    <text x="800" y="154" class="axis-title" text-anchor="middle">共同问题轴</text>
+    <text x="800" y="181" class="axis-text" text-anchor="middle">苦与无明如何被诊断、修道如何展开、解脱/菩提如何被想象</text>
+  </g>
+
+  <path class="line" d="M730 198 C570 232 450 258 330 292"/>
+  <path class="line" d="M800 198 C800 230 800 248 800 282"/>
+  <path class="line" d="M870 198 C1035 232 1165 258 1285 292"/>
+
+  <g transform="translate(60,230)">
+    <rect class="region" x="0" y="0" width="455" height="680" rx="34" fill="url(#paliGrad)"/>
+    <text x="227" y="48" class="region-title" text-anchor="middle">巴利：训练系统</text>
+    <text x="227" y="76" class="region-subtitle" text-anchor="middle">把经验拆开，把修道做成可执行模块</text>
+
+    <g transform="translate(28,108)">
+      <rect class="module" width="399" height="105" rx="18"/>
+      <text x="20" y="30" class="box-title">诊断层：缘起 / 五蕴 / 六处</text>
+      <text x="20" y="57" class="box-text">SN12、SN22、SN35：经验如何生起，执取如何形成。</text>
+      <text x="20" y="82" class="small">星系：缘起根基、五蕴见解拆解、短公式无常观</text>
+    </g>
+
+    <g transform="translate(28,230)">
+      <rect class="module" width="399" height="105" rx="18"/>
+      <text x="20" y="30" class="box-title">实践层：戒定慧 / 八正道 / 禅那</text>
+      <text x="20" y="57" class="box-text">从可观察人格到现法安住，修行是一组训练规程。</text>
+      <text x="20" y="82" class="small">星系：戒行反苦行、觉支清单、断贪十想</text>
+    </g>
+
+    <g transform="translate(28,352)">
+      <rect class="module" width="399" height="105" rx="18"/>
+      <text x="20" y="30" class="box-title">记忆层：法数目录 / 短经公式</text>
+      <text x="20" y="57" class="box-text">DN33/34 与 AN/SN 短经，把法变成可背诵清单。</text>
+      <text x="20" y="82" class="small">星系：法数目录、二法训练、微型法义颗粒</text>
+    </g>
+
+    <g transform="translate(28,474)">
+      <rect class="module" width="399" height="126" rx="18"/>
+      <text x="20" y="30" class="box-title">制度层：佛灭后秩序 / 僧团资格</text>
+      <text x="20" y="57" class="box-text">DN16 关心法与律如何继承；AN10 关心谁能授戒。</text>
+      <text x="20" y="82" class="box-text">叙事里的天王、婆罗门、魔，也常被转成修行问答。</text>
+      <text x="20" y="108" class="small">星系：佛灭秩序、授戒资格、天王婆罗门问法</text>
+    </g>
+
+    <rect class="chip" x="74" y="626" width="306" height="32" rx="16"/>
+    <text x="227" y="648" class="small" text-anchor="middle">核心语法：分析经验 → 训练身心 → 证得涅槃</text>
+  </g>
+
+  <g transform="translate(572,230)">
+    <rect class="region" x="0" y="0" width="455" height="680" rx="34" fill="url(#hanGrad)"/>
+    <text x="227" y="48" class="region-title" text-anchor="middle">汉传：大乘经藏系统</text>
+    <text x="227" y="76" class="region-subtitle" text-anchor="middle">以般若为骨架，把修行扩展成菩萨宇宙</text>
+
+    <g transform="translate(28,108)">
+      <rect class="module" width="399" height="104" rx="18"/>
+      <text x="20" y="30" class="box-title">般若矩阵：空 / 无二 / 法界清净</text>
+      <text x="20" y="57" class="box-text">《大般若》分化成多个子星系，而非一个大标签。</text>
+      <text x="20" y="82" class="small">总摄波罗蜜、三世皆空、无二无生、般若供养</text>
+    </g>
+
+    <g transform="translate(28,229)">
+      <rect class="module" width="399" height="104" rx="18"/>
+      <text x="20" y="30" class="box-title">菩萨三昧：念佛 / 真实供养 / 如来智</text>
+      <text x="20" y="57" class="box-text">《月燈三昧經》把外在供养转成戒、问法与智慧。</text>
+      <text x="20" y="82" class="small">星系：月灯三昧、华手、智印、念佛三昧</text>
+    </g>
+
+    <g transform="translate(28,350)">
+      <rect class="module" width="399" height="104" rx="18"/>
+      <text x="20" y="30" class="box-title">护法宇宙：大集 / 仁王 / 佛国 / 授记</text>
+      <text x="20" y="57" class="box-text">修行者、国家、护法神、佛国和未来受记互相联动。</text>
+      <text x="20" y="82" class="small">星系：护国护法、佛国庄严、大乘守护</text>
+    </g>
+
+    <g transform="translate(28,471)">
+      <rect class="module" width="399" height="128" rx="18"/>
+      <text x="20" y="30" class="box-title">故事与佛性：本缘业报 / 涅槃常住</text>
+      <text x="20" y="57" class="box-text">《贤愚》《六度集》用故事呈现伦理因果；</text>
+      <text x="20" y="82" class="box-text">《涅槃经》把涅槃推向如来常住与法性。</text>
+      <text x="20" y="108" class="small">星系：本缘故事、菩萨社会伦理、佛性法身</text>
+    </g>
+
+    <rect class="chip" x="59" y="626" width="337" height="32" rx="16"/>
+    <text x="227" y="648" class="small" text-anchor="middle">核心语法：空性总摄 → 菩萨行 → 佛国/佛性救度</text>
+  </g>
+
+  <g transform="translate(1084,230)">
+    <rect class="region" x="0" y="0" width="455" height="680" rx="34" fill="url(#tibGrad)"/>
+    <text x="227" y="48" class="region-title" text-anchor="middle">藏传：章级经部星云</text>
+    <text x="227" y="76" class="region-subtitle" text-anchor="middle">把长经展开后，看见三昧、佛国与般若的内部漂移</text>
+
+    <g transform="translate(28,108)">
+      <rect class="module" width="399" height="104" rx="18"/>
+      <text x="20" y="30" class="box-title">三昧护教：善根 / 不舍佛 / 维摩诘</text>
+      <text x="20" y="57" class="box-text">菩萨不是静态概念，而是承担佛法、护持众生的行动者。</text>
+      <text x="20" y="82" class="small">星系：菩萨三昧、王三昧、佛名功德</text>
+    </g>
+
+    <g transform="translate(28,229)">
+      <rect class="module" width="399" height="104" rx="18"/>
+      <text x="20" y="30" class="box-title">经部宇宙：佛国 / 佛传 / 陀罗尼 / 十地</text>
+      <text x="20" y="57" class="box-text">《方广大庄严》《宝幢陀罗尼》《十地》构成庄严视景。</text>
+      <text x="20" y="82" class="small">星系：佛传开端、佛国庄严、未来成佛</text>
+    </g>
+
+    <g transform="translate(28,350)">
+      <rect class="module" width="399" height="104" rx="18"/>
+      <text x="20" y="30" class="box-title">长般若：不住诸法 / 自性空</text>
+      <text x="20" y="57" class="box-text">《十八千颂》《二万五千颂》显示道、果、能证者皆不可住。</text>
+      <text x="20" y="82" class="small">星系：长般若、十千颂般若、善根护持</text>
+    </g>
+
+    <g transform="translate(28,471)">
+      <rect class="module" width="399" height="128" rx="18"/>
+      <text x="20" y="30" class="box-title">可视化伦理：百业 / 法念处 / 未来佛谱系</text>
+      <text x="20" y="57" class="box-text">业报故事说明行为成熟；天界放逸训练厌离；</text>
+      <text x="20" y="82" class="box-text">《贤劫经》另一部分展开未来佛族谱。</text>
+      <text x="20" y="108" class="small">星系：百业故事、天界心理、未来佛授记名录</text>
+    </g>
+
+    <rect class="chip" x="54" y="626" width="347" height="32" rx="16"/>
+    <text x="227" y="648" class="small" text-anchor="middle">核心语法：章级展开 → 菩萨宇宙 → 三昧/般若星云</text>
+  </g>
+
+  <g transform="translate(80,950)">
+    <text x="720" y="-20" class="axis-title" text-anchor="middle">横向桥梁：同一问题在三传承中的不同组织方式</text>
+    <g transform="translate(0,0)">
+      <rect class="bridge" width="284" height="92" rx="18"/>
+      <text x="142" y="30" class="box-title" text-anchor="middle">苦 / 无明</text>
+      <text x="142" y="56" class="small" text-anchor="middle">巴利：诊断经验机制</text>
+      <text x="142" y="76" class="small" text-anchor="middle">汉藏：放入救度宇宙</text>
+    </g>
+    <g transform="translate(292,0)">
+      <rect class="bridge" width="284" height="92" rx="18"/>
+      <text x="142" y="30" class="box-title" text-anchor="middle">空 / 无我</text>
+      <text x="142" y="56" class="small" text-anchor="middle">巴利：拆五蕴与六处</text>
+      <text x="142" y="76" class="small" text-anchor="middle">汉藏：般若不住诸法</text>
+    </g>
+    <g transform="translate(584,0)">
+      <rect class="bridge" width="284" height="92" rx="18"/>
+      <text x="142" y="30" class="box-title" text-anchor="middle">修行主体</text>
+      <text x="142" y="56" class="small" text-anchor="middle">巴利：比丘/圣弟子</text>
+      <text x="142" y="76" class="small" text-anchor="middle">汉藏：菩萨/法师/未来佛</text>
+    </g>
+    <g transform="translate(876,0)">
+      <rect class="bridge" width="284" height="92" rx="18"/>
+      <text x="142" y="30" class="box-title" text-anchor="middle">文本形态</text>
+      <text x="142" y="56" class="small" text-anchor="middle">公式、目录、问答</text>
+      <text x="142" y="76" class="small" text-anchor="middle">经论大藏、章级星云</text>
+    </g>
+    <g transform="translate(1168,0)">
+      <rect class="bridge" width="284" height="92" rx="18"/>
+      <text x="142" y="30" class="box-title" text-anchor="middle">终点想象</text>
+      <text x="142" y="56" class="small" text-anchor="middle">涅槃 / 菩提 / 佛性</text>
+      <text x="142" y="76" class="small" text-anchor="middle">佛国、授记、三昧</text>
+    </g>
+  </g>
+
+  <path class="soft-line" d="M287 910 C320 940 520 948 800 948 C1080 948 1280 940 1312 910"/>
+  <text x="800" y="1114" class="subtitle" text-anchor="middle">读图方式：不是把三传承强行合并，而是看它们如何围绕同一解脱问题，生成不同的概念机器。</text>
+  <text x="800" y="1146" class="small" text-anchor="middle">基于 36 个 centroid clusters 的 top-12 core units：汉传 3404 卷/作品点，巴利 3421 文本点，藏传 2627 章级 section-window 点。</text>
+</svg>

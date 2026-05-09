@@ -1,0 +1,309 @@
+{% extends "base.html" %}
+{% block title %}佛经解说 RAG | 云上取经{% endblock %}
+{% block content %}
+<section class="card explainer-hero">
+  <h1>佛经解说 RAG</h1>
+  <p>输入一个概念、经名或问题，系统会先把中文概念扩展到英文、巴利、梵语/藏语转写，再分别检索汉传、巴利、藏传证据。不同传统的向量模型会分开查询，再按名次和证据通道融合。</p>
+</section>
+
+<section class="card">
+  <form method="get" class="filter-form">
+    <label class="grow">
+      问题 / 概念
+      <input type="text" name="q" value="{{ query_text }}" placeholder="例如：空 / 大日如来 / 菩提心 / dependent origination">
+    </label>
+    <label>
+      检索模式
+      <select name="mode">
+        <option value="hybrid" {% if selected_mode == "hybrid" %}selected{% endif %}>关键词 + 向量</option>
+        <option value="keyword" {% if selected_mode == "keyword" %}selected{% endif %}>只用关键词</option>
+        <option value="vector" {% if selected_mode == "vector" %}selected{% endif %}>只用向量</option>
+      </select>
+    </label>
+    <label>
+      解说风格
+      <select name="style">
+        <option value="comparative" {% if selected_style == "comparative" %}selected{% endif %}>三传承比较</option>
+        <option value="plain" {% if selected_style == "plain" %}selected{% endif %}>白话导读</option>
+        <option value="scholarly" {% if selected_style == "scholarly" %}selected{% endif %}>学术注释</option>
+        <option value="line_by_line" {% if selected_style == "line_by_line" %}selected{% endif %}>逐句解说</option>
+      </select>
+    </label>
+    <label>
+      Top K
+      <select name="top_k">
+        {% for option in [8, 12, 16, 20] %}
+        <option value="{{ option }}" {% if selected_top_k == option %}selected{% endif %}>{{ option }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      调用 LLM
+      <select name="generate">
+        <option value="false" {% if not selected_generate %}selected{% endif %}>先只拼证据</option>
+        <option value="true" {% if selected_generate %}selected{% endif %}>生成解说</option>
+      </select>
+    </label>
+    <label>
+      传统
+      <select name="tradition_id">
+        <option value="">全部</option>
+        {% for item in traditions %}
+        <option value="{{ item.id }}" {% if selected_tradition == item.id %}selected{% endif %}>{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      集合
+      <select name="collection_id">
+        <option value="">全部</option>
+        {% for item in collections %}
+        <option value="{{ item.id }}" {% if selected_collection == item.id %}selected{% endif %}>{{ item.title }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      语言
+      <select name="language_id">
+        <option value="">全部</option>
+        {% for item in languages %}
+        <option value="{{ item.id }}" {% if selected_language == item.id %}selected{% endif %}>{{ item.name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <button type="submit">检索并解说</button>
+  </form>
+</section>
+
+{% if explain_payload %}
+<section class="grid grid-4">
+  <article class="card stat-card">
+    <h2>{{ explain_payload.contexts|length }}</h2>
+    <p>证据块</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ explain_payload.keyword_result_count }}</h2>
+    <p>关键词候选</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ explain_payload.vector_result_count }}</h2>
+    <p>向量候选</p>
+  </article>
+  <article class="card stat-card">
+    <h2>{{ explain_payload.selected_traditions|length }}</h2>
+    <p>参与传统</p>
+  </article>
+</section>
+
+<section class="card answer-card">
+  <div class="catalog-line">
+    <h2>解说结果</h2>
+    <span class="catalog-chip">{{ explain_payload.status }}</span>
+    {% if explain_payload.llm_model %}
+    <span class="catalog-chip">{{ explain_payload.llm_model }}</span>
+    {% endif %}
+  </div>
+  <p class="muted">{{ explain_payload.message }}</p>
+  <pre class="answer-block">{{ explain_payload.answer }}</pre>
+</section>
+
+{% if explain_payload.answer_plan %}
+<section class="card">
+  <h2>解题计划</h2>
+  <p class="muted">这一步是佛经解说 AI 的“先想清楚再回答”：先拆问题，再找跨语种证据，再看上下文和摘要，最后综合。</p>
+  <ol class="plan-list">
+    {% for step in explain_payload.answer_plan %}
+    <li class="plan-step">
+      <div class="catalog-line">
+        <strong>{{ step.step }}. {{ step.title }}</strong>
+        <span class="catalog-chip">{{ step.status }}</span>
+      </div>
+      <p>{{ step.description }}</p>
+      <p class="muted">使用：{{ step.uses }}</p>
+      {% if step.details %}
+      <div class="chip-row">
+        {% for detail in step.details %}
+        <span class="catalog-chip">{{ detail }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+<section class="grid grid-2">
+  <article class="card">
+    <h2>跨语种扩展</h2>
+    <p class="muted">这些词会一起参与关键词检索；向量检索会把它们合成一个语义查询。</p>
+    <div class="chip-row">
+      {% for item in explain_payload.expanded_terms %}
+      <span class="catalog-chip" title="{{ item.label }}">{{ item.term }}</span>
+      {% endfor %}
+    </div>
+    {% if explain_payload.detected_concepts %}
+    <h3>概念线索</h3>
+    <div class="chip-row">
+      {% for item in explain_payload.detected_concepts %}
+      <span class="catalog-chip">{{ item.label }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  <article class="card">
+    <h2>向量模型分轨</h2>
+    {% if explain_payload.embedding_models_by_tradition %}
+    <ul class="plain-list">
+      {% for tradition, models in explain_payload.embedding_models_by_tradition.items() %}
+      <li class="result-item">
+        <strong>{{ tradition }}</strong>
+        {% for model in models[:3] %}
+        <div class="muted">
+          {{ model.embedding_model }}
+          · {{ model.indexed_count }} 条
+          · {{ model.dimension or "unknown" }} 维
+          · {{ model.content_field }}
+        </div>
+        {% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="muted">当前没有检测到可用于段落检索的持久化向量模型。</p>
+    {% endif %}
+    {% if explain_payload.vector_statuses %}
+    <h3>本次向量检索状态</h3>
+    <ul class="plain-list">
+      {% for item in explain_payload.vector_statuses %}
+      <li class="result-item">
+        <span class="catalog-chip">{{ item.tradition_id }}</span>
+        <span class="catalog-chip">{{ item.status }}</span>
+        {% if item.embedding_model %}<span class="catalog-chip">{{ item.embedding_model }}</span>{% endif %}
+        <div class="muted">{{ item.message }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </article>
+</section>
+
+<section class="card">
+  <h2>证据宇宙</h2>
+  <p class="muted">证据按传统做了轻量平衡，避免一个传统把结果全部占满。分数是融合分，不是跨模型原始 cosine。</p>
+  <ul class="plain-list evidence-list">
+    {% for item in explain_payload.contexts %}
+    <li class="result-item evidence-item">
+      <div class="catalog-line">
+        <a href="{{ url_for('segment_detail_page', segment_id=item.id) }}">{{ item.segment_key }}</a>
+        <span>{{ item.work_title }}</span>
+        <span class="catalog-chip">{{ item.tradition_name }}</span>
+        <span class="catalog-chip">{{ item.language_name }}</span>
+        <span class="catalog-chip">{{ "%.3f"|format(item.retrieval_score or 0) }}</span>
+      </div>
+      <div class="chip-row">
+        {% for channel in item.retrieval_channels %}
+        <span class="catalog-chip">{{ channel }}</span>
+        {% endfor %}
+        {% for term in item.matched_query_terms %}
+        <span class="catalog-chip">{{ term }}</span>
+        {% endfor %}
+      </div>
+      <p>{{ item.content_preview }}</p>
+      {% if item.content_gloss %}
+      <p class="muted">gloss: {{ item.content_gloss[:260] }}</p>
+      {% endif %}
+      {% if item.work_summary %}
+      <p class="muted">作品背景：{{ item.work_summary[:260] }}</p>
+      {% endif %}
+      {% if item.text_version_summary and item.text_version_summary != item.work_summary %}
+      <p class="muted">版本背景：{{ item.text_version_summary[:220] }}</p>
+      {% endif %}
+      {% if item.structural_unit_summary %}
+      <p class="muted">卷/结构摘要：{{ item.structural_unit_summary[:220] }}</p>
+      {% endif %}
+      {% if item.structural_unit_context %}
+      <p class="muted">
+        结构位置：
+        {{ item.structural_unit_context.unit_type }}
+        · {{ item.structural_unit_context.label }}
+        {% if item.structural_unit_context.title %}· {{ item.structural_unit_context.title }}{% endif %}
+      </p>
+      {% endif %}
+      {% if item.nearby_segments %}
+      <details class="context-window">
+        <summary>查看命中段前后文（±{{ item.context_window }} 段）</summary>
+        <ul class="plain-list">
+          {% for nearby in item.nearby_segments %}
+          <li class="result-item">
+            <div class="catalog-line">
+              <a href="{{ url_for('segment_detail_page', segment_id=nearby.id) }}">{{ nearby.segment_key }}</a>
+              <span class="catalog-chip">{{ nearby.relation }}</span>
+              {% if nearby.title %}<span>{{ nearby.title }}</span>{% endif %}
+            </div>
+            <p>{{ nearby.content_preview }}</p>
+            {% if nearby.content_gloss %}
+            <p class="muted">gloss: {{ nearby.content_gloss }}</p>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+      <details class="evidence-layers">
+        <summary>查看证据层级</summary>
+        <div class="evidence-layer-grid">
+          <article>
+            <h3>1. 命中段</h3>
+            <p>{{ item.content_preview }}</p>
+            {% if item.content_gloss %}<p class="muted">{{ item.content_gloss[:220] }}</p>{% endif %}
+          </article>
+          <article>
+            <h3>2. 前后文</h3>
+            {% if item.nearby_segments %}
+            <p class="muted">{{ item.nearby_segments|length }} 段上下文，打开上方折叠框可细读。</p>
+            {% else %}
+            <p class="muted">暂无前后文。</p>
+            {% endif %}
+          </article>
+          <article>
+            <h3>3. 卷/结构</h3>
+            {% if item.structural_unit_summary %}
+            <p>{{ item.structural_unit_summary[:260] }}</p>
+            {% elif item.structural_unit_context %}
+            <p class="muted">{{ item.structural_unit_context.unit_type }} · {{ item.structural_unit_context.label }}</p>
+            {% else %}
+            <p class="muted">暂无结构摘要。</p>
+            {% endif %}
+          </article>
+          <article>
+            <h3>4. 作品背景</h3>
+            {% if item.work_summary %}
+            <p>{{ item.work_summary[:260] }}</p>
+            {% else %}
+            <p class="muted">暂无作品摘要。</p>
+            {% endif %}
+          </article>
+        </div>
+      </details>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="grid grid-2">
+  <article class="card">
+    <details>
+      <summary>查看 System Prompt</summary>
+      <pre class="prompt-block">{{ explain_payload.system_prompt }}</pre>
+    </details>
+  </article>
+  <article class="card">
+    <details>
+      <summary>查看 User Prompt</summary>
+      <pre class="prompt-block">{{ explain_payload.user_prompt }}</pre>
+    </details>
+  </article>
+</section>
+{% endif %}
+{% endblock %}
