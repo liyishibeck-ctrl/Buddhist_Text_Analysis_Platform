@@ -151,8 +151,8 @@ def resolve_embedding_runtime(
             or settings.embedding_timeout_seconds
         )
         if embedding_model and _looks_like_openai_embedding_model(resolved_model):
-            api_url = "https://api.openai.com/v1/embeddings"
-            api_key = settings.llm_api_key or api_key
+            api_url = api_url or "https://api.openai.com/v1/embeddings"
+            api_key = api_key or settings.llm_api_key
             if resolved_model == "text-embedding-3-large" and dimension != 2048:
                 dimension = 2048
         if not api_url:

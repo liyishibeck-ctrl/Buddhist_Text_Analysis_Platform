@@ -1264,14 +1264,23 @@ def _call_llm(*, system_prompt: str, user_prompt: str, model: Optional[str] = No
     if not settings.llm_api_key:
         return "", "LLM_API_KEY/OPENAI_API_KEY is not configured; returned prompt-only answer."
 
-    request_body = {
-        "model": model or settings.llm_model,
-        "input": [
-            {"role": "developer", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        "store": False,
-    }
+    if settings.llm_api_url.rstrip("/").endswith("/chat/completions"):
+        request_body = {
+            "model": model or settings.llm_model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+    else:
+        request_body = {
+            "model": model or settings.llm_model,
+            "input": [
+                {"role": "developer", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            "store": False,
+        }
     encoded_body = json.dumps(request_body, ensure_ascii=False).encode("utf-8")
     last_error = ""
     for attempt in range(3):
@@ -1304,6 +1313,20 @@ def _call_llm(*, system_prompt: str, user_prompt: str, model: Optional[str] = No
 
     if payload.get("output_text"):
         return str(payload["output_text"]).strip(), None
+    choices = payload.get("choices") or []
+    if choices:
+        message = choices[0].get("message") or {}
+        content = message.get("content")
+        if isinstance(content, str) and content.strip():
+            return content.strip(), None
+        if isinstance(content, list):
+            text_values = [
+                str(item.get("text") or "")
+                for item in content
+                if isinstance(item, dict) and item.get("text")
+            ]
+            if text_values:
+                return "\n".join(text_values).strip(), None
     output_parts: list[str] = []
     for item in payload.get("output") or []:
         for content_item in item.get("content") or []:
