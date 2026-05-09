@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block title %}{{ work.title }} | 雲藏閣{% endblock %}
 {% block content %}
-<section class="card">
+<section class="card thangka-panel hero">
   <h1>{{ work.title }}</h1>
   <p class="muted">{{ work.title_english or work.title_transliterated or "—" }}</p>
   <div class="inline-meta">
@@ -34,8 +34,29 @@
     {% if work.primary_text_version_id %}
     <a class="button-link" href="{{ url_for('text_version_detail_page', text_version_id=work.primary_text_version_id) }}">进入正文</a>
     {% endif %}
+    {% if work_summary %}
+    <a class="button-link" href="{{ url_for('work_summary_reader_page', work_id=work.id) }}">阅读经卷摘要</a>
+    {% endif %}
   </div>
 </section>
+
+{% if work_summary %}
+<div class="lotus-divider">🪷 ✦ 📿 ✦ 🪷</div>
+<section class="card thangka-panel">
+  <div class="catalog-line">
+    <h2>AI 导读摘要</h2>
+    <span class="catalog-chip">{{ work_summary.model }}</span>
+    <span class="catalog-chip">抽样 {{ work_summary.source_segment_count }} 段</span>
+    <span class="catalog-chip">卷摘要 {{ unit_summary_count }}</span>
+  </div>
+  <p class="muted summary-note-card">这里显示的是整部经的导读摘要，所以会比完整 markdown 稿短很多。你记得的那份长稿，实际上是“整部导读 + 全部卷摘要”的合集。</p>
+  <div class="summary-prose">{{ work_summary.summary_html|safe }}</div>
+  <div class="action-row">
+    <a class="button-link" href="{{ url_for('work_summary_reader_page', work_id=work.id) }}">打开整部 + 全部卷摘要</a>
+    <a class="secondary-link" href="{{ url_for('summary_library_page') }}?q={{ work.title }}">在摘要库中定位</a>
+  </div>
+</section>
+{% endif %}
 
 <section class="grid grid-2">
   <article class="card">

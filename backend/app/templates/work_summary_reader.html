@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block title %}{{ work.title }} 摘要阅读 | 雲藏閣{% endblock %}
+{% block content %}
+<section class="card thangka-panel summary-reader-hero">
+  <h1>{{ work.title }}</h1>
+  <p class="muted">{{ work.title_english or work.title_transliterated or "—" }}</p>
+  <div class="inline-meta">
+    <span class="catalog-chip">{{ work.tradition_name }}</span>
+    <span class="catalog-chip">{{ work.collection_title }}</span>
+    {% if work.canonical_code %}<span class="catalog-chip">{{ work.canonical_code }}</span>{% endif %}
+    {% if work.fascicle_count %}<span class="catalog-chip">{{ work.fascicle_count }} 卷</span>{% endif %}
+    <span class="catalog-chip">卷摘要 {{ unit_summary_total }}</span>
+  </div>
+  <div class="action-row">
+    <a class="secondary-link" href="{{ url_for('work_detail_page', work_id=work.id) }}">返回作品页</a>
+    {% if work.primary_text_version_id %}
+    <a class="button-link" href="{{ url_for('text_version_detail_page', text_version_id=work.primary_text_version_id) }}">进入正文</a>
+    {% endif %}
+  </div>
+  <p class="muted summary-note-card">这里展示的是完整版摘要阅读：上面是整部导读，下面是按卷拆开的长版摘要。作品页里那块比较短，是故意只放整部导读，不把全部卷都堆进去。</p>
+</section>
+
+{% if work_summary %}
+<section class="card thangka-panel">
+  <div class="catalog-line">
+    <h2>整部导读摘要</h2>
+    <span class="catalog-chip">{{ work_summary.model }}</span>
+    <span class="catalog-chip">抽样 {{ work_summary.source_segment_count }} 段</span>
+  </div>
+  <div class="summary-prose">{{ work_summary.summary_html|safe }}</div>
+</section>
+{% endif %}
+
+{% if unit_summary_total %}
+<div class="lotus-divider">🪷 ✦ 卷级摘要星图 ✦ 🪷</div>
+<section class="card thangka-panel">
+  <div class="catalog-line">
+    <h2>卷级摘要总览</h2>
+    <span class="catalog-chip">共 {{ unit_summary_total }} 条</span>
+  </div>
+  <div class="action-row summary-toolbar">
+    <button type="button" class="summary-toggle-button" onclick="toggleAllSummaries(true)">展开全部卷摘要</button>
+    <button type="button" class="summary-toggle-button secondary" onclick="toggleAllSummaries(false)">收起全部卷摘要</button>
+  </div>
+</section>
+{% endif %}
+
+{% for group in summary_groups %}
+{% if group.summary_count %}
+<section class="card">
+  <div class="catalog-line">
+    <h2>{{ group.text_version_title }}</h2>
+    <span class="catalog-chip">{{ group.language_name }}</span>
+    <span class="catalog-chip">卷摘要 {{ group.summary_count }}</span>
+    <a class="secondary-link" href="{{ url_for('text_version_detail_page', text_version_id=group.text_version_id) }}">进入版本正文</a>
+  </div>
+
+  <div class="summary-jump-grid">
+    {% for item in group["items"] %}
+    <a class="nav-chip" href="#summary-{{ item.owner_id }}">{{ item.label }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="summary-stack">
+    {% for item in group["items"] %}
+    <details class="summary-fold" id="summary-{{ item.owner_id }}" data-summary-toggle {% if loop.index <= 4 %}open{% endif %}>
+      <summary>
+        <span>{{ item.label }}</span>
+        {% if item.unit_title %}<span class="muted"> · {{ item.unit_title }}</span>{% endif %}
+        <span class="catalog-chip">{{ item.model }}</span>
+      </summary>
+      <div class="summary-fold-body">
+        <p class="muted">抽样 {{ item.source_segment_count }} 段{% if item.created_at %} · 生成于 {{ item.created_at[:19].replace("T", " ") }}{% endif %}</p>
+        <div class="summary-prose">{{ item.summary_html|safe }}</div>
+        <div class="action-row">
+          <a class="secondary-link" href="{{ url_for('text_version_detail_page', text_version_id=group.text_version_id) }}?unit_id={{ item.owner_id }}">带着当前卷摘要去读正文</a>
+        </div>
+      </div>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endfor %}
+
+{% if not work_summary and not unit_summary_total %}
+<section class="card">
+  <h2>当前还没有摘要</h2>
+  <p class="muted">这部作品暂时没有生成好的作品级或卷级摘要。</p>
+</section>
+{% endif %}
+
+<script>
+function toggleAllSummaries(openState) {
+  document.querySelectorAll("[data-summary-toggle]").forEach((node) => {
+    node.open = openState;
+  });
+}
+</script>
+{% endblock %}

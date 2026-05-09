@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from collections import defaultdict
+import html
+import re
 from typing import Any, Optional
 
-from sqlalchemy import func, or_, select
+from sqlalchemy import and_, func, or_, select
 from sqlalchemy.orm import Session, selectinload
 
 from backend.app.core.config import settings
@@ -17,6 +19,7 @@ from backend.app.models import (
     Segment,
     SegmentConceptTag,
     StructuralUnit,
+    TextUnitSummary,
     TextVersion,
     TextVersionPersonRole,
     Tradition,
@@ -32,6 +35,72 @@ def build_preview(content: str, limit: int = 100) -> str:
     if len(compact) <= limit:
         return compact
     return f"{compact[: limit - 1]}..."
+
+
+def render_summary_markdown_html(summary: Optional[str]) -> str:
+    if not summary:
+        return ""
+
+    def inline_markup(value: str) -> str:
+        escaped = html.escape(value, quote=False)
+        escaped = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
+        escaped = re.sub(r"`(.+?)`", r"<code>\1</code>", escaped)
+        return escaped
+
+    blocks: list[str] = []
+    paragraph_lines: list[str] = []
+    list_tag: Optional[str] = None
+
+    def flush_paragraph() -> None:
+        nonlocal paragraph_lines
+        if paragraph_lines:
+            blocks.append("<p>" + "<br>".join(inline_markup(line) for line in paragraph_lines) + "</p>")
+            paragraph_lines = []
+
+    def close_list() -> None:
+        nonlocal list_tag
+        if list_tag:
+            blocks.append(f"</{list_tag}>")
+            list_tag = None
+
+    for raw_line in summary.splitlines():
+        line = raw_line.strip()
+        if not line:
+            flush_paragraph()
+            close_list()
+            continue
+        if line.startswith("### "):
+            flush_paragraph()
+            close_list()
+            blocks.append(f"<h4>{inline_markup(line[4:])}</h4>")
+            continue
+        if line.startswith("## "):
+            flush_paragraph()
+            close_list()
+            blocks.append(f"<h3>{inline_markup(line[3:])}</h3>")
+            continue
+        if line.startswith("- "):
+            flush_paragraph()
+            if list_tag != "ul":
+                close_list()
+                blocks.append("<ul>")
+                list_tag = "ul"
+            blocks.append(f"<li>{inline_markup(line[2:])}</li>")
+            continue
+        if re.match(r"^\d+\.\s+", line):
+            flush_paragraph()
+            if list_tag != "ol":
+                close_list()
+                blocks.append("<ol>")
+                list_tag = "ol"
+            blocks.append(f"<li>{inline_markup(re.sub(r'^\\d+\\.\\s+', '', line))}</li>")
+            continue
+        close_list()
+        paragraph_lines.append(line)
+
+    flush_paragraph()
+    close_list()
+    return "\n".join(blocks)
 
 
 def serialize_person_roles(role_rows: list[WorkPersonRole | TextVersionPersonRole]) -> list[dict[str, Any]]:
@@ -110,6 +179,53 @@ def serialize_segment_summary(segment: Segment) -> dict[str, Any]:
         "language_name": segment.text_version.language.name,
         "content_preview": build_preview(segment.content),
     }
+
+
+def serialize_text_unit_summary(summary_row: TextUnitSummary) -> dict[str, Any]:
+    metadata = summary_row.metadata_json or {}
+    return {
+        "id": summary_row.id,
+        "owner_type": summary_row.owner_type,
+        "owner_id": summary_row.owner_id,
+        "summary_kind": summary_row.summary_kind,
+        "model": summary_row.model,
+        "summary": summary_row.summary,
+        "summary_html": render_summary_markdown_html(summary_row.summary),
+        "summary_preview": build_preview(summary_row.summary, 260),
+        "source_segment_count": summary_row.source_segment_count,
+        "metadata": metadata,
+        "title": metadata.get("title"),
+        "created_at": summary_row.created_at.isoformat() if summary_row.created_at else None,
+        "updated_at": summary_row.updated_at.isoformat() if summary_row.updated_at else None,
+    }
+
+
+def _latest_summary_map(
+    session: Session,
+    *,
+    owner_type: str,
+    owner_ids: list[str],
+    summary_kind: str = "rag_context",
+) -> dict[str, dict[str, Any]]:
+    if not owner_ids:
+        return {}
+
+    rows = session.scalars(
+        select(TextUnitSummary)
+        .where(
+            TextUnitSummary.owner_type == owner_type,
+            TextUnitSummary.summary_kind == summary_kind,
+            TextUnitSummary.owner_id.in_(owner_ids),
+        )
+        .order_by(TextUnitSummary.owner_id, TextUnitSummary.updated_at.desc(), TextUnitSummary.id.desc())
+    ).all()
+
+    summary_map: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        if row.owner_id in summary_map:
+            continue
+        summary_map[row.owner_id] = serialize_text_unit_summary(row)
+    return summary_map
 
 
 def list_collections(session: Session, tradition_id: Optional[str] = None) -> list[dict[str, Any]]:
@@ -506,6 +622,139 @@ def list_structural_units(
         }
         for unit in units
     ]
+
+
+def get_generated_summary(
+    session: Session,
+    *,
+    owner_type: str,
+    owner_id: str,
+    summary_kind: str = "rag_context",
+) -> Optional[dict[str, Any]]:
+    summary_map = _latest_summary_map(
+        session,
+        owner_type=owner_type,
+        owner_ids=[owner_id],
+        summary_kind=summary_kind,
+    )
+    return summary_map.get(owner_id)
+
+
+def list_work_summary_entries(
+    session: Session,
+    *,
+    tradition_id: Optional[str] = None,
+    q: Optional[str] = None,
+    limit: int = 160,
+) -> list[dict[str, Any]]:
+    stmt = (
+        select(Work)
+        .join(
+            TextUnitSummary,
+            and_(
+                TextUnitSummary.owner_type == "work",
+                TextUnitSummary.summary_kind == "rag_context",
+                TextUnitSummary.owner_id == Work.id,
+            ),
+        )
+        .options(
+            selectinload(Work.tradition),
+            selectinload(Work.collection),
+            selectinload(Work.text_versions),
+        )
+        .order_by(Work.tradition_id, Work.title)
+        .limit(limit)
+    )
+    if tradition_id:
+        stmt = stmt.where(Work.tradition_id == tradition_id)
+    if q:
+        pattern = f"%{q}%"
+        stmt = stmt.where(
+            or_(
+                Work.title.ilike(pattern),
+                Work.title_english.ilike(pattern),
+                Work.title_transliterated.ilike(pattern),
+                Work.canonical_code.ilike(pattern),
+            )
+        )
+
+    works = session.scalars(stmt).unique().all()
+    work_ids = [item.id for item in works]
+    summary_map = _latest_summary_map(session, owner_type="work", owner_ids=work_ids)
+
+    unit_count_rows = []
+    if work_ids:
+        unit_count_rows = session.execute(
+            select(TextVersion.work_id, func.count(TextUnitSummary.id))
+            .join(StructuralUnit, StructuralUnit.id == TextUnitSummary.owner_id)
+            .join(TextVersion, TextVersion.id == StructuralUnit.text_version_id)
+            .where(
+                TextUnitSummary.owner_type == "structural_unit",
+                TextUnitSummary.summary_kind == "rag_context",
+                TextVersion.work_id.in_(work_ids),
+            )
+            .group_by(TextVersion.work_id)
+        ).all()
+    unit_count_map = {work_id: int(count or 0) for work_id, count in unit_count_rows}
+
+    entries: list[dict[str, Any]] = []
+    for work in works:
+        payload = serialize_work_summary(work)
+        generated_summary = summary_map.get(work.id)
+        payload.update(
+            {
+                "generated_summary": generated_summary,
+                "generated_summary_preview": generated_summary["summary_preview"] if generated_summary else None,
+                "unit_summary_count": unit_count_map.get(work.id, 0),
+            }
+        )
+        entries.append(payload)
+    return entries
+
+
+def list_work_unit_summaries(
+    session: Session,
+    *,
+    work_id: str,
+    text_version_id: Optional[str] = None,
+    unit_type: Optional[str] = "juan",
+) -> list[dict[str, Any]]:
+    stmt = (
+        select(StructuralUnit, TextVersion)
+        .join(TextVersion, TextVersion.id == StructuralUnit.text_version_id)
+        .where(
+            TextVersion.work_id == work_id,
+            TextVersion.is_catalog_only.is_(False),
+        )
+        .order_by(TextVersion.title, StructuralUnit.position, StructuralUnit.id)
+    )
+    if text_version_id:
+        stmt = stmt.where(TextVersion.id == text_version_id)
+    if unit_type:
+        stmt = stmt.where(StructuralUnit.unit_type == unit_type)
+
+    rows = session.execute(stmt).all()
+    unit_ids = [unit.id for unit, _ in rows]
+    summary_map = _latest_summary_map(session, owner_type="structural_unit", owner_ids=unit_ids)
+
+    items: list[dict[str, Any]] = []
+    for unit, text_version in rows:
+        summary_row = summary_map.get(unit.id)
+        if not summary_row:
+            continue
+        items.append(
+            {
+                **summary_row,
+                "text_version_id": text_version.id,
+                "text_version_title": text_version.title,
+                "unit_type": unit.unit_type,
+                "label": unit.label,
+                "unit_title": unit.title,
+                "position": unit.position,
+                "path": unit.path,
+            }
+        )
+    return items
 
 
 def list_segments(
