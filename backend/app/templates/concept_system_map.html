@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}三传承概念体系图 | 云上取经{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>三传承概念体系图</h1>
+  <p>这张图把 36 个质心星系的 top-12 核心文本压缩成一张体系图：左边是巴利的训练系统，中间是汉传的大乘经藏系统，右边是藏传的章级经部星云。</p>
+  <div class="action-row">
+    <a class="button-link" href="{{ url_for('static', path='/concept_system_map.svg') }}">打开 SVG 大图</a>
+    <a class="secondary-link" href="{{ url_for('unit_theme_map_page') }}">回到卷/章星图</a>
+  </div>
+</section>
+
+<section class="card concept-map-card">
+  <img class="concept-system-map" src="{{ url_for('static', path='/concept_system_map.svg') }}" alt="三传承主题体系图">
+</section>
+
+<section class="grid grid-3">
+  <article class="card">
+    <h2>巴利</h2>
+    <p>像一套修行操作系统：先拆经验结构，再训练身心，最后以戒、定、慧、八正道、缘起、五蕴完成解脱路径。</p>
+  </article>
+  <article class="card">
+    <h2>汉传</h2>
+    <p>像一座大乘经藏宇宙：般若为空性骨架，菩萨行为实践主体，护法、佛国、佛性和本缘故事构成宏大叙事。</p>
+  </article>
+  <article class="card">
+    <h2>藏传</h2>
+    <p>像章级展开后的经部星云：三昧、长般若、佛国、未来佛谱系、百业故事和菩萨问答各自成团。</p>
+  </article>
+</section>
+{% endblock %}

@@ -111,6 +111,10 @@ def _tradition_float_override(base_name: str, tradition_id: Optional[str]) -> Op
     return float(value)
 
 
+def _looks_like_openai_embedding_model(model: str) -> bool:
+    return model.startswith("text-embedding-")
+
+
 def resolve_embedding_runtime(
     *,
     embedding_model: Optional[str] = None,
@@ -146,6 +150,11 @@ def resolve_embedding_runtime(
             _tradition_float_override("EMBEDDING_TIMEOUT_SECONDS", tradition_id)
             or settings.embedding_timeout_seconds
         )
+        if embedding_model and _looks_like_openai_embedding_model(resolved_model):
+            api_url = "https://api.openai.com/v1/embeddings"
+            api_key = settings.llm_api_key or api_key
+            if resolved_model == "text-embedding-3-large" and dimension != 2048:
+                dimension = 2048
         if not api_url:
             raise ValueError("EMBEDDING_API_URL must be set when EMBEDDING_PROVIDER=openai-compatible.")
         if not resolved_model:
@@ -311,6 +320,8 @@ def _embed_openai_compatible_batch(
         "input": text_values,
         "dimensions": runtime.dimension,
     }
+    if _looks_like_openai_embedding_model(runtime.model):
+        request_body["encoding_format"] = "float"
     request_payload = json.dumps(request_body, ensure_ascii=False).encode("utf-8")
     request = urllib.request.Request(
         runtime.api_url,
@@ -687,6 +698,7 @@ def _candidate_records(
             "is_sample": segment.text_version.work.is_sample,
             "work_id": segment.text_version.work.id,
             "text_version_id": segment.text_version.id,
+            "structural_unit_id": segment.structural_unit_id,
             "collection_id": segment.text_version.work.collection.id,
             "tradition_id": segment.text_version.work.tradition.id,
             "language_id": segment.text_version.language.id,
@@ -726,9 +738,11 @@ def _load_segment_payloads(session: Session, segment_ids: list[str]) -> dict[str
             "content_preview": segment.content[:120],
             "content": segment.content,
             "normalized_content": segment.normalized_content or segment.content,
+            "content_gloss": segment.content_gloss,
             "is_sample": segment.text_version.work.is_sample,
             "work_id": segment.text_version.work.id,
             "text_version_id": segment.text_version.id,
+            "structural_unit_id": segment.structural_unit_id,
             "collection_id": segment.text_version.work.collection.id,
             "tradition_id": segment.text_version.work.tradition.id,
             "language_id": segment.text_version.language.id,

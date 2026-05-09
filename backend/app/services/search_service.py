@@ -84,6 +84,7 @@ def _serialize_match(
         payload["content_gloss"] = segment.content_gloss
         payload["work_id"] = segment.text_version.work.id
         payload["text_version_id"] = segment.text_version.id
+        payload["structural_unit_id"] = segment.structural_unit_id
         payload["collection_id"] = segment.text_version.work.collection.id
         payload["tradition_id"] = segment.text_version.work.tradition.id
         payload["language_id"] = segment.text_version.language.id

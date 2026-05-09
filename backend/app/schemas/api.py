@@ -306,5 +306,38 @@ class RagQueryResponse(BaseModel):
     answer_outline: str
 
 
+class SutraExplainRequest(BaseModel):
+    query_text: str
+    top_k: int = 12
+    retrieval_mode: str = "hybrid"
+    explanation_style: str = "comparative"
+    tradition_id: Optional[str] = None
+    collection_id: Optional[str] = None
+    language_id: Optional[str] = None
+    generate_answer: bool = True
+
+
+class SutraExplainResponse(BaseModel):
+    status: str
+    message: str
+    query_text: str
+    retrieval_mode: str
+    explanation_style: str
+    answer_plan: list[dict[str, Any]] = Field(default_factory=list)
+    detected_concepts: list[dict[str, Any]] = Field(default_factory=list)
+    expanded_terms: list[dict[str, Any]] = Field(default_factory=list)
+    selected_traditions: list[str] = Field(default_factory=list)
+    embedding_models_by_tradition: dict[str, list[dict[str, Any]]] = Field(default_factory=dict)
+    vector_statuses: list[dict[str, Any]] = Field(default_factory=list)
+    keyword_result_count: int
+    vector_result_count: int
+    contexts: list[dict[str, Any]] = Field(default_factory=list)
+    results: list[dict[str, Any]] = Field(default_factory=list)
+    system_prompt: str
+    user_prompt: str
+    answer: str
+    llm_model: str = ""
+
+
 StructuralUnitNode.model_rebuild()
 CatalogNode.model_rebuild()

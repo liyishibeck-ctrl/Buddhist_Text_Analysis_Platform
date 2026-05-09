@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}卷/章单位主题星图 | 云上取经{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>卷 / 章 / 作品单位主题星图</h1>
+  {% if unit_theme_maps %}
+  <p>这版不再以 segment 为点。汉传长文本按卷聚合，巴利按 sutta/text 聚合；藏传 84000 长经按连续段落切成章级 section window。每个小星点是一个“卷/章/作品单位”的平均 embedding，星系核心是离 centroid 最近的代表单位。</p>
+  <div class="inline-meta">
+    <span class="catalog-chip">地图 {{ unit_theme_maps.map_count }}</span>
+    <span class="catalog-chip">{{ unit_theme_maps.method }}</span>
+    <span class="catalog-chip">生成时间 {{ unit_theme_maps.generated_at[:19].replace("T", " ") }} UTC</span>
+  </div>
+  {% else %}
+  <p>卷/章单位主题星图还没生成。运行 `python scripts/analysis/build_unit_theme_map.py` 后，这里会显示按卷、章级窗口或作品聚合后的向量空间。</p>
+  {% endif %}
+</section>
+
+{% if unit_theme_maps %}
+{% for map in unit_theme_maps.maps %}
+<section class="card" id="{{ map.tradition_id }}-unit-map">
+  <div class="section-head">
+    <div>
+      <h2>{{ map.tradition_label }}</h2>
+      <p class="muted">{{ map.description }}</p>
+    </div>
+    <div class="inline-meta">
+      <span class="catalog-chip">embedding {{ map.embedding_model }}</span>
+      <span class="catalog-chip">单位 {{ map.unit_count }}</span>
+      <span class="catalog-chip">星系 {{ map.cluster_count }}</span>
+    </div>
+  </div>
+
+  <div class="unit-map-canvas">
+    <svg class="unit-map-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-label="{{ map.tradition_short_label }} unit embedding map">
+      {% for point in map.points %}
+      <a href="{{ url_for('work_detail_page', work_id=point.work_id) }}">
+        <circle
+          cx="{{ point.x }}"
+          cy="{{ point.y }}"
+          r="{{ point.radius }}"
+          fill="{{ point.color }}"
+          opacity="0.46"
+        >
+          <title>{{ point.unit_label }} · {{ point.segment_count }} segments · {{ map.tradition_short_label }} 星系 {{ point.cluster_index }}</title>
+        </circle>
+      </a>
+      {% endfor %}
+      {% for cluster in map.clusters %}
+      <circle
+        class="unit-map-core"
+        cx="{{ cluster.x }}"
+        cy="{{ cluster.y }}"
+        r="2.9"
+        fill="{{ cluster.color }}"
+      >
+        <title>{{ cluster.label }} · {{ cluster.subtitle }}</title>
+      </circle>
+      {% endfor %}
+    </svg>
+  </div>
+</section>
+
+<section class="grid grid-2">
+  {% for cluster in map.clusters %}
+  <article class="card theme-detail-card">
+    <div class="catalog-line">
+      <h2>{{ cluster.label }}</h2>
+      <span class="theme-family-chip" style="--family-color: {{ cluster.color }};">{{ cluster.subtitle }}</span>
+      <span class="catalog-chip">单位 {{ cluster.unit_count }}</span>
+      <span class="catalog-chip">段落 {{ cluster.segment_count }}</span>
+    </div>
+
+    {% if cluster.top_works %}
+    <h3>高频作品</h3>
+    <ul class="plain-list">
+      {% for work in cluster.top_works %}
+      <li>{{ work.work_title }} · {{ work.unit_count }} 单位</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h3>最靠近质心的卷/作品</h3>
+    <ul class="plain-list">
+      {% for unit in cluster.core_units %}
+      <li>
+        <a href="{{ url_for('work_detail_page', work_id=unit.work_id) }}">{{ unit.unit_label }}</a>
+        {% if unit.canonical_code %} · {{ unit.canonical_code }}{% endif %}
+        <div class="muted">{{ unit.unit_type }} · segments {{ unit.segment_count }} · centroid similarity {{ unit.similarity }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}
+{% endif %}
+{% endblock %}

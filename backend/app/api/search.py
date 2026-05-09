@@ -12,10 +12,12 @@ from backend.app.schemas.api import (
     RagQueryRequest,
     RagQueryResponse,
     SegmentSummary,
+    SutraExplainRequest,
+    SutraExplainResponse,
     VectorSearchRequest,
     VectorSearchResponse,
 )
-from backend.app.services import rag_service, retrieval_service, search_service, vector_service
+from backend.app.services import rag_service, retrieval_service, search_service, sutra_explainer_service, vector_service
 
 
 router = APIRouter(tags=["search"])
@@ -74,4 +76,19 @@ def rag_query(payload: RagQueryRequest, db: Session = Depends(get_db)) -> dict:
         tradition_id=payload.tradition_id,
         collection_id=payload.collection_id,
         language_id=payload.language_id,
+    )
+
+
+@router.post("/rag/explain", response_model=SutraExplainResponse)
+def sutra_explain(payload: SutraExplainRequest, db: Session = Depends(get_db)) -> dict:
+    return sutra_explainer_service.explain_sutra_query(
+        db,
+        query_text=payload.query_text,
+        top_k=payload.top_k,
+        retrieval_mode=payload.retrieval_mode,
+        tradition_id=payload.tradition_id,
+        collection_id=payload.collection_id,
+        language_id=payload.language_id,
+        explanation_style=payload.explanation_style,
+        generate_answer=payload.generate_answer,
     )

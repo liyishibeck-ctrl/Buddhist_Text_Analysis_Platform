@@ -244,6 +244,22 @@ main.container {
   margin: 0.9rem 0 0;
 }
 
+.concept-map-card {
+  overflow-x: auto;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 248, 215, 0.85), transparent 38%),
+    var(--surface);
+}
+
+.concept-system-map {
+  display: block;
+  width: min(100%, 1600px);
+  min-width: 980px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
 .filter-form {
   display: flex;
   flex-wrap: wrap;
@@ -343,6 +359,101 @@ button {
   overflow-x: auto;
 }
 
+.explainer-hero {
+  background:
+    radial-gradient(circle at 12% 20%, rgba(143, 79, 35, 0.12), transparent 28%),
+    radial-gradient(circle at 88% 10%, rgba(232, 215, 179, 0.9), transparent 32%),
+    var(--surface);
+}
+
+.answer-card {
+  border-color: rgba(143, 79, 35, 0.35);
+}
+
+.answer-block {
+  margin: 0.7rem 0 0;
+  padding: 1rem;
+  border-radius: 14px;
+  background: rgba(255, 250, 241, 0.85);
+  border: 1px solid rgba(217, 201, 166, 0.72);
+  white-space: pre-wrap;
+  line-height: 1.75;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.45rem 0;
+}
+
+.plan-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0.9rem 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.plan-step {
+  padding: 0.85rem 0.95rem;
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 8% 0%, rgba(255, 255, 255, 0.86), transparent 32%),
+    rgba(255, 250, 241, 0.72);
+  border: 1px solid rgba(217, 201, 166, 0.7);
+}
+
+.plan-step p {
+  margin: 0.45rem 0 0;
+  line-height: 1.65;
+}
+
+.evidence-list .evidence-item p {
+  margin: 0.55rem 0 0;
+  line-height: 1.65;
+}
+
+.context-window,
+.evidence-layers {
+  margin-top: 0.75rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 14px;
+  background: rgba(255, 250, 241, 0.78);
+  border: 1px solid rgba(217, 201, 166, 0.72);
+}
+
+.context-window summary,
+.evidence-layers summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 650;
+}
+
+.context-window .result-item {
+  margin-top: 0.65rem;
+  background: rgba(255, 255, 255, 0.52);
+}
+
+.evidence-layer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.7rem;
+}
+
+.evidence-layer-grid article {
+  padding: 0.75rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(217, 201, 166, 0.48);
+}
+
+.evidence-layer-grid h3 {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
 .reading-list {
   display: grid;
   gap: 0.9rem;
@@ -383,6 +494,14 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.theme-map-tabs,
+.theme-keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1rem;
 }
 
 .theme-family-chip {
@@ -440,6 +559,7 @@ button {
   text-align: center;
   text-decoration: none;
   transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+  z-index: 2;
 }
 
 .theme-map-node:hover {
@@ -454,11 +574,65 @@ button {
 .theme-map-node-label {
   font-weight: 700;
   line-height: 1.2;
+  text-shadow:
+    0 1px 0 rgba(255, 250, 241, 0.75),
+    0 0 8px rgba(255, 250, 241, 0.85);
+}
+
+.theme-map-node-subtitle {
+  max-width: 92%;
+  font-size: 0.78em;
+  line-height: 1.15;
+  color: rgba(47, 38, 24, 0.82);
+  text-shadow: 0 0 7px rgba(255, 250, 241, 0.86);
 }
 
 .theme-map-node-count {
   font-size: 0.9rem;
   color: rgba(47, 38, 24, 0.78);
+  text-shadow: 0 0 6px rgba(255, 250, 241, 0.75);
+}
+
+.embedding-theme-canvas {
+  min-height: 760px;
+}
+
+.embedding-theme-node {
+  font-size: 0.86rem;
+  padding: 0.85rem;
+}
+
+.unit-map-canvas {
+  min-height: 760px;
+  margin-top: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(217, 201, 166, 0.55);
+  background:
+    radial-gradient(circle at 24% 18%, rgba(255, 255, 255, 0.92), transparent 18%),
+    radial-gradient(circle at 78% 70%, rgba(232, 215, 179, 0.42), transparent 24%),
+    linear-gradient(180deg, rgba(255, 250, 241, 0.96) 0%, rgba(244, 237, 223, 0.94) 100%);
+  overflow: hidden;
+}
+
+.unit-map-svg {
+  width: 100%;
+  height: 760px;
+}
+
+.unit-map-svg circle {
+  transition: opacity 120ms ease, r 120ms ease;
+}
+
+.unit-map-svg a:hover circle {
+  opacity: 0.92;
+  stroke: rgba(47, 38, 24, 0.65);
+  stroke-width: 0.45;
+}
+
+.unit-map-core {
+  opacity: 0.95;
+  stroke: #fffaf1;
+  stroke-width: 0.8;
 }
 
 .theme-detail-card h2,

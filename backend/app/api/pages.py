@@ -12,10 +12,13 @@ from backend.app.core.config import settings
 from backend.app.models import Collection, Language, Tradition
 from backend.app.services import (
     catalog_service,
+    embedding_theme_map_service,
     pali_theme_map_service,
     rag_service,
     retrieval_service,
     search_service,
+    sutra_explainer_service,
+    unit_theme_map_service,
     vector_service,
 )
 
@@ -159,8 +162,94 @@ def concept_detail_page(request: Request, concept_slug: str, db: Session = Depen
     return templates.TemplateResponse(request, "concept_detail.html", {"request": request, "concept": concept})
 
 
+@router.get("/theme-map")
+def embedding_theme_map_page(request: Request):
+    theme_maps = embedding_theme_map_service.load_embedding_theme_maps_snapshot()
+    return templates.TemplateResponse(
+        request,
+        "embedding_theme_map.html",
+        {
+            "request": request,
+            "theme_maps": theme_maps,
+            "selected_tradition": None,
+        },
+    )
+
+
+@router.get("/unit-theme-map")
+def unit_theme_map_page(request: Request):
+    unit_theme_maps = unit_theme_map_service.load_unit_theme_maps_snapshot()
+    return templates.TemplateResponse(
+        request,
+        "unit_theme_map.html",
+        {
+            "request": request,
+            "unit_theme_maps": unit_theme_maps,
+        },
+    )
+
+
+@router.get("/concept-system-map")
+def concept_system_map_page(request: Request):
+    return templates.TemplateResponse(request, "concept_system_map.html", {"request": request})
+
+
+@router.get("/sutra-explainer")
+def sutra_explainer_page(
+    request: Request,
+    q: Optional[str] = None,
+    mode: str = "hybrid",
+    top_k: int = 12,
+    style: str = "comparative",
+    generate: bool = False,
+    tradition_id: Optional[str] = None,
+    collection_id: Optional[str] = None,
+    language_id: Optional[str] = None,
+    db: Session = Depends(get_db),
+):
+    context = _filter_context(db)
+    context.update(
+        {
+            "request": request,
+            "query_text": q or "",
+            "selected_mode": mode,
+            "selected_top_k": top_k,
+            "selected_style": style,
+            "selected_generate": generate,
+            "selected_tradition": tradition_id,
+            "selected_collection": collection_id,
+            "selected_language": language_id,
+            "explain_payload": None,
+        }
+    )
+    if q:
+        context["explain_payload"] = sutra_explainer_service.explain_sutra_query(
+            db,
+            query_text=q,
+            top_k=top_k,
+            retrieval_mode=mode,
+            tradition_id=tradition_id,
+            collection_id=collection_id,
+            language_id=language_id,
+            explanation_style=style,
+            generate_answer=generate,
+        )
+    return templates.TemplateResponse(request, "sutra_explainer.html", context)
+
+
 @router.get("/pali/theme-map")
 def pali_theme_map_page(request: Request):
+    theme_maps = embedding_theme_map_service.load_embedding_theme_maps_snapshot()
+    if theme_maps:
+        return templates.TemplateResponse(
+            request,
+            "embedding_theme_map.html",
+            {
+                "request": request,
+                "theme_maps": theme_maps,
+                "selected_tradition": "trad-pali",
+            },
+        )
     theme_map = pali_theme_map_service.load_pali_theme_map_snapshot()
     return templates.TemplateResponse(
         request,
