@@ -26,7 +26,7 @@
 {% else %}
 {% set reading_class = "" %}
 {% endif %}
-<section class="card">
+<section class="card thangka-panel hero">
   <h1>{{ text_version.title }}</h1>
   <p>{{ text_version.version_label }} · {{ text_version.language_name }}</p>
   <div class="inline-meta">
@@ -56,6 +56,37 @@
     <a class="secondary-link" href="{{ url_for('works_page') }}?tradition_id={{ text_version.tradition_id }}">返回{{ text_version.tradition_name }}目录</a>
   </div>
 </section>
+
+{% if work_summary or selected_unit_summary %}
+<div class="lotus-divider">🪷 ✦ ☸ ✦ 🪷</div>
+<section class="grid grid-2">
+  {% if work_summary %}
+  <article class="card thangka-panel">
+    <div class="catalog-line">
+      <h2>整部导读</h2>
+      <span class="catalog-chip">{{ work_summary.model }}</span>
+      <span class="catalog-chip">抽样 {{ work_summary.source_segment_count }} 段</span>
+    </div>
+    <p class="muted summary-note-card">这一块是整部经的导读；如果你要看你记得的那种长版，请进“经卷摘要阅读页”，那里会把各卷摘要一起展开。</p>
+    <div class="summary-prose">{{ work_summary.summary_html|safe }}</div>
+    <div class="action-row">
+      <a class="button-link" href="{{ url_for('work_summary_reader_page', work_id=text_version.work_id) }}">进入经卷摘要阅读页</a>
+    </div>
+  </article>
+  {% endif %}
+
+  {% if selected_unit_summary %}
+  <article class="card thangka-panel">
+    <div class="catalog-line">
+      <h2>当前卷摘要</h2>
+      <span class="catalog-chip">{{ selected_unit_summary.model }}</span>
+      <span class="catalog-chip">抽样 {{ selected_unit_summary.source_segment_count }} 段</span>
+    </div>
+    <div class="summary-prose">{{ selected_unit_summary.summary_html|safe }}</div>
+  </article>
+  {% endif %}
+</section>
+{% endif %}
 
 <section class="grid grid-2">
   <article class="card">

@@ -4,10 +4,25 @@
 <section class="card explainer-hero">
   <h1>佛经解说 RAG</h1>
   <p>输入一个概念、经名或问题，系统会先把中文概念扩展到英文、巴利、梵语/藏语转写，再分别检索汉传、巴利、藏传证据。不同传统的向量模型会分开查询，再按名次和证据通道融合。</p>
+  <p class="muted summary-note-card">如果开启 LLM 解说，这一页会先检索证据、再拼上下文、再生成讲解，所以等待会比普通搜索长一些。提交后会出现进度遮罩。</p>
 </section>
 
-<section class="card">
-  <form method="get" class="filter-form">
+<div class="lotus-divider">🪷 ✦ 输入问题 ✦ 🪷</div>
+
+<section id="explainer-loading" class="explainer-loading" hidden>
+  <div class="explainer-loading-panel">
+    <div class="explainer-loading-wheel"></div>
+    <h2>正在说法</h2>
+    <p id="explainer-loading-message">正在展开跨语种概念与关键词…</p>
+    <div class="explainer-loading-bar">
+      <span></span>
+    </div>
+    <p class="muted">如果启用了 LLM 解说，等待时间可能会比纯检索更长。</p>
+  </div>
+</section>
+
+<section class="card thangka-panel">
+  <form method="get" class="filter-form" id="sutra-explainer-form">
     <label class="grow">
       问题 / 概念
       <input type="text" name="q" value="{{ query_text }}" placeholder="例如：空 / 大日如来 / 菩提心 / dependent origination">
@@ -71,7 +86,7 @@
         {% endfor %}
       </select>
     </label>
-    <button type="submit">检索并解说</button>
+    <button type="submit" id="sutra-explainer-submit">检索并解说</button>
   </form>
 </section>
 
@@ -306,4 +321,55 @@
   </article>
 </section>
 {% endif %}
+
+<script>
+(() => {
+  const form = document.getElementById("sutra-explainer-form");
+  const overlay = document.getElementById("explainer-loading");
+  const submitButton = document.getElementById("sutra-explainer-submit");
+  const messageNode = document.getElementById("explainer-loading-message");
+  if (!form || !overlay || !submitButton || !messageNode) {
+    return;
+  }
+
+  const loadingMessages = [
+    "正在展开跨语种概念与关键词…",
+    "正在分轨检索汉传、巴利与藏传证据…",
+    "正在拼接命中段、前后文、卷摘要与作品摘要…",
+    "正在组织说法脉络，请稍候…",
+  ];
+
+  let timerId = null;
+
+  form.addEventListener("submit", () => {
+    const queryInput = form.querySelector('input[name=\"q\"]');
+    if (!queryInput || !queryInput.value.trim()) {
+      return;
+    }
+
+    let messageIndex = 0;
+    overlay.hidden = false;
+    submitButton.disabled = true;
+    submitButton.dataset.originalText = submitButton.textContent;
+    submitButton.textContent = "正在说法…";
+    messageNode.textContent = loadingMessages[0];
+
+    timerId = window.setInterval(() => {
+      messageIndex = (messageIndex + 1) % loadingMessages.length;
+      messageNode.textContent = loadingMessages[messageIndex];
+    }, 1600);
+  });
+
+  window.addEventListener("pageshow", () => {
+    overlay.hidden = true;
+    if (timerId) {
+      window.clearInterval(timerId);
+    }
+    if (submitButton.dataset.originalText) {
+      submitButton.textContent = submitButton.dataset.originalText;
+      submitButton.disabled = false;
+    }
+  });
+})();
+</script>
 {% endblock %}

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+Tibetan:wght@400;700&family=Noto+Sans+Pali:wght@400&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Sinhala:wght@400;700&family=Georgia&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}?v=20260509c">
 </head>
 <body>
   <header class="site-header">
@@ -22,6 +22,7 @@
         <a href="{{ url_for('works_page') }}">目录与正文</a>
         <a href="{{ url_for('han_catalog_page') }}">汉传目录</a>
         <a href="{{ url_for('research_page') }}">研究工具</a>
+        <a href="{{ url_for('summary_library_page') }}">经卷摘要</a>
         <a href="{{ url_for('sutra_explainer_page') }}">佛经解说</a>
         <a href="{{ url_for('parallels_page') }}">对照页</a>
         <a href="{{ url_for('embedding_theme_map_page') }}">主题地图</a>
@@ -34,6 +35,7 @@
         <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-han">汉传正文</a>
         <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-pali">巴利正文</a>
         <a class="nav-chip" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">藏文正文</a>
+        <a class="nav-chip" href="{{ url_for('summary_library_page') }}">AI 经卷摘要</a>
         <a class="nav-chip" href="{{ url_for('sutra_explainer_page') }}">RAG 佛经解说</a>
         <a class="nav-chip" href="{{ url_for('embedding_theme_map_page') }}">汉巴藏主题地图</a>
         <a class="nav-chip" href="{{ url_for('unit_theme_map_page') }}">卷/章/作品星图</a>

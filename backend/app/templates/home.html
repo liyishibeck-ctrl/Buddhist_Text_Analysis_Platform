@@ -9,9 +9,45 @@
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-pali">看巴利正文</a>
     <a class="button-link" href="{{ url_for('works_page') }}?tradition_id=trad-tibetan">看藏文正文</a>
     <a class="secondary-link" href="{{ url_for('sutra_explainer_page') }}">RAG 解说佛经</a>
+    <a class="secondary-link" href="{{ url_for('summary_library_page') }}">读 AI 经卷摘要</a>
     <a class="secondary-link" href="{{ url_for('embedding_theme_map_page') }}">看三传承主题地图</a>
     <a class="secondary-link" href="{{ url_for('unit_theme_map_page') }}">看卷/章星图</a>
     <a class="secondary-link" href="{{ url_for('concept_system_map_page') }}">看概念体系图</a>
+  </div>
+</section>
+
+<section class="card thangka-panel">
+  <div class="catalog-line">
+    <h2>AI 经卷摘要库</h2>
+    <span class="catalog-chip">已生成 4530 部作品摘要</span>
+    <span class="catalog-chip">已生成 3402 条卷级摘要</span>
+  </div>
+  <p class="muted">这批摘要已经不是一句话简介，而是按经、按卷生成的导读层。现在可以从这里直接进入阅读，不用再只靠检索命中一句话猜全貌。</p>
+  <div class="grid grid-3">
+    {% for item in summary_entries %}
+    <article class="summary-preview-card">
+      <div class="catalog-line">
+        <strong><a href="{{ url_for('work_summary_reader_page', work_id=item.id) }}">{{ item.title }}</a></strong>
+        <span class="catalog-chip">{{ item.tradition_name }}</span>
+      </div>
+      <p class="muted">{{ item.collection_title }}{% if item.canonical_code %} · {{ item.canonical_code }}{% endif %}</p>
+      {% if item.generated_summary_preview %}
+      <div class="summary-prose summary-compact">{{ item.generated_summary_preview }}</div>
+      {% endif %}
+      <div class="chip-row">
+        <span class="catalog-chip">卷摘要 {{ item.unit_summary_count }}</span>
+        {% if item.generated_summary %}
+        <span class="catalog-chip">{{ item.generated_summary.model }}</span>
+        {% endif %}
+      </div>
+      <div class="action-row">
+        <a class="button-link" href="{{ url_for('work_summary_reader_page', work_id=item.id) }}">进入摘要阅读</a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="action-row">
+    <a class="secondary-link" href="{{ url_for('summary_library_page') }}">打开完整摘要库</a>
   </div>
 </section>
 
