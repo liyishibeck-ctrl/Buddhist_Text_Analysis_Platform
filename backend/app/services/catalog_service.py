@@ -93,7 +93,8 @@ def render_summary_markdown_html(summary: Optional[str]) -> str:
                 close_list()
                 blocks.append("<ol>")
                 list_tag = "ol"
-            blocks.append(f"<li>{inline_markup(re.sub(r'^\\d+\\.\\s+', '', line))}</li>")
+            item_text = re.sub(r"^\d+\.\s+", "", line)
+            blocks.append(f"<li>{inline_markup(item_text)}</li>")
             continue
         close_list()
         paragraph_lines.append(line)
