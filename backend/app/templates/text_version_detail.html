@@ -13,7 +13,7 @@
   {% endif %}
 </li>
 {%- endmacro %}
-{% block title %}{{ text_version.title }} | Buddha MVP{% endblock %}
+{% block title %}{{ text_version.title }} | 雲藏閣{% endblock %}
 {% block content %}
 {% if text_version.language_script == "Tibetan" or text_version.language_script == "Tibetan script" %}
 {% set reading_class = "tibetan-script" %}
@@ -49,7 +49,7 @@
   {% if text_version.is_catalog_only %}
   <p class="muted">这是目录占位版本，用于后续正文导入、结构锚点和检索索引映射。</p>
   {% else %}
-  <p class="muted">当前页提供轻量阅读模式，直接展示前 {{ reading_limit }} 段正文；需要逐段查看关系时可继续进入段落详情页。</p>
+  <p class="muted">当前提供完整阅读模式，支持按卷浏览。</p>
   {% endif %}
   <div class="action-row">
     <a class="secondary-link" href="{{ url_for('work_detail_page', work_id=text_version.work_id) }}">返回作品页</a>
@@ -77,23 +77,64 @@
     </ul>
   </article>
   <article class="card">
-    <h2>层级结构</h2>
+    <h2>
+      <button type="button" class="collapse-toggle" onclick="toggleStructure()" style="background: none; border: none; padding: 0; font-size: inherit; font-weight: inherit; color: inherit; cursor: pointer; display: flex; align-items: center; gap: 0.5rem;">
+        <span id="structure-icon">▶</span>
+        <span>层级结构</span>
+      </button>
+    </h2>
+    <div id="structure-content" style="display: none; margin-top: 1rem;">
+      {% if text_version.structure %}
+      <ul class="plain-list">
+        {% for unit in text_version.structure %}
+        {{ render_unit(unit) }}
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="muted">当前版本尚未导入结构树。</p>
+      {% endif %}
+    </div>
     {% if text_version.structure %}
-    <ul class="plain-list">
-      {% for unit in text_version.structure %}
-      {{ render_unit(unit) }}
-      {% endfor %}
-    </ul>
-    {% else %}
-    <p class="muted">当前版本尚未导入结构树。</p>
+    <p class="muted" id="structure-hint" style="margin-top: 0.5rem; font-size: 0.85rem;">点击 ▶ 展开结构树（共 {{ text_version.structure|length }} 个顶层单元）</p>
     {% endif %}
   </article>
 </section>
 
+{# 卷选择器 #}
+{% if structural_units %}
+<section class="card">
+  <h2>按卷浏览</h2>
+  <p class="muted">共 {{ structural_units|length }} 卷</p>
+  <div class="juan-grid">
+    {% for unit in structural_units %}
+    <a href="/text-versions/{{ text_version.id }}?unit_id={{ unit.id }}" 
+       class="juan-chip {% if selected_unit_id == unit.id %}selected{% endif %}">
+      {{ unit.label }}
+      {% if unit.title %}<span class="muted">{{ unit.title }}</span>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  {% if selected_unit_id %}
+  <div class="action-row" style="margin-top: 1rem;">
+    <a class="secondary-link" href="/text-versions/{{ text_version.id }}">查看全部段落</a>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
 <section class="card">
   <h2>正文阅读</h2>
+  {% if selected_unit_id %}
+  <p class="muted">当前查看：第 
+    {% for unit in structural_units %}
+      {% if unit.id == selected_unit_id %}{{ unit.label }}{% endif %}
+    {% endfor %}
+    卷（共 {{ total_segments }} 段）</p>
+  {% else %}
+  <p class="muted">完整版本共 {{ total_segments }} 段</p>
+  {% endif %}
+  
   {% if reading_segments %}
-  <p class="muted">当前展示前 {{ reading_limit }} 段；完整版本共 {{ text_version.segment_count }} 段。</p>
   <div class="reading-list">
     {% for segment in reading_segments %}
     <article class="reading-segment">
@@ -111,8 +152,134 @@
     </article>
     {% endfor %}
   </div>
+  
+  {# 分页控件 #}
+  {% if total_pages > 1 %}
+  <div class="pagination">
+    {% if page > 1 %}
+    <a href="/text-versions/{{ text_version.id }}?{% if selected_unit_id %}unit_id={{ selected_unit_id }}&{% endif %}page={{ page - 1 }}&page_size={{ page_size }}" class="page-link">← 上一页</a>
+    {% endif %}
+    
+    <span class="page-info">第 {{ page }} / {{ total_pages }} 页</span>
+    
+    {% if page < total_pages %}
+    <a href="/text-versions/{{ text_version.id }}?{% if selected_unit_id %}unit_id={{ selected_unit_id }}&{% endif %}page={{ page + 1 }}&page_size={{ page_size }}" class="page-link">下一页 →</a>
+    {% endif %}
+  </div>
+  {% endif %}
+  
   {% else %}
-  <p class="muted">当前版本尚未导入正文段落。</p>
+  <p class="muted">当前{% if selected_unit_id %}卷{% else %}版本{% endif %}尚未导入正文段落。</p>
   {% endif %}
 </section>
+
+<script>
+function toggleStructure() {
+  const content = document.getElementById('structure-content');
+  const icon = document.getElementById('structure-icon');
+  const hint = document.getElementById('structure-hint');
+  
+  if (content.style.display === 'none') {
+    content.style.display = 'block';
+    icon.textContent = '▼';
+    if (hint) hint.style.display = 'none';
+  } else {
+    content.style.display = 'none';
+    icon.textContent = '▶';
+    if (hint) hint.style.display = 'block';
+  }
+}
+</script>
+
+<style>
+.collapse-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.collapse-toggle:hover {
+  color: var(--gold);
+}
+
+.collapse-toggle #structure-icon {
+  font-size: 0.9em;
+  color: var(--gold);
+}
+
+.juan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.juan-chip {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.juan-chip:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent-color);
+}
+
+.juan-chip.selected {
+  background: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.juan-chip .muted {
+  display: block;
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-top: 0.25rem;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.page-link {
+  padding: 0.5rem 1rem;
+  background: var(--accent-bg);
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.page-link:hover {
+  background: var(--accent-color);
+  color: white;
+}
+
+.page-info {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+</style>
 {% endblock %}

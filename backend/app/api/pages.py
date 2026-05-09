@@ -12,13 +12,10 @@ from backend.app.core.config import settings
 from backend.app.models import Collection, Language, Tradition
 from backend.app.services import (
     catalog_service,
-    embedding_theme_map_service,
     pali_theme_map_service,
     rag_service,
     retrieval_service,
     search_service,
-    sutra_explainer_service,
-    unit_theme_map_service,
     vector_service,
 )
 
@@ -103,17 +100,35 @@ def work_detail_page(request: Request, work_id: str, db: Session = Depends(get_d
     return templates.TemplateResponse(request, "work_detail.html", {"request": request, "work": work})
 
 
-@router.get("/text-versions/{text_version_id}")
-def text_version_detail_page(request: Request, text_version_id: str, db: Session = Depends(get_db)):
-    reading_limit = 200
+@router.get("/text-versions/{text_version_id}", name="text_version_detail_page")
+def text_version_detail_page(
+    request: Request,
+    text_version_id: str,
+    unit_id: Optional[str] = None,
+    page: int = 1,
+    page_size: int = 100,
+    db: Session = Depends(get_db),
+):
     text_version = catalog_service.get_text_version_page_detail(db, text_version_id)
     if not text_version:
         raise HTTPException(status_code=404, detail="Text version not found")
+    
+    # 获取结构单元（卷）列表
+    structural_units = catalog_service.list_structural_units(db, text_version_id=text_version_id)
+    
+    # 根据选择的卷过滤段落
     reading_segments = catalog_service.list_text_version_reading_segments(
         db,
         text_version_id=text_version_id,
-        limit=reading_limit,
+        structural_unit_id=unit_id,
+        page=page,
+        page_size=page_size,
     )
+    
+    # 计算分页信息
+    total_segments = catalog_service.count_text_version_segments(db, text_version_id=text_version_id, structural_unit_id=unit_id)
+    total_pages = (total_segments + page_size - 1) // page_size
+    
     return templates.TemplateResponse(
         request,
         "text_version_detail.html",
@@ -121,7 +136,12 @@ def text_version_detail_page(request: Request, text_version_id: str, db: Session
             "request": request,
             "text_version": text_version,
             "reading_segments": reading_segments,
-            "reading_limit": reading_limit,
+            "structural_units": structural_units,
+            "selected_unit_id": unit_id,
+            "page": page,
+            "page_size": page_size,
+            "total_pages": total_pages,
+            "total_segments": total_segments,
         },
     )
 
@@ -162,94 +182,8 @@ def concept_detail_page(request: Request, concept_slug: str, db: Session = Depen
     return templates.TemplateResponse(request, "concept_detail.html", {"request": request, "concept": concept})
 
 
-@router.get("/theme-map")
-def embedding_theme_map_page(request: Request):
-    theme_maps = embedding_theme_map_service.load_embedding_theme_maps_snapshot()
-    return templates.TemplateResponse(
-        request,
-        "embedding_theme_map.html",
-        {
-            "request": request,
-            "theme_maps": theme_maps,
-            "selected_tradition": None,
-        },
-    )
-
-
-@router.get("/unit-theme-map")
-def unit_theme_map_page(request: Request):
-    unit_theme_maps = unit_theme_map_service.load_unit_theme_maps_snapshot()
-    return templates.TemplateResponse(
-        request,
-        "unit_theme_map.html",
-        {
-            "request": request,
-            "unit_theme_maps": unit_theme_maps,
-        },
-    )
-
-
-@router.get("/concept-system-map")
-def concept_system_map_page(request: Request):
-    return templates.TemplateResponse(request, "concept_system_map.html", {"request": request})
-
-
-@router.get("/sutra-explainer")
-def sutra_explainer_page(
-    request: Request,
-    q: Optional[str] = None,
-    mode: str = "hybrid",
-    top_k: int = 12,
-    style: str = "comparative",
-    generate: bool = False,
-    tradition_id: Optional[str] = None,
-    collection_id: Optional[str] = None,
-    language_id: Optional[str] = None,
-    db: Session = Depends(get_db),
-):
-    context = _filter_context(db)
-    context.update(
-        {
-            "request": request,
-            "query_text": q or "",
-            "selected_mode": mode,
-            "selected_top_k": top_k,
-            "selected_style": style,
-            "selected_generate": generate,
-            "selected_tradition": tradition_id,
-            "selected_collection": collection_id,
-            "selected_language": language_id,
-            "explain_payload": None,
-        }
-    )
-    if q:
-        context["explain_payload"] = sutra_explainer_service.explain_sutra_query(
-            db,
-            query_text=q,
-            top_k=top_k,
-            retrieval_mode=mode,
-            tradition_id=tradition_id,
-            collection_id=collection_id,
-            language_id=language_id,
-            explanation_style=style,
-            generate_answer=generate,
-        )
-    return templates.TemplateResponse(request, "sutra_explainer.html", context)
-
-
 @router.get("/pali/theme-map")
 def pali_theme_map_page(request: Request):
-    theme_maps = embedding_theme_map_service.load_embedding_theme_maps_snapshot()
-    if theme_maps:
-        return templates.TemplateResponse(
-            request,
-            "embedding_theme_map.html",
-            {
-                "request": request,
-                "theme_maps": theme_maps,
-                "selected_tradition": "trad-pali",
-            },
-        )
     theme_map = pali_theme_map_service.load_pali_theme_map_snapshot()
     return templates.TemplateResponse(
         request,

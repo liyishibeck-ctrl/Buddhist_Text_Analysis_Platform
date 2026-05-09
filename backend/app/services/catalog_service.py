@@ -439,14 +439,19 @@ def list_text_version_reading_segments(
     session: Session,
     *,
     text_version_id: str,
-    limit: int = 200,
+    structural_unit_id: Optional[str] = None,
+    page: int = 1,
+    page_size: int = 100,
 ) -> list[dict[str, Any]]:
-    stmt = (
-        select(Segment)
-        .where(Segment.text_version_id == text_version_id)
-        .order_by(Segment.position)
-        .limit(limit)
-    )
+    stmt = select(Segment).where(Segment.text_version_id == text_version_id).order_by(Segment.position)
+    
+    if structural_unit_id:
+        stmt = stmt.where(Segment.structural_unit_id == structural_unit_id)
+    
+    # 分页
+    offset = (page - 1) * page_size
+    stmt = stmt.offset(offset).limit(page_size)
+    
     segments = session.scalars(stmt).all()
     return [
         {
@@ -458,6 +463,48 @@ def list_text_version_reading_segments(
             "content_gloss": segment.content_gloss,
         }
         for segment in segments
+    ]
+
+
+def count_text_version_segments(
+    session: Session,
+    *,
+    text_version_id: str,
+    structural_unit_id: Optional[str] = None,
+) -> int:
+    from sqlalchemy import func
+    
+    stmt = select(func.count(Segment.id)).where(Segment.text_version_id == text_version_id)
+    if structural_unit_id:
+        stmt = stmt.where(Segment.structural_unit_id == structural_unit_id)
+    return session.scalar(stmt) or 0
+
+
+def list_structural_units(
+    session: Session,
+    *,
+    text_version_id: str,
+    unit_type: Optional[str] = None,
+) -> list[dict[str, Any]]:
+    """获取文本版本的结构单元（如卷、章等）"""
+    from sqlalchemy import select
+    
+    stmt = select(StructuralUnit).where(StructuralUnit.text_version_id == text_version_id).order_by(StructuralUnit.position)
+    
+    if unit_type:
+        stmt = stmt.where(StructuralUnit.unit_type == unit_type)
+    
+    units = session.scalars(stmt).all()
+    return [
+        {
+            "id": unit.id,
+            "unit_type": unit.unit_type,
+            "label": unit.label,
+            "title": unit.title,
+            "position": unit.position,
+            "depth": unit.depth,
+        }
+        for unit in units
     ]
 
 
