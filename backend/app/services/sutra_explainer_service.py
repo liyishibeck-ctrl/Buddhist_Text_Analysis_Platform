@@ -969,7 +969,7 @@ def retrieve_cross_tradition_contexts(
 
     if use_vector:
         semantic_query = _semantic_query(query_text, expanded_terms)
-        vector_groups: dict[str, list[str]] = defaultdict(list)
+        vector_jobs: list[tuple[str, str]] = []
         for tradition in selected_traditions:
             models = embedding_models_by_tradition.get(tradition) or []
             if not models:
@@ -993,47 +993,43 @@ def retrieve_cross_tradition_contexts(
                     }
                 )
                 continue
-            vector_groups[model].append(tradition)
+            vector_jobs.append((model, tradition))
 
-        for model, traditions_for_model in vector_groups.items():
-            search_tradition = traditions_for_model[0] if len(traditions_for_model) == 1 else None
+        for model, tradition in vector_jobs:
             try:
                 payload = vector_service.vector_search(
                     session,
                     query_text=semantic_query,
                     top_k=max(top_k, 10),
-                    tradition_id=search_tradition,
+                    tradition_id=tradition,
                     collection_id=collection_id,
                     language_id=language_id,
                     embedding_model=model,
                 )
             except Exception as exc:
                 session.rollback()
-                for tradition in traditions_for_model:
-                    vector_statuses.append(
-                        {
-                            "tradition_id": tradition,
-                            "status": "error",
-                            "embedding_model": model,
-                            "message": str(exc),
-                        }
-                    )
-                continue
-            for tradition in traditions_for_model:
                 vector_statuses.append(
                     {
                         "tradition_id": tradition,
-                        "status": payload.get("status"),
-                        "embedding_model": payload.get("embedding_model"),
-                        "indexed_owners": payload.get("indexed_owners"),
-                        "message": payload.get("message"),
+                        "status": "error",
+                        "embedding_model": model,
+                        "message": str(exc),
                     }
                 )
-            allowed_traditions = set(traditions_for_model)
+                continue
+            vector_statuses.append(
+                {
+                    "tradition_id": tradition,
+                    "status": payload.get("status"),
+                    "embedding_model": payload.get("embedding_model"),
+                    "indexed_owners": payload.get("indexed_owners"),
+                    "message": payload.get("message"),
+                }
+            )
             results = [
                 item
                 for item in (payload.get("results") or [])
-                if str(item.get("tradition_id") or "") in allowed_traditions
+                if str(item.get("tradition_id") or "") == tradition
             ]
             vector_result_count += len(results)
             for rank, item in enumerate(results, start=1):
